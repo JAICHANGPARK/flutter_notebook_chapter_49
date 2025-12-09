@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class ECommerceHomePage extends StatefulWidget {
   const ECommerceHomePage({super.key});
@@ -21,6 +22,7 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                   child: Center(
                     child: Container(
                       decoration: BoxDecoration(color: Colors.black),
+                      child: Text("MODE", style: GoogleFonts.akshar()),
                     ),
                   ),
                 ),
