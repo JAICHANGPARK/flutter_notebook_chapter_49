@@ -12,13 +12,13 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: .fromRGBO(238, 238, 238, 1),
       body: SafeArea(
         child: Column(
           crossAxisAlignment: .start,
           spacing: 16,
           children: [
             Row(
-
               children: [
                 IconButton(onPressed: () {}, icon: Icon(Icons.menu)),
                 Expanded(
@@ -26,11 +26,14 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                     child: Container(
                       padding: EdgeInsets.symmetric(horizontal: 2),
                       decoration: BoxDecoration(color: Colors.black),
-                      child: Text("MODE", style: GoogleFonts.akshar(
-                        color: Colors.white,
-                        fontSize: 32,
-                        height: 0,
-                      )),
+                      child: Text(
+                        "MODE",
+                        style: GoogleFonts.akshar(
+                          color: Colors.white,
+                          fontSize: 32,
+                          height: 0,
+                        ),
+                      ),
                     ),
                   ),
                 ),
@@ -61,10 +64,7 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
               ],
             ),
             Expanded(child: Placeholder()),
-            Container(
-              height: 72,
-              child: Placeholder(),
-            )
+            Container(height: 72, child: Placeholder()),
           ],
         ),
       ),
