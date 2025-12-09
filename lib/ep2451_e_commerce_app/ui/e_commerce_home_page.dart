@@ -31,7 +31,11 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
               ],
             ),
             Text("Popular categories"),
-            SizedBox(height: 52),
+            SizedBox(height: 52, child: Placeholder(),),
+            Container(
+              height: 160,
+              child: Placeholder(),
+            )
           ],
         ),
       ),
