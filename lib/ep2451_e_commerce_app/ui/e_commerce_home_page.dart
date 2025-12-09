@@ -54,6 +54,11 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                 ),
               ],
             ),
+            Expanded(child: Placeholder()),
+            Container(
+              height: 80,
+              child: Placeholder(),
+            )
           ],
         ),
       ),
