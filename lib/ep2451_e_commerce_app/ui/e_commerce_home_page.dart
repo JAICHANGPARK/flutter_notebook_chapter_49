@@ -32,19 +32,28 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
               ],
             ),
             Text("Popular categories"),
-            SizedBox(height: 52, child: Placeholder(),),
-            Container(
-              height: 160,
-              child: Placeholder(),
-            ),
+            SizedBox(height: 52, child: Placeholder()),
+            Container(height: 160, child: Placeholder()),
             Row(
+              spacing: 9,
               children: [
                 Text("New arrivals"),
-                Container(decoration: ShapeDecoration(shape: StadiumBorder(),),
-                child: Text("limited"),),
+                Container(
+                  decoration: ShapeDecoration(shape: StadiumBorder()),
+                  child: Text("limited"),
+                ),
                 Spacer(),
+                Container(
+                  decoration: ShapeDecoration(shape: StadiumBorder()),
+                  child: Row(
+                    children: [
+                      Text("Veiw all"),
+                      Icon(Icons.keyboard_arrow_right_sharp),
+                    ],
+                  ),
+                ),
               ],
-            )
+            ),
           ],
         ),
       ),
