@@ -18,13 +18,18 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
           spacing: 16,
           children: [
             Row(
+
               children: [
                 IconButton(onPressed: () {}, icon: Icon(Icons.menu)),
-                ExcludeFocus(
+                Expanded(
                   child: Center(
                     child: Container(
                       decoration: BoxDecoration(color: Colors.black),
-                      child: Text("MODE", style: GoogleFonts.akshar()),
+                      child: Text("MODE", style: GoogleFonts.akshar(
+                        color: Colors.white,
+                        fontSize: 32,
+                        height: 0,
+                      )),
                     ),
                   ),
                 ),
@@ -56,7 +61,7 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
             ),
             Expanded(child: Placeholder()),
             Container(
-              height: 80,
+              height: 72,
               child: Placeholder(),
             )
           ],
