@@ -14,6 +14,7 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
     return Scaffold(
       body: SafeArea(
         child: Column(
+          spacing: 16,
           children: [
             Row(
               children: [
@@ -26,8 +27,11 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                     ),
                   ),
                 ),
+                IconButton(onPressed: () {}, icon: Icon(Icons.search)),
               ],
             ),
+            Text("Popular categories"),
+            SizedBox(height: 52),
           ],
         ),
       ),
