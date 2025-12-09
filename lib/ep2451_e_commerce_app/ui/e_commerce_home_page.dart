@@ -24,6 +24,7 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                 Expanded(
                   child: Center(
                     child: Container(
+                      padding: EdgeInsets.symmetric(horizontal: 2),
                       decoration: BoxDecoration(color: Colors.black),
                       child: Text("MODE", style: GoogleFonts.akshar(
                         color: Colors.white,
