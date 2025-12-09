@@ -12,7 +12,13 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
+        body: SafeArea(
+          child: Column(
+            children: [
+              
+            ],
+          ),
+        ),
     );
   }
 }
