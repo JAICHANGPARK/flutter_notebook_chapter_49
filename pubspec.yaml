@@ -10,7 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   google_fonts: ^6.3.3
-  gap:
+  gap: ^3.0.1
 
 dev_dependencies:
   flutter_test:
