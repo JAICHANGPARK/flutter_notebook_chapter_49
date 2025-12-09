@@ -14,6 +14,7 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
     return Scaffold(
       body: SafeArea(
         child: Column(
+          crossAxisAlignment: .start,
           spacing: 16,
           children: [
             Row(
@@ -35,6 +36,14 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
             Container(
               height: 160,
               child: Placeholder(),
+            ),
+            Row(
+              children: [
+                Text("New arrivals"),
+                Container(decoration: ShapeDecoration(shape: StadiumBorder(),),
+                child: Text("limited"),),
+                Spacer(),
+              ],
             )
           ],
         ),
