@@ -40,22 +40,24 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                 IconButton(onPressed: () {}, icon: Icon(Icons.search)),
               ],
             ),
-            Column(
-              crossAxisAlignment: .start,
-              children: [
-                Text(
-                  "Popular categories",
-                  style: GoogleFonts.akshar(
-                  fontSize: 20),
-                ),
-                SizedBox(height: 52, child: SingleChildScrollView(
-                  scrollDirection: Axis.horizontal,
-                  child: Row(
-                  children: [
-
-                  ],
-                ),)),
-              ],
+            Padding(
+              padding: const EdgeInsets.only(left: 16),
+              child: Column(
+                crossAxisAlignment: .start,
+                children: [
+                  Text(
+                    "Popular categories",
+                    style: GoogleFonts.akshar(fontSize: 20),
+                  ),
+                  SizedBox(
+                    height: 52,
+                    child: SingleChildScrollView(
+                      scrollDirection: Axis.horizontal,
+                      child: Row(children: []),
+                    ),
+                  ),
+                ],
+              ),
             ),
 
             Container(height: 160, child: Placeholder()),
