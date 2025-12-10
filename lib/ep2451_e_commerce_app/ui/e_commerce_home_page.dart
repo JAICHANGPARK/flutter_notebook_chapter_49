@@ -87,7 +87,11 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                 children: [
                   Row(
                     children: [
-                      Text("Your order", style: GoogleFonts.akshar()),
+                      Text(
+                        "Your order",
+                        style: GoogleFonts.akshar(color: Colors.white,
+                        fontSize: 18,),
+                      ),
                       Container(
                         decoration: ShapeDecoration(
                           shape: StadiumBorder(
