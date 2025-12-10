@@ -95,7 +95,7 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                           "Your order",
                           style: GoogleFonts.akshar(
                             color: Colors.white,
-                            fontSize: 18,
+                            fontSize: 20,
                           ),
                         ),
                         Container(
