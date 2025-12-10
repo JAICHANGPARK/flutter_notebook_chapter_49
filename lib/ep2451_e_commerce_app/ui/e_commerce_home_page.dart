@@ -200,12 +200,23 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
             ),
             Expanded(
               child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 16,
+                  vertical: 8,
+                ),
                 child: Row(
                   spacing: 12,
                   children: [
-                    Expanded(child: Placeholder()),
-                    Expanded(child: Placeholder()),
+                    Expanded(
+                      child: Container(
+                        decoration: BoxDecoration(color: Colors.white),
+                      ),
+                    ),
+                    Expanded(
+                      child: Container(
+                        decoration: BoxDecoration(color: Colors.white),
+                      ),
+                    ),
                   ],
                 ),
               ),
