@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class ECommerceHomePage extends StatefulWidget {
@@ -40,6 +41,7 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                 IconButton(onPressed: () {}, icon: Icon(Icons.search)),
               ],
             ),
+            Gap(4),
             Padding(
               padding: const EdgeInsets.only(left: 16),
               child: Column(
@@ -81,7 +83,7 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
             ),
 
             Container(
-              height: 200,
+              height: 220,
               decoration: BoxDecoration(color: Colors.black),
               child: Column(
                 children: [
