@@ -199,11 +199,15 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
               ),
             ),
             Expanded(
-              child: Row(
-                children: [
-                  Expanded(child: Placeholder()),
-                  Expanded(child: Placeholder()),
-                ],
+              child: Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                child: Row(
+                  spacing: 12,
+                  children: [
+                    Expanded(child: Placeholder()),
+                    Expanded(child: Placeholder()),
+                  ],
+                ),
               ),
             ),
             Container(height: 72, child: Placeholder()),
