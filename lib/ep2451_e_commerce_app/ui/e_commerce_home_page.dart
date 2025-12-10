@@ -176,7 +176,7 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                       shape: StadiumBorder(),
                       color: Colors.black,
                     ),
-                    padding: .symmetric(horizontal: 8),
+                    padding: .symmetric(horizontal: 8, vertical: 4),
                     child: Row(
                       spacing: 6,
                       children: [
@@ -186,7 +186,8 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                           fontSize: 12,),
                         ),
                         Icon(Icons.keyboard_arrow_right_sharp,
-                        color: Colors.white,),
+                        color: Colors.white,
+                        size: 14,),
                       ],
                     ),
                   ),
