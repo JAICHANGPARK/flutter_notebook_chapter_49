@@ -43,6 +43,7 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
             Padding(
               padding: const EdgeInsets.only(left: 16),
               child: Column(
+                spacing: 12,
                 crossAxisAlignment: .start,
                 children: [
                   Text(
