@@ -45,8 +45,8 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
               children: [
                 Text(
                   "Popular categories",
-                  style: GoogleFonts.akshar(fontWeight: .bold,
-                  fontSize: 24),
+                  style: GoogleFonts.akshar(
+                  fontSize: 20),
                 ),
                 SizedBox(height: 52, child: SingleChildScrollView(
                   scrollDirection: Axis.horizontal,
