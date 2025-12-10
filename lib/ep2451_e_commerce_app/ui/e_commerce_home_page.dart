@@ -58,6 +58,7 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                             ["Tops", "Denim", "Footwear", "Bottoms", "Life"]
                                 .map(
                                   (e) => Container(
+                                    margin: .only(right: 12),
                                     padding: .symmetric(horizontal: 12),
                                     decoration: ShapeDecoration(
                                       shape: StadiumBorder(side: BorderSide()),
