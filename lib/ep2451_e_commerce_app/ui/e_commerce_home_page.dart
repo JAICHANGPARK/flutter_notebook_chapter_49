@@ -65,7 +65,10 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                                       shape: StadiumBorder(side: BorderSide()),
                                     ),
                                     child: Center(child: Text("$e",
-                                    style: GoogleFonts.akshar(),),),
+                                    style: GoogleFonts.akshar(
+                                      fontSize: 16,
+                                      
+                                    ),),),
                                   ),
                                 )
                                 .toList(),
