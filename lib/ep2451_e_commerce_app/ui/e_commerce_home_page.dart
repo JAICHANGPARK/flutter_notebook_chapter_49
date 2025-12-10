@@ -88,6 +88,7 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                 child: Column(
                   children: [
                     Row(
+                      spacing: 12,
                       children: [
                         Text(
                           "Your order",
@@ -97,6 +98,7 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                           ),
                         ),
                         Container(
+                          padding: .symmetric(horizontal: 12,vertical: 2),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(
                               side: BorderSide(color: Colors.white),
