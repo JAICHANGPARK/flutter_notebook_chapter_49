@@ -209,12 +209,18 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                   children: [
                     Expanded(
                       child: Container(
-                        decoration: BoxDecoration(color: Colors.white),
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(6),
+                        ),
                       ),
                     ),
                     Expanded(
                       child: Container(
-                        decoration: BoxDecoration(color: Colors.white),
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(6),
+                        ),
                       ),
                     ),
                   ],
