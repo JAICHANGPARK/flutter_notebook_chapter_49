@@ -40,8 +40,13 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                 IconButton(onPressed: () {}, icon: Icon(Icons.search)),
               ],
             ),
-            Text("Popular categories"),
-            SizedBox(height: 52, child: Placeholder()),
+            Column(
+              children: [
+                Text("Popular categories"),
+                SizedBox(height: 52, child: Placeholder()),
+              ],
+            ),
+
             Container(height: 160, child: Placeholder()),
             Row(
               spacing: 9,
