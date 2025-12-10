@@ -81,7 +81,7 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
             ),
 
             Container(
-              height: 160,
+              height: 200,
               decoration: BoxDecoration(color: Colors.black),
               child: Column(
                 children: [
@@ -112,6 +112,7 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                         ),
                         Spacer(),
                         Container(
+
                           padding: .symmetric(horizontal: 8, vertical: 2),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(
@@ -141,6 +142,7 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                         itemBuilder: (context, index) {
                           return Container(
                             width: 240,
+                            margin: EdgeInsets.only(right: 8),
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(12),
                               color: Colors.white,
