@@ -182,19 +182,30 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                       children: [
                         Text(
                           "Veiw all",
-                          style: GoogleFonts.akshar(color: Colors.white,
-                          fontSize: 12,),
+                          style: GoogleFonts.akshar(
+                            color: Colors.white,
+                            fontSize: 12,
+                          ),
                         ),
-                        Icon(Icons.keyboard_arrow_right_sharp,
-                        color: Colors.white,
-                        size: 14,),
+                        Icon(
+                          Icons.keyboard_arrow_right_sharp,
+                          color: Colors.white,
+                          size: 14,
+                        ),
                       ],
                     ),
                   ),
                 ],
               ),
             ),
-            Expanded(child: Placeholder()),
+            Expanded(
+              child: Row(
+                children: [
+                  Expanded(child: Placeholder()),
+                  Expanded(child: Placeholder()),
+                ],
+              ),
+            ),
             Container(height: 72, child: Placeholder()),
           ],
         ),
