@@ -168,16 +168,20 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(side: BorderSide()),
                     ),
-                    child: Text("limited",style: TextStyle(
-                      fontSize: 12,
-                    ),),
+                    child: Text("limited", style: TextStyle(fontSize: 12)),
                   ),
                   Spacer(),
                   Container(
-                    decoration: ShapeDecoration(shape: StadiumBorder()),
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Colors.black,
+                    ),
                     child: Row(
                       children: [
-                        Text("Veiw all"),
+                        Text(
+                          "Veiw all",
+                          style: GoogleFonts.akshar(color: Colors.white),
+                        ),
                         Icon(Icons.keyboard_arrow_right_sharp),
                       ],
                     ),
