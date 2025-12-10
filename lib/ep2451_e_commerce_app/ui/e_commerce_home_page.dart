@@ -83,29 +83,34 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
             Container(
               height: 160,
               decoration: BoxDecoration(color: Colors.black),
-              child: Column(
-                children: [
-                  Row(
-                    children: [
-                      Text(
-                        "Your order",
-                        style: GoogleFonts.akshar(color: Colors.white,
-                        fontSize: 18,),
-                      ),
-                      Container(
-                        decoration: ShapeDecoration(
-                          shape: StadiumBorder(
-                            side: BorderSide(color: Colors.white),
+              child: Padding(
+                padding: const EdgeInsets.fromLTRB(12, 16, 0,12),
+                child: Column(
+                  children: [
+                    Row(
+                      children: [
+                        Text(
+                          "Your order",
+                          style: GoogleFonts.akshar(
+                            color: Colors.white,
+                            fontSize: 18,
                           ),
                         ),
-                        child: Text(
-                          "3 items",
-                          style: GoogleFonts.akshar(color: Colors.white),
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(
+                              side: BorderSide(color: Colors.white),
+                            ),
+                          ),
+                          child: Text(
+                            "3 items",
+                            style: GoogleFonts.akshar(color: Colors.white),
+                          ),
                         ),
-                      ),
-                    ],
-                  ),
-                ],
+                      ],
+                    ),
+                  ],
+                ),
               ),
             ),
             Row(
