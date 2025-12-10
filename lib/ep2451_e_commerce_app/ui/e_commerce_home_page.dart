@@ -133,6 +133,19 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                       ],
                     ),
                   ),
+                  Expanded(
+                    child: ListView.builder(
+                      scrollDirection: Axis.horizontal,
+                      itemBuilder: (context, index) {
+                        return Container(
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(12),
+                            color: Colors.white,
+                          ),
+                        );
+                      },
+                    ),
+                  ),
                 ],
               ),
             ),
