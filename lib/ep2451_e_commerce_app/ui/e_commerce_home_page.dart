@@ -107,7 +107,8 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                           ),
                           child: Text(
                             "3 items",
-                            style: GoogleFonts.akshar(color: Colors.white),
+                            style: GoogleFonts.akshar(color: Colors.white,
+                            fontSize: 12,),
                           ),
                         ),
                         Spacer(),
@@ -141,7 +142,7 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                         scrollDirection: Axis.horizontal,
                         itemBuilder: (context, index) {
                           return Container(
-                            width: 240,
+                            width: 300,
                             margin: EdgeInsets.only(right: 8),
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(12),
