@@ -50,7 +50,7 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                     style: GoogleFonts.akshar(fontSize: 20),
                   ),
                   SizedBox(
-                    height: 52,
+                    height: 32,
                     child: SingleChildScrollView(
                       scrollDirection: Axis.horizontal,
                       child: Row(
@@ -58,6 +58,7 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                             ["Tops", "Denim", "Footwear", "Bottoms", "Life"]
                                 .map(
                                   (e) => Container(
+                                    padding: .symmetric(horizontal: 12),
                                     decoration: ShapeDecoration(
                                       shape: StadiumBorder(side: BorderSide()),
                                     ),
