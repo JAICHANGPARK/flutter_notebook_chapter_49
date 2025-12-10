@@ -64,11 +64,12 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                                     decoration: ShapeDecoration(
                                       shape: StadiumBorder(side: BorderSide()),
                                     ),
-                                    child: Center(child: Text("$e",
-                                    style: GoogleFonts.akshar(
-                                      fontSize: 16,
-                                      
-                                    ),),),
+                                    child: Center(
+                                      child: Text(
+                                        "$e",
+                                        style: GoogleFonts.akshar(fontSize: 16),
+                                      ),
+                                    ),
                                   ),
                                 )
                                 .toList(),
@@ -79,7 +80,30 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
               ),
             ),
 
-            Container(height: 160, child: Placeholder()),
+            Container(
+              height: 160,
+              decoration: BoxDecoration(color: Colors.black),
+              child: Column(
+                children: [
+                  Row(
+                    children: [
+                      Text("Your order", style: GoogleFonts.akshar()),
+                      Container(
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(
+                            side: BorderSide(color: Colors.white),
+                          ),
+                        ),
+                        child: Text(
+                          "3 items",
+                          style: GoogleFonts.akshar(color: Colors.white),
+                        ),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+            ),
             Row(
               spacing: 9,
               children: [
