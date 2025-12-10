@@ -53,7 +53,19 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                     height: 52,
                     child: SingleChildScrollView(
                       scrollDirection: Axis.horizontal,
-                      child: Row(children: []),
+                      child: Row(
+                        children:
+                            ["Tops", "Denim", "Footwear", "Bottoms", "Life"]
+                                .map(
+                                  (e) => Container(
+                                    decoration: ShapeDecoration(
+                                      shape: StadiumBorder(side: BorderSide()),
+                                    ),
+                                    child: Center(child: Text("$e"),),
+                                  ),
+                                )
+                                .toList(),
+                      ),
                     ),
                   ),
                 ],
