@@ -84,7 +84,7 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
               height: 160,
               decoration: BoxDecoration(color: Colors.black),
               child: Padding(
-                padding: const EdgeInsets.fromLTRB(12, 16, 0,12),
+                padding: const EdgeInsets.fromLTRB(12, 16, 0, 12),
                 child: Column(
                   children: [
                     Row(
@@ -98,7 +98,7 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                           ),
                         ),
                         Container(
-                          padding: .symmetric(horizontal: 12,vertical: 2),
+                          padding: .symmetric(horizontal: 12, vertical: 2),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(
                               side: BorderSide(color: Colors.white),
@@ -107,6 +107,25 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                           child: Text(
                             "3 items",
                             style: GoogleFonts.akshar(color: Colors.white),
+                          ),
+                        ),
+                        Spacer(),
+                        Container(
+                          padding: .symmetric(horizontal: 12, vertical: 2),
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(
+                              side: BorderSide(color: Colors.white),
+                            ),
+                            color: Colors.white,
+                          ),
+                          child: Row(
+                            children: [
+                              Text(
+                                "View all",
+                                style: GoogleFonts.akshar(color: Colors.black),
+                              ),
+                              Icon(Icons.keyboard_arrow_right, size: 16),
+                            ],
                           ),
                         ),
                       ],
