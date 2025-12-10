@@ -107,13 +107,14 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                           ),
                           child: Text(
                             "3 items",
-                            style: GoogleFonts.akshar(color: Colors.white,
-                            fontSize: 12,),
+                            style: GoogleFonts.akshar(
+                              color: Colors.white,
+                              fontSize: 12,
+                            ),
                           ),
                         ),
                         Spacer(),
                         Container(
-
                           padding: .symmetric(horizontal: 8, vertical: 2),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(
@@ -156,25 +157,33 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                 ],
               ),
             ),
-            Row(
-              spacing: 9,
-              children: [
-                Text("New arrivals"),
-                Container(
-                  decoration: ShapeDecoration(shape: StadiumBorder()),
-                  child: Text("limited"),
-                ),
-                Spacer(),
-                Container(
-                  decoration: ShapeDecoration(shape: StadiumBorder()),
-                  child: Row(
-                    children: [
-                      Text("Veiw all"),
-                      Icon(Icons.keyboard_arrow_right_sharp),
-                    ],
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16),
+              child: Row(
+                spacing: 9,
+                children: [
+                  Text("New arrivals", style: TextStyle(fontSize: 20)),
+                  Container(
+                    padding: .symmetric(horizontal: 8, vertical: 2),
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(side: BorderSide()),
+                    ),
+                    child: Text("limited",style: TextStyle(
+                      fontSize: 12,
+                    ),),
                   ),
-                ),
-              ],
+                  Spacer(),
+                  Container(
+                    decoration: ShapeDecoration(shape: StadiumBorder()),
+                    child: Row(
+                      children: [
+                        Text("Veiw all"),
+                        Icon(Icons.keyboard_arrow_right_sharp),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
             ),
             Expanded(child: Placeholder()),
             Container(height: 72, child: Placeholder()),
