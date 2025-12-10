@@ -58,12 +58,13 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                             ["Tops", "Denim", "Footwear", "Bottoms", "Life"]
                                 .map(
                                   (e) => Container(
-                                    margin: .only(right: 12),
+                                    margin: .only(right: 8),
                                     padding: .symmetric(horizontal: 12),
                                     decoration: ShapeDecoration(
                                       shape: StadiumBorder(side: BorderSide()),
                                     ),
-                                    child: Center(child: Text("$e"),),
+                                    child: Center(child: Text("$e",
+                                    style: GoogleFonts.akshar(),),),
                                   ),
                                 )
                                 .toList(),
