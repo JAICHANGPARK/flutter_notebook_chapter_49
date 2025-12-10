@@ -111,7 +111,7 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                         ),
                         Spacer(),
                         Container(
-                          padding: .symmetric(horizontal: 12, vertical: 2),
+                          padding: .symmetric(horizontal: 8, vertical: 2),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(
                               side: BorderSide(color: Colors.white),
@@ -119,6 +119,7 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                             color: Colors.white,
                           ),
                           child: Row(
+                            spacing: 6,
                             children: [
                               Text(
                                 "View all",
