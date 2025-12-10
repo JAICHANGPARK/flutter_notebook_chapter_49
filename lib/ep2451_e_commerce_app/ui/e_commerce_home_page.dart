@@ -83,11 +83,12 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
             Container(
               height: 160,
               decoration: BoxDecoration(color: Colors.black),
-              child: Padding(
-                padding: const EdgeInsets.fromLTRB(12, 16, 0, 12),
-                child: Column(
-                  children: [
-                    Row(
+              child: Column(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(12, 16, 16, 12),
+
+                    child: Row(
                       spacing: 12,
                       children: [
                         Text(
@@ -131,8 +132,8 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                         ),
                       ],
                     ),
-                  ],
-                ),
+                  ),
+                ],
               ),
             ),
             Row(
