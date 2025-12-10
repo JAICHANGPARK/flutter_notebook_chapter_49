@@ -176,13 +176,17 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                       shape: StadiumBorder(),
                       color: Colors.black,
                     ),
+                    padding: .symmetric(horizontal: 8),
                     child: Row(
+                      spacing: 6,
                       children: [
                         Text(
                           "Veiw all",
-                          style: GoogleFonts.akshar(color: Colors.white),
+                          style: GoogleFonts.akshar(color: Colors.white,
+                          fontSize: 12,),
                         ),
-                        Icon(Icons.keyboard_arrow_right_sharp),
+                        Icon(Icons.keyboard_arrow_right_sharp,
+                        color: Colors.white,),
                       ],
                     ),
                   ),
