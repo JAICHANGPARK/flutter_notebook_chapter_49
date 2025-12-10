@@ -41,8 +41,12 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
               ],
             ),
             Column(
+              crossAxisAlignment: .start,
               children: [
-                Text("Popular categories"),
+                Text(
+                  "Popular categories",
+                  style: GoogleFonts.akshar(fontWeight: .bold),
+                ),
                 SizedBox(height: 52, child: Placeholder()),
               ],
             ),
