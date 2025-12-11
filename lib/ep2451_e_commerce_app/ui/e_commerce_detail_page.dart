@@ -202,7 +202,15 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                                   shape: StadiumBorder(),
                                   color: Colors.black,
                                 ),
-                                child: Center(child: Text("Add to cart")),
+                                child: Center(
+                                  child: Text(
+                                    "Add to cart",
+                                    style: GoogleFonts.akshar(
+                                      color: Colors.white,
+                                      fontSize: 18,
+                                    ),
+                                  ),
+                                ),
                               ),
                             ),
                           ],
