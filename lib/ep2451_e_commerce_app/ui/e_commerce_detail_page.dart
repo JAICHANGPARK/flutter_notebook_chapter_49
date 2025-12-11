@@ -194,8 +194,14 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                                 ),
                               ],
                             ),
+                            Gap(32),
                             Expanded(
                               child: Container(
+                                height: 62,
+                                decoration: ShapeDecoration(
+                                  shape: StadiumBorder(),
+                                  color: Colors.black,
+                                ),
                                 child: Center(child: Text("Add to cart")),
                               ),
                             ),
