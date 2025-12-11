@@ -171,11 +171,16 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                         Row(
                           children: [
                             Column(
+                              spacing: 6,
                               children: [
                                 Text(
                                   "\$260.00",
 
-                                  style: GoogleFonts.akshar(color: Colors.grey),
+                                  style: GoogleFonts.akshar(
+                                    color: Colors.grey,
+                                    decoration: TextDecoration.lineThrough,
+                                    fontSize: 16,
+                                  ),
                                 ),
                                 Text("\$220.00"),
                               ],
