@@ -373,6 +373,7 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
             ),
             Container(
               height: 72,
+              margin: EdgeInsets.only(bottom: 0),
               child: Row(
                 mainAxisAlignment: .spaceEvenly,
                 children: [
@@ -398,7 +399,6 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                   ),
                 ],
               ),
-              margin: EdgeInsets.only(bottom: 0),
             ),
           ],
         ),
