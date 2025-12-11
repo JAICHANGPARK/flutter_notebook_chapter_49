@@ -56,10 +56,14 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                                   decoration: BoxDecoration(color: Colors.grey),
                                 ),
                                 Expanded(
-                                  child: Row(
+                                  child: Column(
                                     children: [
-                                      Expanded(child: Text("Puffed Ace Shirt Jacket",)),
-                                      IconButton(onPressed: (){}, icon: Icon(Icons.clear)),
+                                      Row(
+                                        children: [
+                                          Expanded(child: Text("Puffed Ace Shirt Jacket",)),
+                                          IconButton(onPressed: (){}, icon: Icon(Icons.clear)),
+                                        ],
+                                      ),
                                     ],
                                   ),
                                 )
