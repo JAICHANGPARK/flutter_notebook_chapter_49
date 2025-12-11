@@ -40,6 +40,53 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                 ],
               ),
             ),
+            Row(
+              children: [
+                Column(
+                  spacing: 2,
+                  crossAxisAlignment: .start,
+
+                  children: [
+                    Text(
+                      "\$260.00",
+
+                      style: GoogleFonts.akshar(
+                        color: Colors.grey,
+                        decoration: TextDecoration.lineThrough,
+                        fontSize: 16,
+                      ),
+                    ),
+                    Text(
+                      "\$220.00",
+                      style: GoogleFonts.akshar(
+                        decoration: TextDecoration.lineThrough,
+                        fontSize: 24,
+                        fontWeight: .bold,
+                      ),
+                    ),
+                  ],
+                ),
+                Gap(32),
+                Expanded(
+                  child: Container(
+                    height: 62,
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Colors.black,
+                    ),
+                    child: Center(
+                      child: Text(
+                        "Add to cart",
+                        style: GoogleFonts.akshar(
+                          color: Colors.white,
+                          fontSize: 18,
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            ),
           ],
         ),
       ),
