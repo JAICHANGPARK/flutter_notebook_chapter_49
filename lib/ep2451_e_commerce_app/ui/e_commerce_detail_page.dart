@@ -102,10 +102,10 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                           "Read more",
                           style: GoogleFonts.akshar(
                             fontWeight: .bold,
-                            fontSize: 15,
+                            fontSize: 18,
                           ),
                         ),
-                        Gap(0),
+                        
                         Text("Color:"),
                         Row(
                           children: [
