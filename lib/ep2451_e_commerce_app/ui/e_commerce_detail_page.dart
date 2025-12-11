@@ -30,6 +30,7 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
               child: Column(
                 children: [
                   Row(
+                    mainAxisAlignment: .spaceBetween,
                     children: [
                       IconButton(
                         onPressed: () {},
