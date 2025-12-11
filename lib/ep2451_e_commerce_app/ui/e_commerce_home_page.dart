@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_49/ep2451_e_commerce_app/ui/e_commerce_detail_page.dart';
 import 'package:gap/gap.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -145,8 +146,12 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                         scrollDirection: Axis.horizontal,
                         itemBuilder: (context, index) {
                           return GestureDetector(
-                            onTap: (){
-
+                            onTap: () {
+                              Navigator.of(context).push(
+                                MaterialPageRoute(
+                                  builder: (context) => ECommerceDetailPage(),
+                                ),
+                              );
                             },
                             child: Container(
                               width: 300,
