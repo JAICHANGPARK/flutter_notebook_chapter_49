@@ -29,6 +29,7 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
             right: 16,
             child: SafeArea(
               child: Column(
+                spacing: 16,
                 children: [
                   Row(
                     mainAxisAlignment: .spaceBetween,
@@ -47,7 +48,7 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                   Spacer(),
                   DotsIndicator(dotsCount: 5),
                   Container(
-                    height: MediaQuery.sizeOf(context).height / 1.6,
+                    height: MediaQuery.sizeOf(context).height / 1.9,
                     decoration: BoxDecoration(color: Colors.white),
                   ),
                 ],
