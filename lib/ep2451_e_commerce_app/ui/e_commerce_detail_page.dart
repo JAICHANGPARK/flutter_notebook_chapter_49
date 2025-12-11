@@ -1,3 +1,4 @@
+import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/material.dart';
 
 class ECommerceDetailPage extends StatefulWidget {
@@ -42,6 +43,12 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                         color: Colors.black,
                       ),
                     ],
+                  ),
+                  Spacer(),
+                  DotsIndicator(dotsCount: 5),
+                  Container(
+                    height: MediaQuery.sizeOf(context).height / 1.6,
+                    decoration: BoxDecoration(color: Colors.white),
                   ),
                 ],
               ),
