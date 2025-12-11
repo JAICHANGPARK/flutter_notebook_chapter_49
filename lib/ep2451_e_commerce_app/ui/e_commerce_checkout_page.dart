@@ -46,7 +46,13 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                     Expanded(
                       child: ListView.builder(itemBuilder: (context, index) {
                         return Container(
+                          
                           decoration: BoxDecoration(color: Colors.white,),
+                          child: Row(
+                           children: [
+
+                           ],
+                          ),
                         );
                       }),
                     ),
