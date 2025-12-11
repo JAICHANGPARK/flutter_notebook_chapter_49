@@ -126,6 +126,7 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                             ),
                           ],
                         ),
+                        Text("Size:"),
                       ],
                     ),
                   ),
