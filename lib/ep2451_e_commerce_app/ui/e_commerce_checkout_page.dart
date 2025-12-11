@@ -23,7 +23,17 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                   onPressed: () {},
                   icon: Icon(Icons.arrow_back_ios_new_outlined),
                 ),
-                Expanded(child: Center(child: Text("Checkout"))),
+                Expanded(
+                  child: Center(
+                    child: Text(
+                      "Checkout",
+                      style: GoogleFonts.akshar(
+                        fontSize: 24,
+                        fontWeight: .bold,
+                      ),
+                    ),
+                  ),
+                ),
                 IconButton(onPressed: () {}, icon: Icon(Icons.more_vert)),
               ],
             ),
@@ -33,7 +43,13 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                 child: Column(
                   crossAxisAlignment: .start,
                   children: [
-                    Expanded(child: Placeholder()),
+                    Expanded(
+                      child: ListView.builder(itemBuilder: (context, index) {
+                        return Container(
+                          decoration: BoxDecoration(color: Colors.white,),
+                        );
+                      }),
+                    ),
                     Gap(16),
                     Container(
                       decoration: BoxDecoration(color: Colors.white),
@@ -55,11 +71,11 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                         Column(
                           spacing: 2,
                           crossAxisAlignment: .start,
-              
+
                           children: [
                             Text(
                               "\$260.00",
-              
+
                               style: GoogleFonts.akshar(
                                 color: Colors.grey,
                                 decoration: TextDecoration.lineThrough,
