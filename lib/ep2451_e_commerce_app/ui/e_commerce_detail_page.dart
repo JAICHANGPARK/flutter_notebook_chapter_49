@@ -19,7 +19,7 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
             child: Column(
               children: [
                 Expanded(child: PageView(children: [])),
-                Expanded(child: Placeholder()),
+                Expanded(child: Container()),
               ],
             ),
           ),
@@ -48,7 +48,7 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                   Spacer(),
                   DotsIndicator(dotsCount: 5),
                   Container(
-                    height: MediaQuery.sizeOf(context).height / 1.9,
+                    height: MediaQuery.sizeOf(context).height / 1.95,
                     decoration: BoxDecoration(color: Colors.white),
                   ),
                 ],
