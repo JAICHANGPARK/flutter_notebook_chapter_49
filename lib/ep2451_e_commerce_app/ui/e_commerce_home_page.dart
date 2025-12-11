@@ -173,8 +173,19 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                                             fontSize: 16,
                                           ),
                                         ),
-                                        Text("Dream"),
-                                        Text("\$199.99"),
+                                        Text(
+                                          "Dream",
+                                          style: GoogleFonts.akshar(
+                                            fontSize: 12,
+                                          ),
+                                        ),
+                                        Text(
+                                          "\$199.99",
+                                          style: GoogleFonts.akshar(
+                                            fontSize: 16,
+                                            fontWeight: .bold,
+                                          ),
+                                        ),
                                         Container(
                                           decoration: ShapeDecoration(
                                             shape: StadiumBorder(
