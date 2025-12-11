@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:google_fonts/google_fonts.dart';
+
 class ECommerceCheckoutPage extends StatefulWidget {
   const ECommerceCheckoutPage({super.key});
 
@@ -26,67 +27,76 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                 IconButton(onPressed: () {}, icon: Icon(Icons.more_vert)),
               ],
             ),
-            Expanded(child: Placeholder()),
-            Container(
-              decoration: BoxDecoration(color: Colors.white),
-              child: Row(
-                children: [
-                  Text("Promocode"),
-                  Container(
-                    decoration: ShapeDecoration(shape: StadiumBorder()),
-                    child: Text("-20%"),
-                  ),
-                  Spacer(),
-                  Text("Fall25"),
-                ],
-              ),
-            ),
-            Row(
-              children: [
-                Column(
-                  spacing: 2,
-                  crossAxisAlignment: .start,
-
+            Expanded(
+              child: Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: Column(
                   children: [
-                    Text(
-                      "\$260.00",
-
-                      style: GoogleFonts.akshar(
-                        color: Colors.grey,
-                        decoration: TextDecoration.lineThrough,
-                        fontSize: 16,
+                    Expanded(child: Placeholder()),
+                    Container(
+                      decoration: BoxDecoration(color: Colors.white),
+                      child: Row(
+                        children: [
+                          Text("Promocode"),
+                          Container(
+                            decoration: ShapeDecoration(shape: StadiumBorder()),
+                            child: Text("-20%"),
+                          ),
+                          Spacer(),
+                          Text("Fall25"),
+                        ],
                       ),
                     ),
-                    Text(
-                      "\$220.00",
-                      style: GoogleFonts.akshar(
-                        decoration: TextDecoration.lineThrough,
-                        fontSize: 24,
-                        fontWeight: .bold,
-                      ),
+                    Row(
+                      children: [
+                        Column(
+                          spacing: 2,
+                          crossAxisAlignment: .start,
+              
+                          children: [
+                            Text(
+                              "\$260.00",
+              
+                              style: GoogleFonts.akshar(
+                                color: Colors.grey,
+                                decoration: TextDecoration.lineThrough,
+                                fontSize: 16,
+                              ),
+                            ),
+                            Text(
+                              "\$220.00",
+                              style: GoogleFonts.akshar(
+                                decoration: TextDecoration.lineThrough,
+                                fontSize: 24,
+                                fontWeight: .bold,
+                              ),
+                            ),
+                          ],
+                        ),
+                        Gap(32),
+                        Expanded(
+                          child: Container(
+                            height: 62,
+                            decoration: ShapeDecoration(
+                              shape: StadiumBorder(),
+                              color: Colors.black,
+                            ),
+                            child: Center(
+                              child: Text(
+                                "Add to cart",
+                                style: GoogleFonts.akshar(
+                                  color: Colors.white,
+                                  fontSize: 18,
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ],
                     ),
                   ],
                 ),
-                Gap(32),
-                Expanded(
-                  child: Container(
-                    height: 62,
-                    decoration: ShapeDecoration(
-                      shape: StadiumBorder(),
-                      color: Colors.black,
-                    ),
-                    child: Center(
-                      child: Text(
-                        "Add to cart",
-                        style: GoogleFonts.akshar(
-                          color: Colors.white,
-                          fontSize: 18,
-                        ),
-                      ),
-                    ),
-                  ),
-                ),
-              ],
+              ),
             ),
           ],
         ),
