@@ -158,26 +158,35 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                                   width: 120,
                                   decoration: BoxDecoration(color: Colors.grey),
                                 ),
+
                                 Expanded(
-                                  child: Column(
-                                    crossAxisAlignment: .start,
-                                    children: [
-                                      Text("Boucle Puffed Ace Shirt Jacket"),
-                                      Text("Dream"),
-                                      Text("\$199.99"),
-                                      Container(
-                                        decoration: ShapeDecoration(
-                                          shape: StadiumBorder(
-                                            side: BorderSide(),
+                                  child: Padding(
+                                    padding: const EdgeInsets.all(12.0),
+                                    child: Column(
+                                      crossAxisAlignment: .start,
+                                      children: [
+                                        Text("Boucle Puffed Ace Shirt Jacket"),
+                                        Text("Dream"),
+                                        Text("\$199.99"),
+                                        Container(
+                                          decoration: ShapeDecoration(
+                                            shape: StadiumBorder(
+                                              side: BorderSide(),
+                                            ),
+                                          ),
+                                          padding: .symmetric(
+                                            horizontal: 12,
+                                            vertical: 4,
+                                          ),
+                                          child: Text(
+                                            "Today",
+                                            style: GoogleFonts.akshar(
+                                              fontSize: 12,
+                                            ),
                                           ),
                                         ),
-                                        padding: .symmetric(
-                                          horizontal: 12,
-                                          vertical: 4,
-                                        ),
-                                        child: Text("Today"),
-                                      ),
-                                    ],
+                                      ],
+                                    ),
                                   ),
                                 ),
                               ],
