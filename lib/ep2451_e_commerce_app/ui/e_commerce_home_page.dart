@@ -158,6 +158,11 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                                   width: 120,
                                   decoration: BoxDecoration(color: Colors.grey),
                                 ),
+                                Expanded(child: Column(
+                                  crossAxisAlignment: .start,
+                                  children: [
+
+                                ],))
                               ],
                             ),
                           );
