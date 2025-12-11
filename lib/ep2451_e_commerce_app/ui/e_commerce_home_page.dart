@@ -292,7 +292,7 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                               child: Stack(
                                 children: [
                                   Positioned(
-                                        top: 8,
+                                    top: 8,
                                     right: 8,
                                     child: Icon(Icons.favorite_border),
                                   ),
@@ -367,13 +367,26 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
               child: Row(
                 mainAxisAlignment: .spaceEvenly,
                 children: [
-                  IconButton(onPressed: (){}, icon: Icon(Icons.home_filled),
-                  iconSize: 28,),
-                  IconButton(onPressed: (){}, icon: Icon(Icons.shopping_cart_outlined),
-                    iconSize: 28,),
-                  IconButton(onPressed: (){}, icon: Icon(Icons.favorite_border),iconSize: 28,),
-                  IconButton(onPressed: (){}, icon: Icon(Icons.person_2_outlined),iconSize: 28,),
-
+                  IconButton(
+                    onPressed: () {},
+                    icon: Icon(Icons.home_filled),
+                    iconSize: 28,
+                  ),
+                  IconButton(
+                    onPressed: () {},
+                    icon: Icon(Icons.shopping_cart_outlined),
+                    iconSize: 28,
+                  ),
+                  IconButton(
+                    onPressed: () {},
+                    icon: Icon(Icons.favorite_border),
+                    iconSize: 28,
+                  ),
+                  IconButton(
+                    onPressed: () {},
+                    icon: Icon(Icons.person_2_outlined),
+                    iconSize: 28,
+                  ),
                 ],
               ),
               margin: EdgeInsets.only(bottom: 0),
