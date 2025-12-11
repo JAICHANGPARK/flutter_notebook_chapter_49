@@ -14,7 +14,7 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
       backgroundColor: .fromRGBO(238, 238, 238, 1),
       body: Stack(
         children: [
-          Positioned(
+          Positioned.fill(
             child: Column(
               children: [
                 Expanded(child: PageView(children: [])),
@@ -22,6 +22,12 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
               ],
             ),
           ),
+          
+          Positioned(child: SafeArea(
+            child: Column(children: [
+              
+            ],),
+          ))
         ],
       ),
     );
