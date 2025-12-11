@@ -157,8 +157,10 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                                 Container(
                                   height: 120,
                                   width: 120,
-                                  decoration: BoxDecoration(color: Colors.grey,
-                                  borderRadius: BorderRadius.circular(4)),
+                                  decoration: BoxDecoration(
+                                    color: Colors.grey,
+                                    borderRadius: BorderRadius.circular(4),
+                                  ),
                                 ),
 
                                 Expanded(
@@ -281,9 +283,16 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                             Container(
                               height: 160,
                               width: .infinity,
-                              decoration: BoxDecoration(color: Colors.grey,
-                                  borderRadius: BorderRadius.circular(4)),
+                              decoration: BoxDecoration(
+                                color: Colors.grey,
+                                borderRadius: BorderRadius.circular(4),
+                              ),
                             ),
+                            Text(
+                              "Men's Casual Denium Marvin Bomber",
+                              style: GoogleFonts.akshar(),
+                            ),
+                            
                           ],
                         ),
                       ),
