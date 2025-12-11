@@ -98,10 +98,13 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                             color: Colors.grey,
                           ),
                         ),
-                        Text("Read more",  style: GoogleFonts.akshar(
-                          fontWeight: .bold,
-                          fontSize: 15,
-                        ),),
+                        Text(
+                          "Read more",
+                          style: GoogleFonts.akshar(
+                            fontWeight: .bold,
+                            fontSize: 15,
+                          ),
+                        ),
                         Gap(8),
                         Text("Color:"),
                         Row(
@@ -142,6 +145,7 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                             ),
                           ],
                         ),
+                        Gap(0),
                         Text("Size:"),
                         Row(
                           children: ["S", "M", "L", "XL", "XXL"]
@@ -155,11 +159,15 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                                   decoration: ShapeDecoration(
                                     shape: StadiumBorder(side: BorderSide()),
                                   ),
-                                  child: Text("$e"),
+                                  child: Text(
+                                    "$e",
+                                    style: GoogleFonts.akshar(fontSize: 16),
+                                  ),
                                 ),
                               )
                               .toList(),
                         ),
+                        Gap(8),
                         Row(
                           children: [
                             Column(
