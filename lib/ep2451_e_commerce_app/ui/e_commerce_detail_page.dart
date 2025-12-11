@@ -35,7 +35,11 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                         onPressed: () {},
                         icon: Icon(Icons.arrow_back_ios_new_outlined),
                       ),
-                      IconButton(onPressed: () {}, icon: Icon(Icons.favorite)),
+                      IconButton(
+                        onPressed: () {},
+                        icon: Icon(Icons.favorite),
+                        color: Colors.black,
+                      ),
                     ],
                   ),
                 ],
