@@ -158,11 +158,23 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                                   width: 120,
                                   decoration: BoxDecoration(color: Colors.grey),
                                 ),
-                                Expanded(child: Column(
-                                  crossAxisAlignment: .start,
-                                  children: [
-
-                                ],))
+                                Expanded(
+                                  child: Column(
+                                    crossAxisAlignment: .start,
+                                    children: [
+                                      Text("Boucle Puffed Ace Shirt Jacket"),
+                                      Text("Dream"),
+                                      Text("\$199.99"),
+                                      Container(
+                                        decoration: ShapeDecoration(
+                                          shape: StadiumBorder(
+                                            side: BorderSide(),
+                                          ),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
                               ],
                             ),
                           );
