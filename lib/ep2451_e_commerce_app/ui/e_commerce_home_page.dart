@@ -171,6 +171,11 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                                             side: BorderSide(),
                                           ),
                                         ),
+                                        padding: .symmetric(
+                                          horizontal: 12,
+                                          vertical: 4,
+                                        ),
+                                        child: Text("Today"),
                                       ),
                                     ],
                                   ),
