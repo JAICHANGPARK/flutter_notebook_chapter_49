@@ -151,6 +151,7 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                               borderRadius: BorderRadius.circular(12),
                               color: Colors.white,
                             ),
+                            padding: EdgeInsets.all(12),
                             child: Row(
                               children: [
                                 Container(
