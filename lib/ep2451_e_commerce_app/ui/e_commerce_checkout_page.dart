@@ -68,6 +68,7 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                                 ),
                                 Expanded(
                                   child: Column(
+                                    mainAxisAlignment: .spaceBetween,
                                     crossAxisAlignment: .start,
                                     children: [
                                       Row(
@@ -86,7 +87,7 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                                         ],
                                       ),
                                       Text("Grey, M"),
-                                      Row(
+                                      Row( mainAxisAlignment: .spaceBetween,
                                         children: [
                                           Text("\$225.00"),
                                           Container(
