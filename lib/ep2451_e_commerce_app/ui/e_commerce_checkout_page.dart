@@ -98,7 +98,7 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                                             ),
                                             padding: .symmetric(horizontal: 4, vertical: 4),
                                             child: Row(
-                                              spacing: 2,
+                                              spacing: 12,
                                               children: [
                                                 Icon(Icons.remove),
                                                 Text("1"),
