@@ -31,8 +31,10 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
               child: Padding(
                 padding: const EdgeInsets.all(16.0),
                 child: Column(
+                  crossAxisAlignment: .start,
                   children: [
                     Expanded(child: Placeholder()),
+                    Gap(16),
                     Container(
                       decoration: BoxDecoration(color: Colors.white),
                       child: Row(
@@ -47,6 +49,7 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                         ],
                       ),
                     ),
+                    Gap(120),
                     Row(
                       children: [
                         Column(
