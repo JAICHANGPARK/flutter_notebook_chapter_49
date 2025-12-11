@@ -172,6 +172,8 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                           children: [
                             Column(
                               spacing: 2,
+                              crossAxisAlignment: .start,
+
                               children: [
                                 Text(
                                   "\$260.00",
@@ -187,12 +189,15 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                                   style: GoogleFonts.akshar(
                                     decoration: TextDecoration.lineThrough,
                                     fontSize: 24,
+                                    fontWeight: .bold,
                                   ),
                                 ),
                               ],
                             ),
-                            Container(
-                              child: Center(child: Text("Add to cart")),
+                            Expanded(
+                              child: Container(
+                                child: Center(child: Text("Add to cart")),
+                              ),
                             ),
                           ],
                         ),
