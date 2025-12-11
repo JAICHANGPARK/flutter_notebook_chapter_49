@@ -95,7 +95,7 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                                 shape: BoxShape.circle,
                                 border: Border.all(),
                               ),
-                              padding: .all(4),
+                              padding: .all(2),
                               child: CircleAvatar(),
                             ),
                           ],
