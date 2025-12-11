@@ -1,5 +1,6 @@
 import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class ECommerceDetailPage extends StatefulWidget {
@@ -93,11 +94,15 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                           maxLines: 2,
 
                           style: GoogleFonts.akshar(
-                            fontSize: 20,
+                            fontSize: 16,
                             color: Colors.grey,
                           ),
                         ),
-                        Text("Read more"),
+                        Text("Read more",  style: GoogleFonts.akshar(
+                          fontWeight: .bold,
+                          fontSize: 15,
+                        ),),
+                        Gap(8),
                         Text("Color:"),
                         Row(
                           children: [
