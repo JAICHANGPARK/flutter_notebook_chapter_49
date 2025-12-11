@@ -11,6 +11,7 @@ class ECommerceDetailPage extends StatefulWidget {
 class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
   final PageController? pageController = PageController(initialPage: 0);
   int pageIndex = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -22,17 +23,17 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
               children: [
                 Expanded(
                   child: PageView(
-                      onPageChanged: (idx){
-
-                      },
-                      controller: pageController, children: [
-                    Container(
-                      color: Colors.blue,
-                    ),
-                    Container(
-                      color: Colors.orange,
-                    )
-                  ]),
+                    onPageChanged: (idx) {
+                      setState(() {
+                        pageIndex = idx;
+                      });
+                    },
+                    controller: pageController,
+                    children: [
+                      Container(color: Colors.blue),
+                      Container(color: Colors.orange),
+                    ],
+                  ),
                 ),
                 Expanded(child: Container()),
               ],
@@ -62,9 +63,7 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                     ],
                   ),
                   Spacer(),
-                  DotsIndicator(dotsCount: 5,
-
-                  ),
+                  DotsIndicator(dotsCount: 5),
                   Container(
                     height: MediaQuery.sizeOf(context).height / 1.95,
                     decoration: BoxDecoration(
