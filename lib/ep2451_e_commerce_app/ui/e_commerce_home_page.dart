@@ -146,7 +146,7 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                         itemBuilder: (context, index) {
                           return GestureDetector(
                             onTap: (){
-                              
+
                             },
                             child: Container(
                               width: 300,
