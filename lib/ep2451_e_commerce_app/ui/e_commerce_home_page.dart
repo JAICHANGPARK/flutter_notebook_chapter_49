@@ -364,7 +364,15 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
             ),
             Container(
               height: 72,
-              child: Placeholder(),
+              child: Row(
+                children: [
+                  IconButton(onPressed: (){}, icon: Icon(Icons.home_filled)),
+                  IconButton(onPressed: (){}, icon: Icon(Icons.shopping_cart_outlined)),
+                  IconButton(onPressed: (){}, icon: Icon(Icons.favorite_border)),
+                  IconButton(onPressed: (){}, icon: Icon(Icons.person_2_outlined)),
+
+                ],
+              ),
               margin: EdgeInsets.only(bottom: 16),
             ),
           ],
