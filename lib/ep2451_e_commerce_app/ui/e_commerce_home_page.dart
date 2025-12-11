@@ -144,73 +144,77 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                       child: ListView.builder(
                         scrollDirection: Axis.horizontal,
                         itemBuilder: (context, index) {
-                          return Container(
-                            width: 300,
-                            margin: EdgeInsets.only(right: 8),
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(12),
-                              color: Colors.white,
-                            ),
-                            padding: EdgeInsets.all(12),
-                            child: Row(
-                              children: [
-                                Container(
-                                  height: 120,
-                                  width: 120,
-                                  decoration: BoxDecoration(
-                                    color: Colors.grey,
-                                    borderRadius: BorderRadius.circular(4),
+                          return GestureDetector(
+                            onTap: (){
+                              
+                            },
+                            child: Container(
+                              width: 300,
+                              margin: EdgeInsets.only(right: 8),
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(12),
+                                color: Colors.white,
+                              ),
+                              padding: EdgeInsets.all(12),
+                              child: Row(
+                                children: [
+                                  Container(
+                                    height: 120,
+                                    width: 120,
+                                    decoration: BoxDecoration(
+                                      color: Colors.grey,
+                                      borderRadius: BorderRadius.circular(4),
+                                    ),
                                   ),
-                                ),
-
-                                Expanded(
-                                  child: Padding(
-                                    padding: const EdgeInsets.only(left: 12),
-                                    child: Column(
-                                      mainAxisAlignment: .spaceBetween,
-                                      crossAxisAlignment: .start,
-                                      children: [
-                                        Text(
-                                          "Boucle Puffed Ace Shirt Jacket",
-                                          style: GoogleFonts.akshar(
-                                            fontSize: 16,
-                                          ),
-                                        ),
-                                        Text(
-                                          "Dream",
-                                          style: GoogleFonts.akshar(
-                                            fontSize: 12,
-                                          ),
-                                        ),
-                                        Text(
-                                          "\$199.99",
-                                          style: GoogleFonts.akshar(
-                                            fontSize: 20,
-                                            fontWeight: .bold,
-                                          ),
-                                        ),
-                                        Container(
-                                          decoration: ShapeDecoration(
-                                            shape: StadiumBorder(
-                                              side: BorderSide(),
+                                  Expanded(
+                                    child: Padding(
+                                      padding: const EdgeInsets.only(left: 12),
+                                      child: Column(
+                                        mainAxisAlignment: .spaceBetween,
+                                        crossAxisAlignment: .start,
+                                        children: [
+                                          Text(
+                                            "Boucle Puffed Ace Shirt Jacket",
+                                            style: GoogleFonts.akshar(
+                                              fontSize: 16,
                                             ),
                                           ),
-                                          padding: .symmetric(
-                                            horizontal: 12,
-                                            vertical: 4,
-                                          ),
-                                          child: Text(
-                                            "Today",
+                                          Text(
+                                            "Dream",
                                             style: GoogleFonts.akshar(
                                               fontSize: 12,
                                             ),
                                           ),
-                                        ),
-                                      ],
+                                          Text(
+                                            "\$199.99",
+                                            style: GoogleFonts.akshar(
+                                              fontSize: 20,
+                                              fontWeight: .bold,
+                                            ),
+                                          ),
+                                          Container(
+                                            decoration: ShapeDecoration(
+                                              shape: StadiumBorder(
+                                                side: BorderSide(),
+                                              ),
+                                            ),
+                                            padding: .symmetric(
+                                              horizontal: 12,
+                                              vertical: 4,
+                                            ),
+                                            child: Text(
+                                              "Today",
+                                              style: GoogleFonts.akshar(
+                                                fontSize: 12,
+                                              ),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
                                     ),
                                   ),
-                                ),
-                              ],
+                                ],
+                              ),
                             ),
                           );
                         },
