@@ -48,7 +48,10 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                         itemBuilder: (context, index) {
                           return Container(
                             height: 140,
-                            decoration: BoxDecoration(color: Colors.white),
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(6),
+                            ),
                             padding: .all(12),
                             margin: .only(bottom: 12),
                             child: Row(
