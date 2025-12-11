@@ -27,6 +27,7 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
           Positioned.fill(
             left: 16,
             right: 16,
+            bottom: 12,
             child: SafeArea(
               child: Column(
                 spacing: 16,
@@ -49,7 +50,10 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                   DotsIndicator(dotsCount: 5),
                   Container(
                     height: MediaQuery.sizeOf(context).height / 1.95,
-                    decoration: BoxDecoration(color: Colors.white),
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(12),
+                    ),
                   ),
                 ],
               ),
