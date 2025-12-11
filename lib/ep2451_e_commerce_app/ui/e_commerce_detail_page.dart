@@ -171,7 +171,14 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                         Row(
                           children: [
                             Column(
-                              children: [Text("\$260.00"), Text("\$220.00")],
+                              children: [
+                                Text(
+                                  "\$260.00",
+
+                                  style: GoogleFonts.akshar(color: Colors.grey),
+                                ),
+                                Text("\$220.00"),
+                              ],
                             ),
                             Container(
                               child: Center(child: Text("Add to cart")),
