@@ -11,6 +11,7 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: .fromRGBO(238, 238, 238, 1),
       
     );
   }
