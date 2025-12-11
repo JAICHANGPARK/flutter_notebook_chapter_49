@@ -367,10 +367,12 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
               child: Row(
                 mainAxisAlignment: .spaceEvenly,
                 children: [
-                  IconButton(onPressed: (){}, icon: Icon(Icons.home_filled)),
-                  IconButton(onPressed: (){}, icon: Icon(Icons.shopping_cart_outlined)),
-                  IconButton(onPressed: (){}, icon: Icon(Icons.favorite_border)),
-                  IconButton(onPressed: (){}, icon: Icon(Icons.person_2_outlined)),
+                  IconButton(onPressed: (){}, icon: Icon(Icons.home_filled),
+                  iconSize: 28,),
+                  IconButton(onPressed: (){}, icon: Icon(Icons.shopping_cart_outlined),
+                    iconSize: 28,),
+                  IconButton(onPressed: (){}, icon: Icon(Icons.favorite_border),iconSize: 28,),
+                  IconButton(onPressed: (){}, icon: Icon(Icons.person_2_outlined),iconSize: 28,),
 
                 ],
               ),
