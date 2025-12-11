@@ -286,14 +286,14 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                               height: 160,
                               width: .infinity,
                               decoration: BoxDecoration(
-                                color: Colors.grey,
+                                color: Colors.grey[300]!,
                                 borderRadius: BorderRadius.circular(4),
                               ),
                               child: Stack(
                                 children: [
                                   Positioned(
-                                        top: 4,
-                                    right: 4,
+                                        top: 8,
+                                    right: 8,
                                     child: Icon(Icons.favorite_border),
                                   ),
                                 ],
