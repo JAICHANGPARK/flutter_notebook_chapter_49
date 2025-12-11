@@ -128,6 +128,7 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                         Row(
                           children: ["S", "M", "L", "XL", "XXL"].map(
                             (e) => Container(
+                              margin: .only(right: 5),
                               padding: .symmetric(horizontal: 18, vertical: 6),
                               decoration: ShapeDecoration(
                                 shape: StadiumBorder(side: BorderSide()),
@@ -136,6 +137,17 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                             ),
                           ).toList(),
                         ),
+                        Row(
+                          children: [
+                            Column(
+                              children: [
+                                Text("\$260.00"),
+                                Text("\$220.00"),
+
+                              ],
+                            )
+                          ],
+                        )
                       ],
                     ),
                   ),
