@@ -89,12 +89,14 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                         Row(
                           children: [
                             Container(
-                              height: 52,
-                              width: 52,
+                              height: 42,
+                              width: 42,
                               decoration: BoxDecoration(
                                 shape: BoxShape.circle,
                                 border: Border.all(),
                               ),
+                              padding: .all(4),
+                              child: CircleAvatar(),
                             ),
                           ],
                         ),
