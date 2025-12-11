@@ -63,12 +63,10 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                     ],
                   ),
                   Spacer(),
-                  DotsIndicator(dotsCount: 5,
-                  position: pageIndex.toDouble(),
-                  decorator: DotsDecorator(
-                    activeColor: Colors.white,
-
-                  ),
+                  DotsIndicator(
+                    dotsCount: 5,
+                    position: pageIndex.toDouble(),
+                    decorator: DotsDecorator(activeColor: Colors.white),
                   ),
                   Container(
                     height: MediaQuery.sizeOf(context).height / 1.95,
@@ -76,12 +74,32 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(12),
                     ),
+                    padding: .all(16),
                     width: double.infinity,
                     child: Column(
                       crossAxisAlignment: .start,
                       children: [
-                      Text("Microsuede Cropped Braxton Hoodie",)
-                    ],),
+                        Text("Microsuede Cropped Braxton Hoodie"),
+                        Text(
+                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                          maxLines: 2,
+                        ),
+                        Text("Read more"),
+                        Text("Color:"),
+                        Row(
+                          children: [
+                            Container(
+                              height: 52,
+                              width: 52,
+                              decoration: BoxDecoration(
+                                shape: BoxShape.circle,
+                                border: Border.all(),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
                   ),
                 ],
               ),
