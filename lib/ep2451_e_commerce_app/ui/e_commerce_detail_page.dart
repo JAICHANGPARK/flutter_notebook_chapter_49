@@ -76,6 +76,12 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(12),
                     ),
+                    width: double.infinity,
+                    child: Column(
+                      crossAxisAlignment: .start,
+                      children: [
+                      Text("Microsuede Cropped Braxton Hoodie",)
+                    ],),
                   ),
                 ],
               ),
