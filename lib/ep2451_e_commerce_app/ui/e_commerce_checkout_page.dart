@@ -47,10 +47,12 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                       child: ListView.builder(
                         itemBuilder: (context, index) {
                           return Container(
+                            height: 140,
                             decoration: BoxDecoration(color: Colors.white),
                             padding: .all(12),
                             margin: .only(bottom: 12),
                             child: Row(
+                              mainAxisAlignment: .spaceBetween,
                               children: [
                                 Container(
                                   height: 120,
@@ -59,6 +61,7 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                                 ),
                                 Expanded(
                                   child: Column(
+                                    crossAxisAlignment: .start,
                                     children: [
                                       Row(
                                         children: [
