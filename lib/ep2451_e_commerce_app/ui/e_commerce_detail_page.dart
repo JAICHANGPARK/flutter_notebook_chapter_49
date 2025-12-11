@@ -1,5 +1,6 @@
 import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class ECommerceDetailPage extends StatefulWidget {
   const ECommerceDetailPage({super.key});
@@ -79,7 +80,13 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                     child: Column(
                       crossAxisAlignment: .start,
                       children: [
-                        Text("Microsuede Cropped Braxton Hoodie"),
+                        Text(
+                          "Microsuede Cropped Braxton Hoodie",
+                          style: GoogleFonts.akshar(
+                            fontWeight: .bold,
+                            fontSize: 28,
+                          ),
+                        ),
                         Text(
                           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
                           maxLines: 2,
@@ -126,29 +133,32 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                         ),
                         Text("Size:"),
                         Row(
-                          children: ["S", "M", "L", "XL", "XXL"].map(
-                            (e) => Container(
-                              margin: .only(right: 5),
-                              padding: .symmetric(horizontal: 18, vertical: 6),
-                              decoration: ShapeDecoration(
-                                shape: StadiumBorder(side: BorderSide()),
-                              ),
-                              child: Text("$e"),
-                            ),
-                          ).toList(),
+                          children: ["S", "M", "L", "XL", "XXL"]
+                              .map(
+                                (e) => Container(
+                                  margin: .only(right: 5),
+                                  padding: .symmetric(
+                                    horizontal: 18,
+                                    vertical: 6,
+                                  ),
+                                  decoration: ShapeDecoration(
+                                    shape: StadiumBorder(side: BorderSide()),
+                                  ),
+                                  child: Text("$e"),
+                                ),
+                              )
+                              .toList(),
                         ),
                         Row(
                           children: [
                             Column(
-                              children: [
-                                Text("\$260.00"),
-                                Text("\$220.00"),
-
-                              ],
+                              children: [Text("\$260.00"), Text("\$220.00")],
                             ),
-                            Container(child: Center(child: Text("Add to cart",),),)
+                            Container(
+                              child: Center(child: Text("Add to cart")),
+                            ),
                           ],
-                        )
+                        ),
                       ],
                     ),
                   ),
