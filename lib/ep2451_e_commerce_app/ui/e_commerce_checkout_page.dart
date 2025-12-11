@@ -25,6 +25,8 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                 IconButton(onPressed: () {}, icon: Icon(Icons.more_vert)),
               ],
             ),
+            Expanded(child: Placeholder()),
+            Container(decoration: BoxDecoration(color: Colors.white)),
           ],
         ),
       ),
