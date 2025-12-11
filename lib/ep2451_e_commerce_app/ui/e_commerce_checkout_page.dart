@@ -55,12 +55,15 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                             padding: .all(12),
                             margin: .only(bottom: 12),
                             child: Row(
+                              spacing: 8,
                               mainAxisAlignment: .spaceBetween,
                               children: [
                                 Container(
                                   height: 120,
                                   width: 120,
-                                  decoration: BoxDecoration(color: Colors.grey),
+                                  decoration: BoxDecoration(color: Colors.grey,
+                                    borderRadius: BorderRadius.circular(6),
+                                  ),
                                 ),
                                 Expanded(
                                   child: Column(
