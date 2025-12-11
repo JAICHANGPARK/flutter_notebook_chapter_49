@@ -151,6 +151,15 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                               borderRadius: BorderRadius.circular(12),
                               color: Colors.white,
                             ),
+                            child: Row(
+                              children: [
+                                Container(
+                                  height: 120,
+                                  width: 120,
+                                  decoration: BoxDecoration(color: Colors.grey),
+                                ),
+                              ],
+                            ),
                           );
                         },
                       ),
@@ -229,7 +238,11 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                 ),
               ),
             ),
-            Container(height: 72, child: Placeholder(),margin: EdgeInsets.only(bottom: 16),),
+            Container(
+              height: 72,
+              child: Placeholder(),
+              margin: EdgeInsets.only(bottom: 16),
+            ),
           ],
         ),
       ),
