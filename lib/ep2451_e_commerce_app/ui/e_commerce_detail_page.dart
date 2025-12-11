@@ -22,15 +22,26 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
               ],
             ),
           ),
-          
+
           Positioned.fill(
-              left: 16,
-              right: 16,
-              child: SafeArea(
-            child: Column(children: [
-              
-            ],),
-          ))
+            left: 16,
+            right: 16,
+            child: SafeArea(
+              child: Column(
+                children: [
+                  Row(
+                    children: [
+                      IconButton(
+                        onPressed: () {},
+                        icon: Icon(Icons.arrow_back_ios_new_outlined),
+                      ),
+                      IconButton(onPressed: () {}, icon: Icon(Icons.favorite)),
+                    ],
+                  ),
+                ],
+              ),
+            ),
+          ),
         ],
       ),
     );
