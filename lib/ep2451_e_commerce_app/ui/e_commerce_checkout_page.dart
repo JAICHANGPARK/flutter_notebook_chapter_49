@@ -44,17 +44,30 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                   crossAxisAlignment: .start,
                   children: [
                     Expanded(
-                      child: ListView.builder(itemBuilder: (context, index) {
-                        return Container(
-                          
-                          decoration: BoxDecoration(color: Colors.white,),
-                          child: Row(
-                           children: [
-
-                           ],
-                          ),
-                        );
-                      }),
+                      child: ListView.builder(
+                        itemBuilder: (context, index) {
+                          return Container(
+                            decoration: BoxDecoration(color: Colors.white),
+                            child: Row(
+                              children: [
+                                Container(
+                                  height: 120,
+                                  width: 120,
+                                  decoration: BoxDecoration(color: Colors.grey),
+                                ),
+                                Expanded(
+                                  child: Row(
+                                    children: [
+                                      Expanded(child: Text("Puffed Ace Shirt Jacket",)),
+                                      IconButton(onPressed: (){}, icon: Icon(Icons.clear)),
+                                    ],
+                                  ),
+                                )
+                              ],
+                            ),
+                          );
+                        },
+                      ),
                     ),
                     Gap(16),
                     Container(
