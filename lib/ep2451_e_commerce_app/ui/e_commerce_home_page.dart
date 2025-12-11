@@ -320,6 +320,42 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                           color: Colors.white,
                           borderRadius: BorderRadius.circular(6),
                         ),
+                        padding: EdgeInsets.all(12),
+                        child: Column(
+                          crossAxisAlignment: .start,
+                          spacing: 4,
+                          mainAxisAlignment: .spaceBetween,
+                          children: [
+                            Container(
+                              height: 160,
+                              width: .infinity,
+                              decoration: BoxDecoration(
+                                color: Colors.grey[300]!,
+                                borderRadius: BorderRadius.circular(4),
+                              ),
+                              child: Stack(
+                                children: [
+                                  Positioned(
+                                    top: 8,
+                                    right: 8,
+                                    child: Icon(Icons.favorite_border),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Text(
+                              "Men's Casual Denium Marvin Bomber",
+                              style: GoogleFonts.akshar(fontSize: 16),
+                            ),
+                            Text(
+                              "\$199.99",
+                              style: GoogleFonts.akshar(
+                                fontSize: 20,
+                                fontWeight: .bold,
+                              ),
+                            ),
+                          ],
+                        ),
                       ),
                     ),
                   ],
