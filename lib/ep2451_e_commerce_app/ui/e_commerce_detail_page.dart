@@ -95,8 +95,34 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                                 shape: BoxShape.circle,
                                 border: Border.all(),
                               ),
-                              padding: .all(2),
-                              child: CircleAvatar(),
+                              padding: .all(3),
+                              child: CircleAvatar(
+                                backgroundColor: Colors.black,
+                              ),
+                            ),
+                            Container(
+                              height: 42,
+                              width: 42,
+                              decoration: BoxDecoration(
+                                shape: BoxShape.circle,
+                                // border: Border.all(),
+                              ),
+                              padding: .all(3),
+                              child: CircleAvatar(
+                                backgroundColor: Colors.grey,
+                              ),
+                            ),
+                            Container(
+                              height: 42,
+                              width: 42,
+                              decoration: BoxDecoration(
+                                shape: BoxShape.circle,
+                                // border: Border.all(),
+                              ),
+                              padding: .all(3),
+                              child: CircleAvatar(
+                                backgroundColor: Colors.white,
+                              ),
                             ),
                           ],
                         ),
