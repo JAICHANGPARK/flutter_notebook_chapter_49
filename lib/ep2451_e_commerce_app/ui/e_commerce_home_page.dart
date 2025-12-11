@@ -289,12 +289,17 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                                 color: Colors.grey,
                                 borderRadius: BorderRadius.circular(4),
                               ),
+                              child: Stack(
+                                children: [
+                                  Positioned(
+                                    child: Icon(Icons.favorite_border),
+                                  ),
+                                ],
+                              ),
                             ),
                             Text(
                               "Men's Casual Denium Marvin Bomber",
-                              style: GoogleFonts.akshar(
-                                fontSize: 16,
-                              ),
+                              style: GoogleFonts.akshar(fontSize: 16),
                             ),
                             Text(
                               "\$199.99",
