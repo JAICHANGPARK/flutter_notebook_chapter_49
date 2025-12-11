@@ -12,14 +12,22 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: .fromRGBO(238, 238, 238, 1),
-      body: SafeArea(child: Column(children: [
-        Row(
+      body: SafeArea(
+        child: Column(
           children: [
-            IconButton(onPressed: (){}, icon: Icon(Icons.arrow_back_ios_new_outlined)),
-            Expanded(child: Center(child: Text("Checkout"),)),
+            Row(
+              children: [
+                IconButton(
+                  onPressed: () {},
+                  icon: Icon(Icons.arrow_back_ios_new_outlined),
+                ),
+                Expanded(child: Center(child: Text("Checkout"))),
+                IconButton(onPressed: () {}, icon: Icon(Icons.more_vert)),
+              ],
+            ),
           ],
-        )
-      ],)),
+        ),
+      ),
     );
   }
 }
