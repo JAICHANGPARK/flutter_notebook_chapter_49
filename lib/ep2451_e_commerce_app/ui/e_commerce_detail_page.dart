@@ -71,7 +71,7 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                     decorator: DotsDecorator(activeColor: Colors.white),
                   ),
                   Container(
-                    height: MediaQuery.sizeOf(context).height / 1.95,
+                    // height: MediaQuery.sizeOf(context).height / 1.95,
                     decoration: BoxDecoration(
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(12),
@@ -171,7 +171,7 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                         Row(
                           children: [
                             Column(
-                              spacing: 6,
+                              spacing: 2,
                               children: [
                                 Text(
                                   "\$260.00",
@@ -182,7 +182,13 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                                     fontSize: 16,
                                   ),
                                 ),
-                                Text("\$220.00"),
+                                Text(
+                                  "\$220.00",
+                                  style: GoogleFonts.akshar(
+                                    decoration: TextDecoration.lineThrough,
+                                    fontSize: 24,
+                                  ),
+                                ),
                               ],
                             ),
                             Container(
