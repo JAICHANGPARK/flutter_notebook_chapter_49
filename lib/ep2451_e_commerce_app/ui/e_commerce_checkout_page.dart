@@ -48,6 +48,8 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                         itemBuilder: (context, index) {
                           return Container(
                             decoration: BoxDecoration(color: Colors.white),
+                            padding: .all(12),
+                            margin: .only(bottom: 12),
                             child: Row(
                               children: [
                                 Container(
@@ -60,13 +62,33 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                                     children: [
                                       Row(
                                         children: [
-                                          Expanded(child: Text("Puffed Ace Shirt Jacket",)),
-                                          IconButton(onPressed: (){}, icon: Icon(Icons.clear)),
+                                          Expanded(
+                                            child: Text(
+                                              "Puffed Ace Shirt Jacket",
+                                            ),
+                                          ),
+                                          IconButton(
+                                            onPressed: () {},
+                                            icon: Icon(Icons.clear),
+                                          ),
+                                        ],
+                                      ),
+                                      Text("Grey, M"),
+                                      Row(
+                                        children: [
+                                          Text("\$225.00"),
+                                          Container(
+                                            decoration: ShapeDecoration(
+                                              shape: StadiumBorder(
+                                                side: BorderSide(),
+                                              ),
+                                            ),
+                                          ),
                                         ],
                                       ),
                                     ],
                                   ),
-                                )
+                                ),
                               ],
                             ),
                           );
