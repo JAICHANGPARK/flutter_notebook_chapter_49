@@ -292,6 +292,8 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                               child: Stack(
                                 children: [
                                   Positioned(
+                                        top: 4,
+                                    right: 4,
                                     child: Icon(Icons.favorite_border),
                                   ),
                                 ],
