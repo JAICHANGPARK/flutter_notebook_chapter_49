@@ -279,6 +279,8 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                         padding: EdgeInsets.all(12),
                         child: Column(
                           crossAxisAlignment: .start,
+                          spacing: 4,
+                          mainAxisAlignment: .spaceBetween,
                           children: [
                             Container(
                               height: 160,
@@ -292,7 +294,13 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                               "Men's Casual Denium Marvin Bomber",
                               style: GoogleFonts.akshar(),
                             ),
-                            
+                            Text(
+                              "\$199.99",
+                              style: GoogleFonts.akshar(
+                                fontSize: 20,
+                                fontWeight: .bold,
+                              ),
+                            ),
                           ],
                         ),
                       ),
