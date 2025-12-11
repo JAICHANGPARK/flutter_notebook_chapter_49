@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_49/ep2451_e_commerce_app/ui/e_commerce_checkout_page.dart';
 import 'package:flutter_notebook_chapter_49/ep2451_e_commerce_app/ui/e_commerce_detail_page.dart';
 import 'package:gap/gap.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -383,7 +384,13 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                     iconSize: 28,
                   ),
                   IconButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (context) => ECommerceCheckoutPage(),
+                        ),
+                      );
+                    },
                     icon: Icon(Icons.shopping_cart_outlined),
                     iconSize: 28,
                   ),
