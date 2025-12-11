@@ -26,18 +26,20 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
               ],
             ),
             Expanded(child: Placeholder()),
-            Container(decoration: BoxDecoration(color: Colors.white,),
-            child: Row(
-              children: [
-                Text("Promocode"),
-                Container(decoration: ShapeDecoration(shape: StadiumBorder()),
-                child: Text("-20%"),),
-                Spacer(),
-                Text(
-                  "Fall25"
-                )
-              ],
-            ),),
+            Container(
+              decoration: BoxDecoration(color: Colors.white),
+              child: Row(
+                children: [
+                  Text("Promocode"),
+                  Container(
+                    decoration: ShapeDecoration(shape: StadiumBorder()),
+                    child: Text("-20%"),
+                  ),
+                  Spacer(),
+                  Text("Fall25"),
+                ],
+              ),
+            ),
           ],
         ),
       ),
