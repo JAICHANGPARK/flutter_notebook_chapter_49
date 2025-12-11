@@ -61,7 +61,8 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                                 Container(
                                   height: 120,
                                   width: 120,
-                                  decoration: BoxDecoration(color: Colors.grey,
+                                  decoration: BoxDecoration(
+                                    color: Colors.grey,
                                     borderRadius: BorderRadius.circular(6),
                                   ),
                                 ),
@@ -70,16 +71,18 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                                     crossAxisAlignment: .start,
                                     children: [
                                       Row(
+                                        crossAxisAlignment: .start,
                                         children: [
                                           Expanded(
                                             child: Text(
                                               "Puffed Ace Shirt Jacket",
+                                              style: GoogleFonts.akshar(
+                                                fontWeight: .bold,
+                                                fontSize: 20,
+                                              ),
                                             ),
                                           ),
-                                          IconButton(
-                                            onPressed: () {},
-                                            icon: Icon(Icons.clear),
-                                          ),
+                                          Icon(Icons.clear),
                                         ],
                                       ),
                                       Text("Grey, M"),
