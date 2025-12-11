@@ -108,9 +108,7 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                                 // border: Border.all(),
                               ),
                               padding: .all(3),
-                              child: CircleAvatar(
-                                backgroundColor: Colors.grey,
-                              ),
+                              child: CircleAvatar(backgroundColor: Colors.grey),
                             ),
                             Container(
                               height: 42,
@@ -127,6 +125,16 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                           ],
                         ),
                         Text("Size:"),
+                        Row(
+                          children: ["S", "M", "L", "XL", "XXL"].map(
+                            (e) => Container(
+                              decoration: ShapeDecoration(
+                                shape: StadiumBorder(side: BorderSide()),
+                              ),
+                              child: Text("$e"),
+                            ),
+                          ).toList(),
+                        ),
                       ],
                     ),
                   ),
