@@ -63,7 +63,8 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                     ],
                   ),
                   Spacer(),
-                  DotsIndicator(dotsCount: 5),
+                  DotsIndicator(dotsCount: 5,
+                  position: pageIndex.toDouble(),),
                   Container(
                     height: MediaQuery.sizeOf(context).height / 1.95,
                     decoration: BoxDecoration(
