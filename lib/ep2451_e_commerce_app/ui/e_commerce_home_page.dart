@@ -157,7 +157,8 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                                 Container(
                                   height: 120,
                                   width: 120,
-                                  decoration: BoxDecoration(color: Colors.grey),
+                                  decoration: BoxDecoration(color: Colors.grey,
+                                  borderRadius: BorderRadius.circular(4)),
                                 ),
 
                                 Expanded(
@@ -182,7 +183,7 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                                         Text(
                                           "\$199.99",
                                           style: GoogleFonts.akshar(
-                                            fontSize: 16,
+                                            fontSize: 20,
                                             fontWeight: .bold,
                                           ),
                                         ),
