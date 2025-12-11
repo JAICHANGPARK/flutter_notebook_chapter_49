@@ -365,6 +365,7 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
             Container(
               height: 72,
               child: Row(
+                mainAxisAlignment: .spaceEvenly,
                 children: [
                   IconButton(onPressed: (){}, icon: Icon(Icons.home_filled)),
                   IconButton(onPressed: (){}, icon: Icon(Icons.shopping_cart_outlined)),
@@ -373,7 +374,7 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
 
                 ],
               ),
-              margin: EdgeInsets.only(bottom: 16),
+              margin: EdgeInsets.only(bottom: 0),
             ),
           ],
         ),
