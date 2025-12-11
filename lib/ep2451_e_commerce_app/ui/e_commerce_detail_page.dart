@@ -23,7 +23,10 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
             ),
           ),
           
-          Positioned(child: SafeArea(
+          Positioned.fill(
+              left: 16,
+              right: 16,
+              child: SafeArea(
             child: Column(children: [
               
             ],),
