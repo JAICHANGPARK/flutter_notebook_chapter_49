@@ -128,6 +128,7 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                         Row(
                           children: ["S", "M", "L", "XL", "XXL"].map(
                             (e) => Container(
+                              padding: .symmetric(horizontal: 12, vertical: 6),
                               decoration: ShapeDecoration(
                                 shape: StadiumBorder(side: BorderSide()),
                               ),
