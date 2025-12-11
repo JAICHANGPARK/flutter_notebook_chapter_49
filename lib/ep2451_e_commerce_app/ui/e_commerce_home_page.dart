@@ -162,8 +162,9 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
 
                                 Expanded(
                                   child: Padding(
-                                    padding: const EdgeInsets.all(12.0),
+                                    padding: const EdgeInsets.only(left: 12,),
                                     child: Column(
+                                      mainAxisAlignment: .spaceBetween,
                                       crossAxisAlignment: .start,
                                       children: [
                                         Text("Boucle Puffed Ace Shirt Jacket"),
