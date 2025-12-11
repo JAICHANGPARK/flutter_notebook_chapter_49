@@ -105,7 +105,7 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                             fontSize: 15,
                           ),
                         ),
-                        Gap(8),
+                        Gap(0),
                         Text("Color:"),
                         Row(
                           children: [
