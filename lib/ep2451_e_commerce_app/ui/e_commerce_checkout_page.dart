@@ -83,6 +83,13 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                                                 side: BorderSide(),
                                               ),
                                             ),
+                                            child: Row(
+                                              children: [
+                                                Icon(Icons.remove),
+                                                Text("1"),
+                                                Icon(Icons.add),
+                                              ],
+                                            ),
                                           ),
                                         ],
                                       ),
