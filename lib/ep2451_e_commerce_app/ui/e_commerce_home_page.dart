@@ -274,6 +274,17 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                           color: Colors.white,
                           borderRadius: BorderRadius.circular(6),
                         ),
+                        child: Column(
+                          crossAxisAlignment: .start,
+                          children: [
+                            Container(
+                              height: 180,
+                              width: .infinity,
+                              decoration: BoxDecoration(color: Colors.grey,
+                                  borderRadius: BorderRadius.circular(4)),
+                            ),
+                          ],
+                        ),
                       ),
                     ),
                     Expanded(
