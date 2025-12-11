@@ -145,7 +145,8 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                                 Text("\$220.00"),
 
                               ],
-                            )
+                            ),
+                            Container(child: Center(child: Text("Add to cart",),),)
                           ],
                         )
                       ],
