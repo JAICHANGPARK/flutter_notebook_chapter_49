@@ -292,7 +292,9 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                             ),
                             Text(
                               "Men's Casual Denium Marvin Bomber",
-                              style: GoogleFonts.akshar(),
+                              style: GoogleFonts.akshar(
+                                fontSize: 16,
+                              ),
                             ),
                             Text(
                               "\$199.99",
