@@ -167,7 +167,11 @@ class _ECommerceHomePageState extends State<ECommerceHomePage> {
                                       mainAxisAlignment: .spaceBetween,
                                       crossAxisAlignment: .start,
                                       children: [
-                                        Text("Boucle Puffed Ace Shirt Jacket"),
+                                        Text("Boucle Puffed Ace Shirt Jacket",
+                                          style: GoogleFonts.akshar(
+                                            
+                                          ),
+                                        ),
                                         Text("Dream"),
                                         Text("\$199.99"),
                                         Container(
