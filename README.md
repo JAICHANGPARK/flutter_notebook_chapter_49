@@ -1,7 +1,6 @@
 # flutter_notebook_chapter_49
 
 
-
 ## EP2451
 - E-commerce Mobile App Design Onboarding Flow
 - Ronas IT | UI/UX Team 
