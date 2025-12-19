@@ -25,25 +25,31 @@ class _FurnitureTablePageState extends State<FurnitureTablePage> {
               crossAxisCount: 2,
               crossAxisSpacing: 12,
               mainAxisSpacing: 12,
-              childAspectRatio: .8
+              childAspectRatio: .8,
             ),
             itemBuilder: (context, index) {
-              return Container(color: Colors.blue,
-              child: Column(
-                crossAxisAlignment: .start,
-                children: [
-                  Expanded(child: Container()),
-                  Text("Square stool"),
-                  Row(
-                    children: [
-                      Text("\$135.00"),
-                      Spacer(),
-                      Icon(Icons.star),
-                      Text("5.0")
-                    ],
-                  )
-                ],
-              ),);
+              return Container(
+                color: Colors.blue,
+                child: Column(
+                  crossAxisAlignment: .start,
+                  children: [
+                    Expanded(
+                      child: Container(
+                        decoration: BoxDecoration(color: Colors.orange),
+                      ),
+                    ),
+                    Text("Square stool"),
+                    Row(
+                      children: [
+                        Text("\$135.00"),
+                        Spacer(),
+                        Icon(Icons.star),
+                        Text("5.0"),
+                      ],
+                    ),
+                  ],
+                ),
+              );
             },
           ),
         ),
