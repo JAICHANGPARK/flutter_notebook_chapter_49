@@ -29,7 +29,6 @@ class _FurnitureTablePageState extends State<FurnitureTablePage> {
             ),
             itemBuilder: (context, index) {
               return Container(
-                color: Colors.blue,
                 child: Column(
                   crossAxisAlignment: .start,
                   spacing: 16,
@@ -37,7 +36,7 @@ class _FurnitureTablePageState extends State<FurnitureTablePage> {
                     Expanded(
                       child: Container(
                         decoration: BoxDecoration(
-                          color: Colors.orange,
+                          color: Colors.grey[100],
                           borderRadius: .circular(16),
                         ),
                         child: Stack(
