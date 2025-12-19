@@ -23,6 +23,30 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
             height: 420,
             decoration: BoxDecoration(color: Colors.grey[100]),
           ),
+          Row(
+            children: [
+              Text("Square stool"),
+              Container(
+                decoration: ShapeDecoration(
+                  shape: StadiumBorder(),
+                  color: Colors.black,
+                ),
+                child: Text("15% off"),
+              ),
+            ],
+          ),
+          Row(
+            children: [
+              Container(
+                decoration: ShapeDecoration(
+                  shape: StadiumBorder(
+                    side: BorderSide(color: Colors.grey[400]!),
+                  ),
+                ),
+                child: Row(children: [Icon(Icons.star), Text("4.8 Ratings")]),
+              ),
+            ],
+          ),
         ],
       ),
     );
