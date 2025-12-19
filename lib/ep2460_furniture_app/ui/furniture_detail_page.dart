@@ -44,8 +44,7 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                       ),
                       child: Text(
                         "15% off",
-                        style: TextStyle(color: Colors.white,
-                        fontSize: 12,),
+                        style: TextStyle(color: Colors.white, fontSize: 12),
                       ),
                     ),
                   ],
@@ -57,7 +56,7 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                     children: [
                       Container(
                         height: 32,
-                        padding: .symmetric(horizontal: 12,),
+                        padding: .symmetric(horizontal: 12),
                         decoration: ShapeDecoration(
                           shape: StadiumBorder(
                             side: BorderSide(color: Colors.grey[400]!),
@@ -65,11 +64,15 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                         ),
                         child: Row(
                           spacing: 5,
-                          children: [Icon(Icons.star,
-                          size: 18,), Text("4.8 Ratings")],
+                          children: [
+                            Icon(Icons.star, size: 18),
+                            Text("4.8 Ratings"),
+                          ],
                         ),
                       ),
-                      Container(height: 32,  padding: .symmetric(horizontal: 12,),
+                      Container(
+                        height: 32,
+                        padding: .symmetric(horizontal: 12),
                         decoration: ShapeDecoration(
                           shape: StadiumBorder(
                             side: BorderSide(color: Colors.grey[400]!),
@@ -77,7 +80,9 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                         ),
                         child: Row(children: [Text("3.2K+ Reviews")]),
                       ),
-                      Container(height: 32,  padding: .symmetric(horizontal: 12,),
+                      Container(
+                        height: 32,
+                        padding: .symmetric(horizontal: 12),
                         decoration: ShapeDecoration(
                           shape: StadiumBorder(
                             side: BorderSide(color: Colors.grey[400]!),
@@ -91,8 +96,12 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                 Text(
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
                   maxLines: 3,
+                  style: TextStyle(fontSize: 12),
                 ),
-                Text("Colors"),
+                Text(
+                  "Colors",
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
+                ),
                 SizedBox(height: 52, child: Placeholder()),
                 Row(
                   children: [
