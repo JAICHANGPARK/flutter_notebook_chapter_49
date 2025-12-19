@@ -29,10 +29,13 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
             padding: const EdgeInsets.symmetric(horizontal: 16),
             child: Column(
               crossAxisAlignment: .start,
+              spacing: 16,
               children: [
                 Row(
                   children: [
-                    Text("Square stool"),
+                    Text("Square stool",style: TextStyle(
+                      fontSize: 24,
+                    ),),
                     Container(
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(),
