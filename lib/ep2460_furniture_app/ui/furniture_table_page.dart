@@ -43,18 +43,24 @@ class _FurnitureTablePageState extends State<FurnitureTablePage> {
                       spacing: 8,
                       crossAxisAlignment: .start,
                       children: [
-                        Text("Square stool"),
+                        Text(
+                          "Square stool",
+                          style: TextStyle(fontWeight: .bold, fontSize: 16),
+                        ),
                         Row(
+                          spacing: 6,
                           children: [
-                            Text("\$135.00"),
+                            Text(
+                              "\$135.00",
+                              style: TextStyle(fontWeight: .bold, fontSize: 16),
+                            ),
                             Spacer(),
-                            Icon(Icons.star),
-                            Text("5.0"),
+                            Icon(Icons.star, color: Colors.yellow, size: 18),
+                            Text("5.0", style: TextStyle(fontSize: 16)),
                           ],
                         ),
                       ],
-                    )
-
+                    ),
                   ],
                 ),
               );
