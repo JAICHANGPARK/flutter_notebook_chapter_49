@@ -54,7 +54,7 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                     mainAxisAlignment: .spaceBetween,
                     children: [
                       IconButton(
-                        onPressed: () {},
+                        onPressed: () => Navigator.pop(context),
                         icon: Icon(Icons.arrow_back_ios_new_outlined),
                       ),
                       IconButton(
