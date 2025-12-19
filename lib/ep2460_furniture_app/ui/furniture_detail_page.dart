@@ -25,10 +25,10 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
             height: 400,
             decoration: BoxDecoration(color: Colors.grey[100]),
           ),
-          Gap(16),
+          // Gap(16),
           Expanded(
             child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 16),
+              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
               child: Column(
                 crossAxisAlignment: .start,
                 spacing: 16,
