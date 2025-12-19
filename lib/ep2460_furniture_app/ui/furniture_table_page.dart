@@ -36,8 +36,22 @@ class _FurnitureTablePageState extends State<FurnitureTablePage> {
                   children: [
                     Expanded(
                       child: Container(
-                        decoration: BoxDecoration(color: Colors.orange,
-                        borderRadius: .circular(16),),
+                        decoration: BoxDecoration(
+                          color: Colors.orange,
+                          borderRadius: .circular(16),
+                        ),
+                        child: Stack(
+                          children: [
+                            Positioned(
+                              child: Container(
+                                decoration: ShapeDecoration(
+                                  shape: StadiumBorder(),
+                                  color: Colors.black,
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
                       ),
                     ),
                     Column(
