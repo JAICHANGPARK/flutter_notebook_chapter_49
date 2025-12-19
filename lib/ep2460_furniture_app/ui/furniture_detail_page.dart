@@ -76,8 +76,11 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                 child: Container(
                   decoration: BoxDecoration(color: Colors.black),
                   child: Row(
+                    mainAxisAlignment: .center,
+
                     children: [
-                      Icon(Icons.shopping_bag_outlined),
+                      Icon(Icons.shopping_bag_outlined,
+                      color: Colors.white,),
                       Text(
                         "Add to cart",
                         style: TextStyle(color: Colors.white),
