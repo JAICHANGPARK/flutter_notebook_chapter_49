@@ -87,7 +87,8 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                                         ],
                                       ),
                                       Text("Grey, M"),
-                                      Row( mainAxisAlignment: .spaceBetween,
+                                      Row(
+                                        mainAxisAlignment: .spaceBetween,
                                         children: [
                                           Text("\$225.00"),
                                           Container(
@@ -96,7 +97,10 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                                                 side: BorderSide(),
                                               ),
                                             ),
-                                            padding: .symmetric(horizontal: 4, vertical: 4),
+                                            padding: .symmetric(
+                                              horizontal: 4,
+                                              vertical: 4,
+                                            ),
                                             child: Row(
                                               spacing: 12,
                                               children: [
@@ -119,6 +123,7 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                     ),
                     Gap(16),
                     Container(
+                      padding: .only(top: 16, bottom: 16, left: 16, right: 16),
                       decoration: BoxDecoration(color: Colors.white),
                       child: Row(
                         children: [
