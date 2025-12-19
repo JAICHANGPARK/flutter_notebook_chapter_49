@@ -13,6 +13,7 @@ class _FurnitureTablePageState extends State<FurnitureTablePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Table"),
+        centerTitle: true,
         leading: IconButton(onPressed: () {}, icon: Icon(Icons.arrow_back)),
         actions: [IconButton(onPressed: () {}, icon: Icon(Icons.search))],
       ),
