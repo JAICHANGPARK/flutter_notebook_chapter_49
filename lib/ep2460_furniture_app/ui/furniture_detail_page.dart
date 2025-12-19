@@ -37,47 +37,52 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                   children: [
                     Text("Square stool", style: TextStyle(fontSize: 24)),
                     Container(
-                      padding: .symmetric(horizontal: 6, vertical: 2),
+                      padding: .symmetric(horizontal: 12, vertical: 4),
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(),
                         color: Colors.black,
                       ),
                       child: Text(
                         "15% off",
-                        style: TextStyle(color: Colors.white),
+                        style: TextStyle(color: Colors.white,
+                        fontSize: 12,),
                       ),
                     ),
                   ],
                 ),
-                Row(
-                  children: [
-                    Container(
-                      decoration: ShapeDecoration(
-                        shape: StadiumBorder(
-                          side: BorderSide(color: Colors.grey[400]!),
+                SizedBox(
+                  height: 32,
+                  child: Row(
+                    children: [
+                      Container(
+                        height: 32,
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(
+                            side: BorderSide(color: Colors.grey[400]!),
+                          ),
+                        ),
+                        child: Row(
+                          children: [Icon(Icons.star), Text("4.8 Ratings")],
                         ),
                       ),
-                      child: Row(
-                        children: [Icon(Icons.star), Text("4.8 Ratings")],
-                      ),
-                    ),
-                    Container(
-                      decoration: ShapeDecoration(
-                        shape: StadiumBorder(
-                          side: BorderSide(color: Colors.grey[400]!),
+                      Container(height: 32,
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(
+                            side: BorderSide(color: Colors.grey[400]!),
+                          ),
                         ),
+                        child: Row(children: [Text("3.2K+ Reviews")]),
                       ),
-                      child: Row(children: [Text("3.2K+ Reviews")]),
-                    ),
-                    Container(
-                      decoration: ShapeDecoration(
-                        shape: StadiumBorder(
-                          side: BorderSide(color: Colors.grey[400]!),
+                      Container(height: 32,
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(
+                            side: BorderSide(color: Colors.grey[400]!),
+                          ),
                         ),
+                        child: Row(children: [Text("13K Sold")]),
                       ),
-                      child: Row(children: [Text("13K Sold")]),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
                 Text(
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
