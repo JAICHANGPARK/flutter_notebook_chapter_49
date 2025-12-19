@@ -32,21 +32,28 @@ class _FurnitureTablePageState extends State<FurnitureTablePage> {
                 color: Colors.blue,
                 child: Column(
                   crossAxisAlignment: .start,
+                  spacing: 16,
                   children: [
                     Expanded(
                       child: Container(
                         decoration: BoxDecoration(color: Colors.orange),
                       ),
                     ),
-                    Text("Square stool"),
-                    Row(
+                    Column(
+                      crossAxisAlignment: .start,
                       children: [
-                        Text("\$135.00"),
-                        Spacer(),
-                        Icon(Icons.star),
-                        Text("5.0"),
+                        Text("Square stool"),
+                        Row(
+                          children: [
+                            Text("\$135.00"),
+                            Spacer(),
+                            Icon(Icons.star),
+                            Text("5.0"),
+                          ],
+                        ),
                       ],
-                    ),
+                    )
+
                   ],
                 ),
               );
