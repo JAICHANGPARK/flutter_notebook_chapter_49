@@ -10,6 +10,12 @@ class FurnitureTablePage extends StatefulWidget {
 class _FurnitureTablePageState extends State<FurnitureTablePage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Table"),
+        leading: IconButton(onPressed: () {}, icon: Icon(Icons.arrow_back)),
+        actions: [IconButton(onPressed: () {}, icon: Icon(Icons.search))],
+      ),
+    );
   }
 }
