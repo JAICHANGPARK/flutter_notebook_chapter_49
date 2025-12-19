@@ -43,6 +43,8 @@ class _FurnitureTablePageState extends State<FurnitureTablePage> {
                         child: Stack(
                           children: [
                             Positioned(
+                              top: 12,
+                              right: 12,
                               child: Container(
                                 decoration: ShapeDecoration(
                                   shape: StadiumBorder(),
