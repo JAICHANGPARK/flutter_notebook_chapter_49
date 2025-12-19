@@ -126,17 +126,21 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                       padding: .only(top: 16, bottom: 16, left: 16, right: 16),
                       decoration: BoxDecoration(color: Colors.white),
                       child: Row(
+                        spacing: 8,
                         children: [
                           Text(
                             "Promocode",
                             style: GoogleFonts.akshar(
                               color: Colors.grey,
-                              decoration: TextDecoration.lineThrough,
+
                               fontSize: 16,
                             ),
                           ),
                           Container(
-                            decoration: ShapeDecoration(shape: StadiumBorder()),
+                            decoration: ShapeDecoration(
+                              shape: StadiumBorder(side: BorderSide()),
+                            ),
+                            padding: .symmetric(horizontal: 12, ),
                             child: Text("-20%"),
                           ),
                           Spacer(),
