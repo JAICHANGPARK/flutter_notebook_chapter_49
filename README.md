@@ -2,6 +2,8 @@
 
 ## EP2460
 - Furniture App Design
+- Sahin Mia for Pixelean - Ui/Ux Design Agency
+- https://dribbble.com/shots/26899626-Furniture-App-Design
 - 
 
 ## EP2451-2459
