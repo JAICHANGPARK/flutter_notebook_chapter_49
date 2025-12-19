@@ -176,7 +176,6 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                               children: [
                                 Text(
                                   "\$260.00",
-
                                   style: GoogleFonts.akshar(
                                     color: Colors.grey,
                                     decoration: TextDecoration.lineThrough,
