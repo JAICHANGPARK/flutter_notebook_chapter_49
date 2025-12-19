@@ -47,7 +47,7 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                       child: ListView.builder(
                         itemBuilder: (context, index) {
                           return Container(
-                            height: 140,
+                            // height: 140,
                             decoration: BoxDecoration(
                               color: Colors.white,
                               borderRadius: BorderRadius.circular(6),
@@ -97,16 +97,16 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                                               "\$225.00",
                                               style: GoogleFonts.akshar(
                                                 color: Colors.grey,
-                                                fontSize: 16,
+                                                fontSize: 12,
                                                 decoration: .lineThrough,
                                               ),
                                             ),
                                             Text(
                                               "\$220.00",
                                               style: GoogleFonts.akshar(
-                                                color: Colors.grey,
+                                                // color: Colors.grey,
                                                 fontSize: 16,
-                                                decoration: .lineThrough,
+                                                // decoration: .lineThrough,
                                               ),
                                             ),
                                           ]),
