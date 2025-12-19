@@ -69,7 +69,7 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                           size: 18,), Text("4.8 Ratings")],
                         ),
                       ),
-                      Container(height: 32,
+                      Container(height: 32,  padding: .symmetric(horizontal: 12,),
                         decoration: ShapeDecoration(
                           shape: StadiumBorder(
                             side: BorderSide(color: Colors.grey[400]!),
@@ -77,7 +77,7 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                         ),
                         child: Row(children: [Text("3.2K+ Reviews")]),
                       ),
-                      Container(height: 32,
+                      Container(height: 32,  padding: .symmetric(horizontal: 12,),
                         decoration: ShapeDecoration(
                           shape: StadiumBorder(
                             side: BorderSide(color: Colors.grey[400]!),
