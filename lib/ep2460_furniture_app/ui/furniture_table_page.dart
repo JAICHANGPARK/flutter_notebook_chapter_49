@@ -17,6 +17,18 @@ class _FurnitureTablePageState extends State<FurnitureTablePage> {
         leading: IconButton(onPressed: () {}, icon: Icon(Icons.arrow_back)),
         actions: [IconButton(onPressed: () {}, icon: Icon(Icons.search))],
       ),
+      body: Expanded(
+        child: GridView.builder(
+          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+            crossAxisCount: 2,
+          ),
+          itemBuilder: (context, index){
+            return Container(
+              color: Colors.blue,
+            );
+          },
+        ),
+      ),
     );
   }
 }
