@@ -52,7 +52,7 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                               color: Colors.white,
                               borderRadius: BorderRadius.circular(6),
                             ),
-                            padding: .all(12),
+                            padding: .all(8),
                             margin: .only(bottom: 12),
                             child: Row(
                               spacing: 8,
