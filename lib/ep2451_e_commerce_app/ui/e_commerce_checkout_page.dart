@@ -133,7 +133,6 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                             "Promocode",
                             style: GoogleFonts.akshar(
                               color: Colors.grey,
-
                               fontSize: 16,
                             ),
                           ),
