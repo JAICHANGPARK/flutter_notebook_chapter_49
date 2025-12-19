@@ -12,6 +12,7 @@ class _FurnitureTablePageState extends State<FurnitureTablePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
+
       appBar: AppBar(
         title: Text("Table"),
         centerTitle: true,
@@ -23,7 +24,7 @@ class _FurnitureTablePageState extends State<FurnitureTablePage> {
       ),
       body: Expanded(
         child: Padding(
-          padding: const EdgeInsets.all(16.0),
+          padding: const EdgeInsets.only(left: 16, right: 16, top: 16),
           child: GridView.builder(
             gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: 2,
