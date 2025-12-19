@@ -124,8 +124,10 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                     Gap(24),
                     Container(
                       padding: .only(top: 16, bottom: 16, left: 16, right: 16),
-                      decoration: BoxDecoration(color: Colors.white,
-                      borderRadius: .circular(6)),
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: .circular(6),
+                      ),
                       child: Row(
                         spacing: 8,
                         children: [
@@ -144,7 +146,13 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                             child: Text("-20%"),
                           ),
                           Spacer(),
-                          Text("Fall25"),
+                          Text(
+                            "Fall25",
+                            style: GoogleFonts.akshar(
+                              fontSize: 20,
+                              fontWeight: .bold,
+                            ),
+                          ),
                         ],
                       ),
                     ),
@@ -168,7 +176,6 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                             Text(
                               "\$220.00",
                               style: GoogleFonts.akshar(
-                                decoration: TextDecoration.lineThrough,
                                 fontSize: 24,
                                 fontWeight: .bold,
                               ),
