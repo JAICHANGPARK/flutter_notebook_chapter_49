@@ -31,7 +31,16 @@ class _FurnitureTablePageState extends State<FurnitureTablePage> {
               return Container(color: Colors.blue,
               child: Column(
                 children: [
-                  Expanded(child: Container())
+                  Expanded(child: Container()),
+                  Text("Square stool"),
+                  Row(
+                    children: [
+                      Text("\$135.00"),
+                      Spacer(),
+                      Icon(Icons.star),
+                      Text("5.0")
+                    ],
+                  )
                 ],
               ),);
             },
