@@ -4,7 +4,8 @@
 - Furniture App Design
 - Sahin Mia for Pixelean - Ui/Ux Design Agency
 - https://dribbble.com/shots/26899626-Furniture-App-Design
-- 
+
+<img src="https://cdn.dribbble.com/userupload/45951798/file/f4b7f02c0a0936b21520462b25e95f0a.png?resize=2048x1536&vertical=center" alt=""/>
 
 ## EP2451-2459
 - E-commerce Mobile App Design Onboarding Flow
