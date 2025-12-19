@@ -72,9 +72,20 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
           Row(
             children: [
               Column(children: [Text("\$12345"), Text("\$1200")]),
-              Expanded(child: Container(decoration: BoxDecoration(
-                color: Colors.black
-              ),),)
+              Expanded(
+                child: Container(
+                  decoration: BoxDecoration(color: Colors.black),
+                  child: Row(
+                    children: [
+                      Icon(Icons.shopping_bag_outlined),
+                      Text(
+                        "Add to cart",
+                        style: TextStyle(color: Colors.white),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
             ],
           ),
         ],
