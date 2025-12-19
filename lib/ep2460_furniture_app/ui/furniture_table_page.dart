@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_49/ep2460_furniture_app/ui/furniture_detail_page.dart';
 
 class FurnitureTablePage extends StatefulWidget {
   const FurnitureTablePage({super.key});
@@ -12,7 +13,6 @@ class _FurnitureTablePageState extends State<FurnitureTablePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-
       appBar: AppBar(
         title: Text("Table"),
         centerTitle: true,
@@ -33,67 +33,79 @@ class _FurnitureTablePageState extends State<FurnitureTablePage> {
               childAspectRatio: .78,
             ),
             itemBuilder: (context, index) {
-              return Container(
-                child: Column(
-                  crossAxisAlignment: .start,
-                  spacing: 16,
-                  children: [
-                    Expanded(
-                      child: Container(
-                        decoration: BoxDecoration(
-                          color: Colors.grey[100],
-                          borderRadius: .circular(16),
-                        ),
-                        child: Stack(
-                          children: [
-                            Positioned(
-                              top: 12,
-                              right: 12,
-                              child: Container(
-                                decoration: ShapeDecoration(
-                                  shape: StadiumBorder(),
-                                  color: Colors.black,
-                                ),
-                                padding: EdgeInsets.symmetric(
-                                  horizontal: 12,
-                                  vertical: 4,
-                                ),
-                                child: Text(
-                                  "15% off",
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 12,
+              return GestureDetector(
+                onTap: () {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => FurnitureDetailPage(),
+                    ),
+                  );
+                },
+                child: Container(
+                  child: Column(
+                    crossAxisAlignment: .start,
+                    spacing: 16,
+                    children: [
+                      Expanded(
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: Colors.grey[100],
+                            borderRadius: .circular(16),
+                          ),
+                          child: Stack(
+                            children: [
+                              Positioned(
+                                top: 12,
+                                right: 12,
+                                child: Container(
+                                  decoration: ShapeDecoration(
+                                    shape: StadiumBorder(),
+                                    color: Colors.black,
+                                  ),
+                                  padding: EdgeInsets.symmetric(
+                                    horizontal: 12,
+                                    vertical: 4,
+                                  ),
+                                  child: Text(
+                                    "15% off",
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 12,
+                                    ),
                                   ),
                                 ),
                               ),
-                            ),
-                          ],
+                            ],
+                          ),
                         ),
                       ),
-                    ),
-                    Column(
-                      spacing: 8,
-                      crossAxisAlignment: .start,
-                      children: [
-                        Text(
-                          "Square stool",
-                          style: TextStyle(fontWeight: .bold, fontSize: 16),
-                        ),
-                        Row(
-                          spacing: 6,
-                          children: [
-                            Text(
-                              "\$135.00",
-                              style: TextStyle(fontWeight: .bold, fontSize: 16),
-                            ),
-                            Spacer(),
-                            Icon(Icons.star, color: Colors.yellow, size: 18),
-                            Text("5.0", style: TextStyle(fontSize: 16)),
-                          ],
-                        ),
-                      ],
-                    ),
-                  ],
+                      Column(
+                        spacing: 8,
+                        crossAxisAlignment: .start,
+                        children: [
+                          Text(
+                            "Square stool",
+                            style: TextStyle(fontWeight: .bold, fontSize: 16),
+                          ),
+                          Row(
+                            spacing: 6,
+                            children: [
+                              Text(
+                                "\$135.00",
+                                style: TextStyle(
+                                  fontWeight: .bold,
+                                  fontSize: 16,
+                                ),
+                              ),
+                              Spacer(),
+                              Icon(Icons.star, color: Colors.yellow, size: 18),
+                              Text("5.0", style: TextStyle(fontSize: 16)),
+                            ],
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
                 ),
               );
             },
