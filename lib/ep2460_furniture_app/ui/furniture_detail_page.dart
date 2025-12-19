@@ -53,6 +53,7 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                 SizedBox(
                   height: 32,
                   child: Row(
+                    spacing: 12,
                     children: [
                       Container(
                         height: 32,
