@@ -18,6 +18,7 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
         leading: IconButton(onPressed: () {}, icon: Icon(Icons.arrow_back)),
         backgroundColor: Colors.grey[100],
       ),
+      backgroundColor: Colors.white,
       body: Column(
         children: [
           Container(
@@ -32,16 +33,19 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
               spacing: 16,
               children: [
                 Row(
+                  spacing: 12,
                   children: [
-                    Text("Square stool",style: TextStyle(
-                      fontSize: 24,
-                    ),),
+                    Text("Square stool", style: TextStyle(fontSize: 24)),
                     Container(
+                      padding: .symmetric(horizontal: 6, vertical: 2),
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(),
                         color: Colors.black,
                       ),
-                      child: Text("15% off"),
+                      child: Text(
+                        "15% off",
+                        style: TextStyle(color: Colors.white),
+                      ),
                     ),
                   ],
                 ),
@@ -53,7 +57,9 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                           side: BorderSide(color: Colors.grey[400]!),
                         ),
                       ),
-                      child: Row(children: [Icon(Icons.star), Text("4.8 Ratings")]),
+                      child: Row(
+                        children: [Icon(Icons.star), Text("4.8 Ratings")],
+                      ),
                     ),
                     Container(
                       decoration: ShapeDecoration(
@@ -89,8 +95,10 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                           mainAxisAlignment: .center,
 
                           children: [
-                            Icon(Icons.shopping_bag_outlined,
-                              color: Colors.white,),
+                            Icon(
+                              Icons.shopping_bag_outlined,
+                              color: Colors.white,
+                            ),
                             Text(
                               "Add to cart",
                               style: TextStyle(color: Colors.white),
@@ -103,8 +111,7 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                 ),
               ],
             ),
-          )
-
+          ),
         ],
       ),
     );
