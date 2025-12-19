@@ -57,13 +57,16 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                     children: [
                       Container(
                         height: 32,
+                        padding: .symmetric(horizontal: 12,),
                         decoration: ShapeDecoration(
                           shape: StadiumBorder(
                             side: BorderSide(color: Colors.grey[400]!),
                           ),
                         ),
                         child: Row(
-                          children: [Icon(Icons.star), Text("4.8 Ratings")],
+                          spacing: 5,
+                          children: [Icon(Icons.star,
+                          size: 18,), Text("4.8 Ratings")],
                         ),
                       ),
                       Container(height: 32,
