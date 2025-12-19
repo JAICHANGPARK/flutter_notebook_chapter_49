@@ -90,7 +90,14 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                                       Row(
                                         mainAxisAlignment: .spaceBetween,
                                         children: [
-                                          Text("\$225.00"),
+                                          Text(
+                                            "\$225.00",
+                                            style: GoogleFonts.akshar(
+                                              color: Colors.grey,
+                                              fontSize: 16,
+                                              decoration: .lineThrough,
+                                            ),
+                                          ),
                                           Container(
                                             decoration: ShapeDecoration(
                                               shape: StadiumBorder(
@@ -192,7 +199,7 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                             ),
                             child: Center(
                               child: Text(
-                                "Add to cart",
+                                "Continue to Pay",
                                 style: GoogleFonts.akshar(
                                   color: Colors.white,
                                   fontSize: 18,
