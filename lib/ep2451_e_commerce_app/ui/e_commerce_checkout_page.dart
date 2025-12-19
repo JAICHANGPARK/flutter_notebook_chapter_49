@@ -20,7 +20,7 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
             Row(
               children: [
                 IconButton(
-                  onPressed: () {},
+                  onPressed: () => Navigator.pop(context),
                   icon: Icon(Icons.arrow_back_ios_new_outlined),
                 ),
                 Expanded(
@@ -91,25 +91,25 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                                         mainAxisAlignment: .spaceBetween,
                                         children: [
                                           Column(
-                                              crossAxisAlignment: .start,
-                                              children: [
-                                            Text(
-                                              "\$225.00",
-                                              style: GoogleFonts.akshar(
-                                                color: Colors.grey,
-                                                fontSize: 12,
-                                                decoration: .lineThrough,
+                                            crossAxisAlignment: .start,
+                                            children: [
+                                              Text(
+                                                "\$225.00",
+                                                style: GoogleFonts.akshar(
+                                                  color: Colors.grey,
+                                                  fontSize: 12,
+                                                  decoration: .lineThrough,
+                                                ),
                                               ),
-                                            ),
-                                            Text(
-                                              "\$220.00",
-                                              style: GoogleFonts.akshar(
-                                                // color: Colors.grey,
-                                                fontSize: 16,
-                                                // decoration: .lineThrough,
+                                              Text(
+                                                "\$220.00",
+                                                style: GoogleFonts.akshar(
+                                                  fontSize: 16,
+                                                  fontWeight: .bold,
+                                                ),
                                               ),
-                                            ),
-                                          ]),
+                                            ],
+                                          ),
 
                                           Container(
                                             decoration: ShapeDecoration(
