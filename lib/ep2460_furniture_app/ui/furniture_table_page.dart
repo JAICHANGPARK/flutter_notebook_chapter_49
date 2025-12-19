@@ -11,6 +11,7 @@ class _FurnitureTablePageState extends State<FurnitureTablePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text("Table"),
         centerTitle: true,
