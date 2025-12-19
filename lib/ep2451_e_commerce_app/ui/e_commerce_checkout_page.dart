@@ -90,23 +90,27 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                                       Row(
                                         mainAxisAlignment: .spaceBetween,
                                         children: [
-                                          Column(children: [],)
-                                          Text(
-                                            "\$225.00",
-                                            style: GoogleFonts.akshar(
-                                              color: Colors.grey,
-                                              fontSize: 16,
-                                              decoration: .lineThrough,
+                                          Column(
+                                              crossAxisAlignment: .start,
+                                              children: [
+                                            Text(
+                                              "\$225.00",
+                                              style: GoogleFonts.akshar(
+                                                color: Colors.grey,
+                                                fontSize: 16,
+                                                decoration: .lineThrough,
+                                              ),
                                             ),
-                                          ),
-                                          Text(
-                                            "\$220.00",
-                                            style: GoogleFonts.akshar(
-                                              color: Colors.grey,
-                                              fontSize: 16,
-                                              decoration: .lineThrough,
+                                            Text(
+                                              "\$220.00",
+                                              style: GoogleFonts.akshar(
+                                                color: Colors.grey,
+                                                fontSize: 16,
+                                                decoration: .lineThrough,
+                                              ),
                                             ),
-                                          ),
+                                          ]),
+
                                           Container(
                                             decoration: ShapeDecoration(
                                               shape: StadiumBorder(
