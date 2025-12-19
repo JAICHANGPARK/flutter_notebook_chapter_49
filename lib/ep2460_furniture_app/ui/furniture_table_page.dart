@@ -40,6 +40,7 @@ class _FurnitureTablePageState extends State<FurnitureTablePage> {
                       ),
                     ),
                     Column(
+                      spacing: 8,
                       crossAxisAlignment: .start,
                       children: [
                         Text("Square stool"),
