@@ -140,7 +140,7 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                             decoration: ShapeDecoration(
                               shape: StadiumBorder(side: BorderSide()),
                             ),
-                            padding: .symmetric(horizontal: 12, ),
+                            padding: .symmetric(horizontal: 12, vertical: 4),
                             child: Text("-20%"),
                           ),
                           Spacer(),
