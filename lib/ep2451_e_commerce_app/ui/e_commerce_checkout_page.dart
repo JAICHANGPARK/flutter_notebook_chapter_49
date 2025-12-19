@@ -59,8 +59,8 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                               mainAxisAlignment: .spaceBetween,
                               children: [
                                 Container(
-                                  height: 120,
-                                  width: 120,
+                                  height: 130,
+                                  width: 130,
                                   decoration: BoxDecoration(
                                     color: Colors.grey,
                                     borderRadius: BorderRadius.circular(6),
@@ -87,6 +87,7 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                                         ],
                                       ),
                                       Text("Grey, M"),
+                                      Gap(16),
                                       Row(
                                         mainAxisAlignment: .spaceBetween,
                                         children: [
