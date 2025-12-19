@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class FurnitureDetailPage extends StatefulWidget {
   const FurnitureDetailPage({super.key});
@@ -20,9 +21,10 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
       body: Column(
         children: [
           Container(
-            height: 420,
+            height: 400,
             decoration: BoxDecoration(color: Colors.grey[100]),
           ),
+          Gap(16),
           Row(
             children: [
               Text("Square stool"),
