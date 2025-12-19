@@ -25,7 +25,7 @@ class _FurnitureTablePageState extends State<FurnitureTablePage> {
               crossAxisCount: 2,
               crossAxisSpacing: 12,
               mainAxisSpacing: 12,
-              childAspectRatio: .8,
+              childAspectRatio: .78,
             ),
             itemBuilder: (context, index) {
               return Container(
@@ -53,7 +53,8 @@ class _FurnitureTablePageState extends State<FurnitureTablePage> {
                                 padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
                                 child: Text(
                                   "15% off",
-                                  style: TextStyle(color: Colors.white),
+                                  style: TextStyle(color: Colors.white,
+                                  fontSize: 12,),
                                 ),
                               ),
                             ),
