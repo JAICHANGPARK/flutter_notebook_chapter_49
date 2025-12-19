@@ -50,6 +50,11 @@ class _FurnitureTablePageState extends State<FurnitureTablePage> {
                                   shape: StadiumBorder(),
                                   color: Colors.black,
                                 ),
+                                padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                                child: Text(
+                                  "15% off",
+                                  style: TextStyle(color: Colors.white),
+                                ),
                               ),
                             ),
                           ],
