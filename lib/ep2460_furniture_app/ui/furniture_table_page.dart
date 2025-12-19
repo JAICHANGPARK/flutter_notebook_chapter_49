@@ -18,15 +18,18 @@ class _FurnitureTablePageState extends State<FurnitureTablePage> {
         actions: [IconButton(onPressed: () {}, icon: Icon(Icons.search))],
       ),
       body: Expanded(
-        child: GridView.builder(
-          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 2,
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: GridView.builder(
+            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+              crossAxisCount: 2,
+              crossAxisSpacing: 12,
+              mainAxisSpacing: 12,
+            ),
+            itemBuilder: (context, index) {
+              return Container(color: Colors.blue);
+            },
           ),
-          itemBuilder: (context, index){
-            return Container(
-              color: Colors.blue,
-            );
-          },
         ),
       ),
     );
