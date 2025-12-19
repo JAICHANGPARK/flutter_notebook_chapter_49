@@ -105,7 +105,7 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                             fontSize: 18,
                           ),
                         ),
-                        
+
                         Text("Color:"),
                         Row(
                           children: [
@@ -173,7 +173,6 @@ class _ECommerceDetailPageState extends State<ECommerceDetailPage> {
                             Column(
                               spacing: 2,
                               crossAxisAlignment: .start,
-
                               children: [
                                 Text(
                                   "\$260.00",
