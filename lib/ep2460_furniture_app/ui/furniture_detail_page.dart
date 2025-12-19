@@ -105,24 +105,26 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                 SizedBox(height: 52, child: Placeholder()),
                 Row(
                   children: [
-                    Column(children: [Text("\$12345"), Text("\$1200")]),
-                    Expanded(
-                      child: Container(
-                        decoration: BoxDecoration(color: Colors.black),
-                        child: Row(
-                          mainAxisAlignment: .center,
+                    Column(
+                        crossAxisAlignment: .start,
+                        children: [Text("\$12345"), Text("\$1200")]),
+                    Spacer(),
+                    Container(
+                      padding: .symmetric(horizontal: 52, vertical: 8),
+                      decoration: BoxDecoration(color: Colors.black),
+                      child: Row(
+                        mainAxisAlignment: .center,
 
-                          children: [
-                            Icon(
-                              Icons.shopping_bag_outlined,
-                              color: Colors.white,
-                            ),
-                            Text(
-                              "Add to cart",
-                              style: TextStyle(color: Colors.white),
-                            ),
-                          ],
-                        ),
+                        children: [
+                          Icon(
+                            Icons.shopping_bag_outlined,
+                            color: Colors.white,
+                          ),
+                          Text(
+                            "Add to cart",
+                            style: TextStyle(color: Colors.white),
+                          ),
+                        ],
                       ),
                     ),
                   ],
