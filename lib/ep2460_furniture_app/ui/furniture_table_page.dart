@@ -17,6 +17,9 @@ class _FurnitureTablePageState extends State<FurnitureTablePage> {
         centerTitle: true,
         leading: IconButton(onPressed: () {}, icon: Icon(Icons.arrow_back)),
         actions: [IconButton(onPressed: () {}, icon: Icon(Icons.search))],
+        backgroundColor: Colors.white,
+        foregroundColor: Colors.black,
+        surfaceTintColor: Colors.transparent,
       ),
       body: Expanded(
         child: Padding(
@@ -50,11 +53,16 @@ class _FurnitureTablePageState extends State<FurnitureTablePage> {
                                   shape: StadiumBorder(),
                                   color: Colors.black,
                                 ),
-                                padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                                padding: EdgeInsets.symmetric(
+                                  horizontal: 12,
+                                  vertical: 4,
+                                ),
                                 child: Text(
                                   "15% off",
-                                  style: TextStyle(color: Colors.white,
-                                  fontSize: 12,),
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 12,
+                                  ),
                                 ),
                               ),
                             ),
