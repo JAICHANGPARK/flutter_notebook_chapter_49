@@ -124,7 +124,8 @@ class _ECommerceCheckoutPageState extends State<ECommerceCheckoutPage> {
                     Gap(24),
                     Container(
                       padding: .only(top: 16, bottom: 16, left: 16, right: 16),
-                      decoration: BoxDecoration(color: Colors.white),
+                      decoration: BoxDecoration(color: Colors.white,
+                      borderRadius: .circular(6)),
                       child: Row(
                         spacing: 8,
                         children: [
