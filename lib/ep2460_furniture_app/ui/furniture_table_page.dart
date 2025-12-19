@@ -30,6 +30,7 @@ class _FurnitureTablePageState extends State<FurnitureTablePage> {
             itemBuilder: (context, index) {
               return Container(color: Colors.blue,
               child: Column(
+                crossAxisAlignment: .start,
                 children: [
                   Expanded(child: Container()),
                   Text("Square stool"),
