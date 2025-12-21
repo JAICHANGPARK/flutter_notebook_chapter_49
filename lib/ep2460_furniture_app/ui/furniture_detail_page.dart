@@ -12,6 +12,7 @@ class FurnitureDetailPage extends StatefulWidget {
 class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
   int pageNum = 0;
   final PageController pageController = PageController();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -31,7 +32,7 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
               children: [
                 PageView(
                   controller: pageController,
-                  onPageChanged: (idx){
+                  onPageChanged: (idx) {
                     setState(() {
                       pageNum = idx;
                     });
@@ -50,10 +51,9 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                     position: pageNum.toDouble(),
                     dotsCount: 3,
                     decorator: DotsDecorator(),
-
                   ),
                 ),
-                Positioned(child: Text(""))
+                Positioned(right: 24, bottom: 24, child: Text("${pageNum}/3")),
               ],
             ),
           ),
