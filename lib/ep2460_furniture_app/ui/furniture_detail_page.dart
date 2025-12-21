@@ -142,18 +142,26 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                   SizedBox(
                     height: 52,
                     child: Row(
+                      spacing: 6,
                       children: [
                         Container(
                           height: 52,
                           width: 52,
                           decoration: BoxDecoration(
                             shape: BoxShape.circle,
-                            border: Border.all(),
+                            border: Border.all(color: Colors.grey[300]!),
                           ),
-                          
-                          child: CircleAvatar(
-                            backgroundColor: Colors.orange,
+                          child: CircleAvatar(backgroundColor: Colors.orange),
+                        ),
+                        Container(
+                          height: 52,
+                          width: 52,
+                          decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            border: Border.all(color: Colors.grey[300]!),
                           ),
+                          padding: .all(4),
+                          child: CircleAvatar(backgroundColor: Colors.black),
                         ),
                       ],
                     ),
