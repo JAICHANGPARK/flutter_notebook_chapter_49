@@ -147,14 +147,19 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                         return Row(
                           spacing: 6,
                           children: [
-                            Container(
-                              height: 52,
-                              width: 52,
-                              decoration: BoxDecoration(
-                                shape: BoxShape.circle,
-                                border: Border.all(color: Colors.grey[300]!),
+                            GestureDetector(
+                              onTap: (){
+                                selectedColor.value = 0;
+                              },
+                              child: Container(
+                                height: 52,
+                                width: 52,
+                                decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  border: Border.all(color: Colors.grey[300]!),
+                                ),
+                                child: CircleAvatar(backgroundColor: Colors.orange),
                               ),
-                              child: CircleAvatar(backgroundColor: Colors.orange),
                             ),
                             Container(
                               height: 52,
