@@ -198,7 +198,7 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                             Container(
                               height: 52,
                               width: 52,
-                              padding: .all(4),
+                              padding: .all(value == 2 ? 0 : 6),
                               decoration: BoxDecoration(
                                 shape: BoxShape.circle,
                                 border: Border.all(color: Colors.grey[300]!),
@@ -210,7 +210,7 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                             Container(
                               height: 52,
                               width: 52,
-                              padding: .all(4),
+                              padding: .all(value == 3 ? 0 : 6),
                               decoration: BoxDecoration(
                                 shape: BoxShape.circle,
                                 border: Border.all(color: Colors.grey[300]!),
@@ -225,44 +225,48 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                     ),
                   ),
                   Spacer(),
-                  Row(
-                    children: [
-                      Column(
-                        crossAxisAlignment: .start,
-                        spacing: 6,
-                        children: [
-                          Text("\$1234", style: TextStyle(fontSize: 12)),
-                          Text(
-                            "\$1200",
-                            style: TextStyle(fontWeight: .bold, fontSize: 20),
-                          ),
-                        ],
-                      ),
-                      Spacer(),
-                      Container(
-                        padding: .symmetric(horizontal: 52, vertical: 8),
-                        decoration: BoxDecoration(
-                          color: Colors.black,
-                          borderRadius: .circular(8),
-                        ),
-                        child: Row(
+                  Padding(
+                    padding: .only(bottom: 12),
+                    child: Row(
+                      children: [
+                        Column(
+                          crossAxisAlignment: .start,
                           spacing: 6,
-                          mainAxisAlignment: .center,
-
                           children: [
-                            Icon(
-                              Icons.shopping_bag_outlined,
-                              color: Colors.white,
-                            ),
+                            Text("\$1234", style: TextStyle(fontSize: 12)),
                             Text(
-                              "Add to cart",
-                              style: TextStyle(color: Colors.white),
+                              "\$1200",
+                              style: TextStyle(fontWeight: .bold, fontSize: 20),
                             ),
                           ],
                         ),
-                      ),
-                    ],
+                        Spacer(),
+                        Container(
+                          padding: .symmetric(horizontal: 52, vertical: 8),
+                          decoration: BoxDecoration(
+                            color: Colors.black,
+                            borderRadius: .circular(8),
+                          ),
+                          child: Row(
+                            spacing: 6,
+                            mainAxisAlignment: .center,
+
+                            children: [
+                              Icon(
+                                Icons.shopping_bag_outlined,
+                                color: Colors.white,
+                              ),
+                              Text(
+                                "Add to cart",
+                                style: TextStyle(color: Colors.white),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
+
                 ],
               ),
             ),
