@@ -12,7 +12,7 @@ class FurnitureDetailPage extends StatefulWidget {
 class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
   int pageNum = 0;
   final PageController pageController = PageController();
-
+  ValueNotifier<int> selectedColor = ValueNotifier(0);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -170,25 +170,32 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                             shape: BoxShape.circle,
                             border: Border.all(color: Colors.grey[300]!),
                           ),
+                          padding: .all(4),
                           child: CircleAvatar(backgroundColor: Colors.yellow),
                         ),
                         Container(
                           height: 52,
                           width: 52,
+                          padding: .all(4),
                           decoration: BoxDecoration(
                             shape: BoxShape.circle,
                             border: Border.all(color: Colors.grey[300]!),
                           ),
-                          child: CircleAvatar(backgroundColor: Colors.brown[400]!,),
+                          child: CircleAvatar(
+                            backgroundColor: Colors.brown[400]!,
+                          ),
                         ),
                         Container(
                           height: 52,
                           width: 52,
+                          padding: .all(4),
                           decoration: BoxDecoration(
                             shape: BoxShape.circle,
                             border: Border.all(color: Colors.grey[300]!),
                           ),
-                          child: CircleAvatar(backgroundColor: Colors.grey[300]!),
+                          child: CircleAvatar(
+                            backgroundColor: Colors.grey[300]!,
+                          ),
                         ),
                       ],
                     ),
