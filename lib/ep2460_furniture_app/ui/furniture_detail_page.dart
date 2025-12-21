@@ -30,6 +30,12 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
             child: Stack(
               children: [
                 PageView(
+                  controller: pageController,
+                  onPageChanged: (idx){
+                    setState(() {
+                      pageNum = idx;
+                    });
+                  },
                   children: [
                     Container(color: Colors.blue),
                     Container(color: Colors.orange),
@@ -41,6 +47,7 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                   left: 0,
                   right: 0,
                   child: DotsIndicator(
+                    position: pageNum.toDouble(),
                     dotsCount: 3,
                     decorator: DotsDecorator(),
 
