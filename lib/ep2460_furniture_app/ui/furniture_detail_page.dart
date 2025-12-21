@@ -24,6 +24,13 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
           Container(
             height: 400,
             decoration: BoxDecoration(color: Colors.grey[100]),
+            child: Stack(
+              children: [
+                PageView(children: [
+                  
+                ],)
+              ],
+            ),
           ),
           // Gap(16),
           Expanded(
@@ -105,18 +112,18 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                   ),
                   SizedBox(height: 52, child: Placeholder()),
                   Spacer(),
-            
+
                   Row(
                     children: [
                       Column(
                         crossAxisAlignment: .start,
                         spacing: 6,
                         children: [
-                          Text("\$1234",style: TextStyle(
-                            fontSize: 12,
-                          ),),
-                          Text("\$1200", style: TextStyle(fontWeight: .bold,
-                          fontSize: 20)),
+                          Text("\$1234", style: TextStyle(fontSize: 12)),
+                          Text(
+                            "\$1200",
+                            style: TextStyle(fontWeight: .bold, fontSize: 20),
+                          ),
                         ],
                       ),
                       Spacer(),
@@ -129,7 +136,7 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                         child: Row(
                           spacing: 6,
                           mainAxisAlignment: .center,
-            
+
                           children: [
                             Icon(
                               Icons.shopping_bag_outlined,
