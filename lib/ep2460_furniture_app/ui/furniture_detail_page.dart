@@ -156,7 +156,7 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                               child: Container(
                                 height: 52,
                                 width: 52,
-                                padding: .all(value == 0 ? 0 : 4),
+                                padding: .all(value == 0 ? 0 : 6),
                                 decoration: BoxDecoration(
                                   shape: BoxShape.circle,
                                   border: Border.all(color: Colors.grey[300]!),
@@ -177,7 +177,7 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                                   shape: BoxShape.circle,
                                   border: Border.all(color: Colors.grey[300]!),
                                 ),
-                                padding: .all(value == 1 ? 0 : 4),
+                                padding: .all(value == 1 ? 0 : 6),
                                 child: CircleAvatar(
                                   backgroundColor: Colors.black,
                                 ),
