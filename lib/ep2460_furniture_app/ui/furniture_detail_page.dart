@@ -27,7 +27,15 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
             child: Stack(
               children: [
                 PageView(children: [
-                  
+                  Container(
+                    color: Colors.blue,
+                  ),
+                  Container(
+                    color: Colors.orange,
+                  ),
+                  Container(
+                    color: Colors.green,
+                  )
                 ],)
               ],
             ),
