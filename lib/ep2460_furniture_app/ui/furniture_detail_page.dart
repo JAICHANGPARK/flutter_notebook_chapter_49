@@ -53,7 +53,11 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                     decorator: DotsDecorator(),
                   ),
                 ),
-                Positioned(right: 24, bottom: 24, child: Text("${pageNum + 1}/3")),
+                Positioned(
+                  right: 24,
+                  bottom: 24,
+                  child: Text("${pageNum + 1}/3"),
+                ),
               ],
             ),
           ),
@@ -135,18 +139,25 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                     "Colors",
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
                   ),
-                  SizedBox(height: 52, child: Row(
-                    children: [
-                     Container(
-                       height: 52,
-                       width: 52,
-                       decoration: BoxDecoration(
-                         shape: BoxShape.circle,
-                         
-                       ),
-                     )
-                    ],
-                  )),
+                  SizedBox(
+                    height: 52,
+                    child: Row(
+                      children: [
+                        Container(
+                          height: 52,
+                          width: 52,
+                          decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            border: Border.all(),
+                          ),
+                          
+                          child: CircleAvatar(
+                            backgroundColor: Colors.orange,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
                   Spacer(),
                   Row(
                     children: [
