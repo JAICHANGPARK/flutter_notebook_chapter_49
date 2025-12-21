@@ -1,3 +1,4 @@
+import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
@@ -36,7 +37,12 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                   Container(
                     color: Colors.green,
                   )
-                ],)
+                ],),
+                Positioned(
+                    bottom: 24,
+                    left: 0,
+                    right: 0,
+                    child: DotsIndicator(dotsCount: 3)),
               ],
             ),
           ),
