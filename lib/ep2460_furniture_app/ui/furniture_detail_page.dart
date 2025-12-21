@@ -13,6 +13,7 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
   int pageNum = 0;
   final PageController pageController = PageController();
   ValueNotifier<int> selectedColor = ValueNotifier(0);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -148,8 +149,26 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                           spacing: 6,
                           children: [
                             GestureDetector(
-                              onTap: (){
+                              onTap: () {
                                 selectedColor.value = 0;
+                              },
+
+                              child: Container(
+                                height: 52,
+                                width: 52,
+                                padding: .all(value == 0 ? 0 : 4),
+                                decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  border: Border.all(color: Colors.grey[300]!),
+                                ),
+                                child: CircleAvatar(
+                                  backgroundColor: Colors.orange,
+                                ),
+                              ),
+                            ),
+                            GestureDetector(
+                              onTap: (){
+                                selectedColor.value = 1;
                               },
                               child: Container(
                                 height: 52,
@@ -158,7 +177,10 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                                   shape: BoxShape.circle,
                                   border: Border.all(color: Colors.grey[300]!),
                                 ),
-                                child: CircleAvatar(backgroundColor: Colors.orange),
+                                padding: .all(value == 1 ? 0 : 4),
+                                child: CircleAvatar(
+                                  backgroundColor: Colors.black,
+                                ),
                               ),
                             ),
                             Container(
@@ -169,17 +191,9 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                                 border: Border.all(color: Colors.grey[300]!),
                               ),
                               padding: .all(4),
-                              child: CircleAvatar(backgroundColor: Colors.black),
-                            ),
-                            Container(
-                              height: 52,
-                              width: 52,
-                              decoration: BoxDecoration(
-                                shape: BoxShape.circle,
-                                border: Border.all(color: Colors.grey[300]!),
+                              child: CircleAvatar(
+                                backgroundColor: Colors.yellow,
                               ),
-                              padding: .all(4),
-                              child: CircleAvatar(backgroundColor: Colors.yellow),
                             ),
                             Container(
                               height: 52,
@@ -207,7 +221,7 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                             ),
                           ],
                         );
-                      }
+                      },
                     ),
                   ),
                   Spacer(),
