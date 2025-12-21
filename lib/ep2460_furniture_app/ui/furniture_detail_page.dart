@@ -133,7 +133,7 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                   Text(
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
                     maxLines: 3,
-                    style: TextStyle(fontSize: 12),
+                    style: TextStyle(fontSize: 13),
                   ),
                   Text(
                     "Colors",
@@ -162,6 +162,33 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
                           ),
                           padding: .all(4),
                           child: CircleAvatar(backgroundColor: Colors.black),
+                        ),
+                        Container(
+                          height: 52,
+                          width: 52,
+                          decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            border: Border.all(color: Colors.grey[300]!),
+                          ),
+                          child: CircleAvatar(backgroundColor: Colors.yellow),
+                        ),
+                        Container(
+                          height: 52,
+                          width: 52,
+                          decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            border: Border.all(color: Colors.grey[300]!),
+                          ),
+                          child: CircleAvatar(backgroundColor: Colors.brown[400]!,),
+                        ),
+                        Container(
+                          height: 52,
+                          width: 52,
+                          decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            border: Border.all(color: Colors.grey[300]!),
+                          ),
+                          child: CircleAvatar(backgroundColor: Colors.grey[300]!),
                         ),
                       ],
                     ),
