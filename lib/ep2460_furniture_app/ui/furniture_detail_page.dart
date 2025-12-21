@@ -27,22 +27,23 @@ class _FurnitureDetailPageState extends State<FurnitureDetailPage> {
             decoration: BoxDecoration(color: Colors.grey[100]),
             child: Stack(
               children: [
-                PageView(children: [
-                  Container(
-                    color: Colors.blue,
-                  ),
-                  Container(
-                    color: Colors.orange,
-                  ),
-                  Container(
-                    color: Colors.green,
-                  )
-                ],),
+                PageView(
+                  children: [
+                    Container(color: Colors.blue),
+                    Container(color: Colors.orange),
+                    Container(color: Colors.green),
+                  ],
+                ),
                 Positioned(
-                    bottom: 24,
-                    left: 0,
-                    right: 0,
-                    child: DotsIndicator(dotsCount: 3)),
+                  bottom: 24,
+                  left: 0,
+                  right: 0,
+                  child: DotsIndicator(
+                    dotsCount: 3,
+                    decorator: DotsDecorator(),
+                    
+                  ),
+                ),
               ],
             ),
           ),
