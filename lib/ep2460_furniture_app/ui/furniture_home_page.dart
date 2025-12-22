@@ -25,7 +25,12 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
       ),
       bottomNavigationBar: Container(
         height: 88,
+        decoration: BoxDecoration(
+          
+        ),
+        color: Colors.white,
         child: Row(
+
           children: [
             IconButton(onPressed: () {}, icon: Icon(Icons.home_outlined)),
             Container(
