@@ -56,6 +56,7 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
                   ),
                   padding: .symmetric(vertical: 12),
                   child: Row(
+                    spacing: 4,
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Icon(Icons.credit_card,color: Colors.white,),
