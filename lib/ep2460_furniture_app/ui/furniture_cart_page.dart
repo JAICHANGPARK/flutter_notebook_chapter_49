@@ -19,6 +19,7 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
         title: Text("My cart"),
       ),
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text("Total (09) items"),
           Expanded(
