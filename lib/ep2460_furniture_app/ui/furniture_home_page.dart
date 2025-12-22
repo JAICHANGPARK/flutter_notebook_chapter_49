@@ -9,6 +9,7 @@ class FurnitureHomePage extends StatefulWidget {
 }
 
 class _FurnitureHomePageState extends State<FurnitureHomePage> {
+  int pageIndex = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
