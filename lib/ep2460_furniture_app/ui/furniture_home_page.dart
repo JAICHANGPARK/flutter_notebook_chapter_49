@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_notebook_chapter_49/ep2460_furniture_app/ui/furniture_table_page.dart';
 
+import 'furniture_cart_page.dart';
+
 class FurnitureHomePage extends StatefulWidget {
   const FurnitureHomePage({super.key});
 
@@ -18,7 +20,7 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
         index: pageIndex,
         children: [
           FurnitureTablePage(),
-          Container(),
+          FurnitureCartPage(),
           Container(),
           Placeholder(),
         ],
