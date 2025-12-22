@@ -51,6 +51,14 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
                     borderRadius: .circular(12),
                     color: Colors.black
                   ),
+                  child: Row(
+                    children: [
+                      Icon(Icons.credit_card),
+                      Text("Checkout", style: TextStyle(
+                        color: Colors.black,
+                      ),)
+                    ],
+                  ),
                 )
               ],
             ),
