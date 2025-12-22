@@ -68,7 +68,11 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
             });}, icon: Icon(Icons.wallet),
               color: Colors.grey[400]!,
             ),
-            IconButton(onPressed: () {}, icon: Icon(Icons.person_2_outlined),
+            IconButton(onPressed: () {
+              setState(() {
+                pageIndex = 3;
+              });
+            }, icon: Icon(Icons.person_2_outlined),
               color: Colors.grey[400]!,
             ),
           ],
