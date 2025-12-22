@@ -26,9 +26,15 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
       bottomNavigationBar: Container(
         height: 88,
         decoration: BoxDecoration(
-          
+          color: Colors.white,
+          boxShadow: [
+            BoxShadow(
+              color: Colors.grey[100]!,
+              blurRadius: 10
+            )
+          ]
         ),
-        color: Colors.white,
+
         child: Row(
 
           children: [
