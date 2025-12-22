@@ -33,6 +33,7 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                 shape: StadiumBorder(),
                 color: Colors.black,
               ),
+              padding: .symmetric(horizontal: 24, vertical: 12),
               child: Text("Cart"),
             ),
             IconButton(
