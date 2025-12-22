@@ -11,6 +11,10 @@ class FurnitureHomePage extends StatefulWidget {
 class _FurnitureHomePageState extends State<FurnitureHomePage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: IndexedStack(
+
+      ),
+    );
   }
 }
