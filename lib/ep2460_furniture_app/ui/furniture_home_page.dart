@@ -30,7 +30,8 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
           boxShadow: [
             BoxShadow(
               color: Colors.grey[100]!,
-              blurRadius: 10
+              blurRadius: 10,
+              spreadRadius: 10
             )
           ]
         ),
