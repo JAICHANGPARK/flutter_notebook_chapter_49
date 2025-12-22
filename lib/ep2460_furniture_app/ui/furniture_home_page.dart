@@ -34,7 +34,7 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                 color: Colors.black,
               ),
               padding: .symmetric(horizontal: 24, vertical: 12),
-              child: Text("Cart"),
+              child: Text("Cart", style: TextStyle(color: Colors.white)),
             ),
             IconButton(
               onPressed: () {},
