@@ -29,6 +29,7 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
             ),
           ),
           Container(
+            padding: EdgeInsets.all(16),
             decoration: BoxDecoration(
               color: Colors.white,
               borderRadius: .only(
@@ -38,6 +39,7 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
 
             ),
             child: Column(
+              spacing: 12,
               children: [
                 Row(
                   children: [
