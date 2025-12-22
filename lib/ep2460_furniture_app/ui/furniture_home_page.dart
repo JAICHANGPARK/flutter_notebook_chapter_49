@@ -50,18 +50,25 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
               icon: Icon(Icons.home_outlined),
               color: Colors.grey[400]!,
             ),
-            Container(
-              decoration: ShapeDecoration(
-                shape: StadiumBorder(),
-                color: Colors.black,
+            GestureDetector(
+              onTap: (){
+                setState(() {
+                  pageIndex = 1;
+                });
+              },
+              child: Container(
+                decoration: ShapeDecoration(
+                  shape: StadiumBorder(),
+                  color: Colors.black,
+                ),
+                padding: .symmetric(horizontal: 24, vertical: 12),
+                child: Text("Cart", style: TextStyle(color: Colors.white)),
               ),
-              padding: .symmetric(horizontal: 24, vertical: 12),
-              child: Text("Cart", style: TextStyle(color: Colors.white)),
             ),
             IconButton(
               onPressed: () {
                 setState(() {
-                  pageIndex = 1;
+                  pageIndex = 2;
                 });
               },
               icon: Icon(Icons.shopping_cart_outlined),
@@ -70,7 +77,7 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
             IconButton(
               onPressed: () {
                 setState(() {
-                  pageIndex = 2;
+                  pageIndex = 3;
                 });
               },
               icon: Icon(Icons.wallet),
@@ -79,7 +86,7 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
             IconButton(
               onPressed: () {
                 setState(() {
-                  pageIndex = 3;
+                  pageIndex = 4;
                 });
               },
               icon: Icon(Icons.person_2_outlined),
