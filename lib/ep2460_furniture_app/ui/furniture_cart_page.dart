@@ -18,7 +18,17 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
         centerTitle: true,
         title: Text("My cart"),
       ),
-      body: Column(children: []),
+      body: Column(children: [
+        Text("Total (09) items"),
+        Expanded(child: ListView.builder(itemBuilder: (context,index){
+          return Placeholder();
+        })),
+        Container(
+          decoration: BoxDecoration(
+            borderRadius: .only()
+          ),
+        )
+      ]),
     );
   }
 }
