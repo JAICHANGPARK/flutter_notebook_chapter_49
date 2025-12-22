@@ -86,7 +86,7 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
             IconButton(
               onPressed: () {
                 setState(() {
-                  pageIndex = 4;
+                  pageIndex = 3;
                 });
               },
               icon: Icon(Icons.person_2_outlined),
