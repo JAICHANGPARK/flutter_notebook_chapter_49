@@ -30,13 +30,31 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
           ),
           Container(
             decoration: BoxDecoration(
+              color: Colors.white,
               borderRadius: .only(
                 topLeft: .circular(12),
                 topRight: .circular(12),
               ),
 
             ),
-            color: Colors.white,
+            child: Column(
+              children: [
+                Row(
+                  children: [
+                   Text("Total Price"),
+                   Text("\$9000"),
+                  ],
+                ),
+                Divider(),
+                Container(
+                  decoration: BoxDecoration(
+                    borderRadius: .circular(12),
+                    color: Colors.black
+                  ),
+                )
+              ],
+            ),
+
           ),
         ],
       ),
