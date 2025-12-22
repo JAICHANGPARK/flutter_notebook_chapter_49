@@ -54,7 +54,9 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
                     borderRadius: .circular(12),
                     color: Colors.black
                   ),
+                  padding: .symmetric(vertical: 12),
                   child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Icon(Icons.credit_card,color: Colors.white,),
                       Text("Checkout", style: TextStyle(
