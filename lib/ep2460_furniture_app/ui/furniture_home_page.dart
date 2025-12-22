@@ -31,15 +31,16 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
             BoxShadow(
               color: Colors.grey[100]!,
               blurRadius: 10,
-              spreadRadius: 10
-            )
-          ]
+              spreadRadius: 10,
+            ),
+          ],
         ),
 
         child: Row(
-
+          mainAxisAlignment: .spaceEvenly,
           children: [
-            IconButton(onPressed: () {}, icon: Icon(Icons.home_outlined)),
+            IconButton(onPressed: () {}, icon: Icon(Icons.home_outlined),
+            color: Colors.grey[400]!,),
             Container(
               decoration: ShapeDecoration(
                 shape: StadiumBorder(),
@@ -50,10 +51,17 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
             ),
             IconButton(
               onPressed: () {},
-              icon: Icon(Icons.shopping_cart_outlined),
+              icon: Icon(Icons.shopping_cart_outlined,
+
+              ),
+              color: Colors.grey[400]!,
             ),
-            IconButton(onPressed: () {}, icon: Icon(Icons.wallet)),
-            IconButton(onPressed: () {}, icon: Icon(Icons.person_2_outlined)),
+            IconButton(onPressed: () {}, icon: Icon(Icons.wallet),
+              color: Colors.grey[400]!,
+            ),
+            IconButton(onPressed: () {}, icon: Icon(Icons.person_2_outlined),
+              color: Colors.grey[400]!,
+            ),
           ],
         ),
       ),
