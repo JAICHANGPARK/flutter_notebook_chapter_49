@@ -11,6 +11,8 @@ class FurnitureCartPage extends StatefulWidget {
 class _FurnitureCartPageState extends State<FurnitureCartPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(),
+    );
   }
 }
