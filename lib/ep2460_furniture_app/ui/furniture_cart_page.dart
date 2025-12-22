@@ -42,6 +42,7 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
               spacing: 12,
               children: [
                 Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                    Text("Total Price"),
                    Text("\$9000"),
@@ -55,9 +56,9 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
                   ),
                   child: Row(
                     children: [
-                      Icon(Icons.credit_card),
+                      Icon(Icons.credit_card,color: Colors.white,),
                       Text("Checkout", style: TextStyle(
-                        color: Colors.black,
+                        color: Colors.white,
                       ),)
                     ],
                   ),
