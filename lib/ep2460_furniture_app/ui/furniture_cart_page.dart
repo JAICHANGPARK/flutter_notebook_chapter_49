@@ -30,23 +30,32 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
                 children: [
                   Text(
                     "Total (09) items",
-                    style: TextStyle(fontWeight: FontWeight.bold,
-                    fontSize: 20,),
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
                   ),
                   Expanded(
                     child: ListView.builder(
                       itemBuilder: (context, index) {
                         return Container(
-                          decoration: BoxDecoration(
-                            color: Colors.white,
-                          ),
+                          decoration: BoxDecoration(color: Colors.white),
                           child: Row(
                             children: [
                               Container(
                                 height: 72,
                                 width: 72,
                                 color: Colors.blue,
-                              )
+                              ),
+                              Expanded(
+                                child: Column(
+                                  children: [
+                                    Row(
+                                      children: [
+                                        Text("Modern black chair"),
+                                        Icon(Icons.delete_outline),
+                                      ],
+                                    ),
+                                  ],
+                                ),
+                              ),
                             ],
                           ),
                         );
