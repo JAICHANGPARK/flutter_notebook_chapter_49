@@ -50,9 +50,29 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
                                 child: Column(
                                   children: [
                                     Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.spaceBetween,
                                       children: [
                                         Text("Modern black chair"),
                                         Icon(Icons.delete_outline),
+                                      ],
+                                    ),
+                                    Row(
+                                      children: [
+                                        Text("Color:"),
+                                        Text("#000000"),
+                                      ],
+                                    ),
+                                    Row(
+                                      children: [
+                                        Text(
+                                          "\$80.0",
+                                          style: TextStyle(
+                                            decoration: .lineThrough,
+                                            color: Colors.grey,
+                                          ),
+                                        ),
+                                        Text("\$70.0")
                                       ],
                                     ),
                                   ],
