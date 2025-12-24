@@ -81,6 +81,7 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
                                     ),
                                     Gap(8),
                                     Row(
+                                      spacing: 4,
                                       children: [
                                         Text(
                                           "\$80.0",
@@ -89,7 +90,12 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
                                             color: Colors.grey,
                                           ),
                                         ),
-                                        Text("\$70.0"),
+                                        Text(
+                                          "\$70.0",
+                                          style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
                                         Spacer(),
                                         CircleAvatar(
                                           radius: 16,
