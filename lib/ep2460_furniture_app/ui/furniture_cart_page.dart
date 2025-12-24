@@ -36,7 +36,11 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
                   Expanded(
                     child: ListView.builder(
                       itemBuilder: (context, index) {
-                        return Placeholder();
+                        return Container(
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                          ),
+                        );
                       },
                     ),
                   ),
