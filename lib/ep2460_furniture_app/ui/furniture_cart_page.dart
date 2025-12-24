@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class FurnitureCartPage extends StatefulWidget {
   const FurnitureCartPage({super.key});
@@ -57,12 +58,14 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
                                         Icon(Icons.delete_outline),
                                       ],
                                     ),
+                                    Gap(4),
                                     Row(
                                       children: [
                                         Text("Color:"),
                                         Text("#000000"),
                                       ],
                                     ),
+                                    Gap(8),
                                     Row(
                                       children: [
                                         Text(
