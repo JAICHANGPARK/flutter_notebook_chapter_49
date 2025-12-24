@@ -58,17 +58,25 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
                                       children: [
                                         Text(
                                           "Modern black chair",
-                                          style: TextStyle(fontWeight: .bold,
-                                          fontSize: 16),
+                                          style: TextStyle(
+                                            fontWeight: .bold,
+                                            fontSize: 16,
+                                          ),
                                         ),
                                         Icon(Icons.delete_outline),
                                       ],
                                     ),
                                     Gap(4),
                                     Row(
+                                      spacing: 4,
                                       children: [
                                         Text("Color:"),
-                                        Text("#000000"),
+                                        Text(
+                                          "#000000",
+                                          style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
                                       ],
                                     ),
                                     Gap(8),
