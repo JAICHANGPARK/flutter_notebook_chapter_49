@@ -24,17 +24,17 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
         decoration: BoxDecoration(
           color: Colors.white,
           boxShadow: [
-            BoxShadow(
-              color: Colors.grey[200]!,
-              blurRadius: 2,
-              spreadRadius: 2
-            )
+            BoxShadow(color: Colors.grey[200]!, blurRadius: 2, spreadRadius: 2),
           ],
         ),
 
         child: Row(
           children: [
-
+            Container(
+              padding: EdgeInsets.all(12),
+              decoration: BoxDecoration(color: Colors.orange[100]),
+              child: Icon(Icons.view_sidebar_outlined, color: Colors.orange),
+            ),
           ],
         ),
       ),
