@@ -98,9 +98,10 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
                                         ),
                                         Spacer(),
                                         CircleAvatar(
-                                          radius: 16,
+                                          radius: 14,
                                           backgroundColor: Colors.grey[300]!,
                                           child: Icon(Icons.remove),
+
                                         ),
                                         Padding(
                                           padding: const EdgeInsets.symmetric(
@@ -109,7 +110,7 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
                                           child: Text("1"),
                                         ),
                                         CircleAvatar(
-                                          radius: 16,
+                                          radius: 14,
                                           backgroundColor: Colors.grey[300]!,
                                           child: Icon(Icons.add),
                                         ),
