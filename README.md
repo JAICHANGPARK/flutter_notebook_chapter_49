@@ -1,6 +1,13 @@
 # flutter_notebook_chapter_49
 
-## EP2460
+## EP2467
+- Furniture App Design
+- Sahin Mia for Pixelean - Ui/Ux Design Agency
+- https://dribbble.com/shots/26899626-Furniture-App-Design
+
+<img src="https://cdn.dribbble.com/userupload/46111290/file/458357d955f7b85f91852ab2a9f48282.png?resize=1504x1128&vertical=center" alt=""/>
+
+## EP2460-2466
 - Furniture App Design
 - Sahin Mia for Pixelean - Ui/Ux Design Agency
 - https://dribbble.com/shots/26899626-Furniture-App-Design
