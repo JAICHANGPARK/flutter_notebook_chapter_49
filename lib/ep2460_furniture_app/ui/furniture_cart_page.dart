@@ -72,7 +72,11 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
                                             color: Colors.grey,
                                           ),
                                         ),
-                                        Text("\$70.0")
+                                        Text("\$70.0"),
+                                        CircleAvatar(),
+                                        Text("1"),
+                                        CircleAvatar(),
+
                                       ],
                                     ),
                                   ],
