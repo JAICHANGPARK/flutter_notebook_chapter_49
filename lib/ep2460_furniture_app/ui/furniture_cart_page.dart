@@ -21,6 +21,11 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          Column(
+            children: [
+
+            ],
+          )
           Text("Total (09) items"),
           Expanded(
             child: ListView.builder(
@@ -37,39 +42,32 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
                 topLeft: .circular(12),
                 topRight: .circular(12),
               ),
-
             ),
             child: Column(
               spacing: 12,
               children: [
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                   Text("Total Price"),
-                   Text("\$9000"),
-                  ],
+                  children: [Text("Total Price"), Text("\$9000")],
                 ),
                 Divider(),
                 Container(
                   decoration: BoxDecoration(
                     borderRadius: .circular(12),
-                    color: Colors.black
+                    color: Colors.black,
                   ),
                   padding: .symmetric(vertical: 12),
                   child: Row(
                     spacing: 4,
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Icon(Icons.credit_card,color: Colors.white,),
-                      Text("Checkout", style: TextStyle(
-                        color: Colors.white,
-                      ),)
+                      Icon(Icons.credit_card, color: Colors.white),
+                      Text("Checkout", style: TextStyle(color: Colors.white)),
                     ],
                   ),
-                )
+                ),
               ],
             ),
-
           ),
         ],
       ),
