@@ -45,7 +45,7 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
                             spacing: 15,
                             children: [
                               Container(
-                                height: 120,
+                                height: 100,
                                 width: 82,
                                 color: Colors.blue,
                               ),
