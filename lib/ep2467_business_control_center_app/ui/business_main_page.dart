@@ -23,7 +23,7 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
           color: Colors.white,
           boxShadow: [
             BoxShadow(
-              color: Colors.grey[100]!,
+              color: Colors.grey[200]!,
               blurRadius: 2,
               spreadRadius: 2
             )
