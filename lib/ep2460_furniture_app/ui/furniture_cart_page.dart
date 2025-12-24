@@ -40,6 +40,15 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
                           decoration: BoxDecoration(
                             color: Colors.white,
                           ),
+                          child: Row(
+                            children: [
+                              Container(
+                                height: 72,
+                                width: 72,
+                                color: Colors.blue,
+                              )
+                            ],
+                          ),
                         );
                       },
                     ),
