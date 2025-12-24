@@ -31,12 +31,20 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
         child: Row(
           children: [
             Container(
-              padding: EdgeInsets.all(12),
+              padding: EdgeInsets.all(9),
               decoration: BoxDecoration(
-                color: Colors.orange[100],
+                color: Colors.orange[50],
                 borderRadius: BorderRadius.circular(12),
               ),
               child: Icon(Icons.view_sidebar_outlined, color: Colors.orange),
+            ),
+            Container(
+              padding: EdgeInsets.all(9),
+              decoration: BoxDecoration(
+                color: Colors.grey[50],
+                borderRadius: BorderRadius.circular(12),
+              ),
+              child: Icon(Icons.route, color: Colors.grey),
             ),
           ],
         ),
