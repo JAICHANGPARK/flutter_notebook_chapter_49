@@ -13,6 +13,8 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
+        backgroundColor: Colors.white,
+        foregroundColor: Colors.black,
         title: Text("Business"),
         actions: [IconButton(onPressed: () {}, icon: Icon(Icons.menu))],
       ),
