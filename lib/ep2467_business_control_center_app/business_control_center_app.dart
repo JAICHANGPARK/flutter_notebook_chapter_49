@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 
 class BusinessControlCenterApp extends StatelessWidget {
-  const Bui({super.key});
+  const BusinessControlCenterApp({super.key});
 
   @override
   Widget build(BuildContext context) {
