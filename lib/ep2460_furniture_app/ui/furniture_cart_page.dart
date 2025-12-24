@@ -73,10 +73,19 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
                                           ),
                                         ),
                                         Text("\$70.0"),
-                                        CircleAvatar(),
-                                        Text("1"),
-                                        CircleAvatar(),
-
+                                        Spacer(),
+                                        CircleAvatar(
+                                          radius: 16,
+                                          backgroundColor: Colors.grey[300]!,
+                                        ),
+                                        Padding(
+                                          padding: const EdgeInsets.symmetric(horizontal: 12),
+                                          child: Text("1"),
+                                        ),
+                                        CircleAvatar(
+                                          radius: 16,
+                                          backgroundColor: Colors.grey[300]!,
+                                        ),
                                       ],
                                     ),
                                   ],
