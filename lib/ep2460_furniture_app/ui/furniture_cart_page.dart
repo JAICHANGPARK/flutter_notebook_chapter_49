@@ -56,7 +56,11 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
                                       mainAxisAlignment:
                                           MainAxisAlignment.spaceBetween,
                                       children: [
-                                        Text("Modern black chair"),
+                                        Text(
+                                          "Modern black chair",
+                                          style: TextStyle(fontWeight: .bold,
+                                          fontSize: 16),
+                                        ),
                                         Icon(Icons.delete_outline),
                                       ],
                                     ),
@@ -84,7 +88,9 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
                                           backgroundColor: Colors.grey[300]!,
                                         ),
                                         Padding(
-                                          padding: const EdgeInsets.symmetric(horizontal: 12),
+                                          padding: const EdgeInsets.symmetric(
+                                            horizontal: 12,
+                                          ),
                                           child: Text("1"),
                                         ),
                                         CircleAvatar(
