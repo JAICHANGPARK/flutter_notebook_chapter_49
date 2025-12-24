@@ -3,9 +3,9 @@
 ## EP2467
 - Mare — Mobile Responsive Autonomous Business Control Center
 - Dipa Product for Dipa Inhouse
-- https://dribbble.com/shots/26899626-Furniture-App-Design
+- https://dribbble.com/shots/26910553-Mare-Mobile-Responsive-Autonomous-Business-Control-Center
 
-<img src="https://cdn.dribbble.com/userupload/46111290/file/458357d955f7b85f91852ab2a9f48282.png?resize=1504x1128&vertical=center" alt=""/>
+<img src="https://cdn.dribbble.com/userupload/46145881/file/c4b81e32345259287fef54e7b6ed6caa.png?resize=1600x1200&vertical=center" alt=""/>
 
 ## EP2460-2466
 - Furniture App Design
