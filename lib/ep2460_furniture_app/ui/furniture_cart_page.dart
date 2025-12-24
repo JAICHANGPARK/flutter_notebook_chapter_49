@@ -14,6 +14,9 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
     return Scaffold(
       backgroundColor: Colors.grey[100]!,
       appBar: AppBar(
+        backgroundColor: Colors.grey[100]!,
+        foregroundColor: Colors.black,
+        surfaceTintColor: Colors.grey[100]!,
         leading: IconButton(onPressed: () {}, icon: Icon(Icons.arrow_back)),
         actions: [IconButton(onPressed: () {}, icon: Icon(Icons.search))],
         centerTitle: true,
