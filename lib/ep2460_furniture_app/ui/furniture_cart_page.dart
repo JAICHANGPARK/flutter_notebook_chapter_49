@@ -40,7 +40,9 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
                         return Container(
                           margin: EdgeInsets.only(bottom: 12),
                           decoration: BoxDecoration(color: Colors.white),
+                          padding: .all(16),
                           child: Row(
+                            spacing: 15,
                             children: [
                               Container(
                                 height: 120,
