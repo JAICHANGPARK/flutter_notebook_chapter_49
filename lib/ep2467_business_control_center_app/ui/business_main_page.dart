@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-
-
 class BusinessMainPage extends StatefulWidget {
   const BusinessMainPage({super.key});
 
