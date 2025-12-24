@@ -18,11 +18,12 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
       ),
       body: Column(children: []),
       bottomNavigationBar: Container(
+        height: 100,
         decoration: BoxDecoration(
           color: Colors.white,
           boxShadow: [
             BoxShadow(
-              color: Colors.grey[400]!,
+              color: Colors.grey[100]!,
               blurRadius: 10,
               spreadRadius: 30
             )
