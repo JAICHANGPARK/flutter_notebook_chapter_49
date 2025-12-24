@@ -36,12 +36,13 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
                     child: ListView.builder(
                       itemBuilder: (context, index) {
                         return Container(
+                          margin: EdgeInsets.only(bottom: 12),
                           decoration: BoxDecoration(color: Colors.white),
                           child: Row(
                             children: [
                               Container(
-                                height: 72,
-                                width: 72,
+                                height: 120,
+                                width: 82,
                                 color: Colors.blue,
                               ),
                               Expanded(
