@@ -102,7 +102,6 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
                                           backgroundColor: Colors.grey[300]!,
                                           foregroundColor: Colors.black,
                                           child: Icon(Icons.remove),
-
                                         ),
                                         Padding(
                                           padding: const EdgeInsets.symmetric(
@@ -146,7 +145,16 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
               children: [
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [Text("Total Price"), Text("\$9000")],
+                  children: [
+                    Text("Total Price"),
+                    Text(
+                      "\$9000",
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 20,
+                      ),
+                    ),
+                  ],
                 ),
                 Divider(),
                 Container(
