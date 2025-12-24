@@ -34,6 +34,7 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
                   ),
                   Expanded(
                     child: ListView.builder(
+                      itemCount: 3,
                       itemBuilder: (context, index) {
                         return Container(
                           margin: EdgeInsets.only(bottom: 12),
