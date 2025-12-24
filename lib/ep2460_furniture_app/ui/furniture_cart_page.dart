@@ -30,7 +30,8 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
                 children: [
                   Text(
                     "Total (09) items",
-                    style: TextStyle(fontWeight: FontWeight.bold),
+                    style: TextStyle(fontWeight: FontWeight.bold,
+                    fontSize: 20,),
                   ),
                   Expanded(
                     child: ListView.builder(
