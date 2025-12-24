@@ -41,10 +41,34 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
             Container(
               padding: EdgeInsets.all(9),
               decoration: BoxDecoration(
-                color: Colors.grey[50],
+                // color: Colors.grey[50],
                 borderRadius: BorderRadius.circular(12),
               ),
               child: Icon(Icons.route, color: Colors.grey),
+            ),
+            Container(
+              padding: EdgeInsets.all(9),
+              decoration: BoxDecoration(
+                // color: Colors.grey[50],
+                borderRadius: BorderRadius.circular(12),
+              ),
+              child: Icon(Icons.calendar_month, color: Colors.grey),
+            ),
+            Container(
+              padding: EdgeInsets.all(9),
+              decoration: BoxDecoration(
+                // color: Colors.grey[50],
+                borderRadius: BorderRadius.circular(12),
+              ),
+              child: Icon(Icons.chat, color: Colors.grey),
+            ),
+            Container(
+              padding: EdgeInsets.all(9),
+              decoration: BoxDecoration(
+                // color: Colors.grey[50],
+                borderRadius: BorderRadius.circular(12),
+              ),
+              child: Icon(Icons.account_circle_outlined, color: Colors.grey),
             ),
           ],
         ),
