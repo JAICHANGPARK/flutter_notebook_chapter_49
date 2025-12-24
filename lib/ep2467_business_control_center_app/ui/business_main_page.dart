@@ -27,8 +27,9 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
             BoxShadow(color: Colors.grey[200]!, blurRadius: 2, spreadRadius: 2),
           ],
         ),
-
+        padding: EdgeInsets.only(left: 16, right: 16, bottom: 16),
         child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Container(
               padding: EdgeInsets.all(9),
