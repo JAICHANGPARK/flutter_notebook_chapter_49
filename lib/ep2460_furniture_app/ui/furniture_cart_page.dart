@@ -22,19 +22,22 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Expanded(
-            child: Column(
-              crossAxisAlignment: .start,
-              spacing: 12,
-              children: [
-                Text("Total (09) items"),
-                Expanded(
-                  child: ListView.builder(
-                    itemBuilder: (context, index) {
-                      return Placeholder();
-                    },
+            child: Padding(
+              padding: const EdgeInsets.fromLTRB(16.0, 16, 16, 0),
+              child: Column(
+                crossAxisAlignment: .start,
+                spacing: 12,
+                children: [
+                  Text("Total (09) items"),
+                  Expanded(
+                    child: ListView.builder(
+                      itemBuilder: (context, index) {
+                        return Placeholder();
+                      },
+                    ),
                   ),
-                ),
-              ],
+                ],
+              ),
             ),
           ),
 
