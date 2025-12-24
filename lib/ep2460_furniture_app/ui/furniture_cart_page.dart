@@ -21,19 +21,21 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Column(
-            crossAxisAlignment: .start,
-            spacing: 12,
-            children: [
-              Text("Total (09) items"),
-              Expanded(
-                child: ListView.builder(
-                  itemBuilder: (context, index) {
-                    return Placeholder();
-                  },
+          Expanded(
+            child: Column(
+              crossAxisAlignment: .start,
+              spacing: 12,
+              children: [
+                Text("Total (09) items"),
+                Expanded(
+                  child: ListView.builder(
+                    itemBuilder: (context, index) {
+                      return Placeholder();
+                    },
+                  ),
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
 
           Container(
