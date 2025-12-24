@@ -28,7 +28,10 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
                 crossAxisAlignment: .start,
                 spacing: 12,
                 children: [
-                  Text("Total (09) items"),
+                  Text(
+                    "Total (09) items",
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
                   Expanded(
                     child: ListView.builder(
                       itemBuilder: (context, index) {
