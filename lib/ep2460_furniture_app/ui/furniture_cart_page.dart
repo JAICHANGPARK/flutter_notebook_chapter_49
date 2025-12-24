@@ -100,18 +100,20 @@ class _FurnitureCartPageState extends State<FurnitureCartPage> {
                                         CircleAvatar(
                                           radius: 14,
                                           backgroundColor: Colors.grey[300]!,
+                                          foregroundColor: Colors.black,
                                           child: Icon(Icons.remove),
 
                                         ),
                                         Padding(
                                           padding: const EdgeInsets.symmetric(
-                                            horizontal: 12,
+                                            horizontal: 8,
                                           ),
                                           child: Text("1"),
                                         ),
                                         CircleAvatar(
                                           radius: 14,
                                           backgroundColor: Colors.grey[300]!,
+                                          foregroundColor: Colors.black,
                                           child: Icon(Icons.add),
                                         ),
                                       ],
