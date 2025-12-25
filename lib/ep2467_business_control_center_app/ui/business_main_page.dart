@@ -21,7 +21,13 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
       body: IndexedStack(
 
           children: [
-            SingleChildScrollView()
+            SingleChildScrollView(
+              child: Column(
+                children: [
+                  
+                ],
+              ),
+            )
 
           ]),
       bottomNavigationBar: Container(
