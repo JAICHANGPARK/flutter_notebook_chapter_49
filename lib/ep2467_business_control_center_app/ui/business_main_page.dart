@@ -84,6 +84,7 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
                       borderRadius: BorderRadius.circular(12),
                       boxShadow: [BoxShadow(color: Colors.grey[200]!)],
                     ),
+                    padding: EdgeInsets.all(16),
                     child: Column(
                       children: [
                         Container(
