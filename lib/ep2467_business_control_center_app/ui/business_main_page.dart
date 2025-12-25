@@ -32,7 +32,7 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
                       Text("Dashboard"),
                       Spacer(),
                       Container(
-                        padding: EdgeInsets.all(4),
+                        padding: EdgeInsets.all(6),
                         decoration: BoxDecoration(
                           color: Colors.white,
                           borderRadius: BorderRadius.circular(6),
@@ -44,7 +44,7 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
                             ),
                           ],
                         ),
-                        child: Icon(Icons.share),
+                        child: Icon(Icons.share,size: 18,),
                       ),
                       Container(
                         padding: EdgeInsets.all(4),
