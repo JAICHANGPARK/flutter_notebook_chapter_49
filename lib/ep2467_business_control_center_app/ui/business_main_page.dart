@@ -19,29 +19,34 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
         actions: [IconButton(onPressed: () {}, icon: Icon(Icons.menu))],
       ),
       body: IndexedStack(
-
-          children: [
-            SingleChildScrollView(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Row(
-                    children: [
-                      Text("Dashboard"),
-                      Container(
-                        decoration: BoxDecoration(
-                          boxShadow: [],
-                        ),
-                        child: Icon(Icons.share),
-                      )
-                    ],
-                  )
-
-                ],
-              ),
-            )
-
-          ]),
+        children: [
+          SingleChildScrollView(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Row(
+                  children: [
+                    Text("Dashboard"),
+                    Container(
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.grey[300]!,
+                            spreadRadius: 1,
+                            blurRadius: 1,
+                          ),
+                        ],
+                      ),
+                      child: Icon(Icons.share),
+                    ),
+                  ],
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
       bottomNavigationBar: Container(
         height: 100,
         decoration: BoxDecoration(
