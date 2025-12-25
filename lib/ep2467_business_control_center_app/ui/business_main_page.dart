@@ -27,6 +27,7 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Row(
+                    spacing: 6,
                     children: [
                       Text("Dashboard"),
                       Spacer(),
