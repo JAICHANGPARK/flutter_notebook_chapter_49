@@ -35,7 +35,7 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
                         padding: EdgeInsets.all(4),
                         decoration: BoxDecoration(
                           color: Colors.white,
-                          borderRadius: BorderRadius.circular(3),
+                          borderRadius: BorderRadius.circular(6),
                           boxShadow: [
                             BoxShadow(
                               color: Colors.grey[300]!,
@@ -50,7 +50,7 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
                         padding: EdgeInsets.all(4),
                         decoration: BoxDecoration(
                           color: Colors.white,
-                          borderRadius: BorderRadius.circular(3),
+                          borderRadius: BorderRadius.circular(6),
                           boxShadow: [
                             BoxShadow(
                               color: Colors.grey[300]!,
