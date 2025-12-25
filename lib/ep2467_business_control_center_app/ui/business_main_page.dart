@@ -27,11 +27,9 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Row(
-                    spacing: 6,
+                    spacing: 8,
                     children: [
-                      Text("Dashboard",style: TextStyle(
-                        fontSize: 22,
-                      ),),
+                      Text("Dashboard", style: TextStyle(fontSize: 22)),
                       Spacer(),
                       Container(
                         padding: EdgeInsets.all(6),
@@ -46,7 +44,7 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
                             ),
                           ],
                         ),
-                        child: Icon(Icons.share,size: 18,),
+                        child: Icon(Icons.share, size: 18),
                       ),
                       Container(
                         padding: EdgeInsets.all(6),
@@ -61,7 +59,7 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
                             ),
                           ],
                         ),
-                        child: Icon(Icons.grid_on,size: 18,),
+                        child: Icon(Icons.grid_on, size: 18),
                       ),
                       Container(
                         padding: EdgeInsets.all(6),
@@ -76,9 +74,15 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
                             ),
                           ],
                         ),
-                        child: Icon(Icons.add,size: 18,),
+                        child: Icon(Icons.add, size: 18),
                       ),
                     ],
+                  ),
+                  Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(12),
+                      boxShadow: [BoxShadow(color: Colors.grey[200]!)],
+                    ),
                   ),
                 ],
               ),
