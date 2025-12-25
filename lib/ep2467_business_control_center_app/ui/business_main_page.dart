@@ -30,8 +30,9 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
                       Text("Dashboard"),
                       Container(
                         decoration: BoxDecoration(
-                          
+                          boxShadow: [],
                         ),
+                        child: Icon(Icons.share),
                       )
                     ],
                   )
