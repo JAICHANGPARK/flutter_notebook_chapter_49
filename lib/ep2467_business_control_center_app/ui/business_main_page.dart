@@ -23,8 +23,19 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
           children: [
             SingleChildScrollView(
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  
+                  Row(
+                    children: [
+                      Text("Dashboard"),
+                      Container(
+                        decoration: BoxDecoration(
+                          
+                        ),
+                      )
+                    ],
+                  )
+
                 ],
               ),
             )
