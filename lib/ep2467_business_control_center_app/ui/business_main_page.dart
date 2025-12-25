@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class BusinessMainPage extends StatefulWidget {
   const BusinessMainPage({super.key});
@@ -78,6 +79,7 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
                       ),
                     ],
                   ),
+                  Gap(24),
                   Container(
                     decoration: BoxDecoration(
                       color: Colors.white,
