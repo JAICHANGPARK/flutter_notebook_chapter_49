@@ -99,7 +99,8 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
                       children: [
                         Container(height: 140, child: Placeholder()),
                         Gap(12),
-                        SizedBox(height: 12, child: Placeholder()),
+                        SizedBox(height: 8, child: Placeholder()),
+                        Gap(32),
                       ],
                     ),
                   ),
