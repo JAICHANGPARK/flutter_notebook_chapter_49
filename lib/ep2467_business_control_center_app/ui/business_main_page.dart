@@ -80,8 +80,17 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
                   ),
                   Container(
                     decoration: BoxDecoration(
+                      color: Colors.white,
                       borderRadius: BorderRadius.circular(12),
                       boxShadow: [BoxShadow(color: Colors.grey[200]!)],
+                    ),
+                    child: Column(
+                      children: [
+                        Container(
+                          height: 140,
+                          child: Placeholder(),
+                        )
+                      ],
                     ),
                   ),
                 ],
