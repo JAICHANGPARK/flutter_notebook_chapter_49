@@ -18,7 +18,12 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
         title: Text("Business"),
         actions: [IconButton(onPressed: () {}, icon: Icon(Icons.menu))],
       ),
-      body: Column(children: []),
+      body: IndexedStack(
+
+          children: [
+            SingleChildScrollView()
+
+          ]),
       bottomNavigationBar: Container(
         height: 100,
         decoration: BoxDecoration(
