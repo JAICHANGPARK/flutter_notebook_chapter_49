@@ -81,6 +81,7 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
                   ),
                   Gap(24),
                   Container(
+                    padding: EdgeInsets.all(16),
                     decoration: BoxDecoration(
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(12),
@@ -92,10 +93,14 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
                         ),
                       ],
                     ),
-                    padding: EdgeInsets.all(16),
+
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [Container(height: 140, child: Placeholder())],
+                      children: [
+                        Container(height: 140, child: Placeholder()),
+                        Gap(12),
+                        SizedBox(height: 12, child: Placeholder()),
+                      ],
                     ),
                   ),
                 ],
