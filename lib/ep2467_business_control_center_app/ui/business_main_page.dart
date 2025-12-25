@@ -11,7 +11,7 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.grey[100],
       appBar: AppBar(
         backgroundColor: Colors.white,
         foregroundColor: Colors.black,
