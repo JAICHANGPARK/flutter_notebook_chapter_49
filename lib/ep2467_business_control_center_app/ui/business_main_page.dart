@@ -29,7 +29,9 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
                   Row(
                     spacing: 6,
                     children: [
-                      Text("Dashboard"),
+                      Text("Dashboard",style: TextStyle(
+                        fontSize: 22,
+                      ),),
                       Spacer(),
                       Container(
                         padding: EdgeInsets.all(6),
@@ -47,7 +49,7 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
                         child: Icon(Icons.share,size: 18,),
                       ),
                       Container(
-                        padding: EdgeInsets.all(4),
+                        padding: EdgeInsets.all(6),
                         decoration: BoxDecoration(
                           color: Colors.white,
                           borderRadius: BorderRadius.circular(6),
@@ -59,10 +61,10 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
                             ),
                           ],
                         ),
-                        child: Icon(Icons.grid_on),
+                        child: Icon(Icons.grid_on,size: 18,),
                       ),
                       Container(
-                        padding: EdgeInsets.all(4),
+                        padding: EdgeInsets.all(6),
                         decoration: BoxDecoration(
                           color: Colors.white,
                           borderRadius: BorderRadius.circular(6),
@@ -74,7 +76,7 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
                             ),
                           ],
                         ),
-                        child: Icon(Icons.add),
+                        child: Icon(Icons.add,size: 18,),
                       ),
                     ],
                   ),
