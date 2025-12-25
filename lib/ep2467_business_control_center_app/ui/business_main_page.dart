@@ -59,7 +59,7 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
                             ),
                           ],
                         ),
-                        child: Icon(Icons.share),
+                        child: Icon(Icons.grid_on),
                       ),
                       Container(
                         padding: EdgeInsets.all(4),
@@ -74,7 +74,7 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
                             ),
                           ],
                         ),
-                        child: Icon(Icons.share),
+                        child: Icon(Icons.add),
                       ),
                     ],
                   ),
