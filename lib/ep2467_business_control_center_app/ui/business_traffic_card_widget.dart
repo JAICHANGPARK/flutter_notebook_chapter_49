@@ -98,6 +98,22 @@ class SegmentedBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    List<Widget> bars = [];
+    for (var segment in segments) {
+      for (int i = 0; i < segment.count; i++) {
+        bars.add(
+          Expanded(
+            child: Container(
+              height: 40,
+              margin: EdgeInsets.symmetric(horizontal: 1.5),
+              decoration: BoxDecoration(
+                color: segment.color,
+                borderRadius: BorderRadius.circular(4),
+              ),
+            ),
+          ),
+        );
+      }
+    }
   }
 }
