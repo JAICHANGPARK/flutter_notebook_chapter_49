@@ -18,15 +18,22 @@ class BusinessTrafficCardWidget extends StatelessWidget {
                   color: Color(0xFFFFF0E0),
                   borderRadius: BorderRadius.circular(12),
                 ),
-                child: Icon(Icons.traffic_outlined,
-                color: Color(0xFFFF6B00),),
+                child: Icon(Icons.traffic_outlined, color: Color(0xFFFF6B00)),
               ),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-
-              ],)
-
+                  Text(
+                    "Business Traffices",
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                  Text(
+                    "Keep an eye to your business orders",
+                    style: TextStyle(fontSize: 13,
+                    color: Colors.grey[500]!),
+                  ),
+                ],
+              ),
             ],
           ),
         ],
