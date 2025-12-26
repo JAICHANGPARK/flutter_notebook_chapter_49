@@ -23,95 +23,93 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
       ),
       body: IndexedStack(
         children: [
-          SingleChildScrollView(
-            child: Padding(
-              padding: const EdgeInsets.all(16.0),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Row(
-                    spacing: 8,
-                    children: [
-                      Text("Dashboard", style: TextStyle(fontSize: 22)),
-                      Spacer(),
-                      Container(
-                        padding: EdgeInsets.all(6),
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(6),
-                          boxShadow: [
-                            BoxShadow(
-                              color: Colors.grey[300]!,
-                              spreadRadius: 1,
-                              blurRadius: 1,
-                            ),
-                          ],
-                        ),
-                        child: Icon(Icons.share, size: 18),
+          Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Row(
+                  spacing: 8,
+                  children: [
+                    Text("Dashboard", style: TextStyle(fontSize: 22)),
+                    Spacer(),
+                    Container(
+                      padding: EdgeInsets.all(6),
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(6),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.grey[300]!,
+                            spreadRadius: 1,
+                            blurRadius: 1,
+                          ),
+                        ],
                       ),
-                      Container(
-                        padding: EdgeInsets.all(6),
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(6),
-                          boxShadow: [
-                            BoxShadow(
-                              color: Colors.grey[300]!,
-                              spreadRadius: 1,
-                              blurRadius: 1,
-                            ),
-                          ],
-                        ),
-                        child: Icon(Icons.grid_on, size: 18),
+                      child: Icon(Icons.share, size: 18),
+                    ),
+                    Container(
+                      padding: EdgeInsets.all(6),
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(6),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.grey[300]!,
+                            spreadRadius: 1,
+                            blurRadius: 1,
+                          ),
+                        ],
                       ),
-                      Container(
-                        padding: EdgeInsets.all(6),
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(6),
-                          boxShadow: [
-                            BoxShadow(
-                              color: Colors.grey[300]!,
-                              spreadRadius: 1,
-                              blurRadius: 1,
-                            ),
-                          ],
-                        ),
-                        child: Icon(Icons.add, size: 18),
+                      child: Icon(Icons.grid_on, size: 18),
+                    ),
+                    Container(
+                      padding: EdgeInsets.all(6),
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(6),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.grey[300]!,
+                            spreadRadius: 1,
+                            blurRadius: 1,
+                          ),
+                        ],
+                      ),
+                      child: Icon(Icons.add, size: 18),
+                    ),
+                  ],
+                ),
+                Gap(24),
+                Container(
+                  padding: EdgeInsets.all(16),
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(12),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.grey[300]!,
+                        spreadRadius: 1,
+                        blurRadius: 1,
                       ),
                     ],
                   ),
-                  Gap(24),
-                  Container(
-                    padding: EdgeInsets.all(16),
-                    decoration: BoxDecoration(
-                      color: Colors.white,
-                      borderRadius: BorderRadius.circular(12),
-                      boxShadow: [
-                        BoxShadow(
-                          color: Colors.grey[300]!,
-                          spreadRadius: 1,
-                          blurRadius: 1,
-                        ),
-                      ],
-                    ),
 
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Container(height: 140, child: Placeholder()),
-                        Gap(12),
-                        SizedBox(height: 8, child: Placeholder()),
-                        Gap(32),
-                        BusinessTrafficCardWidget(),
-                        // Container(height: 280, child: Placeholder()),
-                        Gap(16),
-                        Container(height: 280, child: Placeholder()),
-                      ],
-                    ),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Container(height: 140, child: Placeholder()),
+                      Gap(12),
+                      SizedBox(height: 8, child: Placeholder()),
+                      Gap(32),
+                      BusinessTrafficCardWidget(),
+                      // Container(height: 280, child: Placeholder()),
+                      Gap(16),
+                      Container(height: 280, child: Placeholder()),
+                    ],
                   ),
-                ],
-              ),
+                ),
+              ],
             ),
           ),
         ],
