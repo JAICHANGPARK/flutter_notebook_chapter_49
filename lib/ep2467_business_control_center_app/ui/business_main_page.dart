@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
+import 'business_traffic_card_widget.dart';
+
 class BusinessMainPage extends StatefulWidget {
   const BusinessMainPage({super.key});
 
@@ -101,7 +103,8 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
                         Gap(12),
                         SizedBox(height: 8, child: Placeholder()),
                         Gap(32),
-                        Container(height: 280, child: Placeholder()),
+                        BusinessTrafficCardWidget(),
+                        // Container(height: 280, child: Placeholder()),
                         Gap(16),
                         Container(height: 280, child: Placeholder()),
                       ],
