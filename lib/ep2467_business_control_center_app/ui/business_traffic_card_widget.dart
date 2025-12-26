@@ -70,17 +70,19 @@ class BusinessTrafficCardWidget extends StatelessWidget {
                   ),
                 ],
               ),
-              Gap(12),
-              SegmentedBar(
-                totalSegments: 40,
-                segments: [
 
-                  SegmentData(color: Color(0xFFFF6B00), count: 22),
-                  SegmentData(color: Color(0xFFCADD60), count: 12),
-                  SegmentData(color: Color(0xFF009B60), count: 6),
 
-                ],
-              ),
+            ],
+          ),
+          Gap(12),
+          SegmentedBar(
+            totalSegments: 40,
+            segments: [
+
+              SegmentData(color: Color(0xFFFF6B00), count: 22),
+              SegmentData(color: Color(0xFFCADD60), count: 12),
+              SegmentData(color: Color(0xFF009B60), count: 6),
+
             ],
           ),
         ],
