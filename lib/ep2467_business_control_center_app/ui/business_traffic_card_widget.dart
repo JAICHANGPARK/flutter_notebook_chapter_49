@@ -29,10 +29,15 @@ class BusinessTrafficCardWidget extends StatelessWidget {
                   ),
                   Text(
                     "Keep an eye to your business orders",
-                    style: TextStyle(fontSize: 13,
-                    color: Colors.grey[500]!),
+                    style: TextStyle(fontSize: 13, color: Colors.grey[500]!),
                   ),
                 ],
+              ),
+              Spacer(),
+              IconButton(
+                onPressed: () {},
+                icon: Icon(Icons.more_vert),
+                color: Colors.grey[400]!,
               ),
             ],
           ),
