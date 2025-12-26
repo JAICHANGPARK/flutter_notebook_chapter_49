@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class BusinessTrafficCardWidget extends StatelessWidget {
   const BusinessTrafficCardWidget({super.key});
@@ -34,11 +35,33 @@ class BusinessTrafficCardWidget extends StatelessWidget {
                 ],
               ),
               Spacer(),
-              IconButton(
-                onPressed: () {},
-                icon: Icon(Icons.more_vert),
-                color: Colors.grey[400]!,
+              Icon(Icons.more_vert, color: Colors.grey[400]!),
+            ],
+          ),
+          Gap(24),
+          Row(
+            children: [
+              RichText(
+                text: TextSpan(
+                  style: TextStyle(fontSize: 15, color: Colors.grey),
+                  children: [
+                    TextSpan(
+                      text: "240K",
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: Colors.black87,
+                      ),
+                    ),
+                    TextSpan(text: " / 500K M Traffic targets"),
+                  ],
+                ),
               ),
+              Row(
+                children: [
+                  Icon(Icons.arrow_upward, size: 14,
+                  color: Color(0xFF009B60),)
+                ],
+              )
             ],
           ),
         ],
