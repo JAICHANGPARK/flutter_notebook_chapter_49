@@ -71,7 +71,6 @@ class BusinessTrafficCardWidget extends StatelessWidget {
                 ],
               ),
               Gap(12),
-            
             ],
           ),
         ],
@@ -80,7 +79,15 @@ class BusinessTrafficCardWidget extends StatelessWidget {
   }
 }
 
+class SegmentData {
+  final int count;
+  final Color color;
+
+  SegmentData({required this.color, required this.count});
+}
+
 class SegmentedBar extends StatelessWidget {
+  
   const SegmentedBar({super.key});
 
   @override
@@ -88,4 +95,3 @@ class SegmentedBar extends StatelessWidget {
     return const Placeholder();
   }
 }
-
