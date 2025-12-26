@@ -57,9 +57,16 @@ class BusinessTrafficCardWidget extends StatelessWidget {
                 ),
               ),
               Row(
+                spacing: 4,
                 children: [
                   Icon(Icons.arrow_upward, size: 14,
-                  color: Color(0xFF009B60),)
+                  color: Color(0xFF009B60),),
+                  Text("5.2% vs yesterday",style: TextStyle(
+                    fontSize: 13,
+                    color: Color(0xFF009B60),
+                    fontWeight: .w500,
+
+                  ),)
                 ],
               )
             ],
