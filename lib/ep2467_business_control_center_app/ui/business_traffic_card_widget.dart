@@ -87,8 +87,14 @@ class SegmentData {
 }
 
 class SegmentedBar extends StatelessWidget {
-  
-  const SegmentedBar({super.key});
+  final int totalSegments;
+  final List<SegmentData> segments;
+
+  const SegmentedBar({
+    super.key,
+    required this.totalSegments,
+    required this.segments,
+  });
 
   @override
   Widget build(BuildContext context) {
