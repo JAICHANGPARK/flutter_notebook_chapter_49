@@ -115,8 +115,6 @@ class SegmentedBar extends StatelessWidget {
         );
       }
     }
-    return Row(
-      children: [bars],
-    );
+    return Row(children: bars);
   }
 }
