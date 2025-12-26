@@ -10,6 +10,7 @@ class BusinessTrafficCardWidget extends StatelessWidget {
       child: Column(
         children: [
           Row(
+            spacing: 16,
             children: [
               Container(
                 padding: EdgeInsets.all(10),
@@ -20,6 +21,12 @@ class BusinessTrafficCardWidget extends StatelessWidget {
                 child: Icon(Icons.traffic_outlined,
                 color: Color(0xFFFF6B00),),
               ),
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+
+              ],)
+
             ],
           ),
         ],
