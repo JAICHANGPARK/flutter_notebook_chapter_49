@@ -164,6 +164,9 @@ class PlatformRow extends StatelessWidget {
           decoration: BoxDecoration(color: color,
           shape: BoxShape.circle),
         ),
+        Gap(12),
+        Icon(icon, size: 20, color: Colors.black87,),
+        Gap(8),
       ],
     );
   }
