@@ -90,6 +90,15 @@ class BusinessTrafficCardWidget extends StatelessWidget {
             percent: "34.7%",
             isUp: true,
           ),
+          Gap(20),
+          PlatformRow(
+            color: Color(0xFFFF6B00),
+            icon: Icons.storefront_outlined,
+            name: "Marketplace",
+            value: "180K",
+            percent: "80.5%",
+            isUp: true,
+          ),
         ],
       ),
     );
