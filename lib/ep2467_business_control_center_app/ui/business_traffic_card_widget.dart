@@ -10,14 +10,14 @@ class BusinessTrafficCardWidget extends StatelessWidget {
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.circular(8),
-        boxShadow: [BoxShadow(color: Colors.grey[300]!,
+        boxShadow: [BoxShadow(color: Colors.grey[200]!,
         spreadRadius: 2)],
       ),
       padding: EdgeInsets.all(12),
       child: Column(
         children: [
           Row(
-            spacing: 16,
+            spacing: 12,
             children: [
               Container(
                 padding: EdgeInsets.all(10),
