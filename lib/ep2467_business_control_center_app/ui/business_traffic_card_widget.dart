@@ -32,11 +32,11 @@ class BusinessTrafficCardWidget extends StatelessWidget {
                 children: [
                   Text(
                     "Business Traffics",
-                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                   ),
                   Text(
                     "Keep an eye to your business orders",
-                    style: TextStyle(fontSize: 13, color: Colors.grey[500]!),
+                    style: TextStyle(fontSize: 12, color: Colors.grey[500]!),
                   ),
                 ],
               ),
