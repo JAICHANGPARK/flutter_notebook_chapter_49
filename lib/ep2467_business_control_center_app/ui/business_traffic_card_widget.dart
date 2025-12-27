@@ -167,6 +167,15 @@ class PlatformRow extends StatelessWidget {
         Icon(icon, size: 20, color: Colors.black87),
         Gap(8),
         Text(name, style: TextStyle(fontSize: 16, color: Colors.black54)),
+        Spacer(),
+        Text(
+          value,
+          style: TextStyle(
+            fontSize: 16,
+            fontWeight: .bold,
+            color: Colors.black87,
+          ),
+        ),
       ],
     );
   }
