@@ -7,7 +7,13 @@ class BusinessTrafficCardWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: BoxDecoration(color: Colors.white),
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(8),
+        boxShadow: [BoxShadow(color: Colors.grey[300]!,
+        spreadRadius: 2)],
+      ),
+      padding: EdgeInsets.all(12),
       child: Column(
         children: [
           Row(
@@ -205,9 +211,13 @@ class PlatformRow extends StatelessWidget {
                 color: isUp ? Color(0xFF009B60) : Color(0xFFE53935),
               ),
               Gap(2),
-              Text(percent, style: TextStyle(fontWeight: .bold,
-                color: isUp ? Color(0xFF009B60) : Color(0xFFE53935),
-              )),
+              Text(
+                percent,
+                style: TextStyle(
+                  fontWeight: .bold,
+                  color: isUp ? Color(0xFF009B60) : Color(0xFFE53935),
+                ),
+              ),
             ],
           ),
         ),
