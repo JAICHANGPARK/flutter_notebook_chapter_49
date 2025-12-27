@@ -164,7 +164,7 @@ class PlatformRow extends StatelessWidget {
           decoration: BoxDecoration(color: color, shape: BoxShape.circle),
         ),
         Gap(12),
-        Icon(icon, size: 20, color: Colors.black87),
+        Icon(icon, color: Colors.black87),
         Gap(8),
         Text(name, style: TextStyle(fontSize: 16, color: Colors.black54)),
         Spacer(),
@@ -174,6 +174,19 @@ class PlatformRow extends StatelessWidget {
             fontSize: 16,
             fontWeight: .bold,
             color: Colors.black87,
+          ),
+        ),
+        Gap(24),
+        SizedBox(
+          width: 60,
+          child: Row(
+            children: [
+              Icon(
+                isUp ? Icons.arrow_upward : Icons.arrow_downward,
+                size: 14,
+                color: isUp ? Color(0xFF009B60) : Color(0xFFE53935),
+              ),
+            ],
           ),
         ),
       ],
