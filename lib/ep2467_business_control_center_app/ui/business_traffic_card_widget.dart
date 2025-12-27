@@ -186,6 +186,10 @@ class PlatformRow extends StatelessWidget {
                 size: 14,
                 color: isUp ? Color(0xFF009B60) : Color(0xFFE53935),
               ),
+              Gap(2),
+              Text(percent, style: TextStyle(fontWeight: .bold,
+              
+              )),
             ],
           ),
         ),
