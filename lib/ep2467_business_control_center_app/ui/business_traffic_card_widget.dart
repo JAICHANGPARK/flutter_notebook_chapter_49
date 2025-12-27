@@ -82,8 +82,12 @@ class BusinessTrafficCardWidget extends StatelessWidget {
             ],
           ),
           PlatformRow(
-            
-
+            color: Color(0xFFFF6B00),
+            icon: Icons.language,
+            name: "Website",
+            value: "10.24K",
+            percent: "34.7%",
+            isUp: true,
           ),
         ],
       ),
