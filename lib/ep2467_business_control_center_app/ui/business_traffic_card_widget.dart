@@ -81,6 +81,7 @@ class BusinessTrafficCardWidget extends StatelessWidget {
               SegmentData(color: Color(0xFF009B60), count: 6),
             ],
           ),
+          Gap(24),
           PlatformRow(
             color: Color(0xFFFF6B00),
             icon: Icons.language,
