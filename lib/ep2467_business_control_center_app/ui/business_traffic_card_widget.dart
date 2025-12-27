@@ -130,3 +130,24 @@ class SegmentedBar extends StatelessWidget {
     return Row(children: bars);
   }
 }
+
+class PlatformRow extends StatelessWidget {
+  const PlatformRow({super.key,
+  this.color, this.icon, this.name, this.value, this.percent,
+  this.isUp)
+  });
+
+  final Color color;
+  final IconData icon;
+  final String name;
+  final String value;
+  final String percent;
+  final bool isUp;
+
+  
+
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
+  }
+}
