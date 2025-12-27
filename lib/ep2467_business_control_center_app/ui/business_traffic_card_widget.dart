@@ -70,19 +70,15 @@ class BusinessTrafficCardWidget extends StatelessWidget {
                   ),
                 ],
               ),
-
-
             ],
           ),
           Gap(12),
           SegmentedBar(
             totalSegments: 40,
             segments: [
-
               SegmentData(color: Color(0xFFFF6B00), count: 22),
               SegmentData(color: Color(0xFFCADD60), count: 12),
               SegmentData(color: Color(0xFF009B60), count: 6),
-
             ],
           ),
         ],
@@ -132,9 +128,14 @@ class SegmentedBar extends StatelessWidget {
 }
 
 class PlatformRow extends StatelessWidget {
-  const PlatformRow({super.key,
-  this.color, this.icon, this.name, this.value, this.percent,
-  this.isUp)
+  const PlatformRow({
+    super.key,
+    required this.color,
+    required this.icon,
+    required this.name,
+    required this.value,
+    required this.percent,
+    required this.isUp,
   });
 
   final Color color;
@@ -143,8 +144,6 @@ class PlatformRow extends StatelessWidget {
   final String value;
   final String percent;
   final bool isUp;
-
-  
 
   @override
   Widget build(BuildContext context) {
