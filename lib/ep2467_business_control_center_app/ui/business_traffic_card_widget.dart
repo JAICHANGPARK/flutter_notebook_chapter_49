@@ -161,12 +161,12 @@ class PlatformRow extends StatelessWidget {
         Container(
           width: 10,
           height: 10,
-          decoration: BoxDecoration(color: color,
-          shape: BoxShape.circle),
+          decoration: BoxDecoration(color: color, shape: BoxShape.circle),
         ),
         Gap(12),
-        Icon(icon, size: 20, color: Colors.black87,),
+        Icon(icon, size: 20, color: Colors.black87),
         Gap(8),
+        Text(name, style: TextStyle(fontSize: 16, color: Colors.black54)),
       ],
     );
   }
