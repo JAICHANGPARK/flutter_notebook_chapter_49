@@ -16,14 +16,19 @@ class BusinessGaugeWidget extends StatelessWidget {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(12),
                 ),
-                child: Icon(Icons.sentiment_satisfied_alt,),
+                child: Icon(Icons.sentiment_satisfied_alt),
               ),
               Column(
+                spacing: 4,
                 children: [
-                  Text("")
+                  Text(
+                    "Customer Sentiment",
+                    style: TextStyle(fontWeight: FontWeight.bold,
+                    fontSize: 16,),
+                  ),
+                  Text("Aggregated from emails reviews chats"),
                 ],
-              )
-
+              ),
             ],
           ),
         ],
