@@ -45,7 +45,7 @@ class BusinessGaugeWidget extends StatelessWidget {
             alignment: Alignment.bottomCenter,
             children: [
               SizedBox(
-                width: 250,
+                width: MediaQuery
                 height: 140,
                 child: CustomPaint(
                   painter: GaugePainter(
@@ -120,7 +120,7 @@ class GaugePainter extends CustomPainter {
       ..strokeWidth = 3
       ..strokeCap = StrokeCap.round;
 
-    final double tickLength = 15.0;
+    final double tickLength = 24.0;
     final double angelStep = math.pi / (tickCount - 1);
 
     final double percentage = score / maxScore;
