@@ -45,13 +45,13 @@ class BusinessGaugeWidget extends StatelessWidget {
             alignment: Alignment.bottomCenter,
             children: [
               SizedBox(
-                width: MediaQuery
+                width: 300,
                 height: 140,
                 child: CustomPaint(
                   painter: GaugePainter(
                     score: 4.5,
                     maxScore: 5,
-                    tickCount: 50,
+                    tickCount: 80,
                     activeColor: Color(0xFFF97316),
                     inactiveColor: Colors.grey[300]!,
                   ),
