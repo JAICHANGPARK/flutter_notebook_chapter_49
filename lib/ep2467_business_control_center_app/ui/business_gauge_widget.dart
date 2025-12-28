@@ -6,6 +6,10 @@ class BusinessGaugeWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      decoration: BoxDecoration(
+        color: Colors.white,
+        border: Border.all(color: Colors.grey[200]!),
+      ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -23,8 +27,7 @@ class BusinessGaugeWidget extends StatelessWidget {
                 children: [
                   Text(
                     "Customer Sentiment",
-                    style: TextStyle(fontWeight: FontWeight.bold,
-                    fontSize: 16,),
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
                   ),
                   Text("Aggregated from emails reviews chats"),
                 ],
