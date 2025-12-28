@@ -90,6 +90,13 @@ class BusinessGaugeWidget extends StatelessWidget {
               ),
             ],
           ),
+          Gap(12),
+          Container(
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(6),
+              border: Border.all(color: Colors.grey[400]!)
+            ),
+          )
         ],
       ),
     );
