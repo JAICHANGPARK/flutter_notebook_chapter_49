@@ -122,17 +122,18 @@ class GaugePainter extends CustomPainter {
     final double percentage = score / maxScore;
     final int activeTicks = (tickCount * percentage).round();
 
-  for (int i = 0; i < tickCount ; i++){
-    final double angel = math.pi + (angelStep * i);
-    paint.color = i < activeTicks ? activeColor : inactiveColor;
+    for (int i = 0; i < tickCount; i++) {
+      final double angel = math.pi + (angelStep * i);
+      paint.color = i < activeTicks ? activeColor : inactiveColor;
 
-    final double outerX = center.dx + radius * math.cos(angel);
-    final double outerY = center.dy + radius * math.sin(angel);
+      final double outerX = center.dx + radius * math.cos(angel);
+      final double outerY = center.dy + radius * math.sin(angel);
 
-    
+      final double innerX = center.dx + (radius - tickLength) * math.cos(angel);
+      final double innerY = center.dy + (radius - tickLength) * math.sin(angel);
 
-
-  }
+      canvas.drawLine(Offset(innerX, innerY), Offset(outerX, outerY), paint);
+    }
   }
 
   @override
