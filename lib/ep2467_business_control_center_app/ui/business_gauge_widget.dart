@@ -81,6 +81,10 @@ class BusinessGaugeWidget extends StatelessWidget {
                         ],
                       ),
                     ),
+                    Text(
+                      "The month's score",
+                      style: TextStyle(color: Colors.grey[600]),
+                    ),
                   ],
                 ),
               ),
