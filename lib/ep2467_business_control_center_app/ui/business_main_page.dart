@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
+import 'business_gauge_widget.dart';
 import 'business_traffic_card_widget.dart';
 
 class BusinessMainPage extends StatefulWidget {
@@ -106,6 +107,7 @@ class _BusinessMainPageState extends State<BusinessMainPage> {
                         BusinessTrafficCardWidget(),
                         // Container(height: 280, child: Placeholder()),
                         Gap(16),
+                        BusinessGaugeWidget(),
                         Container(height: 280, child: Placeholder()),
                       ],
                     ),
