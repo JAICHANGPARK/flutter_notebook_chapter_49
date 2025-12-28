@@ -118,6 +118,11 @@ class GaugePainter extends CustomPainter {
 
     final double tickLength = 15.0;
     final double angelStep = math.pi / (tickCount - 1);
+
+    final double percentage = score / maxScore;
+    final int activeTicks = (tickCount * percentage).round();
+
+    
   }
 
   @override
