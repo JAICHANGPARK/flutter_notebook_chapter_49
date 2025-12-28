@@ -1,3 +1,5 @@
+import 'dart:math' as math;
+
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
@@ -86,16 +88,26 @@ class GaugePainter extends CustomPainter {
   final Color inactiveColor;
 
   GaugePainter({
-   required this.score,
-   required this.maxScore,
-   required this.tickCount,
-   required this.activeColor,
-   required this.inactiveColor,
+    required this.score,
+    required this.maxScore,
+    required this.tickCount,
+    required this.activeColor,
+    required this.inactiveColor,
   });
 
   @override
   void paint(Canvas canvas, Size size) {
-    // TODO: implement paint
+    final center = Offset(size.width / 2, size.height);
+    final radius = size.width / 2;
+
+    final paint = Paint()
+      ..strokeWidth = 3
+      ..strokeCap = StrokeCap.round;
+
+
+    final double tickLength = 15.0;
+    final double angelStep = math.pi / (tickCount - 1);
+
   }
 
   @override
