@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class BusinessGaugeWidget extends StatelessWidget {
   const BusinessGaugeWidget({super.key});
 
@@ -11,10 +10,22 @@ class BusinessGaugeWidget extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
+            spacing: 12,
             children: [
+              Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                child: Icon(Icons.sentiment_satisfied_alt,),
+              ),
+              Column(
+                children: [
+                  Text("")
+                ],
+              )
 
             ],
-          )
+          ),
         ],
       ),
     );
