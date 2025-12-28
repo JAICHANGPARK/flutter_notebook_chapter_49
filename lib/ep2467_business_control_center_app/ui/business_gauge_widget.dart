@@ -9,7 +9,7 @@ class BusinessGaugeWidget extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
         color: Colors.white,
-        border: Border.all(color: Colors.grey[300]!,),
+        border: Border.all(color: Colors.grey[300]!),
         borderRadius: BorderRadius.circular(8),
       ),
       padding: EdgeInsets.all(12),
@@ -42,23 +42,36 @@ class BusinessGaugeWidget extends StatelessWidget {
           Stack(
             alignment: Alignment.bottomCenter,
             children: [
-              SizedBox(width: 250,
-              height: 140,
-              child: Placeholder(),),
+              SizedBox(width: 250, height: 140, child: Placeholder()),
               Positioned(
-                  bottom: 0,
-                  child: Column(children: [
-                  Text.rich(TextSpan(
-                    children: [
-                      TextSpan(text: "\$score",style: TextStyle(
-                        
-                      )),
-
-                    ]
-                  ))
-              ],))
+                bottom: 0,
+                child: Column(
+                  children: [
+                    Text.rich(
+                      TextSpan(
+                        children: [
+                          TextSpan(
+                            text: "4.6",
+                            style: TextStyle(
+                              fontSize: 40,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          TextSpan(
+                            text: "/5",
+                            style: TextStyle(
+                              fontSize: 24,
+                              fontWeight: FontWeight.w500,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
             ],
-          )
+          ),
         ],
       ),
     );
