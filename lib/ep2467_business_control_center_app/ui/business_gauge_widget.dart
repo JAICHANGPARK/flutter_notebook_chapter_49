@@ -24,6 +24,7 @@ class BusinessGaugeWidget extends StatelessWidget {
                 child: Icon(Icons.sentiment_satisfied_alt),
               ),
               Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 spacing: 4,
                 children: [
                   Text(
