@@ -77,3 +77,30 @@ class BusinessGaugeWidget extends StatelessWidget {
     );
   }
 }
+
+class GaugePainter extends CustomPainter {
+  final double score;
+  final double maxScore;
+  final int tickCount;
+  final Color activeColor;
+  final Color inactiveColor;
+
+  GaugePainter({
+   required this.score,
+   required this.maxScore,
+   required this.tickCount,
+   required this.activeColor,
+   required this.inactiveColor,
+  });
+
+  @override
+  void paint(Canvas canvas, Size size) {
+    // TODO: implement paint
+  }
+
+  @override
+  bool shouldRepaint(covariant CustomPainter oldDelegate) {
+    // TODO: implement shouldRepaint
+    throw UnimplementedError();
+  }
+}
