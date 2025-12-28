@@ -16,7 +16,7 @@ class BusinessGaugeWidget extends StatelessWidget {
       ),
       padding: EdgeInsets.all(12),
       child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+        // crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
             spacing: 12,
