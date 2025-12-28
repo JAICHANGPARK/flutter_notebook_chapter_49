@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class BusinessGaugeWidget extends StatelessWidget {
   const BusinessGaugeWidget({super.key});
@@ -11,6 +12,7 @@ class BusinessGaugeWidget extends StatelessWidget {
         border: Border.all(color: Colors.grey[300]!,),
         borderRadius: BorderRadius.circular(8),
       ),
+      padding: EdgeInsets.all(12),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -36,6 +38,27 @@ class BusinessGaugeWidget extends StatelessWidget {
               ),
             ],
           ),
+          Gap(24),
+          Stack(
+            alignment: Alignment.bottomCenter,
+            children: [
+              SizedBox(width: 250,
+              height: 140,
+              child: Placeholder(),),
+              Positioned(
+                  bottom: 0,
+                  child: Column(children: [
+                  Text.rich(TextSpan(
+                    children: [
+                      TextSpan(text: "\$score",style: TextStyle(
+                        
+                      )),
+
+                    ]
+                  ))
+              ],))
+            ],
+          )
         ],
       ),
     );
