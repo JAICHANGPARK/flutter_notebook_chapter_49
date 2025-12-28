@@ -44,7 +44,19 @@ class BusinessGaugeWidget extends StatelessWidget {
           Stack(
             alignment: Alignment.bottomCenter,
             children: [
-              SizedBox(width: 250, height: 140, child: Placeholder()),
+              SizedBox(
+                width: 250,
+                height: 140,
+                child: CustomPaint(
+                  painter: GaugePainter(
+                    score: 4.5,
+                    maxScore: 5,
+                    tickCount: 50,
+                    activeColor: Color(0xFFF97316),
+                    inactiveColor: Colors.grey[300]!,
+                  ),
+                ),
+              ),
               Positioned(
                 bottom: 0,
                 child: Column(
@@ -104,10 +116,8 @@ class GaugePainter extends CustomPainter {
       ..strokeWidth = 3
       ..strokeCap = StrokeCap.round;
 
-
     final double tickLength = 15.0;
     final double angelStep = math.pi / (tickCount - 1);
-
   }
 
   @override
