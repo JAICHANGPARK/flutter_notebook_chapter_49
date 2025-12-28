@@ -122,12 +122,21 @@ class GaugePainter extends CustomPainter {
     final double percentage = score / maxScore;
     final int activeTicks = (tickCount * percentage).round();
 
+  for (int i = 0; i < tickCount ; i++){
+    final double angel = math.pi + (angelStep * i);
+    paint.color = i < activeTicks ? activeColor : inactiveColor;
+
+    final double outerX = center.dx + radius * math.cos(angel);
+    final double outerY = center.dy + radius * math.sin(angel);
+
     
+
+
+  }
   }
 
   @override
   bool shouldRepaint(covariant CustomPainter oldDelegate) {
-    // TODO: implement shouldRepaint
-    throw UnimplementedError();
+    return true;
   }
 }
