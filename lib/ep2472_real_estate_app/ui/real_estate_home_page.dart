@@ -29,30 +29,37 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
             ),
           ),
           Positioned(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Row(
-                  children: [
-                    Container(
-                      decoration: ShapeDecoration(
-                        shape: StadiumBorder(),
-                        color: Colors.white,
+            child: SafeArea(
+              bottom: false,
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      Container(
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(),
+                          color: Colors.white,
+                        ),
                       ),
-                    ),
-                    Column(
-                      children: [
-                        Text("Location"),
-                        Row(
-                          children: [
-                            
-                          ],
-                        )
-                      ],
-                    )
-                  ],
-                ),
-              ],
+                      Column(
+                        children: [
+                          Text("Location"),
+                          Row(
+                            children: [
+                              Text("SEOUL, KR"),
+                              Icon(Icons.keyboard_arrow_down),
+                            ],
+                          )
+                        ],
+                      ),
+                      CircleAvatar(
+                        backgroundColor: Colors.white,
+                      ),
+                    ],
+                  ),
+                ],
+              ),
             ),
           ),
         ],
