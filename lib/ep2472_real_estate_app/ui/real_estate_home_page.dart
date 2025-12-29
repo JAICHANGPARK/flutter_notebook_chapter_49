@@ -100,7 +100,16 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                     ],
                   ),
                   SizedBox(height: 320,
-                  child: Placeholder(),)
+                  child: Placeholder(),),
+                  Row(
+                    children: [
+                      Text("Featured properties"),
+                      TextButton(onPressed: (){}, child: Text("See all")),
+
+                    ],
+                  ),
+                  SizedBox(height: 180,
+                    child: Placeholder(),)
                 ],
               ),
             ),
