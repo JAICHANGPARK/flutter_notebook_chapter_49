@@ -2,7 +2,7 @@
 
 ## EP2472
 - Real Estate Mobile App UI Design | Property Listing & Chat
-- Dipa Product for Dipa Inhouse
+- Orbix Studio – Mobile App Design for Orbix Studio LLC
 - https://dribbble.com/shots/26926508-Real-Estate-Mobile-App-UI-Design-Property-Listing-Chat
 
 <img src="https://cdn.dribbble.com/userupload/46145881/file/c4b81e32345259287fef54e7b6ed6caa.png?resize=1600x1200&vertical=center" alt=""/>
