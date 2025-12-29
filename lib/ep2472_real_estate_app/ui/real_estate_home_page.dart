@@ -41,6 +41,27 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                           shape: StadiumBorder(),
                           color: Colors.white,
                         ),
+                        child: Row(
+                          children: [
+                            Container(
+                              height: 42,
+                              width: 42,
+                              child: Placeholder(),
+                            ),
+                            Column(
+                              children: [
+                                Row(
+                                  children: [
+                                    Icon(Icons.star, size: 16,),
+                                    Text('4.5'),
+                                  ],
+                                ),
+                                Text("Dream"),
+
+                              ],
+                            )
+                          ],
+                        ),
                       ),
                       Column(
                         children: [
