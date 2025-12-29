@@ -8,6 +8,7 @@ class RealEstateHomePage extends StatefulWidget {
 }
 
 class _RealEstateHomePageState extends State<RealEstateHomePage> {
+  bool switchValue = false;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -52,14 +53,14 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                               children: [
                                 Row(
                                   children: [
-                                    Icon(Icons.star, size: 16,),
+                                    Icon(Icons.star, size: 16),
                                     Text('4.5'),
                                   ],
                                 ),
                                 Text("Dream"),
-
                               ],
-                            )
+                            ),
+                            Switch.adaptive(value: false, onChanged: (value) {}),
                           ],
                         ),
                       ),
@@ -71,12 +72,10 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                               Text("SEOUL, KR"),
                               Icon(Icons.keyboard_arrow_down),
                             ],
-                          )
+                          ),
                         ],
                       ),
-                      CircleAvatar(
-                        backgroundColor: Colors.white,
-                      ),
+                      CircleAvatar(backgroundColor: Colors.white),
                     ],
                   ),
                 ],
