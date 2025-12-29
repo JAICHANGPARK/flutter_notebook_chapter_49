@@ -33,55 +33,60 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
             child: SafeArea(
               bottom: false,
               child: Column(
+                spacing: 16,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Row(
-                    children: [
-                      Container(
-                        decoration: ShapeDecoration(
-                          shape: StadiumBorder(),
-                          color: Colors.white,
-                        ),
-                        child: Row(
-                          children: [
-                            Container(
-                              height: 42,
-                              width: 42,
-                              child: Placeholder(),
-                            ),
-                            Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Row(
-                                  children: [
-                                    Icon(Icons.star, size: 16),
-                                    Text('4.5'),
-                                  ],
-                                ),
-                                Text("Dream"),
-                              ],
-                            ),
-                            Switch.adaptive(value: false, onChanged: (value) {
-                              setState(() {
-                                switchValue = value;
-                              });
-                            }),
-                          ],
-                        ),
-                      ),
-                      Column(
-                        children: [
-                          Text("Location"),
-                          Row(
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 16),
+                    child: Row(
+                      children: [
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(),
+                            color: Colors.white,
+                          ),
+                          child: Row(
                             children: [
-                              Text("SEOUL, KR"),
-                              Icon(Icons.keyboard_arrow_down),
+                              Container(
+                                height: 42,
+                                width: 42,
+                                child: Placeholder(),
+                              ),
+                              Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Row(
+                                    children: [
+                                      Icon(Icons.star, size: 16),
+                                      Text('4.5'),
+                                    ],
+                                  ),
+                                  Text("Dream"),
+                                ],
+                              ),
+                              Switch.adaptive(value: false, onChanged: (value) {
+                                setState(() {
+                                  switchValue = value;
+                                });
+                              }),
                             ],
                           ),
-                        ],
-                      ),
-                      CircleAvatar(backgroundColor: Colors.white),
-                    ],
+                        ),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text("Location"),
+                            Row(
+                              children: [
+                                Text("SEOUL, KR"),
+                                Icon(Icons.keyboard_arrow_down),
+                              ],
+                            ),
+                          ],
+                        ),
+                        CircleAvatar(backgroundColor: Colors.white),
+                      ],
+                    ),
                   ),
                 ],
               ),
