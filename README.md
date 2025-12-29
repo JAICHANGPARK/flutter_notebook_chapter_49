@@ -5,7 +5,7 @@
 - Orbix Studio – Mobile App Design for Orbix Studio LLC
 - https://dribbble.com/shots/26926508-Real-Estate-Mobile-App-UI-Design-Property-Listing-Chat
 
-<img src="https://cdn.dribbble.com/userupload/46145881/file/c4b81e32345259287fef54e7b6ed6caa.png?resize=1600x1200&vertical=center" alt=""/>
+<img src="https://cdn.dribbble.com/userupload/46196752/file/c764d56d37fe22373676466b086f960a.png?resize=1905x1429&vertical=center" alt=""/>
 
 ## EP2467 - 2471
 - Mare — Mobile Responsive Autonomous Business Control Center
