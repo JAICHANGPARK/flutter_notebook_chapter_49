@@ -28,6 +28,13 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
               ),
             ),
           ),
+          Positioned(child: Column(
+
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              
+
+          ],))
         ],
       ),
     );
