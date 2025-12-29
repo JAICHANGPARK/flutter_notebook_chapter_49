@@ -50,6 +50,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                               child: Placeholder(),
                             ),
                             Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Row(
                                   children: [
@@ -60,7 +61,11 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                 Text("Dream"),
                               ],
                             ),
-                            Switch.adaptive(value: false, onChanged: (value) {}),
+                            Switch.adaptive(value: false, onChanged: (value) {
+                              setState(() {
+                                switchValue = value;
+                              });
+                            }),
                           ],
                         ),
                       ),
