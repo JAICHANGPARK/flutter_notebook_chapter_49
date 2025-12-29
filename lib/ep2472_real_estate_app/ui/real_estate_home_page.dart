@@ -28,13 +28,33 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
               ),
             ),
           ),
-          Positioned(child: Column(
-
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              
-
-          ],))
+          Positioned(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Row(
+                  children: [
+                    Container(
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(),
+                        color: Colors.white,
+                      ),
+                    ),
+                    Column(
+                      children: [
+                        Text("Location"),
+                        Row(
+                          children: [
+                            
+                          ],
+                        )
+                      ],
+                    )
+                  ],
+                ),
+              ],
+            ),
+          ),
         ],
       ),
     );
