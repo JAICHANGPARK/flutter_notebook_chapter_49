@@ -108,8 +108,10 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                               children: [
                                 Text(
                                   "SEOUL, KR",
-                                  style: TextStyle(fontWeight: FontWeight.bold,
-                                  fontSize: 16),
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 16,
+                                  ),
                                 ),
                                 Icon(Icons.keyboard_arrow_down),
                               ],
@@ -117,7 +119,11 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                           ],
                         ),
                         Spacer(),
-                        CircleAvatar(backgroundColor: Colors.white),
+                        CircleAvatar(
+                          radius: 26,
+                          backgroundColor: Colors.white,
+                          child: Icon(Icons.search),
+                        ),
                       ],
                     ),
                   ),
