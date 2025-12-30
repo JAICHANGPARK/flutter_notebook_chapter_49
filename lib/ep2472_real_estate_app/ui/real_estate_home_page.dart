@@ -282,9 +282,16 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
             ),
           ),
           Align(
+            alignment: .bottomCenter,
             child: Container(
 
-              decoration: ShapeDecoration(shape: StadiumBorder()),
+              decoration: ShapeDecoration(shape: StadiumBorder(),
+              color: Colors.white),
+              child: Row(
+                children: [
+
+                ],
+              ),
             ),
           ),
         ],
