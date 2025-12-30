@@ -56,9 +56,10 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                   children: [
                                     CircleAvatar(radius: 24),
                                     Positioned(
-                                        right: 0,
-                                        bottom: 0,
-                                        child: Icon(Icons.verified)),
+                                      right: 0,
+                                      bottom: 0,
+                                      child: Icon(Icons.verified, size: 18),
+                                    ),
                                   ],
                                 ),
                               ),
@@ -68,7 +69,13 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                   Row(
                                     children: [
                                       Icon(Icons.star, size: 16),
-                                      Text('4.5'),
+                                      Text(
+                                        '4.5',
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: 16,
+                                        ),
+                                      ),
                                     ],
                                   ),
                                   Text("Dream"),
