@@ -287,7 +287,9 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
 
               decoration: ShapeDecoration(shape: StadiumBorder(),
               color: Colors.white),
+              margin: EdgeInsets.only(bottom: 32, ),
               child: Row(
+                mainAxisSize: .min,
                 children: [
                   CircleAvatar(),
                   CircleAvatar(),
