@@ -203,26 +203,34 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            Text("Featured properties",style: TextStyle(
+                            Text(
+                              "Featured properties",
+                              style: TextStyle(
                                 fontWeight: FontWeight.bold,
-                                fontSize: 20
-                            ),),
-                            TextButton(onPressed: () {}, child: Text("See all")),
+                                fontSize: 20,
+                              ),
+                            ),
+                            TextButton(
+                              onPressed: () {},
+                              child: Text("See all"),
+                            ),
                           ],
                         ),
                       ),
                       Container(
-                          padding: EdgeInsets.only(left: 16),
-                          height: 320, child: ListView.builder(
-                        scrollDirection: Axis.horizontal,
-                        itemBuilder: (context,index){
-                          return  Container(
-                            width: 320,
-                            margin: EdgeInsets.only(right: 12),
-                            child: Placeholder(),
-                          );
-                        },
-                      )),
+                        padding: EdgeInsets.only(left: 16),
+                        height: 320,
+                        child: ListView.builder(
+                          scrollDirection: Axis.horizontal,
+                          itemBuilder: (context, index) {
+                            return Container(
+                              width: 320,
+                              margin: EdgeInsets.only(right: 12),
+                              child: Placeholder(),
+                            );
+                          },
+                        ),
+                      ),
                     ],
                   ),
 
@@ -233,26 +241,34 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            Text("",style: TextStyle(
+                            Text(
+                              "Nearby",
+                              style: TextStyle(
                                 fontWeight: FontWeight.bold,
-                                fontSize: 20
-                            ),),
-                            TextButton(onPressed: () {}, child: Text("See all")),
+                                fontSize: 20,
+                              ),
+                            ),
+                            TextButton(
+                              onPressed: () {},
+                              child: Text("See all"),
+                            ),
                           ],
                         ),
                       ),
                       Container(
-                          padding: EdgeInsets.only(left: 16),
-                          height: 320, child: ListView.builder(
-                        scrollDirection: Axis.horizontal,
-                        itemBuilder: (context,index){
-                          return  Container(
-                            width: 320,
-                            margin: EdgeInsets.only(right: 12),
-                            child: Placeholder(),
-                          );
-                        },
-                      )),
+                        padding: EdgeInsets.only(left: 16),
+                        height: 320,
+                        child: ListView.builder(
+                          scrollDirection: Axis.horizontal,
+                          itemBuilder: (context, index) {
+                            return Container(
+                              width: 320,
+                              margin: EdgeInsets.only(right: 12),
+                              child: Placeholder(),
+                            );
+                          },
+                        ),
+                      ),
                     ],
                   ),
                 ],
