@@ -160,7 +160,22 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                           ),
 
                         ),
-                        
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(),
+                            color: Colors.white,
+                          ),
+                          padding: EdgeInsets.symmetric(horizontal: 16),
+                          child: Row(
+                            children: [
+                              Text(
+                                "Cars",
+                                style: TextStyle(color: Colors.white),
+                              ),
+                            ],
+                          ),
+
+                        ),
                       ],
                     ),
                   ),
