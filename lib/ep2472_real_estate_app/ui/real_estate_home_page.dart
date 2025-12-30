@@ -158,11 +158,12 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                               ),
                             ],
                           ),
-
                         ),
                         Container(
                           decoration: ShapeDecoration(
-                            shape: StadiumBorder(),
+                            shape: StadiumBorder(
+                              side: BorderSide(color: Colors.grey[300]!),
+                            ),
                             color: Colors.white,
                           ),
                           padding: EdgeInsets.symmetric(horizontal: 16),
@@ -174,7 +175,6 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                               ),
                             ],
                           ),
-
                         ),
                       ],
                     ),
