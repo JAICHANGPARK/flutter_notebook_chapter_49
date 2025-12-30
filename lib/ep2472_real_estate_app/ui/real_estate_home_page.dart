@@ -34,7 +34,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
             child: SafeArea(
               bottom: false,
               child: Column(
-                spacing: 16,
+                spacing: 20,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Padding(
@@ -149,7 +149,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                             shape: StadiumBorder(),
                             color: Color.fromRGBO(0, 171, 180, 1),
                           ),
-                          padding: EdgeInsets.symmetric(horizontal: 16),
+                          padding: EdgeInsets.symmetric(horizontal: 20),
                           child: Row(
                             children: [
                               Text(
@@ -166,7 +166,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                             ),
                             color: Colors.white,
                           ),
-                          padding: EdgeInsets.symmetric(horizontal: 16),
+                          padding: EdgeInsets.symmetric(horizontal: 20),
                           child: Row(
                             children: [
                               Text(
