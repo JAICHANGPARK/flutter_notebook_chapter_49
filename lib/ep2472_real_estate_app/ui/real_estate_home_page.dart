@@ -176,6 +176,23 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                             ],
                           ),
                         ),
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(
+                              side: BorderSide(color: Colors.grey[300]!),
+                            ),
+                            color: Colors.white,
+                          ),
+                          padding: EdgeInsets.symmetric(horizontal: 20),
+                          child: Row(
+                            children: [
+                              Text(
+                                "Market",
+                                // style: TextStyle(color: Colors.white),
+                              ),
+                            ],
+                          ),
+                        ),
                       ],
                     ),
                   ),
