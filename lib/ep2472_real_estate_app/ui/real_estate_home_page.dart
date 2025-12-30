@@ -292,10 +292,10 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
               child: Row(
                 mainAxisSize: .min,
                 children: [
-                  CircleAvatar(radius: 28),
-                  CircleAvatar(radius: 28),
-                  CircleAvatar(radius: 28),
-                  CircleAvatar(radius: 28),
+                  CircleAvatar(radius: 30),
+                  CircleAvatar(radius: 30),
+                  CircleAvatar(radius: 30),
+                  CircleAvatar(radius: 30),
                   CircleAvatar(radius: 28),
                 ],
               ),
