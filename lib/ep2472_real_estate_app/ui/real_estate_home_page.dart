@@ -128,7 +128,12 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                       ],
                     ),
                   ),
-                  SizedBox(height: 52, child: Placeholder()),
+                  SizedBox(height: 52, child: ListView(
+                    scrollDirection: Axis.horizontal,
+                    children: [
+
+                    ],
+                  )),
                   Row(
                     children: [
                       Text("Featured properties"),
