@@ -80,10 +80,13 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                       ),
                                     ],
                                   ),
-                                  Text("Dream",style: TextStyle(
-                                    fontSize: 12,
-                                    color: Colors.black87
-                                  ),),
+                                  Text(
+                                    "Dream",
+                                    style: TextStyle(
+                                      fontSize: 12,
+                                      color: Colors.black87,
+                                    ),
+                                  ),
                                 ],
                               ),
                               Switch.adaptive(
@@ -103,12 +106,17 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                             Text("Location"),
                             Row(
                               children: [
-                                Text("SEOUL, KR"),
+                                Text(
+                                  "SEOUL, KR",
+                                  style: TextStyle(fontWeight: FontWeight.bold,
+                                  fontSize: 16),
+                                ),
                                 Icon(Icons.keyboard_arrow_down),
                               ],
                             ),
                           ],
                         ),
+                        Spacer(),
                         CircleAvatar(backgroundColor: Colors.white),
                       ],
                     ),
