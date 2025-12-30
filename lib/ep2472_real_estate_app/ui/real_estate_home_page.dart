@@ -226,13 +226,35 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                     ],
                   ),
 
-                  Row(
+                  Column(
                     children: [
-                      Text("Featured properties"),
-                      TextButton(onPressed: () {}, child: Text("See all")),
+                      Padding(
+                        padding: const EdgeInsets.only(left: 16, right: 8),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text("",style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 20
+                            ),),
+                            TextButton(onPressed: () {}, child: Text("See all")),
+                          ],
+                        ),
+                      ),
+                      Container(
+                          padding: EdgeInsets.only(left: 16),
+                          height: 320, child: ListView.builder(
+                        scrollDirection: Axis.horizontal,
+                        itemBuilder: (context,index){
+                          return  Container(
+                            width: 320,
+                            margin: EdgeInsets.only(right: 12),
+                            child: Placeholder(),
+                          );
+                        },
+                      )),
                     ],
                   ),
-                  SizedBox(height: 180, child: Placeholder()),
                 ],
               ),
             ),
