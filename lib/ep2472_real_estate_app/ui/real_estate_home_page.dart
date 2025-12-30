@@ -284,20 +284,19 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
           Align(
             alignment: .bottomCenter,
             child: Container(
-
-              decoration: ShapeDecoration(shape: StadiumBorder(),
-              color: Colors.white),
-              margin: EdgeInsets.only(bottom: 32, ),
+              decoration: ShapeDecoration(
+                shape: StadiumBorder(),
+                color: Colors.white,
+              ),
+              margin: EdgeInsets.only(bottom: 32),
               child: Row(
                 mainAxisSize: .min,
                 children: [
-                  CircleAvatar(
-                    radius: 28,
-                  ),
-                  CircleAvatar(radius: 28,),
-                  CircleAvatar(radius: 28,),
-                  CircleAvatar(radius: 28,),
-                  CircleAvatar(radius: 28,),
+                  CircleAvatar(radius: 28),
+                  CircleAvatar(radius: 28),
+                  CircleAvatar(radius: 28),
+                  CircleAvatar(radius: 28),
+                  CircleAvatar(radius: 28),
                 ],
               ),
             ),
