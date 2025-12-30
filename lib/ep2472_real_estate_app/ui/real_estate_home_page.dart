@@ -283,7 +283,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
           ),
           Align(
             child: Container(
-              
+
               decoration: ShapeDecoration(shape: StadiumBorder()),
             ),
           ),
