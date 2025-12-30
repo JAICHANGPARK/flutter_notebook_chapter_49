@@ -78,7 +78,10 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                       ),
                                     ],
                                   ),
-                                  Text("Dream"),
+                                  Text("Dream",style: TextStyle(
+                                    fontSize: 12,
+                                    color: Colors.black87
+                                  ),),
                                 ],
                               ),
                               Switch.adaptive(
