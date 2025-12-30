@@ -47,11 +47,20 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                             color: Colors.white,
                           ),
                           child: Row(
+                            spacing: 4,
                             children: [
                               Container(
                                 height: 42,
                                 width: 42,
-                                child: Placeholder(),
+                                child: Stack(
+                                  children: [
+                                    CircleAvatar(radius: 24),
+                                    Positioned(
+                                        right: 0,
+                                        bottom: 0,
+                                        child: Icon(Icons.verified)),
+                                  ],
+                                ),
                               ),
                               Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
