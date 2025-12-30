@@ -143,7 +143,10 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                             ),
                             padding: EdgeInsets.symmetric(horizontal: 16),
                             child: Row(
-                              children: [Icon(Icons.filter_list), Text("Filter")],
+                              children: [
+                                Icon(Icons.filter_list),
+                                Text("Filter"),
+                              ],
                             ),
                           ),
                           Container(
@@ -276,6 +279,12 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                   ],
                 ),
               ),
+            ),
+          ),
+          Align(
+            child: Container(
+
+              decoration: ShapeDecoration(shape: StadiumBorder()),
             ),
           ),
         ],
