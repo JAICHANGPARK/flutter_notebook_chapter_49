@@ -128,19 +128,23 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                       ],
                     ),
                   ),
-                  SizedBox(height: 52, child: ListView(
-                    scrollDirection: Axis.horizontal,
-                    children: [
-                          Container(
-                            child: Row(
-                              children: [
-                                Icon(Icons.filter_list),
-                                Text("Filter"),
-                              ],
-                            ),
-                          )
-                    ],
-                  )),
+                  SizedBox(
+                    height: 52,
+                    child: ListView(
+                      scrollDirection: Axis.horizontal,
+                      children: [
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(),
+                            color: Colors.white,
+                          ),
+                          child: Row(
+                            children: [Icon(Icons.filter_list), Text("Filter")],
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
                   Row(
                     children: [
                       Text("Featured properties"),
