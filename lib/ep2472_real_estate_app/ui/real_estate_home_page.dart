@@ -139,6 +139,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                             shape: StadiumBorder(),
                             color: Colors.white,
                           ),
+                          padding: EdgeInsets.symmetric(horizontal: 16),
                           child: Row(
                             children: [Icon(Icons.filter_list), Text("Filter")],
                           ),
@@ -148,9 +149,8 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                             shape: StadiumBorder(),
                             color: Color.fromRGBO(0, 171, 180, 1),
                           ),
-                          child: Row(
-                            children: [Icon(Icons.filter_list), Text("Filter")],
-                          ),
+                          padding: EdgeInsets.symmetric(horizontal: 16),
+                          child: Row(children: [Text("Real Estate")]),
                         ),
                       ],
                     ),
