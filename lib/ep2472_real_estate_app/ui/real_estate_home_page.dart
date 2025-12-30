@@ -197,8 +197,12 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                     ),
                   ),
                   Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text("Featured properties"),
+                      Text("Featured properties",style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 18
+                      ),),
                       TextButton(onPressed: () {}, child: Text("See all")),
                     ],
                   ),
