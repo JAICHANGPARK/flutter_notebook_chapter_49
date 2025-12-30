@@ -129,7 +129,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                     ),
                   ),
                   SizedBox(
-                    height: 52,
+                    height: 46,
                     child: ListView(
                       scrollDirection: Axis.horizontal,
                       children: [
