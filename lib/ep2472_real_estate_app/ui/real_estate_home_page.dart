@@ -134,9 +134,19 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                       scrollDirection: Axis.horizontal,
                       children: [
                         Container(
+                          margin: EdgeInsets.only(left: 16, right: 16),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
                             color: Colors.white,
+                          ),
+                          child: Row(
+                            children: [Icon(Icons.filter_list), Text("Filter")],
+                          ),
+                        ),
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(),
+                            color: Color.fromRGBO(0, 171, 180, 1),
                           ),
                           child: Row(
                             children: [Icon(Icons.filter_list), Text("Filter")],
