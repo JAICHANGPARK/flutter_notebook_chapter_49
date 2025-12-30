@@ -9,6 +9,7 @@ class RealEstateHomePage extends StatefulWidget {
 
 class _RealEstateHomePageState extends State<RealEstateHomePage> {
   bool switchValue = false;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -64,11 +65,14 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                   Text("Dream"),
                                 ],
                               ),
-                              Switch.adaptive(value: false, onChanged: (value) {
-                                setState(() {
-                                  switchValue = value;
-                                });
-                              }),
+                              Switch.adaptive(
+                                value: false,
+                                onChanged: (value) {
+                                  setState(() {
+                                    switchValue = value;
+                                  });
+                                },
+                              ),
                             ],
                           ),
                         ),
@@ -88,28 +92,21 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                       ],
                     ),
                   ),
-                  SizedBox(
-                    height: 52,
-                    child: Placeholder(),
-                  ),
+                  SizedBox(height: 52, child: Placeholder()),
                   Row(
                     children: [
                       Text("Featured properties"),
-                      TextButton(onPressed: (){}, child: Text("See all")),
-
+                      TextButton(onPressed: () {}, child: Text("See all")),
                     ],
                   ),
-                  SizedBox(height: 320,
-                  child: Placeholder(),),
+                  SizedBox(height: 320, child: Placeholder()),
                   Row(
                     children: [
                       Text("Featured properties"),
-                      TextButton(onPressed: (){}, child: Text("See all")),
-
+                      TextButton(onPressed: () {}, child: Text("See all")),
                     ],
                   ),
-                  SizedBox(height: 180,
-                    child: Placeholder(),)
+                  SizedBox(height: 180, child: Placeholder()),
                 ],
               ),
             ),
