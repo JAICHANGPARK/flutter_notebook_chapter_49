@@ -129,7 +129,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                     ),
                   ),
                   SizedBox(
-                    height: 46,
+                    height: 42,
                     child: ListView(
                       scrollDirection: Axis.horizontal,
                       children: [
@@ -171,7 +171,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                             children: [
                               Text(
                                 "Cars",
-                                style: TextStyle(color: Colors.white),
+                                // style: TextStyle(color: Colors.white),
                               ),
                             ],
                           ),
