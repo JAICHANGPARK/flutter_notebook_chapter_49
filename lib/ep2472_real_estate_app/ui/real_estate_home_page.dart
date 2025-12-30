@@ -211,7 +211,18 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                           ],
                         ),
                       ),
-                      SizedBox(height: 320, child: Placeholder()),
+                      SizedBox(height: 320, child: ListView.builder(
+                        scrollDirection: Axis.horizontal,
+                        itemBuilder: (context,index){
+                          return  Container(
+                            width: 320,
+                            child: Placeholder(),
+                          );
+                        },
+                        children: [
+
+                        ],
+                      )),
                     ],
                   ),
 
