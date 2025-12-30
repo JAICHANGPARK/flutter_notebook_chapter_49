@@ -40,12 +40,14 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 16),
                     child: Row(
+                      spacing: 15,
                       children: [
                         Container(
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
                             color: Colors.white,
                           ),
+                          padding: EdgeInsets.all(4),
                           child: Row(
                             spacing: 4,
                             children: [
