@@ -211,17 +211,17 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                           ],
                         ),
                       ),
-                      SizedBox(height: 320, child: ListView.builder(
+                      Container(
+                          padding: EdgeInsets.only(left: 16),
+                          height: 320, child: ListView.builder(
                         scrollDirection: Axis.horizontal,
                         itemBuilder: (context,index){
                           return  Container(
                             width: 320,
+                            margin: EdgeInsets.only(right: 12),
                             child: Placeholder(),
                           );
                         },
-                        children: [
-
-                        ],
                       )),
                     ],
                   ),
