@@ -122,6 +122,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                         CircleAvatar(
                           radius: 26,
                           backgroundColor: Colors.white,
+                          foregroundColor: Colors.black,
                           child: Icon(Icons.search),
                         ),
                       ],
