@@ -268,10 +268,20 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                               ),
                                             ),
                                           ),
+                                          padding: EdgeInsets.symmetric(
+                                            horizontal: 15,
+                                            vertical: 6,
+                                          ),
+                                          child: Row(
+                                            spacing: 8,
+                                            children: [
+                                              Icon(Icons.bed),
+                                              Text("3"),
+                                            ],
+                                          ),
                                         ),
                                       ],
-                                    )
-
+                                    ),
                                   ],
                                 ),
                               );
