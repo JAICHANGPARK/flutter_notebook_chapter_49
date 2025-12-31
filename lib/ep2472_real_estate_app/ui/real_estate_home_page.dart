@@ -272,7 +272,16 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                           ),
                                           Row(
                                             children: [
-                                              Icon(Icons.location_on, size: 18),
+                                              Icon(
+                                                Icons.location_on,
+                                                size: 18,
+                                                color: Color.fromRGBO(
+                                                  0,
+                                                  171,
+                                                  180,
+                                                  1,
+                                                ),
+                                              ),
                                               Text(
                                                 "ABCD Spring EF 0879, UNKNOWN",
                                               ),
