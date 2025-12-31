@@ -352,6 +352,26 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                                   ],
                                                 ),
                                               ),
+                                              Container(
+                                                decoration: ShapeDecoration(
+                                                  shape: StadiumBorder(
+                                                    side: BorderSide(
+                                                      color: Colors.grey[300]!,
+                                                    ),
+                                                  ),
+                                                ),
+                                                padding: EdgeInsets.symmetric(
+                                                  horizontal: 15,
+                                                  vertical: 6,
+                                                ),
+                                                child: Row(
+                                                  spacing: 8,
+                                                  children: [
+                                                    Icon(Icons.square_outlined),
+                                                    Text("2600 sqft"),
+                                                  ],
+                                                ),
+                                              ),
                                             ],
                                           ),
                                         ],
