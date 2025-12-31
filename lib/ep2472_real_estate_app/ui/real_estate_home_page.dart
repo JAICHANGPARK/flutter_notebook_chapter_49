@@ -263,9 +263,8 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                         decoration: BoxDecoration(
                                           borderRadius: BorderRadius.circular(24),
                                           image: DecorationImage(
-                                            
                                             image: NetworkImage(
-                                              "https://pixabay.com/ko/images/download/assisi-city-7150594_1920.jpg",
+                                              "https://pixabay.com/ko/images/download/home-1622401_1920.jpg",
                                             ),
                                             fit: BoxFit.cover,
                                           ),
