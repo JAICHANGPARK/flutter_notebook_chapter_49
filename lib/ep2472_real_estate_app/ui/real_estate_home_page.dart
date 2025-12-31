@@ -242,8 +242,14 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                 width: 320,
                                 margin: EdgeInsets.only(right: 12),
                                 decoration: BoxDecoration(
+                                  color: Colors.white,
+                                  borderRadius: BorderRadius.circular(24),
                                   boxShadow: [
-                                    BoxShadow(color: Colors.grey[100]!),
+                                    BoxShadow(
+                                      color: Colors.grey[100]!,
+                                      spreadRadius: 2,
+                                      blurRadius: 2,
+                                    ),
                                   ],
                                 ),
                                 child: Column(
