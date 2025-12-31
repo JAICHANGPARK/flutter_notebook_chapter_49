@@ -273,16 +273,20 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                                 ),
                                               ),
                                               Spacer(),
-                                              Text("\$2300",
+                                              Text(
+                                                "\$2300",
                                                 style: TextStyle(
                                                   fontWeight: FontWeight.bold,
                                                   fontSize: 16,
-                                                ),),
-                                              Text("/month",
-                                              style: TextStyle(
-                                                fontSize: 12,
-                                                color: Colors.grey
-                                              ),),
+                                                ),
+                                              ),
+                                              Text(
+                                                "/month",
+                                                style: TextStyle(
+                                                  fontSize: 12,
+                                                  color: Colors.grey,
+                                                ),
+                                              ),
                                             ],
                                           ),
                                           Row(
@@ -299,9 +303,13 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                               ),
                                               Text(
                                                 "ABCD Spring EF 0879, UNKNOWN",
+                                                style: TextStyle(
+                                                  color: Colors.grey,
+                                                ),
                                               ),
                                             ],
                                           ),
+                                          Gap(4),
                                           Row(
                                             children: [
                                               Container(
@@ -320,6 +328,26 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                                   spacing: 8,
                                                   children: [
                                                     Icon(Icons.bed),
+                                                    Text("3"),
+                                                  ],
+                                                ),
+                                              ),
+                                              Container(
+                                                decoration: ShapeDecoration(
+                                                  shape: StadiumBorder(
+                                                    side: BorderSide(
+                                                      color: Colors.grey[300]!,
+                                                    ),
+                                                  ),
+                                                ),
+                                                padding: EdgeInsets.symmetric(
+                                                  horizontal: 15,
+                                                  vertical: 6,
+                                                ),
+                                                child: Row(
+                                                  spacing: 8,
+                                                  children: [
+                                                    Icon(Icons.bathtub_outlined),
                                                     Text("3"),
                                                   ],
                                                 ),
