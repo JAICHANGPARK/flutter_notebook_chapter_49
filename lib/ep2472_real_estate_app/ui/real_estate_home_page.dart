@@ -281,7 +281,9 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                                 Container(
                                                   decoration: ShapeDecoration(
                                                     shape: StadiumBorder(),
+                                                    color: Colors.black26,
                                                   ),
+                                                  padding: EdgeInsets.symmetric(horizontal: 15, vertical: 12),
                                                   child: Text("New Price"),
                                                 ),
                                                 CircleAvatar(
