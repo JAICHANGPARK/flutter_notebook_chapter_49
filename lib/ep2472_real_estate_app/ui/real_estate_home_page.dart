@@ -220,7 +220,12 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                               TextButton(
                                 onPressed: () {},
                                 style: TextButton.styleFrom(
-                                  foregroundColor: Color.fromRGBO(0, 171, 180, 1),
+                                  foregroundColor: Color.fromRGBO(
+                                    0,
+                                    171,
+                                    180,
+                                    1,
+                                  ),
                                 ),
                                 child: Text("See all"),
                               ),
@@ -239,12 +244,10 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
-                                    Container(
-
-                                    ),
+                                    Container(),
                                     Row(
                                       children: [
-                                        Text("Sherman Oaks",),
+                                        Text("Sherman Oaks"),
                                         Text("\$2300"),
                                         Text("/month"),
                                       ],
@@ -255,8 +258,22 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                         Text("ABCD Spring EF 0879, UNKNOWN"),
                                       ],
                                     ),
+                                    Row(
+                                      children: [
+                                        Container(
+                                          decoration: ShapeDecoration(
+                                            shape: StadiumBorder(
+                                              side: BorderSide(
+                                                color: Colors.grey[300]!,
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                      ],
+                                    )
+
                                   ],
-                                )
+                                ),
                               );
                             },
                           ),
