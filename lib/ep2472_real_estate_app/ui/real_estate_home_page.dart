@@ -276,15 +276,25 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                         child: Column(
                                           children: [
                                             Row(
-                                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment
+                                                      .spaceBetween,
                                               children: [
                                                 Container(
                                                   decoration: ShapeDecoration(
                                                     shape: StadiumBorder(),
                                                     color: Colors.black38,
                                                   ),
-                                                  padding: EdgeInsets.symmetric(horizontal: 15, vertical: 12),
-                                                  child: Text("New Price"),
+                                                  padding: EdgeInsets.symmetric(
+                                                    horizontal: 15,
+                                                    vertical: 12,
+                                                  ),
+                                                  child: Text(
+                                                    "New Price",
+                                                    style: TextStyle(
+                                                      color: Colors.white,
+                                                    ),
+                                                  ),
                                                 ),
                                                 CircleAvatar(
                                                   child: Icon(
