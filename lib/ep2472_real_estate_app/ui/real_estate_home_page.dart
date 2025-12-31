@@ -257,7 +257,21 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                   spacing: 12,
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
-                                    Expanded(flex: 6, child: Placeholder()),
+                                    Expanded(
+                                      flex: 6,
+                                      child: Container(
+                                        decoration: BoxDecoration(
+                                          borderRadius: BorderRadius.circular(24),
+                                          image: DecorationImage(
+                                            
+                                            image: NetworkImage(
+                                              "https://pixabay.com/ko/images/download/assisi-city-7150594_1920.jpg",
+                                            ),
+                                            fit: BoxFit.cover,
+                                          ),
+                                        ),
+                                      ),
+                                    ),
                                     Expanded(
                                       flex: 4,
                                       child: Column(
@@ -347,7 +361,9 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                                 child: Row(
                                                   spacing: 8,
                                                   children: [
-                                                    Icon(Icons.bathtub_outlined),
+                                                    Icon(
+                                                      Icons.bathtub_outlined,
+                                                    ),
                                                     Text("3"),
                                                   ],
                                                 ),
