@@ -261,13 +261,40 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                       flex: 6,
                                       child: Container(
                                         decoration: BoxDecoration(
-                                          borderRadius: BorderRadius.circular(24),
+                                          borderRadius: BorderRadius.circular(
+                                            24,
+                                          ),
                                           image: DecorationImage(
                                             image: NetworkImage(
                                               "https://pixabay.com/ko/images/download/home-1622401_1920.jpg",
                                             ),
                                             fit: BoxFit.cover,
                                           ),
+                                          color: Colors.blue,
+                                        ),
+                                        padding: EdgeInsets.all(12),
+                                        child: Column(
+                                          children: [
+                                            Row(
+                                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                              children: [
+                                                Container(
+                                                  decoration: ShapeDecoration(
+                                                    shape: StadiumBorder(),
+                                                  ),
+                                                  child: Text("New Price"),
+                                                ),
+                                                CircleAvatar(
+                                                  child: Icon(
+                                                    Icons.favorite_border,
+                                                  ),
+                                                  backgroundColor:
+                                                      Colors.white12,
+                                                  foregroundColor: Colors.black,
+                                                ),
+                                              ],
+                                            ),
+                                          ],
                                         ),
                                       ),
                                     ),
