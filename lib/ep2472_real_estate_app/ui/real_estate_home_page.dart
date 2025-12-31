@@ -251,9 +251,10 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                     ),
                                     Row(
                                       children: [
-                                        
+                                        Icon(Icons.location_on),
+                                        Text("ABCD Spring EF 0879, UNKNOWN"),
                                       ],
-                                    )
+                                    ),
                                   ],
                                 )
                               );
