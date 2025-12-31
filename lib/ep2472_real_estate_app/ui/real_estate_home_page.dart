@@ -244,6 +244,13 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                     ),
                                     Row(
                                       children: [
+                                        Text("Sherman Oaks",),
+                                        Text("\$2300"),
+                                        Text("/month"),
+                                      ],
+                                    ),
+                                    Row(
+                                      children: [
                                         
                                       ],
                                     )
