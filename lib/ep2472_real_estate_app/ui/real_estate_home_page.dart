@@ -273,8 +273,16 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                                 ),
                                               ),
                                               Spacer(),
-                                              Text("\$2300"),
-                                              Text("/month"),
+                                              Text("\$2300",
+                                                style: TextStyle(
+                                                  fontWeight: FontWeight.bold,
+                                                  fontSize: 16,
+                                                ),),
+                                              Text("/month",
+                                              style: TextStyle(
+                                                fontSize: 12,
+                                                color: Colors.grey
+                                              ),),
                                             ],
                                           ),
                                           Row(
