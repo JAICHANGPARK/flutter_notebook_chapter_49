@@ -239,9 +239,16 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
+                                    Container(
 
+                                    ),
+                                    Row(
+                                      children: [
+                                        
+                                      ],
+                                    )
                                   ],
-                                );
+                                )
                               );
                             },
                           ),
