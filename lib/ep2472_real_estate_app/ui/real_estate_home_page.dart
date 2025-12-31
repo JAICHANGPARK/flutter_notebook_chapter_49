@@ -220,7 +220,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                               TextButton(
                                 onPressed: () {},
                                 style: TextButton.styleFrom(
-                                  foregroundColor: Colors.
+                                  foregroundColor: Color.fromRGBO(0, 171, 180, 1),
                                 ),
                                 child: Text("See all"),
                               ),
