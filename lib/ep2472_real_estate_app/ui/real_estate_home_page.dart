@@ -244,44 +244,49 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
-                                    Container(),
-                                    Row(
+                                    Expanded(child: Placeholder()),
+                                    Column(
                                       children: [
-                                        Text("Sherman Oaks"),
-                                        Text("\$2300"),
-                                        Text("/month"),
-                                      ],
-                                    ),
-                                    Row(
-                                      children: [
-                                        Icon(Icons.location_on),
-                                        Text("ABCD Spring EF 0879, UNKNOWN"),
-                                      ],
-                                    ),
-                                    Row(
-                                      children: [
-                                        Container(
-                                          decoration: ShapeDecoration(
-                                            shape: StadiumBorder(
-                                              side: BorderSide(
-                                                color: Colors.grey[300]!,
+                                        Row(
+                                          children: [
+                                            Text("Sherman Oaks"),
+                                            Text("\$2300"),
+                                            Text("/month"),
+                                          ],
+                                        ),
+                                        Row(
+                                          children: [
+                                            Icon(Icons.location_on),
+                                            Text("ABCD Spring EF 0879, UNKNOWN"),
+                                          ],
+                                        ),
+                                        Row(
+                                          children: [
+                                            Container(
+                                              decoration: ShapeDecoration(
+                                                shape: StadiumBorder(
+                                                  side: BorderSide(
+                                                    color: Colors.grey[300]!,
+                                                  ),
+                                                ),
+                                              ),
+                                              padding: EdgeInsets.symmetric(
+                                                horizontal: 15,
+                                                vertical: 6,
+                                              ),
+                                              child: Row(
+                                                spacing: 8,
+                                                children: [
+                                                  Icon(Icons.bed),
+                                                  Text("3"),
+                                                ],
                                               ),
                                             ),
-                                          ),
-                                          padding: EdgeInsets.symmetric(
-                                            horizontal: 15,
-                                            vertical: 6,
-                                          ),
-                                          child: Row(
-                                            spacing: 8,
-                                            children: [
-                                              Icon(Icons.bed),
-                                              Text("3"),
-                                            ],
-                                          ),
+                                          ],
                                         ),
                                       ],
-                                    ),
+                                    )
+
                                   ],
                                 ),
                               );
