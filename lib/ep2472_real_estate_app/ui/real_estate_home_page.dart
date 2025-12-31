@@ -241,6 +241,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                               return Container(
                                 width: 320,
                                 margin: EdgeInsets.only(right: 12),
+                                padding: EdgeInsets.all(8),
                                 decoration: BoxDecoration(
                                   color: Colors.white,
                                   borderRadius: BorderRadius.circular(24),
