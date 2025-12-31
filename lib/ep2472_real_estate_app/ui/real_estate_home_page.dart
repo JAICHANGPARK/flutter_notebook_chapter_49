@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class RealEstateHomePage extends StatefulWidget {
   const RealEstateHomePage({super.key});
@@ -91,6 +92,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                     ),
                                   ],
                                 ),
+                                Gap(2),
                                 Switch.adaptive(
                                   value: false,
                                   onChanged: (value) {
