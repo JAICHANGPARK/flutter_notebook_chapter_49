@@ -257,9 +257,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                   spacing: 12,
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
-                                    Expanded(
-                                        flex: 6,
-                                        child: Placeholder()),
+                                    Expanded(flex: 6, child: Placeholder()),
                                     Expanded(
                                       flex: 4,
                                       child: Column(
@@ -274,7 +272,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                           ),
                                           Row(
                                             children: [
-                                              Icon(Icons.location_on),
+                                              Icon(Icons.location_on, size: 18),
                                               Text(
                                                 "ABCD Spring EF 0879, UNKNOWN",
                                               ),
