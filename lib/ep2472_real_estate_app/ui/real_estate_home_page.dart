@@ -265,7 +265,14 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                         children: [
                                           Row(
                                             children: [
-                                              Text("Sherman Oaks"),
+                                              Text(
+                                                "Sherman Oaks",
+                                                style: TextStyle(
+                                                  fontWeight: FontWeight.bold,
+                                                  fontSize: 18,
+                                                ),
+                                              ),
+                                              Spacer(),
                                               Text("\$2300"),
                                               Text("/month"),
                                             ],
