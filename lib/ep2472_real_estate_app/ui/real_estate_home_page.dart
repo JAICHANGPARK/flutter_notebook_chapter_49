@@ -51,7 +51,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                             ),
                             padding: EdgeInsets.all(4),
                             child: Row(
-                              spacing: 4,
+                              spacing: 8,
                               children: [
                                 Container(
                                   height: 42,
