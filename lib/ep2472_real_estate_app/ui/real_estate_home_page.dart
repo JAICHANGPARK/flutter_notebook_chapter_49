@@ -254,11 +254,16 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                   ],
                                 ),
                                 child: Column(
+                                  spacing: 12,
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
-                                    Expanded(child: Placeholder()),
                                     Expanded(
+                                        flex: 6,
+                                        child: Placeholder()),
+                                    Expanded(
+                                      flex: 4,
                                       child: Column(
+                                        spacing: 8,
                                         children: [
                                           Row(
                                             children: [
