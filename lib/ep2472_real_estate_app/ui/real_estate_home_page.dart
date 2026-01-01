@@ -547,6 +547,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
               child: BackdropFilter(
                 filter: ImageFilter.blur(sigmaX: 2, sigmaY: 4),
                 child: Container(
+                  padding: EdgeInsets.all(3),
                   decoration: ShapeDecoration(
                     shape: StadiumBorder(),
                     color: Colors.black12,
