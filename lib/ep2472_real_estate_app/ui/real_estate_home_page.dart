@@ -457,6 +457,9 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                               TextButton(
                                 onPressed: () {},
                                 child: Text("See all"),
+                                style: TextButton.styleFrom(
+                                  
+                                )
                               ),
                             ],
                           ),
