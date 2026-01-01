@@ -500,6 +500,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                               "New Price",
                                               style: TextStyle(
                                                 color: Colors.white,
+                                                fontSize: 12,
                                               ),
                                             ),
                                           ),
