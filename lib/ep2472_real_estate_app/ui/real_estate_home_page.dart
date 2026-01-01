@@ -491,7 +491,10 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                       Row(
                                         children: [
                                           Container(
-                                            padding: EdgeInsets.symmetric(horizontal: 12,vertical: 8),
+                                            padding: EdgeInsets.symmetric(
+                                              horizontal: 12,
+                                              vertical: 8,
+                                            ),
                                             decoration: ShapeDecoration(
                                               shape: StadiumBorder(),
                                               color: Colors.black38,
@@ -507,7 +510,12 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                         ],
                                       ),
                                       CircleAvatar(
-                                        child: Icon(Icons.favorite,
+                                        child: Icon(Icons.favorite),
+                                        foregroundColor: Color.fromRGBO(
+                                          0,
+                                          171,
+                                          180,
+                                          1,
                                         ),
                                       ),
                                     ],
