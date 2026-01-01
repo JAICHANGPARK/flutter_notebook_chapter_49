@@ -509,6 +509,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                             ),
                                           ),
                                           CircleAvatar(
+                                            backgroundColor: Colors.white54,
                                             foregroundColor: Color.fromRGBO(
                                               0,
                                               171,
