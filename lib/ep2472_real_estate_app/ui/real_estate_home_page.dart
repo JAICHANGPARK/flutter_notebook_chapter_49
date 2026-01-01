@@ -506,6 +506,10 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                           ),
                                         ],
                                       ),
+                                      CircleAvatar(
+                                        child: Icon(Icons.favorite,
+                                        ),
+                                      ),
                                     ],
                                   ),
                                 ),
