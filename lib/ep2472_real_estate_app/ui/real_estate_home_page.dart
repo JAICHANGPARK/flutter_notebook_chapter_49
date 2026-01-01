@@ -553,8 +553,8 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                   CircleAvatar(
                     radius: 30,
                     backgroundColor: Colors.black,
-                    child: HugeIcon(icon: HugeIcons.strokeRoundedHouse01),
                     foregroundColor: Colors.white,
+                    child: HugeIcon(icon: HugeIcons.strokeRoundedHouse01),
                   ),
                   CircleAvatar(radius: 30),
                   CircleAvatar(radius: 30),
