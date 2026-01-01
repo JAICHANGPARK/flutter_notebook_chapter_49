@@ -456,7 +456,6 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                               ),
                               TextButton(
                                 onPressed: () {},
-                                child: Text("See all"),
                                 style: TextButton.styleFrom(
                                   foregroundColor: Color.fromRGBO(
                                     0,
@@ -465,6 +464,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                     1,
                                   ),
                                 ),
+                                child: Text("See all"),
                               ),
                             ],
                           ),
