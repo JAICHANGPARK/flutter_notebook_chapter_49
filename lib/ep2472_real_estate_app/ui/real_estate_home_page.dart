@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class RealEstateHomePage extends StatefulWidget {
   const RealEstateHomePage({super.key});
@@ -489,7 +490,8 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                   child: Column(
                                     children: [
                                       Row(
-                                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.spaceBetween,
                                         children: [
                                           Container(
                                             padding: EdgeInsets.symmetric(
@@ -516,12 +518,13 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                               180,
                                               1,
                                             ),
-                                            child: Icon(Icons.favorite,
-                                            size: 18,),
+                                            child: Icon(
+                                              Icons.favorite,
+                                              size: 18,
+                                            ),
                                           ),
                                         ],
                                       ),
-
                                     ],
                                   ),
                                 ),
@@ -547,7 +550,13 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
               child: Row(
                 mainAxisSize: .min,
                 children: [
-                  CircleAvatar(radius: 30),
+                  CircleAvatar(
+                    radius: 30,
+                    backgroundColor: Colors.black,
+                    foregroundImage: Colors.white,
+                    child: HugeIcon(icon: HugeIcons.strokeRoundedHouse01),
+                    foregroundColor: Colors.white,
+                  ),
                   CircleAvatar(radius: 30),
                   CircleAvatar(radius: 30),
                   CircleAvatar(radius: 30),
