@@ -478,7 +478,14 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                               return Container(
                                 width: 320,
                                 margin: EdgeInsets.only(right: 12),
-                                child: Placeholder(),
+                                child: Container(
+
+                                  decoration: ShapeDecoration(
+                                      
+                                      shape: RoundedSuperellipseBorder(
+                                    borderRadius: .circular(32),
+                                  )),
+                                )
                               );
                             },
                           ),
