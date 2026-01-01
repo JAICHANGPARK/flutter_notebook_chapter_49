@@ -481,7 +481,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                 child: Container(
 
                                   decoration: ShapeDecoration(
-                                      
+                                      color: Colors.orange,
                                       shape: RoundedSuperellipseBorder(
                                     borderRadius: .circular(32),
                                   )),
