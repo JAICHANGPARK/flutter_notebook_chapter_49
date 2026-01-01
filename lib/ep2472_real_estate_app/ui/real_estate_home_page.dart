@@ -485,6 +485,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                       borderRadius: .circular(32),
                                     ),
                                   ),
+                                  padding: EdgeInsets.all(12),
                                   child: Column(
                                     children: [
                                       Row(
