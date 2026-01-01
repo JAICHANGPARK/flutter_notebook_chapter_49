@@ -471,21 +471,21 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                         ),
                         Container(
                           padding: EdgeInsets.only(left: 16),
-                          height: 160,
+                          height: 180,
                           child: ListView.builder(
                             scrollDirection: Axis.horizontal,
                             itemBuilder: (context, index) {
                               return Container(
-                                width: 320,
+                                width: 180,
                                 margin: EdgeInsets.only(right: 12),
                                 child: Container(
-
                                   decoration: ShapeDecoration(
-                                      color: Colors.orange,
-                                      shape: RoundedSuperellipseBorder(
-                                    borderRadius: .circular(32),
-                                  )),
-                                )
+                                    color: Colors.orange,
+                                    shape: RoundedSuperellipseBorder(
+                                      borderRadius: .circular(32),
+                                    ),
+                                  ),
+                                ),
                               );
                             },
                           ),
