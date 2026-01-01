@@ -489,6 +489,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                   child: Column(
                                     children: [
                                       Row(
+                                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                         children: [
                                           Container(
                                             padding: EdgeInsets.symmetric(
