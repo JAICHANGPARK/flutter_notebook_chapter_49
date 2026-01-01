@@ -485,6 +485,26 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                       borderRadius: .circular(32),
                                     ),
                                   ),
+                                  child: Column(
+                                    children: [
+                                      Row(
+                                        children: [
+                                          Container(
+                                            decoration: ShapeDecoration(
+                                              shape: StadiumBorder(),
+                                              color: Colors.black38,
+                                            ),
+                                            child: Text(
+                                              "New Price",
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                              ),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
                                 ),
                               );
                             },
