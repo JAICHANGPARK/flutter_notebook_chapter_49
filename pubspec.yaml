@@ -12,6 +12,7 @@ dependencies:
   google_fonts: ^6.3.3
   gap: ^3.0.1
   dots_indicator: ^4.0.1
+  hugeicons:
 
 dev_dependencies:
   flutter_test:
