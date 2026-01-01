@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:hugeicons/hugeicons.dart';
@@ -541,46 +543,49 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
           ),
           Align(
             alignment: .bottomCenter,
-            child: Container(
-              decoration: ShapeDecoration(
-                shape: StadiumBorder(),
-                color: Colors.white,
-              ),
-              margin: EdgeInsets.only(bottom: 32),
-              child: Row(
-                mainAxisSize: .min,
-                children: [
-                  CircleAvatar(
-                    radius: 30,
-                    backgroundColor: Colors.black,
-                    foregroundColor: Colors.white,
-                    child: HugeIcon(icon: HugeIcons.strokeRoundedHouse01),
-                  ),
-                  CircleAvatar(
-                    radius: 30,
-                    backgroundColor: Colors.white,
-                    foregroundColor: Colors.black,
-                    child: Icon(Icons.notifications_none_outlined),
-                  ),
-                  CircleAvatar(
-                    radius: 30,
-                    backgroundColor: Colors.white,
-                    foregroundColor: Colors.black,
-                    child: Icon(Icons.favorite_border),
-                  ),
-                  CircleAvatar(
-                    radius: 30,
-                    backgroundColor: Colors.white,
-                    foregroundColor: Colors.black,
-                    child: Icon(Icons.chat_bubble_outline),
-                  ),
-                  CircleAvatar(
-                    radius: 30,
-                    backgroundColor: Colors.white,
-                    foregroundColor: Colors.black,
-                    child: Icon(Icons.account_circle_outlined),
-                  ),
-                ],
+            child: BackdropFilter(
+              filter: ImageFilter.blur(sigmaX: 2, sigmaY: 4),
+              child: Container(
+                decoration: ShapeDecoration(
+                  shape: StadiumBorder(),
+                  color: Colors.white,
+                ),
+                margin: EdgeInsets.only(bottom: 32),
+                child: Row(
+                  mainAxisSize: .min,
+                  children: [
+                    CircleAvatar(
+                      radius: 30,
+                      backgroundColor: Colors.black,
+                      foregroundColor: Colors.white,
+                      child: HugeIcon(icon: HugeIcons.strokeRoundedHouse01),
+                    ),
+                    CircleAvatar(
+                      radius: 30,
+                      backgroundColor: Colors.white,
+                      foregroundColor: Colors.black,
+                      child: Icon(Icons.notifications_none_outlined),
+                    ),
+                    CircleAvatar(
+                      radius: 30,
+                      backgroundColor: Colors.white,
+                      foregroundColor: Colors.black,
+                      child: Icon(Icons.favorite_border),
+                    ),
+                    CircleAvatar(
+                      radius: 30,
+                      backgroundColor: Colors.white,
+                      foregroundColor: Colors.black,
+                      child: Icon(Icons.chat_bubble_outline),
+                    ),
+                    CircleAvatar(
+                      radius: 30,
+                      backgroundColor: Colors.white,
+                      foregroundColor: Colors.black,
+                      child: Icon(Icons.account_circle_outlined),
+                    ),
+                  ],
+                ),
               ),
             ),
           ),
