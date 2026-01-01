@@ -507,17 +507,19 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                               ),
                                             ),
                                           ),
+                                          CircleAvatar(
+                                            foregroundColor: Color.fromRGBO(
+                                              0,
+                                              171,
+                                              180,
+                                              1,
+                                            ),
+                                            child: Icon(Icons.favorite,
+                                            size: 18,),
+                                          ),
                                         ],
                                       ),
-                                      CircleAvatar(
-                                        foregroundColor: Color.fromRGBO(
-                                          0,
-                                          171,
-                                          180,
-                                          1,
-                                        ),
-                                        child: Icon(Icons.favorite),
-                                      ),
+
                                     ],
                                   ),
                                 ),
