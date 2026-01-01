@@ -510,13 +510,13 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                         ],
                                       ),
                                       CircleAvatar(
-                                        child: Icon(Icons.favorite),
                                         foregroundColor: Color.fromRGBO(
                                           0,
                                           171,
                                           180,
                                           1,
                                         ),
+                                        child: Icon(Icons.favorite),
                                       ),
                                     ],
                                   ),
