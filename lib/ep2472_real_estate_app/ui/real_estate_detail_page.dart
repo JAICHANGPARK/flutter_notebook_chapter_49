@@ -72,20 +72,22 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
                                   Text("32 reviews"),
                                 ],
                               ),
-                              Divider(),
-                              Row(
-                                children: [
-                                  Expanded(child: Text()),
-                                  Container(
-                                    height: 80,
-                                    width: 180,
-                                    child: Placeholder(),
-                                  ),
-                                ],
-                              ),
                             ],
                           ),
                         ),
+                      ],
+                    ),
+                    Divider(),
+                    Row(
+                      spacing: 24,
+                      children: [
+                        Expanded(
+                          child: Text(
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+                            maxLines: 2,
+                          ),
+                        ),
+                        Container(height: 80, width: 180, child: Placeholder()),
                       ],
                     ),
                   ],
