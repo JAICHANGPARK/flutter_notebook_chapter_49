@@ -99,6 +99,7 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
                     SizedBox(
                       height: 120,
                       child: ListView.builder(
+                        scrollDirection: Axis.horizontal,
                         itemCount: 10,
                         itemBuilder: (context, index) {
                           return Container(
