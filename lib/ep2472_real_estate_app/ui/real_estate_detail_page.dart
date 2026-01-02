@@ -21,6 +21,7 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
               padding: const EdgeInsets.only(top: 16),
               child: SingleChildScrollView(
                 child: Column(
+                  spacing: 16,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Padding(
