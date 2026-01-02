@@ -20,6 +20,7 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
               padding: const EdgeInsets.only(top: 16),
               child: SingleChildScrollView(
                 child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 16),
@@ -41,7 +42,33 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
                               Text("Posted by Dream"),
                               Row(
                                 children: [
-                                  Icon(Icons.star, color: Colors.deepOrange),
+                                  Icon(
+                                    Icons.star,
+                                    color: Colors.deepOrange,
+                                    size: 16,
+                                  ),
+                                  Icon(
+                                    Icons.star,
+                                    color: Colors.deepOrange,
+                                    size: 16,
+                                  ),
+                                  Icon(
+                                    Icons.star,
+                                    color: Colors.deepOrange,
+                                    size: 16,
+                                  ),
+                                  Icon(
+                                    Icons.star,
+                                    color: Colors.deepOrange,
+                                    size: 16,
+                                  ),
+                                  Icon(
+                                    Icons.star_border_outlined,
+                                    color: Colors.deepOrange,
+                                    size: 16,
+                                  ),
+                                  Spacer(),
+                                  Text("4.5 Ratings"),
                                 ],
                               ),
                             ],
