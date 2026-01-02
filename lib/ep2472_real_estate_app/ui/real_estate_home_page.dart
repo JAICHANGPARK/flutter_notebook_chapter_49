@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_49/ep2472_real_estate_app/ui/real_estate_detail_page.dart';
 import 'package:gap/gap.dart';
 import 'package:hugeicons/hugeicons.dart';
 
@@ -241,200 +242,218 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                           child: ListView.builder(
                             scrollDirection: Axis.horizontal,
                             itemBuilder: (context, index) {
-                              return Container(
-                                width: 320,
-                                margin: EdgeInsets.only(right: 12),
-                                padding: EdgeInsets.all(8),
-                                decoration: BoxDecoration(
-                                  color: Colors.white,
-                                  borderRadius: BorderRadius.circular(24),
-                                  boxShadow: [
-                                    BoxShadow(
-                                      color: Colors.grey[100]!,
-                                      spreadRadius: 2,
-                                      blurRadius: 2,
+                              return GestureDetector(
+                                onTap: () {
+                                  Navigator.of(context).push(
+                                    MaterialPageRoute(
+                                      builder: (context) =>
+                                          RealEstateDetailPage(),
                                     ),
-                                  ],
-                                ),
-                                child: Column(
-                                  spacing: 12,
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
-                                    Expanded(
-                                      flex: 6,
-                                      child: Container(
-                                        decoration: BoxDecoration(
-                                          borderRadius: BorderRadius.circular(
-                                            24,
-                                          ),
-                                          image: DecorationImage(
-                                            image: NetworkImage(
-                                              "https://pixabay.com/ko/images/download/home-1622401_1920.jpg",
+                                  );
+                                },
+                                child: Container(
+                                  width: 320,
+                                  margin: EdgeInsets.only(right: 12),
+                                  padding: EdgeInsets.all(8),
+                                  decoration: BoxDecoration(
+                                    color: Colors.white,
+                                    borderRadius: BorderRadius.circular(24),
+                                    boxShadow: [
+                                      BoxShadow(
+                                        color: Colors.grey[100]!,
+                                        spreadRadius: 2,
+                                        blurRadius: 2,
+                                      ),
+                                    ],
+                                  ),
+                                  child: Column(
+                                    spacing: 12,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      Expanded(
+                                        flex: 6,
+                                        child: Container(
+                                          decoration: BoxDecoration(
+                                            borderRadius: BorderRadius.circular(
+                                              24,
                                             ),
-                                            fit: BoxFit.cover,
+                                            image: DecorationImage(
+                                              image: NetworkImage(
+                                                "https://pixabay.com/ko/images/download/home-1622401_1920.jpg",
+                                              ),
+                                              fit: BoxFit.cover,
+                                            ),
+                                            color: Colors.blue,
                                           ),
-                                          color: Colors.blue,
+                                          padding: EdgeInsets.all(12),
+                                          child: Column(
+                                            children: [
+                                              Row(
+                                                mainAxisAlignment:
+                                                    MainAxisAlignment
+                                                        .spaceBetween,
+                                                children: [
+                                                  Container(
+                                                    decoration: ShapeDecoration(
+                                                      shape: StadiumBorder(),
+                                                      color: Colors.black38,
+                                                    ),
+                                                    padding:
+                                                        EdgeInsets.symmetric(
+                                                          horizontal: 15,
+                                                          vertical: 12,
+                                                        ),
+                                                    child: Text(
+                                                      "New Price",
+                                                      style: TextStyle(
+                                                        color: Colors.white,
+                                                      ),
+                                                    ),
+                                                  ),
+                                                  CircleAvatar(
+                                                    child: Icon(
+                                                      Icons.favorite_border,
+                                                    ),
+                                                    backgroundColor:
+                                                        Colors.white12,
+                                                    foregroundColor:
+                                                        Colors.black,
+                                                  ),
+                                                ],
+                                              ),
+                                            ],
+                                          ),
                                         ),
-                                        padding: EdgeInsets.all(12),
+                                      ),
+                                      Expanded(
+                                        flex: 4,
                                         child: Column(
+                                          spacing: 8,
                                           children: [
                                             Row(
-                                              mainAxisAlignment:
-                                                  MainAxisAlignment
-                                                      .spaceBetween,
+                                              children: [
+                                                Text(
+                                                  "Sherman Oaks",
+                                                  style: TextStyle(
+                                                    fontWeight: FontWeight.bold,
+                                                    fontSize: 18,
+                                                  ),
+                                                ),
+                                                Spacer(),
+                                                Text(
+                                                  "\$2300",
+                                                  style: TextStyle(
+                                                    fontWeight: FontWeight.bold,
+                                                    fontSize: 16,
+                                                  ),
+                                                ),
+                                                Text(
+                                                  "/month",
+                                                  style: TextStyle(
+                                                    fontSize: 12,
+                                                    color: Colors.grey,
+                                                  ),
+                                                ),
+                                              ],
+                                            ),
+                                            Row(
+                                              children: [
+                                                Icon(
+                                                  Icons.location_on,
+                                                  size: 18,
+                                                  color: Color.fromRGBO(
+                                                    0,
+                                                    171,
+                                                    180,
+                                                    1,
+                                                  ),
+                                                ),
+                                                Text(
+                                                  "ABCD Spring EF 0879, UNKNOWN",
+                                                  style: TextStyle(
+                                                    color: Colors.grey,
+                                                  ),
+                                                ),
+                                              ],
+                                            ),
+                                            Gap(4),
+                                            Row(
                                               children: [
                                                 Container(
                                                   decoration: ShapeDecoration(
-                                                    shape: StadiumBorder(),
-                                                    color: Colors.black38,
+                                                    shape: StadiumBorder(
+                                                      side: BorderSide(
+                                                        color:
+                                                            Colors.grey[300]!,
+                                                      ),
+                                                    ),
                                                   ),
                                                   padding: EdgeInsets.symmetric(
                                                     horizontal: 15,
-                                                    vertical: 12,
+                                                    vertical: 6,
                                                   ),
-                                                  child: Text(
-                                                    "New Price",
-                                                    style: TextStyle(
-                                                      color: Colors.white,
-                                                    ),
+                                                  child: Row(
+                                                    spacing: 8,
+                                                    children: [
+                                                      Icon(Icons.bed),
+                                                      Text("3"),
+                                                    ],
                                                   ),
                                                 ),
-                                                CircleAvatar(
-                                                  child: Icon(
-                                                    Icons.favorite_border,
+                                                Container(
+                                                  decoration: ShapeDecoration(
+                                                    shape: StadiumBorder(
+                                                      side: BorderSide(
+                                                        color:
+                                                            Colors.grey[300]!,
+                                                      ),
+                                                    ),
                                                   ),
-                                                  backgroundColor:
-                                                      Colors.white12,
-                                                  foregroundColor: Colors.black,
+                                                  padding: EdgeInsets.symmetric(
+                                                    horizontal: 15,
+                                                    vertical: 6,
+                                                  ),
+                                                  child: Row(
+                                                    spacing: 8,
+                                                    children: [
+                                                      Icon(
+                                                        Icons.bathtub_outlined,
+                                                      ),
+                                                      Text("3"),
+                                                    ],
+                                                  ),
+                                                ),
+                                                Container(
+                                                  decoration: ShapeDecoration(
+                                                    shape: StadiumBorder(
+                                                      side: BorderSide(
+                                                        color:
+                                                            Colors.grey[300]!,
+                                                      ),
+                                                    ),
+                                                  ),
+                                                  padding: EdgeInsets.symmetric(
+                                                    horizontal: 15,
+                                                    vertical: 6,
+                                                  ),
+                                                  child: Row(
+                                                    spacing: 8,
+                                                    children: [
+                                                      Icon(
+                                                        Icons.square_outlined,
+                                                      ),
+                                                      Text("2600 sqft"),
+                                                    ],
+                                                  ),
                                                 ),
                                               ],
                                             ),
                                           ],
                                         ),
                                       ),
-                                    ),
-                                    Expanded(
-                                      flex: 4,
-                                      child: Column(
-                                        spacing: 8,
-                                        children: [
-                                          Row(
-                                            children: [
-                                              Text(
-                                                "Sherman Oaks",
-                                                style: TextStyle(
-                                                  fontWeight: FontWeight.bold,
-                                                  fontSize: 18,
-                                                ),
-                                              ),
-                                              Spacer(),
-                                              Text(
-                                                "\$2300",
-                                                style: TextStyle(
-                                                  fontWeight: FontWeight.bold,
-                                                  fontSize: 16,
-                                                ),
-                                              ),
-                                              Text(
-                                                "/month",
-                                                style: TextStyle(
-                                                  fontSize: 12,
-                                                  color: Colors.grey,
-                                                ),
-                                              ),
-                                            ],
-                                          ),
-                                          Row(
-                                            children: [
-                                              Icon(
-                                                Icons.location_on,
-                                                size: 18,
-                                                color: Color.fromRGBO(
-                                                  0,
-                                                  171,
-                                                  180,
-                                                  1,
-                                                ),
-                                              ),
-                                              Text(
-                                                "ABCD Spring EF 0879, UNKNOWN",
-                                                style: TextStyle(
-                                                  color: Colors.grey,
-                                                ),
-                                              ),
-                                            ],
-                                          ),
-                                          Gap(4),
-                                          Row(
-                                            children: [
-                                              Container(
-                                                decoration: ShapeDecoration(
-                                                  shape: StadiumBorder(
-                                                    side: BorderSide(
-                                                      color: Colors.grey[300]!,
-                                                    ),
-                                                  ),
-                                                ),
-                                                padding: EdgeInsets.symmetric(
-                                                  horizontal: 15,
-                                                  vertical: 6,
-                                                ),
-                                                child: Row(
-                                                  spacing: 8,
-                                                  children: [
-                                                    Icon(Icons.bed),
-                                                    Text("3"),
-                                                  ],
-                                                ),
-                                              ),
-                                              Container(
-                                                decoration: ShapeDecoration(
-                                                  shape: StadiumBorder(
-                                                    side: BorderSide(
-                                                      color: Colors.grey[300]!,
-                                                    ),
-                                                  ),
-                                                ),
-                                                padding: EdgeInsets.symmetric(
-                                                  horizontal: 15,
-                                                  vertical: 6,
-                                                ),
-                                                child: Row(
-                                                  spacing: 8,
-                                                  children: [
-                                                    Icon(
-                                                      Icons.bathtub_outlined,
-                                                    ),
-                                                    Text("3"),
-                                                  ],
-                                                ),
-                                              ),
-                                              Container(
-                                                decoration: ShapeDecoration(
-                                                  shape: StadiumBorder(
-                                                    side: BorderSide(
-                                                      color: Colors.grey[300]!,
-                                                    ),
-                                                  ),
-                                                ),
-                                                padding: EdgeInsets.symmetric(
-                                                  horizontal: 15,
-                                                  vertical: 6,
-                                                ),
-                                                child: Row(
-                                                  spacing: 8,
-                                                  children: [
-                                                    Icon(Icons.square_outlined),
-                                                    Text("2600 sqft"),
-                                                  ],
-                                                ),
-                                              ),
-                                            ],
-                                          ),
-                                        ],
-                                      ),
-                                    ),
-                                  ],
+                                    ],
+                                  ),
                                 ),
                               );
                             },
