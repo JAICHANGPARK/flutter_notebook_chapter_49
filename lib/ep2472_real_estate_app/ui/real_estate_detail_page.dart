@@ -96,6 +96,14 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
 
                       maxLines: 3,
                     ),
+                    SizedBox(
+                      height: 120,
+                      child: ListView.builder(
+                        itemBuilder: (context, index) {
+                          return Container();
+                        },
+                      ),
+                    ),
                   ],
                 ),
               ),
