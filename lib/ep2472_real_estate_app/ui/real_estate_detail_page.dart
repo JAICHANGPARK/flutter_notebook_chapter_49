@@ -12,6 +12,7 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.grey[100]!,
       body: Column(
         children: [
           Container(height: 320, child: Placeholder()),
@@ -98,13 +99,22 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
                     SizedBox(
                       height: 120,
                       child: ListView.builder(
+                        itemCount: 10,
                         itemBuilder: (context, index) {
                           return Container(
                             width: 140,
+                            margin: EdgeInsets.only(right: 8),
                             decoration: BoxDecoration(color: Colors.white),
                           );
                         },
                       ),
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text("Popular Amenities"),
+                        TextButton(onPressed: () {}, child: Text("See all")),
+                      ],
                     ),
                   ],
                 ),
