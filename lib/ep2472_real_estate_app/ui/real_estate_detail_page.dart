@@ -16,32 +16,41 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
         children: [
           Container(height: 320, child: Placeholder()),
           Expanded(
-            child: SingleChildScrollView(
-              child: Column(
-                children: [
-                  Row(
-                    children: [Text("Unique 3 Bedroom Flat"), Text("\$449.00")],
-                  ),
-                  Row(
-                    spacing: 12,
-                    children: [
-                      CircleAvatar(),
-                      Expanded(
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text("Posted by Dream"),
-                            Row(
-                              children: [
-                                Icon(Icons.star, color: Colors.deepOrange),
-                              ],
-                            ),
-                          ],
-                        ),
+            child: Padding(
+              padding: const EdgeInsets.only(top: 16),
+              child: SingleChildScrollView(
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 16),
+                      child: Row(
+                        children: [
+                          Text("Unique 3 Bedroom Flat"),
+                          Text("\$449.00"),
+                        ],
                       ),
-                    ],
-                  ),
-                ],
+                    ),
+                    Row(
+                      spacing: 12,
+                      children: [
+                        CircleAvatar(),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text("Posted by Dream"),
+                              Row(
+                                children: [
+                                  Icon(Icons.star, color: Colors.deepOrange),
+                                ],
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
               ),
             ),
           ),
