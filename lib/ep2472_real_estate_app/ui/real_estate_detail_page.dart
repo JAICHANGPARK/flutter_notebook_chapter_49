@@ -1,3 +1,6 @@
+import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
+
 class RealEstateDetailPage extends StatefulWidget {
   const RealEstateDetailPage({super.key});
 
