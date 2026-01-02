@@ -11,6 +11,6 @@ class RealEstateDetailPage extends StatefulWidget {
 class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold();
   }
 }
