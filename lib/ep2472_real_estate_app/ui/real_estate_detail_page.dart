@@ -190,17 +190,24 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
                       ),
                     ),
                     Divider(),
-                    Row(
-                      spacing: 24,
-                      children: [
-                        Expanded(
-                          child: Text(
-                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-                            maxLines: 2,
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Row(
+                        spacing: 24,
+                        children: [
+                          Expanded(
+                            child: Text(
+                              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+                              maxLines: 2,
+                              style: TextStyle(
+                                fontSize: 20,
+
+                              ),
+                            ),
                           ),
-                        ),
-                        Container(height: 80, width: 180, child: Placeholder()),
-                      ],
+                          Container(height: 80, width: 180, child: Placeholder()),
+                        ],
+                      ),
                     ),
                     Divider(),
                     Text(
