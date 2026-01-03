@@ -232,8 +232,10 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
                           return Container(
                             width: 140,
                             margin: EdgeInsets.only(left: 12),
-                            decoration: BoxDecoration(color: Colors.white, 
-                            borderRadius: .circular(15)),
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: .circular(15),
+                            ),
                           );
                         },
                       ),
@@ -241,7 +243,10 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        Text("Popular Amenities"),
+                        Text(
+                          "Popular Amenities",
+                          style: TextStyle(fontSize: 20, fontWeight: .bold),
+                        ),
                         TextButton(onPressed: () {}, child: Text("See all")),
                       ],
                     ),
