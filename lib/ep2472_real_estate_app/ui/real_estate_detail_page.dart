@@ -232,7 +232,8 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
                           return Container(
                             width: 140,
                             margin: EdgeInsets.only(left: 12),
-                            decoration: BoxDecoration(color: Colors.white),
+                            decoration: BoxDecoration(color: Colors.white, 
+                            borderRadius: .circular(15)),
                           );
                         },
                       ),
