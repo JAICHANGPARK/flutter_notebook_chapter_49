@@ -150,27 +150,27 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
                                     Icon(
                                       Icons.star,
                                       color: Colors.deepOrange,
-                                      size: 16,
+                                      size: 20,
                                     ),
                                     Icon(
                                       Icons.star,
                                       color: Colors.deepOrange,
-                                      size: 16,
+                                      size: 20,
                                     ),
                                     Icon(
                                       Icons.star,
                                       color: Colors.deepOrange,
-                                      size: 16,
+                                      size: 20,
                                     ),
                                     Icon(
                                       Icons.star,
                                       color: Colors.deepOrange,
-                                      size: 16,
+                                      size: 20,
                                     ),
                                     Icon(
                                       Icons.star_border_outlined,
                                       color: Colors.deepOrange,
-                                      size: 16,
+                                      size: 20,
                                     ),
                                     Spacer(),
                                     Text("4.5 Ratings"),
