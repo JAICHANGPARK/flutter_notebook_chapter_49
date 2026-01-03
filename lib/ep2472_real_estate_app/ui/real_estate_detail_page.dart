@@ -19,7 +19,7 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
             height: 320,
             decoration: BoxDecoration(color: Colors.grey),
             child: Padding(
-              padding: const EdgeInsets.all(16.0),
+              padding: const EdgeInsets.only(left: 16, right: 16, bottom: 16, top: 42),
               child: Column(children: [
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
