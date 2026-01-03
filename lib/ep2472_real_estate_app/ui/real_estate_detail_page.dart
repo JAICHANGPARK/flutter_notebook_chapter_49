@@ -240,15 +240,18 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
                         },
                       ),
                     ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Text(
-                          "Popular Amenities",
-                          style: TextStyle(fontSize: 20, fontWeight: .bold),
-                        ),
-                        TextButton(onPressed: () {}, child: Text("See all")),
-                      ],
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 16),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text(
+                            "Popular Amenities",
+                            style: TextStyle(fontSize: 20, fontWeight: .bold),
+                          ),
+                          TextButton(onPressed: () {}, child: Text("See all")),
+                        ],
+                      ),
                     ),
                   ],
                 ),
