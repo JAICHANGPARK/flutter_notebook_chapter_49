@@ -63,6 +63,13 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
                           shape: StadiumBorder(),
                           color: Colors.white,
                         ),
+                        child: Row(
+                          spacing: 8,
+                          children: [
+                            Icon(Icons.favorite_border,),
+                            Text("1.5k")
+                          ],
+                        ),
                       ),
                     ],
                   ),
