@@ -74,6 +74,34 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
                           ],
                         ),
                       ),
+                      Container(
+                        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(),
+                          color: Colors.white,
+                        ),
+                        child: Row(
+                          spacing: 8,
+                          children: [
+                            Icon(Icons.visibility,),
+                            Text("10k")
+                          ],
+                        ),
+                      ),
+                      Container(
+                        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(),
+                          color: Colors.white,
+                        ),
+                        child: Row(
+                          spacing: 8,
+                          children: [
+                            Icon(Icons.share,),
+                            Text("450")
+                          ],
+                        ),
+                      ),
                     ],
                   ),
                 ],
