@@ -19,40 +19,55 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
             height: 320,
             decoration: BoxDecoration(color: Colors.grey),
             child: Padding(
-              padding: const EdgeInsets.only(left: 16, right: 16, bottom: 16, top: 42),
+              padding: const EdgeInsets.only(
+                left: 16,
+                right: 16,
+                bottom: 16,
+                top: 42,
+              ),
               child: Column(
-                  spacing: 4,
-                  children: [
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    CircleAvatar(
-                      radius: 30,
-                      backgroundColor: Colors.white,
-                      foregroundColor: Colors.black,
-                      child: Icon(Icons.arrow_back_ios_new_outlined),
-                    ),
-                    CircleAvatar(
-                      radius: 30,
-                      backgroundColor: Colors.white,
-                      foregroundColor: Colors.black,
-                      child: Icon(Icons.favorite_border),
-                    ),
-                  ],
-                ),
-                Row(
-                  children: [
-                    Spacer(),
-                    CircleAvatar(
-                      radius: 30,
-                      backgroundColor: Colors.white,
-                      foregroundColor: Colors.black,
-                      child: Icon(Icons.share),
-                    ),
-
-                  ],
-                )
-              ]),
+                spacing: 4,
+                children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      CircleAvatar(
+                        radius: 30,
+                        backgroundColor: Colors.white,
+                        foregroundColor: Colors.black,
+                        child: Icon(Icons.arrow_back_ios_new_outlined),
+                      ),
+                      CircleAvatar(
+                        radius: 30,
+                        backgroundColor: Colors.white,
+                        foregroundColor: Colors.black,
+                        child: Icon(Icons.favorite_border),
+                      ),
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Spacer(),
+                      CircleAvatar(
+                        radius: 30,
+                        backgroundColor: Colors.white,
+                        foregroundColor: Colors.black,
+                        child: Icon(Icons.share),
+                      ),
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Container(
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(),
+                          color: Colors.white,
+                        ),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
             ),
           ),
           Expanded(
