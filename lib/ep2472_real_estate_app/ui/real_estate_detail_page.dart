@@ -18,7 +18,17 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
           Container(
             height: 320,
             decoration: BoxDecoration(color: Colors.grey),
-            child: Column(children: []),
+            child: Column(children: [
+              Row(
+                children: [
+                  CircleAvatar(
+                    radius: 30,
+                    backgroundColor: Colors.white,
+                    child: Icon(Icons.arrow_back_ios_new_outlined),
+                  ),
+                ],
+              )
+            ]),
           ),
           Expanded(
             child: Padding(
