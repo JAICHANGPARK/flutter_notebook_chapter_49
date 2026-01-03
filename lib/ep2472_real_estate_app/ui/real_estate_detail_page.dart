@@ -18,37 +18,40 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
           Container(
             height: 320,
             decoration: BoxDecoration(color: Colors.grey),
-            child: Column(children: [
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  CircleAvatar(
-                    radius: 30,
-                    backgroundColor: Colors.white,
-                    foregroundColor: Colors.black,
-                    child: Icon(Icons.arrow_back_ios_new_outlined),
-                  ),
-                  CircleAvatar(
-                    radius: 30,
-                    backgroundColor: Colors.white,
-                    foregroundColor: Colors.black,
-                    child: Icon(Icons.favorite_border),
-                  ),
-                ],
-              ),
-              Row(
-                children: [
-                  Spacer(),
-                  CircleAvatar(
-                    radius: 30,
-                    backgroundColor: Colors.white,
-                    foregroundColor: Colors.black,
-                    child: Icon(Icons.share),
-                  ),
+            child: Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Column(children: [
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    CircleAvatar(
+                      radius: 30,
+                      backgroundColor: Colors.white,
+                      foregroundColor: Colors.black,
+                      child: Icon(Icons.arrow_back_ios_new_outlined),
+                    ),
+                    CircleAvatar(
+                      radius: 30,
+                      backgroundColor: Colors.white,
+                      foregroundColor: Colors.black,
+                      child: Icon(Icons.favorite_border),
+                    ),
+                  ],
+                ),
+                Row(
+                  children: [
+                    Spacer(),
+                    CircleAvatar(
+                      radius: 30,
+                      backgroundColor: Colors.white,
+                      foregroundColor: Colors.black,
+                      child: Icon(Icons.share),
+                    ),
 
-                ],
-              )
-            ]),
+                  ],
+                )
+              ]),
+            ),
           ),
           Expanded(
             child: Padding(
