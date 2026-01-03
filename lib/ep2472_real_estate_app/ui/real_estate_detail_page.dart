@@ -15,13 +15,11 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
       backgroundColor: Colors.grey[100]!,
       body: Column(
         children: [
-          Container(height: 320,
-              decoration: BoxDecoration(
-                color: Colors.grey
-              ),
-              child: Column(
-            children: [],
-          ),),
+          Container(
+            height: 320,
+            decoration: BoxDecoration(color: Colors.grey),
+            child: Column(children: []),
+          ),
           Expanded(
             child: Padding(
               padding: const EdgeInsets.only(top: 16),
