@@ -16,7 +16,7 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
       body: Column(
         children: [
           Container(
-            height: 320,
+            height: 340,
             decoration: BoxDecoration(color: Colors.grey),
             child: Padding(
               padding: const EdgeInsets.only(
@@ -191,7 +191,7 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
                     ),
                     Divider(),
                     Padding(
-                      padding: const EdgeInsets.all(8.0),
+                      padding: const EdgeInsets.symmetric(horizontal: 16),
                       child: Row(
                         spacing: 24,
                         children: [
@@ -199,13 +199,19 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
                             child: Text(
                               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
                               maxLines: 2,
-                              style: TextStyle(
-                                fontSize: 20,
-
+                              style: TextStyle(fontSize: 20),
+                            ),
+                          ),
+                          Container(
+                            height: 80,
+                            width: 160,
+                            child: Container(
+                              decoration: BoxDecoration(
+                                borderRadius: .circular(12),
+                                color: Colors.grey,
                               ),
                             ),
                           ),
-                          Container(height: 80, width: 180, child: Placeholder()),
                         ],
                       ),
                     ),
