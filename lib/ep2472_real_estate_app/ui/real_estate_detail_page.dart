@@ -58,48 +58,49 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
                   ),
                   Spacer(),
                   Row(
+                    spacing: 2,
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Container(
-                        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+                        padding: EdgeInsets.symmetric(
+                          horizontal: 20,
+                          vertical: 12,
+                        ),
                         decoration: ShapeDecoration(
                           shape: StadiumBorder(),
                           color: Colors.white,
                         ),
                         child: Row(
                           spacing: 8,
-                          children: [
-                            Icon(Icons.favorite_border,),
-                            Text("1.5k")
-                          ],
+                          children: [Icon(Icons.favorite_border), Text("1.5k")],
                         ),
                       ),
                       Container(
-                        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+                        padding: EdgeInsets.symmetric(
+                          horizontal: 20,
+                          vertical: 12,
+                        ),
                         decoration: ShapeDecoration(
                           shape: StadiumBorder(),
                           color: Colors.white,
                         ),
                         child: Row(
                           spacing: 8,
-                          children: [
-                            Icon(Icons.visibility,),
-                            Text("10k")
-                          ],
+                          children: [Icon(Icons.visibility), Text("10k")],
                         ),
                       ),
                       Container(
-                        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+                        padding: EdgeInsets.symmetric(
+                          horizontal: 20,
+                          vertical: 12,
+                        ),
                         decoration: ShapeDecoration(
                           shape: StadiumBorder(),
                           color: Colors.white,
                         ),
                         child: Row(
                           spacing: 8,
-                          children: [
-                            Icon(Icons.share,),
-                            Text("450")
-                          ],
+                          children: [Icon(Icons.share), Text("450")],
                         ),
                       ),
                     ],
@@ -119,9 +120,15 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 16),
                       child: Row(
+                        mainAxisAlignment: .spaceBetween,
                         children: [
-                          Text("Unique 3 Bedroom Flat"),
-                          Text("\$449.00"),
+                          Text(
+                            "Unique 3 Bedroom Flat",
+                            style: TextStyle(fontSize: 16, fontWeight: .bold),
+                          ),
+                          Text("\$449.00",
+                            style: TextStyle(fontSize: 16, fontWeight: .bold),
+                          ),
                         ],
                       ),
                     ),
