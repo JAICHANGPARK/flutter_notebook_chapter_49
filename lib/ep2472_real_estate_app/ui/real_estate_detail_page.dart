@@ -126,7 +126,8 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
                             "Unique 3 Bedroom Flat",
                             style: TextStyle(fontSize: 20, fontWeight: .bold),
                           ),
-                          Text("\$449.00",
+                          Text(
+                            "\$449.00",
                             style: TextStyle(fontSize: 20, fontWeight: .bold),
                           ),
                         ],
@@ -137,9 +138,7 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
                       child: Row(
                         spacing: 12,
                         children: [
-                          CircleAvatar(
-                            radius: 30,
-                          ),
+                          CircleAvatar(radius: 30),
                           Expanded(
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
@@ -173,7 +172,14 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
                                       size: 20,
                                     ),
                                     Spacer(),
-                                    Text("4.5 Ratings"),
+                                    Text(
+                                      "4.5 Ratings",
+                                      style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 16,
+                                      ),
+                                    ),
+                                    Gap(4),
                                     Text("32 reviews"),
                                   ],
                                 ),
