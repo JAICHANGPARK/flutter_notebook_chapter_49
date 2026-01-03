@@ -15,7 +15,9 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
       backgroundColor: Colors.grey[100]!,
       body: Column(
         children: [
-          Container(height: 320, child: Placeholder()),
+          Container(height: 320, child: Column(
+            children: [],
+          )),
           Expanded(
             child: Padding(
               padding: const EdgeInsets.only(top: 16),
