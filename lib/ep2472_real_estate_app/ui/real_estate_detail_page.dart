@@ -124,59 +124,62 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
                         children: [
                           Text(
                             "Unique 3 Bedroom Flat",
-                            style: TextStyle(fontSize: 16, fontWeight: .bold),
+                            style: TextStyle(fontSize: 20, fontWeight: .bold),
                           ),
                           Text("\$449.00",
-                            style: TextStyle(fontSize: 16, fontWeight: .bold),
+                            style: TextStyle(fontSize: 20, fontWeight: .bold),
                           ),
                         ],
                       ),
                     ),
-                    Row(
-                      spacing: 12,
-                      children: [
-                        CircleAvatar(),
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text("Posted by Dream"),
-                              Row(
-                                children: [
-                                  Icon(
-                                    Icons.star,
-                                    color: Colors.deepOrange,
-                                    size: 16,
-                                  ),
-                                  Icon(
-                                    Icons.star,
-                                    color: Colors.deepOrange,
-                                    size: 16,
-                                  ),
-                                  Icon(
-                                    Icons.star,
-                                    color: Colors.deepOrange,
-                                    size: 16,
-                                  ),
-                                  Icon(
-                                    Icons.star,
-                                    color: Colors.deepOrange,
-                                    size: 16,
-                                  ),
-                                  Icon(
-                                    Icons.star_border_outlined,
-                                    color: Colors.deepOrange,
-                                    size: 16,
-                                  ),
-                                  Spacer(),
-                                  Text("4.5 Ratings"),
-                                  Text("32 reviews"),
-                                ],
-                              ),
-                            ],
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 16),
+                      child: Row(
+                        spacing: 12,
+                        children: [
+                          CircleAvatar(),
+                          Expanded(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text("Posted by Dream"),
+                                Row(
+                                  children: [
+                                    Icon(
+                                      Icons.star,
+                                      color: Colors.deepOrange,
+                                      size: 16,
+                                    ),
+                                    Icon(
+                                      Icons.star,
+                                      color: Colors.deepOrange,
+                                      size: 16,
+                                    ),
+                                    Icon(
+                                      Icons.star,
+                                      color: Colors.deepOrange,
+                                      size: 16,
+                                    ),
+                                    Icon(
+                                      Icons.star,
+                                      color: Colors.deepOrange,
+                                      size: 16,
+                                    ),
+                                    Icon(
+                                      Icons.star_border_outlined,
+                                      color: Colors.deepOrange,
+                                      size: 16,
+                                    ),
+                                    Spacer(),
+                                    Text("4.5 Ratings"),
+                                    Text("32 reviews"),
+                                  ],
+                                ),
+                              ],
+                            ),
                           ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                     Divider(),
                     Row(
