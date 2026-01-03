@@ -137,7 +137,9 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
                       child: Row(
                         spacing: 12,
                         children: [
-                          CircleAvatar(),
+                          CircleAvatar(
+                            radius: 30,
+                          ),
                           Expanded(
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
