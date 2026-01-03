@@ -56,7 +56,9 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
                       ),
                     ],
                   ),
+                  Spacer(),
                   Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Container(
                         decoration: ShapeDecoration(
