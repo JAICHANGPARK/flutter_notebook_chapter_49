@@ -228,7 +228,14 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
                       child: ListView(
                         scrollDirection: Axis.horizontal,
                         children: [
-                          
+                          Container(
+                            width: 140,
+                            margin: EdgeInsets.only(left: 12),
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: .circular(15),
+                            ),
+                          ),
                         ],
                       ),
                     ),
