@@ -17,6 +17,7 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
         child: SafeArea(
           bottom: false,
           child: Column(
+            spacing: 16,
             children: [
               Container(
                 height: 80,
@@ -29,7 +30,21 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
               ),
               Container(height: 120, child: Placeholder()),
               Expanded(child: Placeholder()),
-              Container(height: 80, child: Placeholder()),
+              Container(height: 62,   decoration: ShapeDecoration(
+                shape: StadiumBorder(),
+                color: Colors.white,
+              ),
+                child: Row(
+                  children: [
+                    IconButton(onPressed: (){}, icon: Icon(Icons.add_circle_outline)),
+                    VerticalDivider(),
+                    Expanded(child: TextField()),
+                    CircleAvatar(
+                      backgroundColor: Colors.black,
+                    )
+                  ],
+                  
+                ),),
             ],
           ),
         ),
