@@ -231,6 +231,7 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
                           Container(
                             width: 140,
                             margin: EdgeInsets.only(left: 12),
+                            padding: EdgeInsets.only(top: 24, bottom: 24, left: 16),
                             decoration: BoxDecoration(
                               color: Colors.white,
                               borderRadius: .circular(15),
@@ -238,6 +239,7 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
                             child: Column(
                               spacing: 16,
                               crossAxisAlignment: CrossAxisAlignment.start,
+                              mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Icon(Icons.bed),
                                 Text("3 bedrooms")
