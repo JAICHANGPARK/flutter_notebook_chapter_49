@@ -241,8 +241,10 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
-                                Icon(Icons.bed_outlined, size: 24,),
-                                Text("3 bedrooms")
+                                Icon(Icons.bed_outlined, size: 32,),
+                                Text("3 bedrooms",style: TextStyle(
+                                  fontSize: 18
+                                ),)
                               ],
                             ),
                           ),
