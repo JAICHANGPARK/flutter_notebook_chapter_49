@@ -225,19 +225,11 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
                     ),
                     SizedBox(
                       height: 120,
-                      child: ListView.builder(
+                      child: ListView(
                         scrollDirection: Axis.horizontal,
-                        itemCount: 10,
-                        itemBuilder: (context, index) {
-                          return Container(
-                            width: 140,
-                            margin: EdgeInsets.only(left: 12),
-                            decoration: BoxDecoration(
-                              color: Colors.white,
-                              borderRadius: .circular(15),
-                            ),
-                          );
-                        },
+                        children: [
+                          
+                        ],
                       ),
                     ),
                     Padding(
