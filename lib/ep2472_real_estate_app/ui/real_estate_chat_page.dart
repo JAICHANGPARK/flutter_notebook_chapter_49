@@ -52,7 +52,11 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                         ),
                       ),
                     ),
-                    CircleAvatar(backgroundColor: Colors.black),
+                    CircleAvatar(
+                      backgroundColor: Colors.black,
+                      foregroundColor: Colors.white,
+                      child: Icon(Icons.send),
+                    ),
                   ],
                 ),
               ),
