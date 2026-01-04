@@ -30,22 +30,32 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
               ),
               Container(height: 120, child: Placeholder()),
               Expanded(child: Placeholder()),
-              Container(height: 62,   decoration: ShapeDecoration(
-                shape: StadiumBorder(),
-                color: Colors.white,
-              ),
-                padding: EdgeInsets.symmetric(horizontal: 8,vertical: 12),
+              Container(
+                height: 62,
+                decoration: ShapeDecoration(
+                  shape: StadiumBorder(),
+                  color: Colors.white,
+                ),
+                padding: EdgeInsets.symmetric(horizontal: 8, vertical: 12),
                 child: Row(
                   children: [
-                    IconButton(onPressed: (){}, icon: Icon(Icons.add_circle_outline)),
+                    IconButton(
+                      onPressed: () {},
+                      icon: Icon(Icons.add_circle_outline),
+                    ),
                     VerticalDivider(),
-                    Expanded(child: TextField()),
-                    CircleAvatar(
-                      backgroundColor: Colors.black,
-                    )
+                    Expanded(
+                      child: TextField(
+                        decoration: InputDecoration(
+                          hintText: "Write a reply...",
+                          border: .none,
+                        ),
+                      ),
+                    ),
+                    CircleAvatar(backgroundColor: Colors.black),
                   ],
-                  
-                ),),
+                ),
+              ),
             ],
           ),
         ),
