@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class RealEstateChatPage extends StatefulWidget {
   const RealEstateChatPage({super.key});
 
@@ -11,6 +10,6 @@ class RealEstateChatPage extends StatefulWidget {
 class _RealEstateChatPageState extends State<RealEstateChatPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(backgroundColor: Colors.grey[100]!);
   }
 }
