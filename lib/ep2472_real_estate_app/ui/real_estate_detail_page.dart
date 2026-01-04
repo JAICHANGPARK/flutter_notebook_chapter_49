@@ -235,6 +235,30 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
                               color: Colors.white,
                               borderRadius: .circular(15),
                             ),
+                            child: Column(
+                              spacing: 16,
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Icon(Icons.bed),
+                                Text("3 bedrooms")
+                              ],
+                            ),
+                          ),
+                          Container(
+                            width: 140,
+                            margin: EdgeInsets.only(left: 12),
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: .circular(15),
+                            ),
+                          ),
+                          Container(
+                            width: 140,
+                            margin: EdgeInsets.only(left: 12),
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: .circular(15),
+                            ),
                           ),
                         ],
                       ),
