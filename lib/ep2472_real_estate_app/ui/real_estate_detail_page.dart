@@ -243,7 +243,7 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
                               children: [
                                 Icon(Icons.bed_outlined, size: 28,),
                                 Text("3 bedrooms",style: TextStyle(
-                                  fontSize: 18
+                                  fontSize: 16
                                 ),)
                               ],
                             ),
