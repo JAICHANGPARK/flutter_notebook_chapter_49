@@ -18,11 +18,16 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
           bottom: false,
           child: Column(
             children: [
-              Container(height: 80, child: Placeholder()),
               Container(
-                height: 120,
-                child: Placeholder(),
+                height: 80,
+
+                decoration: ShapeDecoration(
+                  shape: StadiumBorder(),
+                  color: Colors.white,
+                ),
+                child: Row(),
               ),
+              Container(height: 120, child: Placeholder()),
               Expanded(child: Placeholder()),
               Container(height: 80, child: Placeholder()),
             ],
