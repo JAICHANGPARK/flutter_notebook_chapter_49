@@ -231,7 +231,11 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
                           Container(
                             width: 140,
                             margin: EdgeInsets.only(left: 12),
-                            padding: EdgeInsets.only(top: 16, bottom: 15, left: 16),
+                            padding: EdgeInsets.only(
+                              top: 16,
+                              bottom: 15,
+                              left: 16,
+                            ),
                             decoration: BoxDecoration(
                               color: Colors.white,
                               borderRadius: .circular(15),
@@ -241,27 +245,62 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
-                                Icon(Icons.bed_outlined, size: 28,),
-                                Text("3 bedrooms",style: TextStyle(
-                                  fontSize: 16
-                                ),)
+                                Icon(Icons.bed_outlined, size: 28),
+                                Text(
+                                  "3 bedrooms",
+                                  style: TextStyle(fontSize: 16),
+                                ),
                               ],
                             ),
                           ),
                           Container(
                             width: 140,
                             margin: EdgeInsets.only(left: 12),
+                            padding: EdgeInsets.only(
+                              top: 16,
+                              bottom: 15,
+                              left: 16,
+                            ),
                             decoration: BoxDecoration(
                               color: Colors.white,
                               borderRadius: .circular(15),
+                            ),
+                            child: Column(
+                              spacing: 16,
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Icon(Icons.bathtub_outlined, size: 28),
+                                Text(
+                                  "3 bathrooms",
+                                  style: TextStyle(fontSize: 16),
+                                ),
+                              ],
                             ),
                           ),
                           Container(
                             width: 140,
                             margin: EdgeInsets.only(left: 12),
+                            padding: EdgeInsets.only(
+                              top: 16,
+                              bottom: 15,
+                              left: 16,
+                            ),
                             decoration: BoxDecoration(
                               color: Colors.white,
                               borderRadius: .circular(15),
+                            ),
+                            child: Column(
+                              spacing: 16,
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Icon(Icons.bed_outlined, size: 28),
+                                Text(
+                                  "3 bedrooms",
+                                  style: TextStyle(fontSize: 16),
+                                ),
+                              ],
                             ),
                           ),
                         ],
