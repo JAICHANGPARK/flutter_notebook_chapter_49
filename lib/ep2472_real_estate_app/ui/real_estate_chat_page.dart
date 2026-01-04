@@ -34,6 +34,7 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                 shape: StadiumBorder(),
                 color: Colors.white,
               ),
+                padding: EdgeInsets.symmetric(horizontal: 8,vertical: 12),
                 child: Row(
                   children: [
                     IconButton(onPressed: (){}, icon: Icon(Icons.add_circle_outline)),
