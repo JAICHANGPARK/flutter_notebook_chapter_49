@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_49/ep2472_real_estate_app/ui/real_estate_chat_page.dart';
 import 'package:gap/gap.dart';
 
 class RealEstateDetailPage extends StatefulWidget {
@@ -133,60 +134,66 @@ class _RealEstateDetailPageState extends State<RealEstateDetailPage> {
                         ],
                       ),
                     ),
-                    Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 16),
-                      child: Row(
-                        spacing: 12,
-                        children: [
-                          CircleAvatar(radius: 30),
-                          Expanded(
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Text("Posted by Dream"),
-                                Row(
-                                  children: [
-                                    Icon(
-                                      Icons.star,
-                                      color: Colors.deepOrange,
-                                      size: 20,
-                                    ),
-                                    Icon(
-                                      Icons.star,
-                                      color: Colors.deepOrange,
-                                      size: 20,
-                                    ),
-                                    Icon(
-                                      Icons.star,
-                                      color: Colors.deepOrange,
-                                      size: 20,
-                                    ),
-                                    Icon(
-                                      Icons.star,
-                                      color: Colors.deepOrange,
-                                      size: 20,
-                                    ),
-                                    Icon(
-                                      Icons.star_border_outlined,
-                                      color: Colors.deepOrange,
-                                      size: 20,
-                                    ),
-                                    Spacer(),
-                                    Text(
-                                      "4.5 Ratings",
-                                      style: TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                        fontSize: 16,
+                    GestureDetector(
+                      onTap: (){
+                        Navigator.of(context).push(MaterialPageRoute(builder: (context)=>
+                        RealEstateChatPage()));
+                      },
+                      child: Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 16),
+                        child: Row(
+                          spacing: 12,
+                          children: [
+                            CircleAvatar(radius: 30),
+                            Expanded(
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Text("Posted by Dream"),
+                                  Row(
+                                    children: [
+                                      Icon(
+                                        Icons.star,
+                                        color: Colors.deepOrange,
+                                        size: 20,
                                       ),
-                                    ),
-                                    Gap(4),
-                                    Text("32 reviews"),
-                                  ],
-                                ),
-                              ],
+                                      Icon(
+                                        Icons.star,
+                                        color: Colors.deepOrange,
+                                        size: 20,
+                                      ),
+                                      Icon(
+                                        Icons.star,
+                                        color: Colors.deepOrange,
+                                        size: 20,
+                                      ),
+                                      Icon(
+                                        Icons.star,
+                                        color: Colors.deepOrange,
+                                        size: 20,
+                                      ),
+                                      Icon(
+                                        Icons.star_border_outlined,
+                                        color: Colors.deepOrange,
+                                        size: 20,
+                                      ),
+                                      Spacer(),
+                                      Text(
+                                        "4.5 Ratings",
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: 16,
+                                        ),
+                                      ),
+                                      Gap(4),
+                                      Text("32 reviews"),
+                                    ],
+                                  ),
+                                ],
+                              ),
                             ),
-                          ),
-                        ],
+                          ],
+                        ),
                       ),
                     ),
                     Divider(),
