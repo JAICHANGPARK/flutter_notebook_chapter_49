@@ -31,7 +31,7 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                   children: [
                     CircleAvatar(
                       radius: 26,
-                      backgroundColor: Colors.grey[200]!,
+                      backgroundColor: Colors.grey[100]!,
                       foregroundColor: Colors.black,
                       child: Icon(Icons.arrow_back_ios_outlined),
                     ),
@@ -46,13 +46,13 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                     ),
                     CircleAvatar(
                       radius: 26,
-                      backgroundColor: Colors.grey[200]!,
+                      backgroundColor: Colors.grey[100]!,
                       foregroundColor: Colors.black,
                       child: Icon(Icons.phone_outlined),
                     ),
                     CircleAvatar(
                       radius: 26,
-                      backgroundColor: Colors.grey[200]!,
+                      backgroundColor: Colors.grey[100]!,
                       foregroundColor: Colors.black,
                       child: Icon(Icons.videocam_outlined),
                     ),
@@ -77,7 +77,9 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                           Row(
                             spacing: 12,
                             children: [
-                              CircleAvatar(),
+                              CircleAvatar(
+                                radius: 22,
+                              ),
                               Expanded(
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -95,7 +97,7 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                             ],
                           ),
                           Row(
-                            spacing: 8,
+                            spacing: 2,
                             children: [
                               Icon(Icons.star, color: Colors.orange, size: 18),
                               Icon(Icons.star, color: Colors.orange, size: 18),
