@@ -21,7 +21,6 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
             children: [
               Container(
                 height: 80,
-
                 decoration: ShapeDecoration(
                   shape: StadiumBorder(),
                   color: Colors.white,
