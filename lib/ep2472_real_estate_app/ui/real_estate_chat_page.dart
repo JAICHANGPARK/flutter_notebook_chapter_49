@@ -77,9 +77,7 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                           Row(
                             spacing: 12,
                             children: [
-                              CircleAvatar(
-                                radius: 22,
-                              ),
+                              CircleAvatar(radius: 22),
                               Expanded(
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -128,7 +126,23 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                   ],
                 ),
               ),
-              Expanded(child: Placeholder()),
+              Expanded(
+                child: ListView(
+                  children: [
+                    Align(
+                      alignment: .centerRight,
+                      child: Container(
+                        padding: EdgeInsets.symmetric(horizontal: 24, vertical: 16),
+                        decoration: BoxDecoration(color: Colors.teal,),
+                        child: Text(
+                          "Hi, Jhon",
+                          style: TextStyle(color: Colors.white),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
               Container(
                 height: 62,
                 decoration: ShapeDecoration(
