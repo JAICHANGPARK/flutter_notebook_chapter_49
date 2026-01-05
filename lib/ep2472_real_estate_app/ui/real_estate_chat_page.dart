@@ -175,6 +175,19 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                         ),
                       ),
                     ),
+                    Align(
+                      alignment: .centerRight,
+                      child: Container(
+                      
+                        margin: EdgeInsets.only(bottom: 12,),
+
+                        child: Text(
+                          "12:15 pm",
+                          maxLines: 2,
+                          style: TextStyle(color: Colors.black),
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               ),
