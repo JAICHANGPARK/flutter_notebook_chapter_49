@@ -58,14 +58,17 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                   ],
                 ),
               ),
-              Container(height: 120, child: Row(
+              Container(height: 120, 
+                  
+                  padding: EdgeInsets.all(12),
+                  child: Row(
                 children: [
                   Expanded(child: Column(children: [
 
                   ],)),
                   Container(
                     height: 120,
-                    width: 120,
+                    width: 100,
                     decoration: BoxDecoration(
                       color: Colors.red,
                     ),
