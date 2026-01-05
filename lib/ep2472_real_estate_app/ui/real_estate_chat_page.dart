@@ -59,7 +59,10 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                 ),
               ),
               Container(height: 120, 
-                  
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(12),
+                  ),
                   padding: EdgeInsets.all(12),
                   child: Row(
                 children: [
@@ -71,6 +74,7 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                     width: 100,
                     decoration: BoxDecoration(
                       color: Colors.red,
+                      borderRadius: BorderRadius.circular(12),
                     ),
                   )
                 ],
