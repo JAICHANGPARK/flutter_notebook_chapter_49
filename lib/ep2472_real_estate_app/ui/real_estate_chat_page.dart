@@ -133,8 +133,8 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                       alignment: .centerRight,
                       child: Container(
                         padding: EdgeInsets.symmetric(
-                          horizontal: 24,
-                          vertical: 16,
+                          horizontal: 28,
+                          vertical: 20,
                         ),
                         decoration: BoxDecoration(
                           color: Colors.teal,
