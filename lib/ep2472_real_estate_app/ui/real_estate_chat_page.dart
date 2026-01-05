@@ -25,7 +25,13 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                   shape: StadiumBorder(),
                   color: Colors.white,
                 ),
-                child: Row(),
+                child: Row(
+                  children: [
+                    CircleAvatar(
+                      backgroundColor: Colors.grey[200]!,
+                    )
+                  ],
+                ),
               ),
               Container(height: 120, child: Placeholder()),
               Expanded(child: Placeholder()),
