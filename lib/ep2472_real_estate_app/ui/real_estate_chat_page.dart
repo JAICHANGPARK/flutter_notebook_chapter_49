@@ -76,8 +76,18 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                             children: [
                               CircleAvatar(),
                               Expanded(child: Column(children: [
-                                
+                                Text("Unique 3 Bedroom Flat"),
+                                Text("Posted by Dream")
                               ],))
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              Icon(Icons.star),
+                              Icon(Icons.star),
+                              Icon(Icons.star),
+                              Icon(Icons.star),
+                              Icon(Icons.star_outline),
                             ],
                           )
 
