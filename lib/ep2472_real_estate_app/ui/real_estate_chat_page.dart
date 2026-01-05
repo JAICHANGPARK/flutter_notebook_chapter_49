@@ -38,8 +38,10 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                     Expanded(
                       child: Text(
                         "Dream Walker",
-                        style: TextStyle(fontWeight: FontWeight.bold,
-                        fontSize: 20,),
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 20,
+                        ),
                       ),
                     ),
                     CircleAvatar(
@@ -54,31 +56,43 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                       foregroundColor: Colors.black,
                       child: Icon(Icons.videocam_outlined),
                     ),
-
                   ],
                 ),
               ),
-              Container(height: 120, 
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.circular(12),
-                  ),
-                  padding: EdgeInsets.all(12),
-                  child: Row(
-                children: [
-                  Expanded(child: Column(children: [
+              Container(
+                height: 120,
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                padding: EdgeInsets.all(12),
+                child: Row(
+                  children: [
+                    Expanded(child: Column(
 
-                  ],)),
-                  Container(
-                    height: 120,
-                    width: 100,
-                    decoration: BoxDecoration(
-                      color: Colors.red,
-                      borderRadius: BorderRadius.circular(12),
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Row(
+                            children: [
+                              CircleAvatar(),
+                              Expanded(child: Column(children: [
+                                
+                              ],))
+                            ],
+                          )
+
+                        ])),
+                    Container(
+                      height: 120,
+                      width: 100,
+                      decoration: BoxDecoration(
+                        color: Colors.red,
+                        borderRadius: BorderRadius.circular(12),
+                      ),
                     ),
-                  )
-                ],
-              )),
+                  ],
+                ),
+              ),
               Expanded(child: Placeholder()),
               Container(
                 height: 62,
