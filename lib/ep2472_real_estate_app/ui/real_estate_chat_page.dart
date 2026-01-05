@@ -33,7 +33,13 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                       backgroundColor: Colors.grey[200]!,
                       foregroundColor: Colors.black,
                       child: Icon(Icons.arrow_back_ios_outlined),
-                    )
+                    ),
+                    Expanded(
+                      child: Text(
+                        "Dream Walker",
+                        style: TextStyle(fontWeight: FontWeight.bold),
+                      ),
+                    ),
                   ],
                 ),
               ),
