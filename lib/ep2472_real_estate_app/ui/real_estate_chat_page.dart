@@ -27,9 +27,10 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                 ),
                 padding: EdgeInsets.symmetric(horizontal: 8, vertical: 8),
                 child: Row(
+                  spacing: 16,
                   children: [
                     CircleAvatar(
-                      radius: 30,
+                      radius: 26,
                       backgroundColor: Colors.grey[200]!,
                       foregroundColor: Colors.black,
                       child: Icon(Icons.arrow_back_ios_outlined),
@@ -40,6 +41,19 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                         style: TextStyle(fontWeight: FontWeight.bold),
                       ),
                     ),
+                    CircleAvatar(
+                      radius: 26,
+                      backgroundColor: Colors.grey[200]!,
+                      foregroundColor: Colors.black,
+                      child: Icon(Icons.phone_outlined),
+                    ),
+                    CircleAvatar(
+                      radius: 26,
+                      backgroundColor: Colors.grey[200]!,
+                      foregroundColor: Colors.black,
+                      child: Icon(Icons.videocam_outlined),
+                    ),
+
                   ],
                 ),
               ),
