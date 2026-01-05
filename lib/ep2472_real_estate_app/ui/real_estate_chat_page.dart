@@ -132,8 +132,18 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                     Align(
                       alignment: .centerRight,
                       child: Container(
-                        padding: EdgeInsets.symmetric(horizontal: 24, vertical: 16),
-                        decoration: BoxDecoration(color: Colors.teal,),
+                        padding: EdgeInsets.symmetric(
+                          horizontal: 24,
+                          vertical: 16,
+                        ),
+                        decoration: BoxDecoration(
+                          color: Colors.teal,
+                          borderRadius: BorderRadius.only(
+                            topLeft: Radius.circular(24),
+                            bottomLeft: Radius.circular(24),
+                            bottomRight: Radius.circular(24),
+                          ),
+                        ),
                         child: Text(
                           "Hi, Jhon",
                           style: TextStyle(color: Colors.white),
