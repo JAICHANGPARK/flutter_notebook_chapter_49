@@ -29,6 +29,8 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                   children: [
                     CircleAvatar(
                       backgroundColor: Colors.grey[200]!,
+                      foregroundColor: Colors.black,
+                      child: Icon(Icons.arrow_back_ios_outlined),
                     )
                   ],
                 ),
