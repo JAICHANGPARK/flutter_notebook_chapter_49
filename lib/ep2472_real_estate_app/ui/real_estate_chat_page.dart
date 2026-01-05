@@ -25,9 +25,11 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                   shape: StadiumBorder(),
                   color: Colors.white,
                 ),
+                padding: EdgeInsets.symmetric(horizontal: 8, vertical: 8),
                 child: Row(
                   children: [
                     CircleAvatar(
+                      radius: 30,
                       backgroundColor: Colors.grey[200]!,
                       foregroundColor: Colors.black,
                       child: Icon(Icons.arrow_back_ios_outlined),
