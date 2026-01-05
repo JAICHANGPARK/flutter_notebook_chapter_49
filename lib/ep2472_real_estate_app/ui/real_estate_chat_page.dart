@@ -83,18 +83,19 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                           ),
                           Row(
                             children: [
-                              Icon(Icons.star),
+                              Icon(Icons.star,),
                               Icon(Icons.star),
                               Icon(Icons.star),
                               Icon(Icons.star),
                               Icon(Icons.star_outline),
+                              Text("40 Rating (32 reviews)")
                             ],
                           )
 
                         ])),
                     Container(
                       height: 120,
-                      width: 100,
+                      width: 90,
                       decoration: BoxDecoration(
                         color: Colors.red,
                         borderRadius: BorderRadius.circular(12),
