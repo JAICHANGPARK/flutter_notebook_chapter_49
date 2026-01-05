@@ -68,31 +68,42 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                 padding: EdgeInsets.all(12),
                 child: Row(
                   children: [
-                    Expanded(child: Column(
-
+                    Expanded(
+                      child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Row(
                             children: [
                               CircleAvatar(),
-                              Expanded(child: Column(children: [
-                                Text("Unique 3 Bedroom Flat"),
-                                Text("Posted by Dream")
-                              ],))
+                              Expanded(
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text(
+                                      "Unique 3 Bedroom Flat",
+                                      style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
+                                    Text("Posted by Dream"),
+                                  ],
+                                ),
+                              ),
                             ],
                           ),
                           Row(
                             children: [
-                              Icon(Icons.star,),
+                              Icon(Icons.star),
                               Icon(Icons.star),
                               Icon(Icons.star),
                               Icon(Icons.star),
                               Icon(Icons.star_outline),
-                              Text("40 Rating (32 reviews)")
+                              Text("40 Rating (32 reviews)"),
                             ],
-                          )
-
-                        ])),
+                          ),
+                        ],
+                      ),
+                    ),
                     Container(
                       height: 120,
                       width: 90,
