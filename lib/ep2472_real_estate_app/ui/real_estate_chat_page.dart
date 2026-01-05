@@ -72,6 +72,7 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                       child: Column(
                         spacing: 12,
                         crossAxisAlignment: CrossAxisAlignment.start,
+                        mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Row(
                             spacing: 12,
@@ -94,13 +95,21 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                             ],
                           ),
                           Row(
+                            spacing: 8,
                             children: [
-                              Icon(Icons.star),
-                              Icon(Icons.star),
-                              Icon(Icons.star),
-                              Icon(Icons.star),
-                              Icon(Icons.star_outline),
-                              Text("40 Rating (32 reviews)"),
+                              Icon(Icons.star, color: Colors.orange, size: 18),
+                              Icon(Icons.star, color: Colors.orange, size: 18),
+                              Icon(Icons.star, color: Colors.orange, size: 18),
+                              Icon(Icons.star, color: Colors.orange, size: 18),
+                              Icon(
+                                Icons.star_outline,
+                                color: Colors.grey,
+                                size: 18,
+                              ),
+                              Text(
+                                "40 Rating (32 reviews)",
+                                style: TextStyle(fontWeight: .bold),
+                              ),
                             ],
                           ),
                         ],
