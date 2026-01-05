@@ -38,7 +38,8 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                     Expanded(
                       child: Text(
                         "Dream Walker",
-                        style: TextStyle(fontWeight: FontWeight.bold),
+                        style: TextStyle(fontWeight: FontWeight.bold,
+                        fontSize: 20,),
                       ),
                     ),
                     CircleAvatar(
