@@ -177,7 +177,7 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                     Align(
                       alignment: .centerRight,
                       child: Container(
-                        margin: EdgeInsets.only(bottom: 12),
+                        margin: EdgeInsets.only(bottom: 24),
                         child: Text(
                           "12:15 pm",
                           maxLines: 2,
@@ -212,7 +212,7 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                     Align(
                       alignment: .centerLeft,
                       child: Container(
-                        margin: EdgeInsets.only(bottom: 12),
+                        margin: EdgeInsets.only(bottom: 24),
                         child: Text(
                           "12:15 pm",
                           maxLines: 2,
