@@ -269,13 +269,12 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                 child: Row(
                   spacing: 8,
                   children: [
-                    Icon(Icons.add_circle_outline,
-                    size: 38,
+                    Icon(
+                      Icons.add_circle_outline,
+                      size: 38,
+                      color: Color.fromRGBO(0, 171, 180, 1),
                     ),
-                    VerticalDivider(
-                      indent: 12,
-                      endIndent: 12,
-                    ),
+                    VerticalDivider(indent: 12, endIndent: 12),
                     Expanded(
                       child: TextField(
                         decoration: InputDecoration(
