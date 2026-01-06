@@ -13,7 +13,7 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
     return Scaffold(
       backgroundColor: Colors.grey[100]!,
       body: Padding(
-        padding: const EdgeInsets.all(16.0),
+        padding: const EdgeInsets.fromLTRB(16.0, 16, 16, 32),
         child: SafeArea(
           bottom: false,
           child: Column(
