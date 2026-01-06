@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class RealEstateChatPage extends StatefulWidget {
   const RealEstateChatPage({super.key});
@@ -126,6 +127,7 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                   ],
                 ),
               ),
+              Gap(24),
               Expanded(
                 child: ListView(
                   children: [
