@@ -260,7 +260,7 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                 ),
               ),
               Container(
-                height: 62,
+                height: 72,
                 decoration: ShapeDecoration(
                   shape: StadiumBorder(),
                   color: Colors.white,
@@ -272,7 +272,9 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                       onPressed: () {},
                       icon: Icon(Icons.add_circle_outline),
                     ),
-                    VerticalDivider(),
+                    VerticalDivider(
+                      
+                    ),
                     Expanded(
                       child: TextField(
                         decoration: InputDecoration(
