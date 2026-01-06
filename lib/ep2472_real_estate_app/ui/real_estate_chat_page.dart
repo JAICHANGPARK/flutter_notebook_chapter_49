@@ -149,7 +149,6 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                           "Hi, Jhon",
                           style: TextStyle(color: Colors.white),
                         ),
-
                       ),
                     ),
                     Align(
@@ -159,7 +158,7 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                           horizontal: 28,
                           vertical: 20,
                         ),
-                        margin: EdgeInsets.only(bottom: 12,),
+                        margin: EdgeInsets.only(bottom: 12),
                         decoration: BoxDecoration(
                           color: Colors.teal,
                           borderRadius: BorderRadius.only(
@@ -178,8 +177,7 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                     Align(
                       alignment: .centerRight,
                       child: Container(
-
-                        margin: EdgeInsets.only(bottom: 12,),
+                        margin: EdgeInsets.only(bottom: 12),
 
                         child: Text(
                           "12:15 pm",
