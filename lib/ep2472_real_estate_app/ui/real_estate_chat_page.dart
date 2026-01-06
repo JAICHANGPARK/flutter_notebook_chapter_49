@@ -127,7 +127,7 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                   ],
                 ),
               ),
-              Gap(24),
+              Gap(32),
               Expanded(
                 child: ListView(
                   children: [
