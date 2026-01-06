@@ -78,7 +78,7 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                           Row(
                             spacing: 12,
                             children: [
-                              CircleAvatar(radius: 22),
+                              CircleAvatar(radius: 26),
                               Expanded(
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
