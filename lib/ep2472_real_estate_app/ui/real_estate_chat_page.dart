@@ -269,7 +269,9 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                 child: Row(
                   spacing: 8,
                   children: [
-                    Icon(Icons.add_circle_outline),
+                    Icon(Icons.add_circle_outline,
+                    size: 38,
+                    ),
                     VerticalDivider(
                       indent: 12,
                       endIndent: 12,
