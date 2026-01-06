@@ -220,6 +220,40 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                         ),
                       ),
                     ),
+                    Align(
+                      alignment: .centerRight,
+                      child: Container(
+                        padding: EdgeInsets.symmetric(
+                          horizontal: 28,
+                          vertical: 20,
+                        ),
+                        margin: EdgeInsets.only(bottom: 12, left: 32),
+                        decoration: BoxDecoration(
+                          color: Colors.teal,
+                          borderRadius: BorderRadius.only(
+                            topLeft: Radius.circular(24),
+                            bottomLeft: Radius.circular(24),
+                            bottomRight: Radius.circular(24),
+                          ),
+                        ),
+                        child: Text(
+                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                          maxLines: 2,
+                          style: TextStyle(color: Colors.white),
+                        ),
+                      ),
+                    ),
+                    Align(
+                      alignment: .centerRight,
+                      child: Container(
+                        margin: EdgeInsets.only(bottom: 12),
+                        child: Text(
+                          "12:15 pm",
+                          maxLines: 2,
+                          style: TextStyle(color: Colors.black),
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               ),
