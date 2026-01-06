@@ -267,13 +267,12 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                 ),
                 padding: EdgeInsets.symmetric(horizontal: 8, vertical: 12),
                 child: Row(
+                  spacing: 8,
                   children: [
-                    IconButton(
-                      onPressed: () {},
-                      icon: Icon(Icons.add_circle_outline),
-                    ),
+                    Icon(Icons.add_circle_outline),
                     VerticalDivider(
-                      
+                      indent: 12,
+                      endIndent: 12,
                     ),
                     Expanded(
                       child: TextField(
