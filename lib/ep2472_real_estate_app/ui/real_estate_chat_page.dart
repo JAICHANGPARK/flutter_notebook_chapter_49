@@ -197,7 +197,8 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                           color: Colors.white,
                           borderRadius: BorderRadius.only(
                             topLeft: Radius.circular(24),
-                            bottomLeft: Radius.circular(24),
+                            topRight: Radius.circular(24),
+
                             bottomRight: Radius.circular(24),
                           ),
                         ),
