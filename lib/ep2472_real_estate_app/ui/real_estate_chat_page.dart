@@ -192,9 +192,9 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                           horizontal: 28,
                           vertical: 20,
                         ),
-                        margin: EdgeInsets.only(bottom: 12),
+                        margin: EdgeInsets.only(bottom: 12, right: 24),
                         decoration: BoxDecoration(
-                          color: Colors.teal,
+                          color: Colors.white,
                           borderRadius: BorderRadius.only(
                             topLeft: Radius.circular(24),
                             bottomLeft: Radius.circular(24),
@@ -204,7 +204,7 @@ class _RealEstateChatPageState extends State<RealEstateChatPage> {
                         child: Text(
                           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
                           maxLines: 2,
-                          style: TextStyle(color: Colors.white),
+                          style: TextStyle(color: Colors.black),
                         ),
                       ),
                     ),
