@@ -14,23 +14,26 @@ class _FinancialMainPageState extends State<FinancialMainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color.fromRGBO(236, 243, 245, 1),
-      body: Column(
-        children: [
-          Row(
-            children: [
-              CircleAvatar(),
-              Expanded(child: Text("")),
-              CircleAvatar(),
-              CircleAvatar(),
-            ],
-          ),
-          Expanded(
-            child: IndexedStack(
-              index: 0,
-              children: [Placeholder(), Placeholder(), Placeholder()],
+      body: SafeArea(
+        child: Column(
+          crossAxisAlignment: .start,
+          children: [
+            Row(
+              children: [
+                CircleAvatar(),
+                Expanded(child: Text("")),
+                CircleAvatar(),
+                CircleAvatar(),
+              ],
             ),
-          ),
-        ],
+            Expanded(
+              child: IndexedStack(
+                index: 0,
+                children: [Placeholder(), Placeholder(), Placeholder()],
+              ),
+            ),
+          ],
+        ),
       ),
       bottomNavigationBar: Container(
         height: 120,
