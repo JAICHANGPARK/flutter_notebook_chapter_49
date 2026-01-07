@@ -17,9 +17,12 @@ class _FinancialMainPageState extends State<FinancialMainPage> {
         children: [
           Row(
             children: [
-              
+                  CircleAvatar(),
+              Expanded(child: Placeholder()),
+              CircleAvatar(),
+              CircleAvatar(),
             ],
-          )
+          ),
           Expanded(
             child: IndexedStack(
               index: 0,
