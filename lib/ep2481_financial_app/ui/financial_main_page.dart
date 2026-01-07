@@ -9,6 +9,7 @@ class FinancialMainPage extends StatefulWidget {
 
 class _FinancialMainPageState extends State<FinancialMainPage> {
   int pageNum = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -17,7 +18,7 @@ class _FinancialMainPageState extends State<FinancialMainPage> {
         children: [
           Row(
             children: [
-                  CircleAvatar(),
+              CircleAvatar(),
               Expanded(child: Text("")),
               CircleAvatar(),
               CircleAvatar(),
@@ -26,47 +27,45 @@ class _FinancialMainPageState extends State<FinancialMainPage> {
           Expanded(
             child: IndexedStack(
               index: 0,
-              children: [
-
-              ],
+              children: [Placeholder(), Placeholder(), Placeholder()],
             ),
           ),
         ],
       ),
-      bottomNavigationBar: Container(height: 120,
+      bottomNavigationBar: Container(
+        height: 120,
 
-          color: Colors.white,
-          child: Row(
-
+        color: Colors.white,
+        child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-        IconButton(onPressed: (){}, icon: Icon(Icons.home_filled)),
-        IconButton(onPressed: (){}, icon: Icon(Icons.area_chart)),
-        Container(
-          height: 62,
-          width: 62,
-          decoration: BoxDecoration(
-            color: Colors.black,
-            shape: BoxShape.circle,
-            boxShadow: [
-              BoxShadow(
-                color: Colors.black.withValues(alpha: .15),
-                blurRadius: 10,
-                spreadRadius: 0,
-                offset: Offset(0, 16)
-              )
-            ],
-          ),
-          child: RotatedBox(
-              quarterTurns: 1,
-              child: Icon(Icons.import_export, color: Colors.white,
-              size: 32,
-              ),),
+            IconButton(onPressed: () {}, icon: Icon(Icons.home_filled)),
+            IconButton(onPressed: () {}, icon: Icon(Icons.area_chart)),
+            Container(
+              height: 62,
+              width: 62,
+              decoration: BoxDecoration(
+                color: Colors.black,
+                shape: BoxShape.circle,
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black.withValues(alpha: .15),
+                    blurRadius: 10,
+                    spreadRadius: 0,
+                    offset: Offset(0, 16),
+                  ),
+                ],
+              ),
+              child: RotatedBox(
+                quarterTurns: 1,
+                child: Icon(Icons.import_export, color: Colors.white, size: 32),
+              ),
+            ),
+            IconButton(onPressed: () {}, icon: Icon(Icons.currency_bitcoin)),
+            IconButton(onPressed: () {}, icon: Icon(Icons.apps)),
+          ],
         ),
-        IconButton(onPressed: (){}, icon: Icon(Icons.currency_bitcoin)),
-        IconButton(onPressed: (){}, icon: Icon(Icons.apps)),
-
-      ])),
+      ),
     );
   }
 }
