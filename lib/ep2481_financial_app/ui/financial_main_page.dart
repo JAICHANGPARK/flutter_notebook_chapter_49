@@ -18,13 +18,17 @@ class _FinancialMainPageState extends State<FinancialMainPage> {
         child: Column(
           crossAxisAlignment: .start,
           children: [
-            Row(
-              children: [
-                CircleAvatar(),
-                Expanded(child: Text("")),
-                CircleAvatar(),
-                CircleAvatar(),
-              ],
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Row(
+                spacing: 12,
+                children: [
+                  CircleAvatar(),
+                  Expanded(child: Text("")),
+                  CircleAvatar(),
+                  CircleAvatar(),
+                ],
+              ),
             ),
             Expanded(
               child: IndexedStack(
