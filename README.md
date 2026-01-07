@@ -4,7 +4,7 @@
 
 - Duwet - All-in-One Financial App
 - Ananto Nugroho Putra for Korsa
-- https://dribbble.com/shots/26926508-Real-Estate-Mobile-App-UI-Design-Property-Listing-Chat
+- https://dribbble.com/shots/26955891-Duwet-All-in-One-Financial-App
 
 <img src="https://cdn.dribbble.com/userupload/46196752/file/c764d56d37fe22373676466b086f960a.png?resize=1905x1429&vertical=center" alt=""/>
 
