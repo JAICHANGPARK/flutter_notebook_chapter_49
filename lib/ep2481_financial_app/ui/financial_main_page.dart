@@ -13,7 +13,10 @@ class _FinancialMainPageState extends State<FinancialMainPage> {
     return Scaffold(
       backgroundColor: Color.fromRGBO(236, 243, 245, 1),
       body: Stack(),
-      bottomNavigationBar: Container(height: 120, child: Row(
+      bottomNavigationBar: Container(height: 120,
+
+          color: Colors.white,
+          child: Row(
 
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
@@ -25,6 +28,11 @@ class _FinancialMainPageState extends State<FinancialMainPage> {
           decoration: BoxDecoration(
             color: Colors.black,
             shape: BoxShape.circle,
+            boxShadow: [
+              BoxShadow(
+                color: Colors.black.withValues(alpha: .1),
+              )
+            ],
           ),
           child: RotatedBox(
               quarterTurns: 1,
