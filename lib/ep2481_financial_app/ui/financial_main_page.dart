@@ -24,7 +24,7 @@ class _FinancialMainPageState extends State<FinancialMainPage> {
         IconButton(onPressed: (){}, icon: Icon(Icons.area_chart)),
         Container(
           height: 62,
-          width: 72,
+          width: 62,
           decoration: BoxDecoration(
             color: Colors.black,
             shape: BoxShape.circle,
@@ -39,7 +39,9 @@ class _FinancialMainPageState extends State<FinancialMainPage> {
           ),
           child: RotatedBox(
               quarterTurns: 1,
-              child: Icon(Icons.import_export, color: Colors.white,),),
+              child: Icon(Icons.import_export, color: Colors.white,
+              size: 32,
+              ),),
         ),
         IconButton(onPressed: (){}, icon: Icon(Icons.currency_bitcoin)),
         IconButton(onPressed: (){}, icon: Icon(Icons.apps)),
