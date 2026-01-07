@@ -8,11 +8,17 @@ class FinancialMainPage extends StatefulWidget {
 }
 
 class _FinancialMainPageState extends State<FinancialMainPage> {
+  int pageNum = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color.fromRGBO(236, 243, 245, 1),
-      body: Stack(),
+      body: IndexedStack(
+        index: 0,
+        children: [
+
+        ],
+      ),
       bottomNavigationBar: Container(height: 120,
 
           color: Colors.white,
