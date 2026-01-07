@@ -1,5 +1,14 @@
 # flutter_notebook_chapter_49
 
+## EP2481
+
+- Real Estate Mobile App UI Design | Property Listing & Chat
+- Orbix Studio – Mobile App Design for Orbix Studio LLC
+- https://dribbble.com/shots/26926508-Real-Estate-Mobile-App-UI-Design-Property-Listing-Chat
+
+<img src="https://cdn.dribbble.com/userupload/46196752/file/c764d56d37fe22373676466b086f960a.png?resize=1905x1429&vertical=center" alt=""/>
+
+
 ## EP2472-2480
 
 - Real Estate Mobile App UI Design | Property Listing & Chat
