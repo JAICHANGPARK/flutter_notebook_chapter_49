@@ -19,7 +19,10 @@ class _FinancialMainPageState extends State<FinancialMainPage> {
         Container(
           height: 46,
           width: 46,
-          decoration: BoxDecoration(),
+          decoration: BoxDecoration(
+            color: Colors.black,
+            shape: BoxShape.circle,
+          ),
         ),
         IconButton(onPressed: (){}, icon: Icon(Icons.currency_bitcoin)),
         IconButton(onPressed: (){}, icon: Icon(Icons.apps)),
