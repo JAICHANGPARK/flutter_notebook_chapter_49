@@ -23,7 +23,9 @@ class _FinancialMainPageState extends State<FinancialMainPage> {
             color: Colors.black,
             shape: BoxShape.circle,
           ),
-          
+          child: RotatedBox(
+              quarterTurns: 1,
+              child: Icon(Icons.import_export)),
         ),
         IconButton(onPressed: (){}, icon: Icon(Icons.currency_bitcoin)),
         IconButton(onPressed: (){}, icon: Icon(Icons.apps)),
