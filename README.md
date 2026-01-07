@@ -6,7 +6,7 @@
 - Ananto Nugroho Putra for Korsa
 - https://dribbble.com/shots/26955891-Duwet-All-in-One-Financial-App
 
-<img src="https://cdn.dribbble.com/userupload/46196752/file/c764d56d37fe22373676466b086f960a.png?resize=1905x1429&vertical=center" alt=""/>
+<img src="https://cdn.dribbble.com/userupload/46294318/file/dea74feefe5e057b6b83f3fcede8d65f.png?resize=1905x1429&vertical=center" alt=""/>
 
 
 ## EP2472-2480
