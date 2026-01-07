@@ -17,12 +17,13 @@ class _FinancialMainPageState extends State<FinancialMainPage> {
         IconButton(onPressed: (){}, icon: Icon(Icons.home_filled)),
         IconButton(onPressed: (){}, icon: Icon(Icons.area_chart)),
         Container(
-          height: 46,
-          width: 46,
+          height: 52,
+          width: 52,
           decoration: BoxDecoration(
             color: Colors.black,
             shape: BoxShape.circle,
           ),
+          
         ),
         IconButton(onPressed: (){}, icon: Icon(Icons.currency_bitcoin)),
         IconButton(onPressed: (){}, icon: Icon(Icons.apps)),
