@@ -23,14 +23,17 @@ class _FinancialMainPageState extends State<FinancialMainPage> {
         IconButton(onPressed: (){}, icon: Icon(Icons.home_filled)),
         IconButton(onPressed: (){}, icon: Icon(Icons.area_chart)),
         Container(
-          height: 52,
-          width: 52,
+          height: 62,
+          width: 72,
           decoration: BoxDecoration(
             color: Colors.black,
             shape: BoxShape.circle,
             boxShadow: [
               BoxShadow(
-                color: Colors.black.withValues(alpha: .1),
+                color: Colors.black.withValues(alpha: .15),
+                blurRadius: 10,
+                spreadRadius: 0,
+                offset: Offset(0, 16)
               )
             ],
           ),
