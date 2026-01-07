@@ -11,6 +11,16 @@ class FinancialMainPage extends StatefulWidget {
 class _FinancialMainPageState extends State<FinancialMainPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Stack(),
+      bottomNavigationBar: Container(
+        height: 120,
+        child: Row(
+          children: [
+
+          ],
+        ),
+      ),
+    );
   }
 }
