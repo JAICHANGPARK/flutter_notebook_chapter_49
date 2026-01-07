@@ -18,7 +18,7 @@ class _FinancialMainPageState extends State<FinancialMainPage> {
           Row(
             children: [
                   CircleAvatar(),
-              Expanded(child: Placeholder()),
+              Expanded(child: Text("")),
               CircleAvatar(),
               CircleAvatar(),
             ],
