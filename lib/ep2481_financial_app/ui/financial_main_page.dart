@@ -24,11 +24,15 @@ class _FinancialMainPageState extends State<FinancialMainPage> {
                 spacing: 12,
                 children: [
                   CircleAvatar(
-                    radius: 28,
+                    radius: 26,
                   ),
                   Expanded(child: Text("")),
-                  CircleAvatar(),
-                  CircleAvatar(),
+                  CircleAvatar(
+                    radius: 26,
+                  ),
+                  CircleAvatar(
+                    radius: 26,
+                  ),
                 ],
               ),
             ),
