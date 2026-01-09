@@ -11,15 +11,17 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
   @override
   Widget build(BuildContext context) {
     return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         SingleChildScrollView(
           scrollDirection: Axis.horizontal,
           child: Container(
             height: 62,
             child: Row(
+
               children: [
                 Container(
-                  padding: ,
+                  padding: EdgeInsets.symmetric(horizontal: 12),
                   height: double.infinity,
                   color: Color.fromRGBO(229, 235, 240, 1),
                   child: Center(
