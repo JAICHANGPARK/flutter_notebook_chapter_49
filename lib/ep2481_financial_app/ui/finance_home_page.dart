@@ -12,11 +12,12 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
+      spacing: 16,
       children: [
         SingleChildScrollView(
           scrollDirection: Axis.horizontal,
           child: Container(
-            height: 62,
+            height: 58,
             child: Row(
               children: [
                 Container(
@@ -33,7 +34,7 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
                   child: Center(
                     child: Text(
                       "Accounts",
-                      style: TextStyle(color: Colors.grey, fontSize: 16),
+                      style: TextStyle(color: Colors.black38, fontSize: 16),
                     ),
                   ),
                 ),
