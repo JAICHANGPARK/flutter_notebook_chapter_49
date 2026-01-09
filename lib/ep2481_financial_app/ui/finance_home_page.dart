@@ -18,12 +18,18 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
           child: Container(
             height: 62,
             child: Row(
-
               children: [
                 Container(
                   padding: EdgeInsets.symmetric(horizontal: 12),
                   height: double.infinity,
-                  color: Color.fromRGBO(229, 235, 240, 1),
+
+                  decoration: BoxDecoration(
+                    color: Color.fromRGBO(229, 235, 240, 1),
+                    borderRadius: BorderRadius.only(
+                      topLeft: Radius.circular(32),
+                      bottomLeft: Radius.circular(32),
+                    ),
+                  ),
                   child: Center(
                     child: Text(
                       "Accounts",
