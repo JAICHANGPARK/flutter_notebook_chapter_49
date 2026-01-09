@@ -12,14 +12,28 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Container(
-          height: 52,
-          child: Placeholder(),
+        SingleChildScrollView(
+          scrollDirection: Axis.horizontal,
+          child: Container(
+            height: 62,
+            child: Row(
+              children: [
+                Container(
+                  padding: ,
+                  height: double.infinity,
+                  color: Color.fromRGBO(229, 235, 240, 1),
+                  child: Center(
+                    child: Text(
+                      "Accounts",
+                      style: TextStyle(color: Colors.grey, fontSize: 16),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
         ),
-        Container(
-          height: 260,
-          child: Placeholder(),
-        )
+        Container(height: 260, child: Placeholder()),
       ],
     );
   }
