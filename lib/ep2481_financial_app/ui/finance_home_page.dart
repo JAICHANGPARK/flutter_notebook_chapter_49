@@ -20,7 +20,7 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
             child: Row(
               children: [
                 Container(
-                  padding: EdgeInsets.symmetric(horizontal: 12),
+                  padding: EdgeInsets.symmetric(horizontal: 16),
                   height: double.infinity,
 
                   decoration: BoxDecoration(
