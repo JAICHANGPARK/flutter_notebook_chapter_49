@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'finance_home_page.dart';
+
 class FinancialMainPage extends StatefulWidget {
   const FinancialMainPage({super.key});
 
@@ -77,7 +79,7 @@ class _FinancialMainPageState extends State<FinancialMainPage> {
             Expanded(
               child: IndexedStack(
                 index: 0,
-                children: [Placeholder(), Placeholder(), Placeholder()],
+                children: [FinanceHomePage(), Placeholder(), Placeholder()],
               ),
             ),
           ],
