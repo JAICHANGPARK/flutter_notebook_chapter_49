@@ -95,7 +95,10 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
             ),
           ),
         ),
-        Container(height: 260, child: Placeholder()),
+        Container(
+            margin: EdgeInsets.symmetric(horizontal: 16),
+            height: 260, child: Placeholder()),
+        Container(height: 140, child: Placeholder()),
       ],
     );
   }
