@@ -38,6 +38,19 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
                     ),
                   ),
                 ),
+                Container(
+                  padding: EdgeInsets.symmetric(horizontal: 16),
+                  height: double.infinity,
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                  ),
+                  child: Center(
+                    child: Text(
+                      "Cards",
+                      style: TextStyle(color: Colors.black, fontSize: 16),
+                    ),
+                  ),
+                ),
               ],
             ),
           ),
