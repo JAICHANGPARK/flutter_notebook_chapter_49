@@ -18,6 +18,7 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
           scrollDirection: Axis.horizontal,
           child: Container(
             height: 58,
+            margin: EdgeInsets.only(left: 12),
             child: Row(
               children: [
                 Container(
@@ -71,7 +72,21 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
                   ),
                   child: Center(
                     child: Text(
-                      "Linked",
+                      "Stocks",
+                      style: TextStyle(color: Colors.black38, fontSize: 16),
+                    ),
+                  ),
+                ),
+                VerticalDivider(color: Colors.white, width: 1),
+                Container(
+                  padding: EdgeInsets.symmetric(horizontal: 16),
+                  height: double.infinity,
+                  decoration: BoxDecoration(
+                    color: Color.fromRGBO(229, 235, 240, 1),
+                  ),
+                  child: Center(
+                    child: Text(
+                      "Stocks",
                       style: TextStyle(color: Colors.black38, fontSize: 16),
                     ),
                   ),
