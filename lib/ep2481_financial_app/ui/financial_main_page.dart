@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_49/ep2481_financial_app/ui/finance_custom_page.dart';
 
 import 'finance_home_page.dart';
 
@@ -79,7 +80,7 @@ class _FinancialMainPageState extends State<FinancialMainPage> {
             Expanded(
               child: IndexedStack(
                 index: 0,
-                children: [FinanceHomePage(), Placeholder(), Placeholder()],
+                children: [FinanceHomePage(), FinanceCustomPage(), Placeholder()],
               ),
             ),
           ],
