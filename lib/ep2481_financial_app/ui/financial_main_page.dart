@@ -23,15 +23,53 @@ class _FinancialMainPageState extends State<FinancialMainPage> {
               child: Row(
                 spacing: 12,
                 children: [
-                  CircleAvatar(
-                    radius: 26,
+                  Container(
+                    height: 54,
+                    width: 54,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: Colors.white,
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.grey[100]!,
+                          spreadRadius: 4,
+                          blurRadius: 10,
+                        ),
+                      ],
+                    ),
                   ),
                   Expanded(child: Text("")),
-                  CircleAvatar(
-                    radius: 26,
+                  Container(
+                    height: 54,
+                    width: 54,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: Colors.white,
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.grey[100]!,
+                          spreadRadius: 4,
+                          blurRadius: 10,
+                          offset: Offset(0, 10),
+                        ),
+                      ],
+                    ),
                   ),
-                  CircleAvatar(
-                    radius: 26,
+                  Container(
+                    height: 54,
+                    width: 54,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: Colors.white,
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.grey[100]!,
+                          spreadRadius: 4,
+                          blurRadius: 10,
+                          offset: Offset(0, 10),
+                        ),
+                      ],
+                    ),
                   ),
                 ],
               ),
