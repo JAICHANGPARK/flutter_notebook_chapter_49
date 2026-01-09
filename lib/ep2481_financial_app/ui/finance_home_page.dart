@@ -41,13 +41,38 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
                 Container(
                   padding: EdgeInsets.symmetric(horizontal: 16),
                   height: double.infinity,
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                  ),
+                  decoration: BoxDecoration(color: Colors.white),
                   child: Center(
                     child: Text(
                       "Cards",
                       style: TextStyle(color: Colors.black, fontSize: 16),
+                    ),
+                  ),
+                ),
+                Container(
+                  padding: EdgeInsets.symmetric(horizontal: 16),
+                  height: double.infinity,
+                  decoration: BoxDecoration(
+                    color: Color.fromRGBO(229, 235, 240, 1),
+                  ),
+                  child: Center(
+                    child: Text(
+                      "Linked",
+                      style: TextStyle(color: Colors.black38, fontSize: 16),
+                    ),
+                  ),
+                ),
+                VerticalDivider(color: Colors.white, width: 1),
+                Container(
+                  padding: EdgeInsets.symmetric(horizontal: 16),
+                  height: double.infinity,
+                  decoration: BoxDecoration(
+                    color: Color.fromRGBO(229, 235, 240, 1),
+                  ),
+                  child: Center(
+                    child: Text(
+                      "Linked",
+                      style: TextStyle(color: Colors.black38, fontSize: 16),
                     ),
                   ),
                 ),
