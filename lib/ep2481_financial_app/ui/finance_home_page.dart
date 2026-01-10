@@ -102,7 +102,7 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
               children: [
                 Container(
                   margin: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-                
+
                   decoration: ShapeDecoration(
                     shadows: [
                       BoxShadow(
@@ -196,8 +196,14 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
                               spacing: 5,
                               crossAxisAlignment: .start,
                               children: [
-                                Text("Shop", style: TextStyle(fontSize: 20)),
-                                Text("Card"),
+                                Text(
+                                  "Metal Space Gray",
+                                  style: TextStyle(fontSize: 20),
+                                ),
+                                Text(
+                                  "Activate card",
+                                  style: TextStyle(color: Colors.red),
+                                ),
                               ],
                             ),
                           ),
