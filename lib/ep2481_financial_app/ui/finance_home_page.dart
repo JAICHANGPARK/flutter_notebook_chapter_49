@@ -160,7 +160,7 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
                               crossAxisAlignment: .start,
                               children: [
                                 Text("General", style: TextStyle(fontSize: 20)),
-                                Text("Card"),
+                                Text("Ready yo use"),
                               ],
                             ),
                           ),
