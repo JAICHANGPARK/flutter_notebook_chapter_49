@@ -112,8 +112,10 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
                   ),
                   padding: EdgeInsets.all(16),
                   child: Column(
+                    spacing: 16,
                     children: [
                       Row(
+                        spacing: 6,
                         children: [
                           Text("Multi-use virtual"),
                           Icon(Icons.info_outline),
