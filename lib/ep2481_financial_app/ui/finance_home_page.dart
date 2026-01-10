@@ -126,15 +126,19 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
                           Container(
                             height: 48,
                             width: 72,
-                            decoration: BoxDecoration(color: Colors.blue,
-                            borderRadius: BorderRadius.circular(9),),
+                            decoration: BoxDecoration(
+                              color: Colors.blue,
+                              borderRadius: BorderRadius.circular(9),
+                            ),
                           ),
                           Expanded(
                             child: Column(
+                              spacing: 5,
                               crossAxisAlignment: .start,
-                              children: [Text("Shop",style: TextStyle(
-                                fontSize: 20,
-                              ),), Text("Card")],
+                              children: [
+                                Text("Shop", style: TextStyle(fontSize: 20)),
+                                Text("Card"),
+                              ],
                             ),
                           ),
                         ],
