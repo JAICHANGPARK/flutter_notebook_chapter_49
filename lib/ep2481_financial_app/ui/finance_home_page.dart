@@ -121,7 +121,7 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
                   padding: EdgeInsets.all(16),
                   child: Column(
                     crossAxisAlignment: .start,
-                    spacing: 24,
+                    spacing: 20,
                     children: [
                       Row(
                         spacing: 6,
