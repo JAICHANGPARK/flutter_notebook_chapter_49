@@ -104,7 +104,9 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
                   margin: EdgeInsets.symmetric(horizontal: 16),
                   height: 300,
                   decoration: ShapeDecoration(
-                    shadows: [],
+                    shadows: [BoxShadow(color: Colors.black, spreadRadius: 5,
+                    blurRadius: 10)],
+                    color: .fromRGBO(242, 247, 250, 1),
                     shape: RoundedSuperellipseBorder(
                       borderRadius: .circular(24),
                       side: BorderSide(color: Colors.white),
