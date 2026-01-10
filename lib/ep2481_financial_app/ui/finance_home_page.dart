@@ -123,7 +123,12 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
                       Row(
                         spacing: 12,
                         children: [
-                          Container(height: 52, width: 100),
+                          Container(
+                            height: 52,
+                            width: 100,
+                            decoration: BoxDecoration(color: Colors.blue,
+                            borderRadius: BorderRadius.circular(9),),
+                          ),
                           Expanded(
                             child: Column(
                               crossAxisAlignment: .start,
