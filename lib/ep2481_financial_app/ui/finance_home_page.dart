@@ -111,7 +111,7 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
                   ),
                   padding: EdgeInsets.all(16),
                   child: Column(
-                    spacing: 16,
+                    spacing: 24,
                     children: [
                       Row(
                         spacing: 6,
