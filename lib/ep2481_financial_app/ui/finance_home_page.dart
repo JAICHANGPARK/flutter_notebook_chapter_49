@@ -167,8 +167,10 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
                           ),
                         ],
                       ),
-                      Text("Physical"),
-
+                      Text(
+                        "Physical",
+                        style: TextStyle(fontSize: 18, color: Colors.grey),
+                      ),
                     ],
                   ),
                 ),
