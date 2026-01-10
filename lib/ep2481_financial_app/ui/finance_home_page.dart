@@ -102,7 +102,7 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
               children: [
                 Container(
                   margin: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-                  height: 300,
+                
                   decoration: ShapeDecoration(
                     shadows: [
                       BoxShadow(
@@ -179,6 +179,29 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
                       Text(
                         "Physical",
                         style: TextStyle(fontSize: 18, color: Colors.grey),
+                      ),
+                      Row(
+                        spacing: 12,
+                        children: [
+                          Container(
+                            height: 48,
+                            width: 72,
+                            decoration: BoxDecoration(
+                              color: Colors.blue,
+                              borderRadius: BorderRadius.circular(9),
+                            ),
+                          ),
+                          Expanded(
+                            child: Column(
+                              spacing: 5,
+                              crossAxisAlignment: .start,
+                              children: [
+                                Text("Shop", style: TextStyle(fontSize: 20)),
+                                Text("Card"),
+                              ],
+                            ),
+                          ),
+                        ],
                       ),
                     ],
                   ),
