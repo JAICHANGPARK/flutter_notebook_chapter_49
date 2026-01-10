@@ -101,38 +101,41 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
               spacing: 16,
               children: [
                 Container(
-                    margin: EdgeInsets.symmetric(horizontal: 16),
-                    height: 300,
-                    decoration: ShapeDecoration(
-                      shape: RoundedSuperellipseBorder(),)
-                    child: Column(
-                children: [
-                Row(
-                children: [
-                    Text("Multi-use virtual"),
-                Icon(Icons.info_outline),
+                  margin: EdgeInsets.symmetric(horizontal: 16),
+                  height: 300,
+                  decoration: ShapeDecoration(
+
+                    shape: RoundedSuperellipseBorder(
+                      borderRadius: .circular(24),
+                      side: BorderSide(color: Colors.white,)
+                    ),
+                  ),
+                  child: Column(
+                    children: [
+                      Row(
+                        children: [
+                          Text("Multi-use virtual"),
+                          Icon(Icons.info_outline),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+                Container(
+                  margin: EdgeInsets.symmetric(horizontal: 16),
+                  height: 140,
+                  child: Placeholder(),
+                ),
+                Container(
+                  margin: EdgeInsets.symmetric(horizontal: 16),
+                  height: 140,
+                  child: Placeholder(),
+                ),
               ],
             ),
-            ],
           ),
         ),
-        Container(
-          margin: EdgeInsets.symmetric(horizontal: 16),
-          height: 140,
-          child: Placeholder(),
-        ),
-        Container(
-          margin: EdgeInsets.symmetric(horizontal: 16),
-          height: 140,
-          child: Placeholder(),
-        ),
       ],
-    ),)
-    ,
-    )
-    ,
-    ]
-    ,
     );
   }
 }
