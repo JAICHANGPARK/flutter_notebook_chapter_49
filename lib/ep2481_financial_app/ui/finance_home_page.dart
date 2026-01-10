@@ -110,6 +110,7 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
                       side: BorderSide(color: Colors.white,)
                     ),
                   ),
+                  padding: EdgeInsets.all(16),
                   child: Column(
                     children: [
                       Row(
