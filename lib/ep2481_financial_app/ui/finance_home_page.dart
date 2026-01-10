@@ -111,6 +111,7 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
                   ),
                   padding: EdgeInsets.all(16),
                   child: Column(
+                    crossAxisAlignment: .start,
                     spacing: 24,
                     children: [
                       Row(
@@ -166,6 +167,8 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
                           ),
                         ],
                       ),
+                      Text("Physical"),
+
                     ],
                   ),
                 ),
