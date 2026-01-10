@@ -106,7 +106,7 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
                   decoration: ShapeDecoration(
                     shadows: [
                       BoxShadow(
-                        color: Colors.black.withValues(alpha: .1),
+                        color: Colors.black.withValues(alpha: .05),
                         spreadRadius: 5,
                         blurRadius: 10,
                         offset: Offset(0, 8),
