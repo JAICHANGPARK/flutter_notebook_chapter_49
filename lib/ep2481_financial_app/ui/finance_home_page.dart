@@ -100,25 +100,34 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
             child: Column(
               spacing: 16,
               children: [
-              Container(
-                margin: EdgeInsets.symmetric(horizontal: 16),
-                height: 300,
-                child: Placeholder(),
-              ),
-              Container(
-                margin: EdgeInsets.symmetric(horizontal: 16),
-                height: 140,
-                child: Placeholder(),
-              ),
-              Container(
-                margin: EdgeInsets.symmetric(horizontal: 16),
-                height: 140,
-                child: Placeholder(),
-              ),
-            ],),
+                Container(
+                  margin: EdgeInsets.symmetric(horizontal: 16),
+                  height: 300,
+                  child: Column(
+                    children: [
+                      Row(
+                        children: [
+                          Text("Multi-use virtual"),
+                          Icon(Icons.info_outline),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+                Container(
+                  margin: EdgeInsets.symmetric(horizontal: 16),
+                  height: 140,
+                  child: Placeholder(),
+                ),
+                Container(
+                  margin: EdgeInsets.symmetric(horizontal: 16),
+                  height: 140,
+                  child: Placeholder(),
+                ),
+              ],
+            ),
           ),
-        )
-
+        ),
       ],
     );
   }
