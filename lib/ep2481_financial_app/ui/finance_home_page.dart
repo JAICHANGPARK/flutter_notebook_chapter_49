@@ -104,10 +104,9 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
                   margin: EdgeInsets.symmetric(horizontal: 16),
                   height: 300,
                   decoration: ShapeDecoration(
-
                     shape: RoundedSuperellipseBorder(
                       borderRadius: .circular(24),
-                      side: BorderSide(color: Colors.white,)
+                      side: BorderSide(color: Colors.white),
                     ),
                   ),
                   padding: EdgeInsets.all(16),
@@ -119,6 +118,16 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
                         children: [
                           Text("Multi-use virtual"),
                           Icon(Icons.info_outline),
+                        ],
+                      ),
+                      Row(
+                        children: [
+                          Container(height: 52, width: 100),
+                          Expanded(
+                            child: Column(
+                              children: [Text("Shop"), Text("Card")],
+                            ),
+                          ),
                         ],
                       ),
                     ],
