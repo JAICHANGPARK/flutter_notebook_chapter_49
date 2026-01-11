@@ -11,6 +11,9 @@ class FinanceCustomPage extends StatefulWidget {
 class _FinanceCustomPageState extends State<FinanceCustomPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return SingleChildScrollView(
+      child:
+      ,
+    )
   }
 }
