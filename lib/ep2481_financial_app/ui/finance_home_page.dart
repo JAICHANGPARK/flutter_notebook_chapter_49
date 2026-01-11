@@ -280,8 +280,41 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
                 ),
                 Container(
                   margin: EdgeInsets.symmetric(horizontal: 16),
-                  height: 140,
-                  child: Placeholder(),
+                  padding: EdgeInsets.all(16),
+                  decoration: ShapeDecoration(
+                    shadows: [
+                      BoxShadow(
+                        color: Colors.black.withValues(alpha: .05),
+                        spreadRadius: 5,
+                        blurRadius: 10,
+                        offset: Offset(0, 8),
+                      ),
+                    ],
+                    color: .fromRGBO(242, 247, 250, 1),
+                    shape: RoundedSuperellipseBorder(
+                      borderRadius: .circular(24),
+                      side: BorderSide(color: Colors.white),
+                    ),
+                  ),
+                  child: Column(
+                    spacing: 16,
+                    children: [
+                      Row(
+                        mainAxisAlignment: .spaceBetween,
+                        children: [
+                          Text(
+                            "Pay securely with Shopper",
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              color: Colors.grey,
+                            ),
+                          ),
+                          Icon(Icons.clear),
+                        ],
+                      ),
+
+                    ],
+                  ),
                 ),
               ],
             ),
