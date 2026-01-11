@@ -140,8 +140,18 @@ class _FinancialMainPageState extends State<FinancialMainPage> {
                 ),
               ),
             ),
-            IconButton(onPressed: () {}, icon: Icon(Icons.currency_bitcoin)),
-            IconButton(onPressed: () {}, icon: Icon(Icons.apps)),
+            IconButton(onPressed: () {
+              setState(() {
+                pageNum = 3;
+              });
+
+            }, icon: Icon(Icons.currency_bitcoin)),
+            IconButton(onPressed: () {
+              setState(() {
+                pageNum = 4;
+              });
+
+            }, icon: Icon(Icons.apps)),
           ],
         ),
       ),
