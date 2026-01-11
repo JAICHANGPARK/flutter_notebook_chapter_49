@@ -21,11 +21,14 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
               child: Placeholder(),
             ),
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text("Customize your Home screen"),
                 IconButton(onPressed: (){}, icon: Icon(Icons.clear))
               ],
-            )
+            ),
+            Text("Long press and drag widgets to reorder"),
+            TextButton(onPressed: (){}, child: Text("Learn more"),),
           ],
         ),
       )
