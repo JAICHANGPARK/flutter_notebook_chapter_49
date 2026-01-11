@@ -242,6 +242,19 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
                           ),),
                           Icon(Icons.clear),
                         ],
+                      ),
+                      Row(
+                        children: [
+                          Text("😡",style: TextStyle(
+                            fontSize: 32,
+                          ),),
+                          Text("☹",style: TextStyle(
+                            fontSize: 32,
+                          ),),
+                          Text("😑"),
+                          Text("😊"),
+                          Text("😍")
+                        ],
                       )
                     ],
                   ),
