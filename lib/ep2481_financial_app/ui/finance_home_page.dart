@@ -232,6 +232,7 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
                     ),
                   ),
                   child: Column(
+                    spacing: 16,
                     children: [
                       Row(
                         mainAxisAlignment: .spaceBetween,
@@ -244,6 +245,7 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
                         ],
                       ),
                       Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text("😡",style: TextStyle(
                             fontSize: 32,
