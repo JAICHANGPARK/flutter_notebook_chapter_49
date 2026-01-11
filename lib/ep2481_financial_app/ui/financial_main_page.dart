@@ -114,7 +114,7 @@ class _FinancialMainPageState extends State<FinancialMainPage> {
               icon: Icon(Icons.area_chart),
             ),
             GestureDetector(
-              onTap: (){
+              onTap: () {
                 setState(() {
                   pageNum = 2;
                 });
@@ -136,22 +136,30 @@ class _FinancialMainPageState extends State<FinancialMainPage> {
                 ),
                 child: RotatedBox(
                   quarterTurns: 1,
-                  child: Icon(Icons.import_export, color: Colors.white, size: 32),
+                  child: Icon(
+                    Icons.import_export,
+                    color: Colors.white,
+                    size: 32,
+                  ),
                 ),
               ),
             ),
-            IconButton(onPressed: () {
-              setState(() {
-                pageNum = 3;
-              });
-
-            }, icon: Icon(Icons.currency_bitcoin)),
-            IconButton(onPressed: () {
-              setState(() {
-                pageNum = 4;
-              });
-
-            }, icon: Icon(Icons.apps)),
+            IconButton(
+              onPressed: () {
+                setState(() {
+                  pageNum = 3;
+                });
+              },
+              icon: Icon(Icons.currency_bitcoin),
+            ),
+            IconButton(
+              onPressed: () {
+                setState(() {
+                  pageNum = 4;
+                });
+              },
+              icon: Icon(Icons.apps),
+            ),
           ],
         ),
       ),
