@@ -254,7 +254,9 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
                           Text("😑",style: TextStyle(
                             fontSize: 32,
                           ),),
-                          Text("😊"),
+                          Text("😊",style: TextStyle(
+                            fontSize: 32,
+                          ),),
                           Text("😍")
                         ],
                       )
