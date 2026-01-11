@@ -34,12 +34,13 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text("Widgets"),
-                IconButton(onPressed: () {}, icon: Icon(Icons.ad)),
+                IconButton(onPressed: () {}, icon: Icon(Icons.add)),
               ],
             ),
             Row(
               children: [
-                
+                Text("Card"),
+                Icon(Icons.keyboard_arrow_right)
               ],
             )
           ],
