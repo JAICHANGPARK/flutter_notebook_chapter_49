@@ -14,9 +14,13 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
     return SingleChildScrollView(
       child: Column(
         children: [
+          Container(
+            height: 420,
+            child: Placeholder(),
+          )
         ],
       )
-      ,
-    )
+
+    );
   }
 }
