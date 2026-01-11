@@ -236,7 +236,10 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
                       Row(
                         mainAxisAlignment: .spaceBetween,
                         children: [
-                          Text("Rate Duwet Cards"),
+                          Text("Rate Duwet Cards",style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            color: Colors.grey
+                          ),),
                           Icon(Icons.clear),
                         ],
                       )
