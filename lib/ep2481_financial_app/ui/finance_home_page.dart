@@ -214,7 +214,7 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
                 ),
                 Container(
                   // height: 140,
-                  margin: EdgeInsets.symmetric(horizontal: 16, ),
+                  margin: EdgeInsets.symmetric(horizontal: 16),
                   padding: EdgeInsets.all(16),
                   decoration: ShapeDecoration(
                     shadows: [
@@ -237,40 +237,45 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
                       Row(
                         mainAxisAlignment: .spaceBetween,
                         children: [
-                          Text("Rate Duwet Cards",style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            color: Colors.grey
-                          ),),
+                          Text(
+                            "Rate Duwet Cards",
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              color: Colors.grey,
+                            ),
+                          ),
                           Icon(Icons.clear),
                         ],
                       ),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          Text("😡",style: TextStyle(
-                            fontSize: 32,
-                          ),),
-                          Text("☹",style: TextStyle(
-                            fontSize: 32,
-                          ),),
-                          Text("😑",style: TextStyle(
-                            fontSize: 32,
-                          ),),
-                          Text("😊",style: TextStyle(
-                            fontSize: 32,
-                          ),),
-                          Text("😍",style: TextStyle(
-                            fontSize: 32,
-                          ),)
+                          Text("😡", style: TextStyle(fontSize: 32)),
+                          Text("☹", style: TextStyle(fontSize: 32)),
+                          Text("😑", style: TextStyle(fontSize: 32)),
+                          Text("😊", style: TextStyle(fontSize: 32)),
+                          Text("😍", style: TextStyle(fontSize: 32)),
                         ],
                       ),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          Text("Terrible"),
-                          Text("Great")
+                          Text(
+                            "Terrible",
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 15,
+                            ),
+                          ),
+                          Text(
+                            "Great",
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 15,
+                            ),
+                          ),
                         ],
-                      )
+                      ),
                     ],
                   ),
                 ),
