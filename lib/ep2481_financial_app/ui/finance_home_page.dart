@@ -298,6 +298,7 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
                   ),
                   child: Column(
                     spacing: 16,
+                    crossAxisAlignment: .start,
                     children: [
                       Row(
                         mainAxisAlignment: .spaceBetween,
