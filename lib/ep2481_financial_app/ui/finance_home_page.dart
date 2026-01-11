@@ -312,6 +312,7 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
                           Icon(Icons.clear),
                         ],
                       ),
+                      Text("Autofill your card details at checkout")
 
                     ],
                   ),
