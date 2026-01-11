@@ -105,7 +105,12 @@ class _FinancialMainPageState extends State<FinancialMainPage> {
               },
               icon: Icon(Icons.home_filled),
             ),
-            IconButton(onPressed: () {}, icon: Icon(Icons.area_chart)),
+            IconButton(onPressed: () {
+              setState(() {
+                pageNum = 1;
+              });
+
+            }, icon: Icon(Icons.area_chart)),
             Container(
               height: 62,
               width: 62,
