@@ -213,7 +213,6 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
                   ),
                 ),
                 Container(
-                  // height: 140,
                   margin: EdgeInsets.symmetric(horizontal: 16),
                   padding: EdgeInsets.all(16),
                   decoration: ShapeDecoration(
