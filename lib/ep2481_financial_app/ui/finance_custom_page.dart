@@ -30,6 +30,18 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
               child: Text("Learn more"),
               style: TextButton.styleFrom(padding: .zero),
             ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text("Widgets"),
+                IconButton(onPressed: () {}, icon: Icon(Icons.ad)),
+              ],
+            ),
+            Row(
+              children: [
+                
+              ],
+            )
           ],
         ),
       ),
