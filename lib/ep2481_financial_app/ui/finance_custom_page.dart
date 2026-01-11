@@ -12,13 +12,22 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      child: Column(
-        children: [
-          Container(
-            height: 420,
-            child: Placeholder(),
-          )
-        ],
+      child: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          children: [
+            Container(
+              height: 420,
+              child: Placeholder(),
+            ),
+            Row(
+              children: [
+                Text("Customize your Home screen"),
+                IconButton(onPressed: (){}, icon: Icon(Icons.clear))
+              ],
+            )
+          ],
+        ),
       )
 
     );
