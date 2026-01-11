@@ -79,7 +79,7 @@ class _FinancialMainPageState extends State<FinancialMainPage> {
             ),
             Expanded(
               child: IndexedStack(
-                index: 0,
+                index: pageNum,
                 children: [
                   FinanceHomePage(),
                   FinanceCustomPage(),
