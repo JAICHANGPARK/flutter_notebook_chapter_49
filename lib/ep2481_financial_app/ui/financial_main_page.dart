@@ -105,30 +105,39 @@ class _FinancialMainPageState extends State<FinancialMainPage> {
               },
               icon: Icon(Icons.home_filled),
             ),
-            IconButton(onPressed: () {
-              setState(() {
-                pageNum = 1;
-              });
-
-            }, icon: Icon(Icons.area_chart)),
-            Container(
-              height: 62,
-              width: 62,
-              decoration: BoxDecoration(
-                color: Colors.black,
-                shape: BoxShape.circle,
-                boxShadow: [
-                  BoxShadow(
-                    color: Colors.black.withValues(alpha: .15),
-                    blurRadius: 10,
-                    spreadRadius: 0,
-                    offset: Offset(0, 16),
-                  ),
-                ],
-              ),
-              child: RotatedBox(
-                quarterTurns: 1,
-                child: Icon(Icons.import_export, color: Colors.white, size: 32),
+            IconButton(
+              onPressed: () {
+                setState(() {
+                  pageNum = 1;
+                });
+              },
+              icon: Icon(Icons.area_chart),
+            ),
+            GestureDetector(
+              onTap: (){
+                setState(() {
+                  pageNum = 2;
+                });
+              },
+              child: Container(
+                height: 62,
+                width: 62,
+                decoration: BoxDecoration(
+                  color: Colors.black,
+                  shape: BoxShape.circle,
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.black.withValues(alpha: .15),
+                      blurRadius: 10,
+                      spreadRadius: 0,
+                      offset: Offset(0, 16),
+                    ),
+                  ],
+                ),
+                child: RotatedBox(
+                  quarterTurns: 1,
+                  child: Icon(Icons.import_export, color: Colors.white, size: 32),
+                ),
               ),
             ),
             IconButton(onPressed: () {}, icon: Icon(Icons.currency_bitcoin)),
