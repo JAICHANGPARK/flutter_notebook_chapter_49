@@ -80,7 +80,11 @@ class _FinancialMainPageState extends State<FinancialMainPage> {
             Expanded(
               child: IndexedStack(
                 index: 0,
-                children: [FinanceHomePage(), FinanceCustomPage(), Placeholder()],
+                children: [
+                  FinanceHomePage(),
+                  FinanceCustomPage(),
+                  Placeholder(),
+                ],
               ),
             ),
           ],
@@ -93,7 +97,14 @@ class _FinancialMainPageState extends State<FinancialMainPage> {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            IconButton(onPressed: () {}, icon: Icon(Icons.home_filled)),
+            IconButton(
+              onPressed: () {
+                setState(() {
+                  pageNum = 0;
+                });
+              },
+              icon: Icon(Icons.home_filled),
+            ),
             IconButton(onPressed: () {}, icon: Icon(Icons.area_chart)),
             Container(
               height: 62,
