@@ -213,7 +213,7 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
                   ),
                 ),
                 Container(
-                  height: 140,
+                  // height: 140,
                   margin: EdgeInsets.symmetric(horizontal: 16, ),
                   padding: EdgeInsets.all(16),
                   decoration: ShapeDecoration(
@@ -262,6 +262,13 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
                           Text("😍",style: TextStyle(
                             fontSize: 32,
                           ),)
+                        ],
+                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text("Terrible"),
+                          Text("Great")
                         ],
                       )
                     ],
