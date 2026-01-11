@@ -12,7 +12,10 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      child:
+      child: Column(
+        children: [
+        ],
+      )
       ,
     )
   }
