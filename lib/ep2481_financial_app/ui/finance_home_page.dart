@@ -215,7 +215,17 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
                 Container(
                   margin: EdgeInsets.symmetric(horizontal: 16),
                   height: 140,
-                  child: Placeholder(),
+                  child: Column(
+                    children: [
+                      Row(
+                        mainAxisAlignment: .spaceBetween,
+                        children: [
+                          Text("Rate Duwet Cards"),
+                          Icon(Icons.clear),
+                        ],
+                      )
+                    ],
+                  ),
                 ),
                 Container(
                   margin: EdgeInsets.symmetric(horizontal: 16),
