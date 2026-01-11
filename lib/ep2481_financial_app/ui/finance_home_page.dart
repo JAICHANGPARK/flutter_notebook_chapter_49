@@ -102,7 +102,7 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
               children: [
                 Container(
                   margin: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-
+                  padding: EdgeInsets.all(16),
                   decoration: ShapeDecoration(
                     shadows: [
                       BoxShadow(
@@ -118,7 +118,7 @@ class _FinanceHomePageState extends State<FinanceHomePage> {
                       side: BorderSide(color: Colors.white),
                     ),
                   ),
-                  padding: EdgeInsets.all(16),
+
                   child: Column(
                     crossAxisAlignment: .start,
                     spacing: 20,
