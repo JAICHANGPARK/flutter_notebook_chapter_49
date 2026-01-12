@@ -19,14 +19,29 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
             Container(
               height: 420,
               child: Stack(
-                children: [Positioned.fill(child: Column(children: [
-                  Expanded(child: Container(
-                    decoration: BoxDecoration(
-                      color: Colors.blue,
+                children: [
+                  Positioned.fill(
+                    child: Column(
+                      children: [
+                        Expanded(
+                          child: Container(
+                            decoration: BoxDecoration(
+                              color: Colors.blue,
+                              borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(32),
+                                topRight: Radius.circular(32),
+                              ),
+                              border: Border.all(color: Colors.white),
+                              boxShadow: [
+                                BoxShadow()
+                              ],
+                            ),
+                          ),
+                        ),
+                      ],
                     ),
-                  ))
-
-                ]))],
+                  ),
+                ],
               ),
             ),
             Row(
