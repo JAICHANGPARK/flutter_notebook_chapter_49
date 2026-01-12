@@ -14,7 +14,7 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
       child: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
-          spacing: 12,
+          spacing: 8,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
@@ -145,11 +145,13 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
                 ),
               ],
             ),
-
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Text("Widgets"),
+                Text(
+                  "Widgets",
+                  style: TextStyle(fontWeight: .bold, fontSize: 20),
+                ),
                 IconButton(onPressed: () {}, icon: Icon(Icons.add)),
               ],
             ),
