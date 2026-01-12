@@ -124,22 +124,28 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
               ),
             ),
 
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            Column(
               children: [
-                Text(
-                  "Customize your Home screen",
-                  style: TextStyle(fontWeight: .bold, fontSize: 20),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text(
+                      "Customize your Home screen",
+                      style: TextStyle(fontWeight: .bold, fontSize: 20),
+                    ),
+                    IconButton(onPressed: () {}, icon: Icon(Icons.clear)),
+                  ],
                 ),
-                IconButton(onPressed: () {}, icon: Icon(Icons.clear)),
+
+                Text("Long press and drag widgets to reorder"),
+                TextButton(
+                  onPressed: () {},
+                  child: Text("Learn more"),
+                  style: TextButton.styleFrom(padding: .zero),
+                ),
               ],
             ),
-            Text("Long press and drag widgets to reorder"),
-            TextButton(
-              onPressed: () {},
-              child: Text("Learn more"),
-              style: TextButton.styleFrom(padding: .zero),
-            ),
+
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
