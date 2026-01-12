@@ -123,8 +123,8 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
                 ],
               ),
             ),
-
             Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
