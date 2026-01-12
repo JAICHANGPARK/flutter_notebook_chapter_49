@@ -14,6 +14,7 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
       child: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
+          spacing: 12,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
@@ -113,10 +114,7 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
                               style: TextStyle(color: Colors.white),
                             ),
                             VerticalDivider(color: Colors.white),
-                            Text(
-                              "More",
-                              style: TextStyle(color: Colors.white),
-                            ),
+                            Text("More", style: TextStyle(color: Colors.white)),
                           ],
                         ),
                       ),
@@ -125,10 +123,14 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
                 ],
               ),
             ),
+
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Text("Customize your Home screen"),
+                Text(
+                  "Customize your Home screen",
+                  style: TextStyle(fontWeight: .bold, fontSize: 20),
+                ),
                 IconButton(onPressed: () {}, icon: Icon(Icons.clear)),
               ],
             ),
@@ -144,7 +146,6 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
                 Text("Widgets"),
                 IconButton(onPressed: () {}, icon: Icon(Icons.add)),
               ],
-
             ),
             Row(children: [Text("Card"), Icon(Icons.keyboard_arrow_right)]),
           ],
