@@ -88,7 +88,7 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
                         shape: StadiumBorder(),
                         color: Color.fromRGBO(228, 235, 237, 1),
                       ),
-                      padding: EdgeInsets.all(16),
+                      padding: EdgeInsets.all(12),
                       child: Container(
                         decoration: ShapeDecoration(
                           shape: StadiumBorder(),
