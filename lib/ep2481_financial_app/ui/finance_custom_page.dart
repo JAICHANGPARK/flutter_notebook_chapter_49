@@ -33,9 +33,23 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
                               ),
                               border: Border.all(color: Colors.white),
                               boxShadow: [
-                                BoxShadow()
+                                BoxShadow(
+                                  color: Colors.black.withValues(alpha: .05),
+                                  blurRadius: 4,
+                                  spreadRadius: 4,
+                                ),
                               ],
                             ),
+                          ),
+                        ),
+                        Container(
+                          height: 100,
+                          width: double.infinity,
+                          padding: EdgeInsets.all(16),
+                          decoration: BoxDecoration(color: Colors.white),
+                          child: Text(
+                            "🧩 No transactions yet",
+                            style: TextStyle(color: Colors.grey),
                           ),
                         ),
                       ],
