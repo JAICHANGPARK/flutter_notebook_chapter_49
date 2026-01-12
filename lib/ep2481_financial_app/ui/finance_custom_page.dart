@@ -22,7 +22,7 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
                 children: [
                   Positioned.fill(
                     child: Column(
-                      spacing: 20,
+                      spacing: 16,
                       children: [
                         Expanded(
                           child: Container(
@@ -47,7 +47,13 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
                           height: 100,
                           width: double.infinity,
                           padding: EdgeInsets.all(16),
-                          decoration: BoxDecoration(color: Colors.white),
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.only(
+                              bottomLeft: Radius.circular(24),
+                              bottomRight: Radius.circular(24),
+                            ),
+                          ),
                           child: Column(
                             children: [
                               Expanded(child: Container()),
