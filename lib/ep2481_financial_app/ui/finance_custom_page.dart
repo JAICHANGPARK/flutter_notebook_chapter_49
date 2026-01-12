@@ -16,7 +16,19 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Container(height: 420, child: Placeholder()),
+            Container(
+              height: 420,
+              child: Stack(
+                children: [Positioned.fill(child: Column(children: [
+                  Expanded(child: Container(
+                    decoration: BoxDecoration(
+                      color: Colors.blue,
+                    ),
+                  ))
+
+                ]))],
+              ),
+            ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -37,12 +49,7 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
                 IconButton(onPressed: () {}, icon: Icon(Icons.add)),
               ],
             ),
-            Row(
-              children: [
-                Text("Card"),
-                Icon(Icons.keyboard_arrow_right)
-              ],
-            )
+            Row(children: [Text("Card"), Icon(Icons.keyboard_arrow_right)]),
           ],
         ),
       ),
