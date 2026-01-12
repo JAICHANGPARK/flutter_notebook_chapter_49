@@ -22,6 +22,7 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
                 children: [
                   Positioned.fill(
                     child: Column(
+                      spacing: 20,
                       children: [
                         Expanded(
                           child: Container(
@@ -52,7 +53,10 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
                               Expanded(child: Container()),
                               Text(
                                 "🧩 No transactions yet",
-                                style: TextStyle(color: Colors.grey,),
+                                style: TextStyle(
+                                  color: Colors.grey,
+                                  fontSize: 16,
+                                ),
                               ),
                             ],
                           ),
