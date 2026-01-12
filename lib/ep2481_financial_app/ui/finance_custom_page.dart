@@ -54,6 +54,13 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
                               bottomRight: Radius.circular(24),
                             ),
                             border: Border.all(color: Colors.white),
+                            boxShadow: [
+                              BoxShadow(
+                                color: Colors.black.withValues(alpha: .05),
+                                blurRadius: 4,
+                                spreadRadius: 4,
+                              ),
+                            ]
                           ),
                           child: Column(
                             children: [
