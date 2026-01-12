@@ -78,6 +78,16 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
                       ],
                     ),
                   ),
+                  Positioned(
+                    bottom: 80,
+                    child: Container(
+
+                      height: 80,
+                      decoration: ShapeDecoration(shape: StadiumBorder(),
+                      ),
+                    ),
+
+                  ),
                 ],
               ),
             ),
