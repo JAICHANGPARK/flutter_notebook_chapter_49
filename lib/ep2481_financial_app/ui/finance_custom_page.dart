@@ -47,9 +47,14 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
                           width: double.infinity,
                           padding: EdgeInsets.all(16),
                           decoration: BoxDecoration(color: Colors.white),
-                          child: Text(
-                            "🧩 No transactions yet",
-                            style: TextStyle(color: Colors.grey),
+                          child: Column(
+                            children: [
+                              Expanded(child: Container()),
+                              Text(
+                                "🧩 No transactions yet",
+                                style: TextStyle(color: Colors.grey,),
+                              ),
+                            ],
                           ),
                         ),
                       ],
