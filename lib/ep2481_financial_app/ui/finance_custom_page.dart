@@ -80,6 +80,8 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
                   ),
                   Positioned(
                     bottom: 80,
+                    left: 42,
+                    right: 42,
                     child: Container(
                       height: 80,
                       decoration: ShapeDecoration(
