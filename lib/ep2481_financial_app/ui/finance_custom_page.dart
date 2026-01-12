@@ -44,7 +44,7 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
                           ),
                         ),
                         Container(
-                          height: 100,
+                          height: 80,
                           width: double.infinity,
                           padding: EdgeInsets.all(16),
                           decoration: BoxDecoration(
@@ -79,7 +79,7 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
                     ),
                   ),
                   Positioned(
-                    bottom: 80,
+                    bottom: 62,
                     left: 32,
                     right: 32,
                     child: Container(
@@ -104,7 +104,7 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
                             ),
                             VerticalDivider(color: Colors.white),
                             Text(
-                              "+Exchange",
+                              "Exchange",
                               style: TextStyle(color: Colors.white),
                             ),
                             VerticalDivider(color: Colors.white),
