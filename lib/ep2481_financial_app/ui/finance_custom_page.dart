@@ -80,8 +80,8 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
                   ),
                   Positioned(
                     bottom: 80,
-                    left: 42,
-                    right: 42,
+                    left: 32,
+                    right: 32,
                     child: Container(
                       height: 80,
                       decoration: ShapeDecoration(
@@ -96,6 +96,7 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
                         ),
                         padding: EdgeInsets.symmetric(horizontal: 12),
                         child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
                               "+ Money",
@@ -112,6 +113,10 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
                               style: TextStyle(color: Colors.white),
                             ),
                             VerticalDivider(color: Colors.white),
+                            Text(
+                              "More",
+                              style: TextStyle(color: Colors.white),
+                            ),
                           ],
                         ),
                       ),
@@ -139,7 +144,7 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
                 Text("Widgets"),
                 IconButton(onPressed: () {}, icon: Icon(Icons.add)),
               ],
-              
+
             ),
             Row(children: [Text("Card"), Icon(Icons.keyboard_arrow_right)]),
           ],
