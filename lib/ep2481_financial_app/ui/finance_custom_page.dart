@@ -82,9 +82,25 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
                     bottom: 80,
                     child: Container(
                       height: 80,
-                      decoration: ShapeDecoration(shape: StadiumBorder()),
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(),
+                        color: Color.fromRGBO(228, 235, 237, 1),
+                      ),
+                      padding: EdgeInsets.all(16),
                       child: Container(
-                        decoration: ShapeDecoration(shape: StadiumBorder()),
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(),
+                          color: Colors.black,
+                        ),
+                        child: Row(
+                          children: [
+                            Text(
+                              "+ Money",
+                              style: TextStyle(color: Colors.white),
+                            ),
+                            VerticalDivider(color: Colors.white),
+                          ],
+                        ),
                       ),
                     ),
                   ),
