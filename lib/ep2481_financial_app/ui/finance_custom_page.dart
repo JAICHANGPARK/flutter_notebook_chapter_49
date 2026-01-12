@@ -48,7 +48,7 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
                           width: double.infinity,
                           padding: EdgeInsets.all(16),
                           decoration: BoxDecoration(
-                            color: Colors.white,
+                            color: Color.fromRGBO(245, 249, 250, 1),
                             borderRadius: BorderRadius.only(
                               bottomLeft: Radius.circular(24),
                               bottomRight: Radius.circular(24),
@@ -57,10 +57,10 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
                             boxShadow: [
                               BoxShadow(
                                 color: Colors.black.withValues(alpha: .05),
-                                blurRadius: 4,
-                                spreadRadius: 4,
+                                blurRadius: 10,
+                                spreadRadius: 10,
                               ),
-                            ]
+                            ],
                           ),
                           child: Column(
                             children: [
