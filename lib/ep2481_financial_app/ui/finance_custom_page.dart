@@ -94,10 +94,21 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
                           shape: StadiumBorder(),
                           color: Colors.black,
                         ),
+                        padding: EdgeInsets.symmetric(horizontal: 12),
                         child: Row(
                           children: [
                             Text(
                               "+ Money",
+                              style: TextStyle(color: Colors.white),
+                            ),
+                            VerticalDivider(color: Colors.white),
+                            Text(
+                              "+Exchange",
+                              style: TextStyle(color: Colors.white),
+                            ),
+                            VerticalDivider(color: Colors.white),
+                            Text(
+                              "Details",
                               style: TextStyle(color: Colors.white),
                             ),
                             VerticalDivider(color: Colors.white),
@@ -128,6 +139,7 @@ class _FinanceCustomPageState extends State<FinanceCustomPage> {
                 Text("Widgets"),
                 IconButton(onPressed: () {}, icon: Icon(Icons.add)),
               ],
+              
             ),
             Row(children: [Text("Card"), Icon(Icons.keyboard_arrow_right)]),
           ],
