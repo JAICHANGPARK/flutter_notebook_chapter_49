@@ -17,7 +17,11 @@ class _RunningMainPageState extends State<RunningMainPage> {
         height: 100,
         child: BottomNavigationBar(
           currentIndex: selectedTab,
-          
+          onTap: (idx){
+            setState(() {
+              selectedTab = idx;
+            });
+          },
           backgroundColor: Colors.white,
           selectedItemColor: Colors.brown,
           type: BottomNavigationBarType.fixed,
