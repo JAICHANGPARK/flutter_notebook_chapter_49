@@ -8,16 +8,18 @@ class RunningMainPage extends StatefulWidget {
 }
 
 class _RunningMainPageState extends State<RunningMainPage> {
+  int selectedTab = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color.fromRGBO(239, 239, 239, 1),
       bottomNavigationBar: SizedBox(
         height: 100,
-
         child: BottomNavigationBar(
+          currentIndex: selectedTab,
+          
           backgroundColor: Colors.white,
-
+          selectedItemColor: Colors.brown,
           type: BottomNavigationBarType.fixed,
           items: [BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
             BottomNavigationBarItem(icon: Icon(Icons.map), label: "Maps"),
