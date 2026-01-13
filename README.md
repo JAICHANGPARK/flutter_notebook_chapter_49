@@ -6,7 +6,7 @@
 - Product SAAS for Cansaas
 - https://dribbble.com/shots/26976749-Running-Mobile-App
 
-<img src="https://cdn.dribbble.com/userupload/46294318/file/dea74feefe5e057b6b83f3fcede8d65f.png?resize=1905x1429&vertical=center" alt=""/>
+<img src="https://cdn.dribbble.com/userupload/46363570/file/b4f33a571df96a7d06c5454936360aa7.png?resize=1905x1429&vertical=center" alt=""/>
 
 ## EP2481-2485
 
