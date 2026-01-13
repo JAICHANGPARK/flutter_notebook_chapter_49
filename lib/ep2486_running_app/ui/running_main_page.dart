@@ -13,6 +13,10 @@ class _RunningMainPageState extends State<RunningMainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color.fromRGBO(239, 239, 239, 1),
+      body: IndexedStack(
+        index: selectedTab,
+        children: [],
+      ),
       bottomNavigationBar: SizedBox(
         height: 100,
         child: BottomNavigationBar(
