@@ -15,7 +15,13 @@ class _RunningMainPageState extends State<RunningMainPage> {
       backgroundColor: Color.fromRGBO(239, 239, 239, 1),
       body: IndexedStack(
         index: selectedTab,
-        children: [],
+        children: [
+          Placeholder(),
+          Placeholder(),
+          Placeholder(),
+          Placeholder(),
+          Placeholder(),
+        ],
       ),
       bottomNavigationBar: SizedBox(
         height: 100,
