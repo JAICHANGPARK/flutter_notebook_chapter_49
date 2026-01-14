@@ -10,6 +10,16 @@ class RunningProfilePage extends StatefulWidget {
 class _RunningProfilePageState extends State<RunningProfilePage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Column(
+      children: [
+        Row(
+          children: [
+            CircleAvatar(),
+            Expanded(child: Center(child: Text("Profile"))),
+            CircleAvatar(),
+          ],
+        ),
+      ],
+    );
   }
 }
