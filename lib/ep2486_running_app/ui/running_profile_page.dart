@@ -31,13 +31,13 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
                 ),
 
                 Container(
-                  
+                  padding: EdgeInsets.all(12),
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     color: Colors.white,
                     boxShadow: [
                       BoxShadow(
-                        color: Colors.grey[100]!,
+                        color: Colors.grey[200]!,
                         blurRadius: 3,
                         spreadRadius: 3,
                       ),
