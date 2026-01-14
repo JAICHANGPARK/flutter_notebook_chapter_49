@@ -55,6 +55,14 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
                 shape: StadiumBorder(),
                 color: Colors.white,
               ),
+              child: Row(
+                spacing: 8,
+                children: [
+                  Expanded(child: Placeholder()),
+                  Expanded(child: Placeholder()),
+
+                ],
+              ),
             ),
             Expanded(child: ListView.builder(itemBuilder: (context,index) {
               return Container(
