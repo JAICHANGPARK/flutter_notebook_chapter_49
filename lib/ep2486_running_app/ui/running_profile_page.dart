@@ -14,6 +14,7 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
       child: Padding(
         padding: const EdgeInsets.fromLTRB(16, 16, 16, 0),
         child: Column(
+          spacing: 16,
           children: [
             Row(
               children: [
@@ -48,12 +49,26 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
               ],
             ),
             Container(
-              height: 62,
+              height: 52,
               decoration: ShapeDecoration(
                 shape: StadiumBorder(),
                 color: Colors.white,
               ),
             ),
+            Container(
+              height: 360,
+              decoration: BoxDecoration(
+                // shape: BoxShape.circle,
+                color: Colors.white,
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.grey[200]!,
+                    blurRadius: 3,
+                    spreadRadius: 3,
+                  ),
+                ],
+              ),
+            )
           ],
         ),
       ),
