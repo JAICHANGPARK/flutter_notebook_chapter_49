@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'running_profile_page.dart';
+
 class RunningMainPage extends StatefulWidget {
   const RunningMainPage({super.key});
 
@@ -16,7 +18,7 @@ class _RunningMainPageState extends State<RunningMainPage> {
       body: IndexedStack(
         index: selectedTab,
         children: [
-          Placeholder(),
+          RunningProfilePage(),
           Placeholder(),
           Placeholder(),
           Placeholder(),
