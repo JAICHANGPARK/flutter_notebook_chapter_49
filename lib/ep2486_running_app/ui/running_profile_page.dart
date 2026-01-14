@@ -11,6 +11,7 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
+      bottom: false,
       child: Padding(
         padding: const EdgeInsets.fromLTRB(16, 16, 16, 0),
         child: Column(
@@ -55,36 +56,26 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
                 color: Colors.white,
               ),
             ),
-            Container(
-              height: 380,
-              decoration: BoxDecoration(
-                
-                color: Colors.white,
-                borderRadius: BorderRadius.circular(16),
-                boxShadow: [
-                  BoxShadow(
-                    color: Colors.grey[200]!,
-                    blurRadius: 3,
-                    spreadRadius: 3,
-                  ),
-                ],
-              ),
-            ),
-            Container(
-              height: 380,
-              decoration: BoxDecoration(
+            Expanded(child: ListView.builder(itemBuilder: (context,index) {
+              return Container(
+                height: 380,
+                decoration: BoxDecoration(
 
-                color: Colors.white,
-                borderRadius: BorderRadius.circular(16),
-                boxShadow: [
-                  BoxShadow(
-                    color: Colors.grey[200]!,
-                    blurRadius: 3,
-                    spreadRadius: 3,
-                  ),
-                ],
-              ),
-            )
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(16),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.grey[200]!,
+                      blurRadius: 3,
+                      spreadRadius: 3,
+                    ),
+                  ],
+                ),
+              );
+
+            })),
+
+          
           ],
         ),
       ),
