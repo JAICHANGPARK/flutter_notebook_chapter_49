@@ -17,9 +17,7 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
           children: [
             Row(
               children: [
-                CircleAvatar(
-                  radius: 24,
-                ),
+                CircleAvatar(radius: 24),
                 Expanded(
                   child: Center(
                     child: Text(
@@ -48,6 +46,13 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
                   child: Icon(Icons.settings_outlined),
                 ),
               ],
+            ),
+            Container(
+              height: 62,
+              decoration: ShapeDecoration(
+                shape: StadiumBorder(),
+                color: Colors.white,
+              ),
             ),
           ],
         ),
