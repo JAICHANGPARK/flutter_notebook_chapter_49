@@ -59,6 +59,7 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
             Expanded(child: ListView.builder(itemBuilder: (context,index) {
               return Container(
                 height: 380,
+                margin: EdgeInsets.only(bottom: 16),
                 decoration: BoxDecoration(
 
                   color: Colors.white,
@@ -75,7 +76,7 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
 
             })),
 
-          
+
           ],
         ),
       ),
