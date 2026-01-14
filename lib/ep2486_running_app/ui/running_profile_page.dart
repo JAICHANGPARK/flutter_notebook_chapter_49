@@ -56,10 +56,11 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
               ),
             ),
             Container(
-              height: 360,
+              height: 380,
               decoration: BoxDecoration(
-                // shape: BoxShape.circle,
+                
                 color: Colors.white,
+                borderRadius: BorderRadius.circular(16),
                 boxShadow: [
                   BoxShadow(
                     color: Colors.grey[200]!,
