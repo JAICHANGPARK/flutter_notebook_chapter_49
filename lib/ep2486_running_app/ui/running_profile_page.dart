@@ -17,7 +17,9 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
           children: [
             Row(
               children: [
-                CircleAvatar(),
+                CircleAvatar(
+                  radius: 24,
+                ),
                 Expanded(
                   child: Center(
                     child: Text(
