@@ -11,16 +11,19 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
-      child: Column(
-        children: [
-          Row(
-            children: [
-              CircleAvatar(),
-              Expanded(child: Center(child: Text("Profile"))),
-              CircleAvatar(),
-            ],
-          ),
-        ],
+      child: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          children: [
+            Row(
+              children: [
+                CircleAvatar(),
+                Expanded(child: Center(child: Text("Profile"))),
+                CircleAvatar(),
+              ],
+            ),
+          ],
+        ),
       ),
     );
   }
