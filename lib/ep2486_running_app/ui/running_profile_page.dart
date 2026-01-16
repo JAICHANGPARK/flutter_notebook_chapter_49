@@ -203,7 +203,7 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
                             scrollDirection: Axis.horizontal,
                             itemBuilder: (context, index) {
                               return Container(
-                                width: 160,
+                                width: 180,
                                 margin: EdgeInsets.symmetric(horizontal: 4),
                                 decoration: BoxDecoration(
                                   color: Colors.blue,
