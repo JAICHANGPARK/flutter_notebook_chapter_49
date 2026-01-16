@@ -190,6 +190,8 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
                             ],
                           ),
                         ),
+                        
+                        Expanded(child: Placeholder())
                       ],
                     ),
                   );
