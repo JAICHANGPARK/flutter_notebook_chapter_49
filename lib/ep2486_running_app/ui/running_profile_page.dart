@@ -58,33 +58,44 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
               child: Row(
                 spacing: 8,
                 children: [
-                  Expanded(child: Placeholder()),
-                  Expanded(child: Placeholder()),
-
+                  Expanded(
+                    child: Row(
+                      spacing: 6,
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [Icon(Icons.bar_chart), Text("Progress"),],
+                    ),
+                  ),
+                  Expanded(
+                    child: Row(
+                      spacing: 6,
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [Icon(Icons.line_axis), Text("Activities"),],
+                    ),
+                  ),
                 ],
               ),
             ),
-            Expanded(child: ListView.builder(itemBuilder: (context,index) {
-              return Container(
-                height: 380,
-                margin: EdgeInsets.only(bottom: 16),
-                decoration: BoxDecoration(
-
-                  color: Colors.white,
-                  borderRadius: BorderRadius.circular(16),
-                  boxShadow: [
-                    BoxShadow(
-                      color: Colors.grey[200]!,
-                      blurRadius: 3,
-                      spreadRadius: 3,
+            Expanded(
+              child: ListView.builder(
+                itemBuilder: (context, index) {
+                  return Container(
+                    height: 380,
+                    margin: EdgeInsets.only(bottom: 16),
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(16),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.grey[200]!,
+                          blurRadius: 3,
+                          spreadRadius: 3,
+                        ),
+                      ],
                     ),
-                  ],
-                ),
-              );
-
-            })),
-
-
+                  );
+                },
+              ),
+            ),
           ],
         ),
       ),
