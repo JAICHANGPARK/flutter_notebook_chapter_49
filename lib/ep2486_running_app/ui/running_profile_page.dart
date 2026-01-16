@@ -124,8 +124,10 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
                                 children: [
                                   Text(
                                     "Morning Run",
-                                    style: TextStyle(fontWeight: .bold,
-                                    fontSize: 20,),
+                                    style: TextStyle(
+                                      fontWeight: .bold,
+                                      fontSize: 20,
+                                    ),
                                   ),
                                   Spacer(),
                                   Icon(Icons.location_on_outlined),
@@ -196,7 +198,15 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
                           ),
                         ),
 
-                        Expanded(child: Placeholder()),
+                        Expanded(
+                          child: ListView.builder(
+                            itemBuilder: (context, index) {
+                              return Container(
+                                decoration: BoxDecoration(color: Colors.blue),
+                              );
+                            },
+                          ),
+                        ),
                       ],
                     ),
                   );
