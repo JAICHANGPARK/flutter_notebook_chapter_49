@@ -202,7 +202,9 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
                           child: ListView.builder(
                             itemBuilder: (context, index) {
                               return Container(
-                                decoration: BoxDecoration(color: Colors.blue),
+                                
+                                decoration: BoxDecoration(color: Colors.blue,
+                                borderRadius: .circular(16)),
                               );
                             },
                           ),
