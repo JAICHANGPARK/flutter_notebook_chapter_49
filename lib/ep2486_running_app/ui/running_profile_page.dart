@@ -55,6 +55,7 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
                 shape: StadiumBorder(),
                 color: Colors.white,
               ),
+              padding: EdgeInsets.all(2),
               child: Row(
                 spacing: 8,
                 children: [
