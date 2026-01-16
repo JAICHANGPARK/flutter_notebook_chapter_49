@@ -136,10 +136,12 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
                         ),
                         Container(
                           height: 72,
-                          decoration: BoxDecoration(color: Colors.grey[300]!),
+                          decoration: BoxDecoration(color: Colors.grey[200]!,),
                           child: Row(
+
                             children: [
                               Column(
+                                
                                 children: [Text("Distance"), Text("8.9 km")],
                               ),
                               VerticalDivider(),
