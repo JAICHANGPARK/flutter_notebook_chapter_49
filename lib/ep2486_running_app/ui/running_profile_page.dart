@@ -131,6 +131,33 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
                               ),)
                             ],
                           ),
+                        ),
+                        Container(
+                          height: 72,
+                          child: Row(
+                            children: [
+                              Column(
+                                children: [
+                                  Text("Distance"),
+                                  Text("8.9 km")
+                                ],
+                              ),
+                              VerticalDivider(),
+                              Column(
+                                children: [
+                                  Text("Time"),
+                                  Text("1h 3m")
+                                ],
+                              ),
+                              VerticalDivider(),
+                              Column(
+                                children: [
+                                  Text("Time"),
+                                  Text("1h 3m")
+                                ],
+                              ),
+                            ],
+                          ),
                         )
 
                       ],
