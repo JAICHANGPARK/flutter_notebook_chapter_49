@@ -62,14 +62,17 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
                     child: Row(
                       spacing: 6,
                       mainAxisAlignment: MainAxisAlignment.center,
-                      children: [Icon(Icons.bar_chart), Text("Progress"),],
+                      children: [Icon(Icons.bar_chart), Text("Progress")],
                     ),
                   ),
                   Expanded(
-                    child: Row(
-                      spacing: 6,
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [Icon(Icons.line_axis), Text("Activities"),],
+                    child: Container(
+                      decoration: ShapeDecoration(shape: StadiumBorder()),
+                      child: Row(
+                        spacing: 6,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [Icon(Icons.line_axis), Text("Activities")],
+                      ),
                     ),
                   ),
                 ],
