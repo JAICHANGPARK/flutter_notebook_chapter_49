@@ -112,9 +112,10 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
 
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
+                      spacing: 8,
                       children: [
                         Padding(
-                          padding: const EdgeInsets.all(16.0),
+                          padding: const EdgeInsets.symmetric(horizontal: 16),
                           child: Column(
                             crossAxisAlignment: .start,
                             children: [
@@ -190,7 +191,7 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
                             ],
                           ),
                         ),
-                        
+
                         Expanded(child: Placeholder())
                       ],
                     ),
