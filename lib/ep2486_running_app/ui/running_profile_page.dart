@@ -137,7 +137,10 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
                         Container(
                           height: 72,
                           margin: EdgeInsets.symmetric(horizontal: 16),
-                          decoration: BoxDecoration(color: Colors.grey[200]!),
+                          decoration: BoxDecoration(
+                            color: Colors.grey[200]!,
+                            borderRadius: BorderRadius.all(Radius.circular(8)),
+                          ),
                           child: Row(
                             children: [
                               Expanded(
