@@ -175,7 +175,12 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
                                   mainAxisAlignment: .center,
                                   children: [
                                     Text("Avg Pace"),
-                                    Text("5:30 /km"),
+                                    Text(
+                                      "5:30 /km",
+                                      style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
                                   ],
                                 ),
                               ),
