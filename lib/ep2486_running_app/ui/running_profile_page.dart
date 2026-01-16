@@ -109,6 +109,19 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
                         ),
                       ],
                     ),
+                    child: Column(
+                      children: [
+                        Row(
+                          spacing: 8,
+                          children: [
+                            Text("Morning Run"),
+                            Spacer(),
+                            Icon(Icons.location_on_outlined),
+                            Text("Bali")
+                          ],
+                        )
+                      ],
+                    ),
                   );
                 },
               ),
