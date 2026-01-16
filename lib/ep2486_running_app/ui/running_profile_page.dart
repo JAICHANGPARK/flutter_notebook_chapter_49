@@ -109,10 +109,10 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
                         ),
                       ],
                     ),
-
+                    padding: .only(top: 16),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      spacing: 8,
+                      spacing: 12,
                       children: [
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 16),
