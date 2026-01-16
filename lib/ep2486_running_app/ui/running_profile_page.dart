@@ -113,23 +113,26 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Column(
-                          crossAxisAlignment: .start,
-                          children: [
-
-                          ],
+                        Padding(
+                          padding: const EdgeInsets.all(16.0),
+                          child: Column(
+                            crossAxisAlignment: .start,
+                            children: [
+                              Row(
+                                spacing: 8,
+                                children: [
+                                  Text("Morning Run"),
+                                  Spacer(),
+                                  Icon(Icons.location_on_outlined),
+                                  Text("Bali")
+                                ],
+                              ),
+                              Text("November 26, 2025 at 5:20 AM",style: TextStyle(
+                              ),)
+                            ],
+                          ),
                         )
-                        Row(
-                          spacing: 8,
-                          children: [
-                            Text("Morning Run"),
-                            Spacer(),
-                            Icon(Icons.location_on_outlined),
-                            Text("Bali")
-                          ],
-                        ),
-                        Text("November 26, 2025 at 5:20 AM",style: TextStyle(
-                        ),)
+
                       ],
                     ),
                   );
