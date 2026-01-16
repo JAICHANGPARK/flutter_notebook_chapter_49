@@ -156,6 +156,7 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
                               VerticalDivider(),
                               Expanded(
                                 child: Column(
+                                  mainAxisAlignment: .center,
                                   children: [
                                     Text("Avg Pace"),
                                     Text("5:30 /km"),
