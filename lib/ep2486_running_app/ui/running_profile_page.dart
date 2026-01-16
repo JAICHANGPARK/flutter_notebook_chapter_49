@@ -124,42 +124,33 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
                                   Text("Morning Run"),
                                   Spacer(),
                                   Icon(Icons.location_on_outlined),
-                                  Text("Bali")
+                                  Text("Bali"),
                                 ],
                               ),
-                              Text("November 26, 2025 at 5:20 AM",style: TextStyle(
-                              ),)
+                              Text(
+                                "November 26, 2025 at 5:20 AM",
+                                style: TextStyle(),
+                              ),
                             ],
                           ),
                         ),
                         Container(
                           height: 72,
+                          decoration: BoxDecoration(color: Colors.grey[300]!),
                           child: Row(
                             children: [
                               Column(
-                                children: [
-                                  Text("Distance"),
-                                  Text("8.9 km")
-                                ],
+                                children: [Text("Distance"), Text("8.9 km")],
                               ),
                               VerticalDivider(),
-                              Column(
-                                children: [
-                                  Text("Time"),
-                                  Text("1h 3m")
-                                ],
-                              ),
+                              Column(children: [Text("Time"), Text("1h 3m")]),
                               VerticalDivider(),
                               Column(
-                                children: [
-                                  Text("Time"),
-                                  Text("1h 3m")
-                                ],
+                                children: [Text("Avg Pace"), Text("5:30 /km")],
                               ),
                             ],
                           ),
-                        )
-
+                        ),
                       ],
                     ),
                   );
