@@ -67,7 +67,10 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
                   ),
                   Expanded(
                     child: Container(
-                      decoration: ShapeDecoration(shape: StadiumBorder()),
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(),
+                        color: Color.fromRGBO(245, 205, 27, 1),
+                      ),
                       child: Row(
                         spacing: 6,
                         mainAxisAlignment: MainAxisAlignment.center,
