@@ -67,6 +67,7 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
                   ),
                   Expanded(
                     child: Container(
+                      height: double.infinity,
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(),
                         color: Color.fromRGBO(245, 205, 27, 1),
