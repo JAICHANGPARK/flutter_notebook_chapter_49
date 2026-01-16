@@ -50,7 +50,7 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
               ],
             ),
             Container(
-              height: 52,
+              height: 48,
               decoration: ShapeDecoration(
                 shape: StadiumBorder(),
                 color: Colors.white,
