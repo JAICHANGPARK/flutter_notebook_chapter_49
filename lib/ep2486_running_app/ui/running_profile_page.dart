@@ -113,6 +113,12 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
+                        Column(
+                          crossAxisAlignment: .start,
+                          children: [
+
+                          ],
+                        )
                         Row(
                           spacing: 8,
                           children: [
