@@ -149,6 +149,7 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
                               VerticalDivider(),
                               Expanded(
                                 child: Column(
+                                  mainAxisAlignment: .center,
                                   children: [Text("Time"), Text("1h 3m")],
                                 ),
                               ),
