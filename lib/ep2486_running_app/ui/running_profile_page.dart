@@ -63,7 +63,10 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
                     child: Row(
                       spacing: 6,
                       mainAxisAlignment: MainAxisAlignment.center,
-                      children: [Icon(Icons.bar_chart), Text("Progress")],
+                      children: [
+                        Icon(Icons.bar_chart),
+                        Text("Progress", style: TextStyle(fontSize: 16)),
+                      ],
                     ),
                   ),
                   Expanded(
@@ -76,7 +79,10 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
                       child: Row(
                         spacing: 6,
                         mainAxisAlignment: MainAxisAlignment.center,
-                        children: [Icon(Icons.line_axis), Text("Activities")],
+                        children: [
+                          Icon(Icons.line_axis),
+                          Text("Activities", style: TextStyle(fontSize: 16)),
+                        ],
                       ),
                     ),
                   ),
