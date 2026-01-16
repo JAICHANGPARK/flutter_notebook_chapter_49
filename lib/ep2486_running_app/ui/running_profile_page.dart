@@ -122,7 +122,11 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
                               Row(
                                 spacing: 8,
                                 children: [
-                                  Text("Morning Run"),
+                                  Text(
+                                    "Morning Run",
+                                    style: TextStyle(fontWeight: .bold,
+                                    fontSize: 20,),
+                                  ),
                                   Spacer(),
                                   Icon(Icons.location_on_outlined),
                                   Text("Bali"),
@@ -192,7 +196,7 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
                           ),
                         ),
 
-                        Expanded(child: Placeholder())
+                        Expanded(child: Placeholder()),
                       ],
                     ),
                   );
