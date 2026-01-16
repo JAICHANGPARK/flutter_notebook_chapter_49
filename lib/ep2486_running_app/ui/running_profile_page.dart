@@ -64,8 +64,11 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
                       spacing: 6,
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Icon(Icons.bar_chart),
-                        Text("Progress", style: TextStyle(fontSize: 16)),
+                        Icon(Icons.bar_chart, color: Colors.grey),
+                        Text(
+                          "Progress",
+                          style: TextStyle(fontSize: 16, color: Colors.grey),
+                        ),
                       ],
                     ),
                   ),
