@@ -136,19 +136,30 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
                         ),
                         Container(
                           height: 72,
-                          decoration: BoxDecoration(color: Colors.grey[200]!,),
+                          margin: EdgeInsets.symmetric(horizontal: 16),
+                          decoration: BoxDecoration(color: Colors.grey[200]!),
                           child: Row(
-
                             children: [
-                              Column(
-                                
-                                children: [Text("Distance"), Text("8.9 km")],
+                              Expanded(
+                                child: Column(
+                                  mainAxisAlignment: .center,
+                                  children: [Text("Distance"), Text("8.9 km")],
+                                ),
                               ),
                               VerticalDivider(),
-                              Column(children: [Text("Time"), Text("1h 3m")]),
+                              Expanded(
+                                child: Column(
+                                  children: [Text("Time"), Text("1h 3m")],
+                                ),
+                              ),
                               VerticalDivider(),
-                              Column(
-                                children: [Text("Avg Pace"), Text("5:30 /km")],
+                              Expanded(
+                                child: Column(
+                                  children: [
+                                    Text("Avg Pace"),
+                                    Text("5:30 /km"),
+                                  ],
+                                ),
                               ),
                             ],
                           ),
