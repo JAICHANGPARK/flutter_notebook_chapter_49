@@ -143,14 +143,30 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
                               Expanded(
                                 child: Column(
                                   mainAxisAlignment: .center,
-                                  children: [Text("Distance"), Text("8.9 km")],
+                                  children: [
+                                    Text("Distance"),
+                                    Text(
+                                      "8.9 km",
+                                      style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
+                                  ],
                                 ),
                               ),
                               VerticalDivider(),
                               Expanded(
                                 child: Column(
                                   mainAxisAlignment: .center,
-                                  children: [Text("Time"), Text("1h 3m")],
+                                  children: [
+                                    Text("Time"),
+                                    Text(
+                                      "1h 3m",
+                                      style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
+                                  ],
                                 ),
                               ),
                               VerticalDivider(),
