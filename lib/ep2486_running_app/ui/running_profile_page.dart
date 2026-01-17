@@ -20,7 +20,7 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
   @override
   void dispose() {
     // TODO: implement dispose
-    _scrollController.dispose();
+    _scrollController?.dispose();
     super.dispose();
   }
 
