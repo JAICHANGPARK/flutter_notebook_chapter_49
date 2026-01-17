@@ -218,6 +218,7 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
                         Expanded(
                           child: ListView.builder(
                             scrollDirection: Axis.horizontal,
+                            controller: _scrollController,
                             itemBuilder: (context, index) {
                               return Container(
                                 width: 180,
