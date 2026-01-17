@@ -15,7 +15,7 @@ class _HorizontalActivityCardWidgetState extends State<HorizontalActivityCardWid
   void initState() {
     // TODO: implement initState
     super.initState();
-    _scrollController = ScrollController(initialScrollOffset: 0);
+    _scrollController = ScrollController(initialScrollOffset: 94);
     _scrollController?.addListener((){
       print("${_scrollController?.offset}");
     });
