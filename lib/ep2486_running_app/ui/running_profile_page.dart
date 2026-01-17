@@ -8,7 +8,15 @@ class RunningProfilePage extends StatefulWidget {
 }
 
 class _RunningProfilePageState extends State<RunningProfilePage> {
-  
+  ScrollController? _scrollController;
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    
+  }
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
