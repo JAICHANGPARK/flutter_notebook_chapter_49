@@ -15,8 +15,15 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
     // TODO: implement initState
     super.initState();
     _scrollController = ScrollController(initialScrollOffset: 0.0);
-    
+
   }
+  @override
+  void dispose() {
+    // TODO: implement dispose
+    _scrollController.dispose();
+    super.dispose();
+  }
+
 
   @override
   Widget build(BuildContext context) {
