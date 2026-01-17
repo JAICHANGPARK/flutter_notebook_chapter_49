@@ -8,6 +8,7 @@ class RunningProfilePage extends StatefulWidget {
 }
 
 class _RunningProfilePageState extends State<RunningProfilePage> {
+  
   @override
   Widget build(BuildContext context) {
     return SafeArea(
