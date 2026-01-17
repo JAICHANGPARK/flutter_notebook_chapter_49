@@ -14,7 +14,10 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    _scrollController = ScrollController(initialScrollOffset: 0.5);
+    _scrollController = ScrollController(initialScrollOffset: 0);
+    _scrollController?.addListener((){
+      print("${_scrollController?.offset}");
+    });
 
   }
   @override
