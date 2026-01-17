@@ -4,11 +4,12 @@ class HorizontalActivityCardWidget extends StatefulWidget {
   const HorizontalActivityCardWidget({super.key});
 
   @override
-  State<HorizontalActivityCardWidget> createState() => _HorizontalActivityCardWidgetState();
+  State<HorizontalActivityCardWidget> createState() =>
+      _HorizontalActivityCardWidgetState();
 }
 
-class _HorizontalActivityCardWidgetState extends State<HorizontalActivityCardWidget> {
-
+class _HorizontalActivityCardWidgetState
+    extends State<HorizontalActivityCardWidget> {
   ScrollController? _scrollController;
 
   @override
@@ -16,17 +17,18 @@ class _HorizontalActivityCardWidgetState extends State<HorizontalActivityCardWid
     // TODO: implement initState
     super.initState();
     _scrollController = ScrollController(initialScrollOffset: 94);
-    _scrollController?.addListener((){
+    _scrollController?.addListener(() {
       print("${_scrollController?.offset}");
     });
-
   }
+
   @override
   void dispose() {
     // TODO: implement dispose
     _scrollController?.dispose();
     super.dispose();
   }
+
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
