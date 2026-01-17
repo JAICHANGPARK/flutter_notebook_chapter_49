@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'widgets/horizontal_activity_card_widget.dart';
+
 class RunningProfilePage extends StatefulWidget {
   const RunningProfilePage({super.key});
 
@@ -8,9 +10,6 @@ class RunningProfilePage extends StatefulWidget {
 }
 
 class _RunningProfilePageState extends State<RunningProfilePage> {
-
-
-
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -201,9 +200,7 @@ class _RunningProfilePageState extends State<RunningProfilePage> {
                           ),
                         ),
 
-                        Expanded(
-                          child:
-                        ),
+                        Expanded(child: HorizontalActivityCardWidget()),
                       ],
                     ),
                   );
