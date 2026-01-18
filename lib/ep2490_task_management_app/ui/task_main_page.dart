@@ -25,6 +25,7 @@ class _TaskMainPageState extends State<TaskMainPage> {
         decoration: BoxDecoration(
           borderRadius: .only(
             topLeft: Radius.circular(24),
+            topRight:  Radius.circular(24),
           )
         ),
       ),
