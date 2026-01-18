@@ -4,7 +4,7 @@
 
 - Task Management Mobile App – Daily Planner & Team Collaboration
 - Product SAAS for Cansaas
-- https://dribbble.com/shots/26976749-Running-Mobile-App
+- https://dribbble.com/shots/26991039-Task-Management-Mobile-App-Daily-Planner-Team-Collaboration
 
 <img src="https://cdn.dribbble.com/userupload/46363570/file/b4f33a571df96a7d06c5454936360aa7.png?resize=1905x1429&vertical=center" alt=""/>
 
