@@ -6,7 +6,7 @@
 - Mohammad Ali
 - https://dribbble.com/shots/26991039-Task-Management-Mobile-App-Daily-Planner-Team-Collaboration
 
-<img src="https://cdn.dribbble.com/userupload/46363570/file/b4f33a571df96a7d06c5454936360aa7.png?resize=1905x1429&vertical=center" alt=""/>
+<img src="https://cdn.dribbble.com/userupload/46412897/file/6d299e2eee0cc4bade9006bacc93770c.png?resize=1905x1429&vertical=center" alt=""/>
 
 ## EP2486-2489
 
