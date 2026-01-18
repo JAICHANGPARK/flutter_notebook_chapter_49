@@ -14,6 +14,9 @@ class _TaskMainPageState extends State<TaskMainPage> {
     return Scaffold(
       body: IndexedStack(
         children: [
+          Placeholder(),
+          Placeholder(),
+          Placeholder(),
           Placeholder()
         ],
       ),
