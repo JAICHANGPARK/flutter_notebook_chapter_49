@@ -13,6 +13,7 @@ class _TaskMainPageState extends State<TaskMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.grey[200],
       body: IndexedStack(
         children: [
           Placeholder(),
@@ -27,10 +28,32 @@ class _TaskMainPageState extends State<TaskMainPage> {
           borderRadius: .only(
             topLeft: Radius.circular(24),
             topRight:  Radius.circular(24),
-          )
+          ),
+              color: Colors.white
         ),
         child: Row(
           children: [
+            Column(
+              children: [
+                HugeIcon(icon: HugeIcons.strokeRoundedHome01),
+                Text("Home")
+              ],
+            ),
+            Column(
+              children: [
+                HugeIcon(icon: HugeIcons.strokeRoundedHome01),
+                Text("Home")
+              ],
+            ),
+            CircleAvatar(
+              radius: 30,
+            ),
+            Column(
+              children: [
+                HugeIcon(icon: HugeIcons.strokeRoundedHome01),
+                Text("Home")
+              ],
+            ),
             Column(
               children: [
                 HugeIcon(icon: HugeIcons.strokeRoundedHome01),
