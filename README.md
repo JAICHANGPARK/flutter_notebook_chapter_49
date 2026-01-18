@@ -2,7 +2,7 @@
 
 ## EP2490
 
-- Running Mobile App
+- Task Management Mobile App – Daily Planner & Team Collaboration
 - Product SAAS for Cansaas
 - https://dribbble.com/shots/26976749-Running-Mobile-App
 
