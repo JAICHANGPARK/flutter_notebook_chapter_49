@@ -12,7 +12,11 @@ class _TaskMainPageState extends State<TaskMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
+      body: IndexedStack(
+        children: [
+          Placeholder()
+        ],
+      ),
     );
   }
 }
