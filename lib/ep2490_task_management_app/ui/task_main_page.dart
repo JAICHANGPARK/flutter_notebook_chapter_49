@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 
 class TaskMainPage extends StatefulWidget {
@@ -27,6 +28,16 @@ class _TaskMainPageState extends State<TaskMainPage> {
             topLeft: Radius.circular(24),
             topRight:  Radius.circular(24),
           )
+        ),
+        child: Row(
+          children: [
+            Column(
+              children: [
+                HugeIcon(icon: HugeIcons.strokeRoundedHome01),
+                Text("Home")
+              ],
+            )
+          ],
         ),
       ),
     );
