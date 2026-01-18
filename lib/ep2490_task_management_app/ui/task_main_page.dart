@@ -20,6 +20,14 @@ class _TaskMainPageState extends State<TaskMainPage> {
           Placeholder()
         ],
       ),
+      bottomNavigationBar: Container(
+        height: 80,
+        decoration: BoxDecoration(
+          borderRadius: .only(
+            topLeft: Radius.circular(24),
+          )
+        ),
+      ),
     );
   }
 }
