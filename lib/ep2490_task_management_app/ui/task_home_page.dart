@@ -33,6 +33,20 @@ class _TaskHomePageState extends State<TaskHomePage> {
               CircleAvatar(backgroundColor: Colors.white, radius: 28),
             ],
           ),
+          Expanded(child: SingleChildScrollView(child: Column(
+            children: [
+              Column(
+                children: [
+                  Row(
+                    children: [
+                      Text("Task IN Progress"),
+                      TextButton(onPressed: (){}, child: Text("See all"))
+                    ],
+                  )
+                ],
+              )
+            ],
+          ),))
         ],
       ),
     );
