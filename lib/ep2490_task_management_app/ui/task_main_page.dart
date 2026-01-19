@@ -44,11 +44,14 @@ class _TaskMainPageState extends State<TaskMainPage> {
               mainAxisAlignment: .center,
               spacing: 4,
               children: [
-                HugeIcon(icon: HugeIcons.strokeRoundedHome01),
-                Text("Home"),
+                HugeIcon(icon: HugeIcons.strokeRoundedNotification01),
+                Text("Alert"),
               ],
             ),
-            CircleAvatar(radius: 30),
+            CircleAvatar(
+              radius: 30,
+              backgroundColor: Color.fromRGBO(104, 76, 236, 1),
+            ),
             Column(
               mainAxisAlignment: .center,
               spacing: 4,
