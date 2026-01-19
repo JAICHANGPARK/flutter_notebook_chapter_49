@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:hugeicons/hugeicons.dart';
 
+import 'task_home_page.dart';
+
 
 class TaskMainPage extends StatefulWidget {
   const TaskMainPage({super.key});
@@ -17,7 +19,7 @@ class _TaskMainPageState extends State<TaskMainPage> {
       body: IndexedStack(
         index: 0,
         children: [
-          Placeholder(),
+          TaskHomePage(),
           Placeholder(),
           Placeholder(),
           Placeholder()
