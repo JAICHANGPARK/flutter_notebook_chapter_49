@@ -46,7 +46,11 @@ class _TaskHomePageState extends State<TaskHomePage> {
                           TextButton(onPressed: () {}, child: Text("See all")),
                         ],
                       ),
-                      Container(height: 200, child: ListView.builder(itemBuilder: itemBuilder)),
+                      Container(height: 200, child: ListView.builder(
+                          scrollDirection: Axis.horizontal,
+                          itemBuilder: (context,index){
+                        return Placeholder();
+                      })),
                     ],
                   ),
                   Row(
