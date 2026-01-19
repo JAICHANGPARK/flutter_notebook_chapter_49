@@ -39,7 +39,10 @@ class _TaskMainPageState extends State<TaskMainPage> {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Column(
+              mainAxisAlignment: .center,
+              spacing: 4,
               children: [
+
                 HugeIcon(icon: HugeIcons.strokeRoundedHome01),
                 Text("Home")
               ],
