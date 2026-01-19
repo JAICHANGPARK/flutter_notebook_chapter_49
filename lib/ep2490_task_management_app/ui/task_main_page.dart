@@ -47,7 +47,8 @@ class _TaskMainPageState extends State<TaskMainPage> {
                 Text("Home")
               ],
             ),
-            Column(
+            Column(     mainAxisAlignment: .center,
+              spacing: 4,
               children: [
                 HugeIcon(icon: HugeIcons.strokeRoundedHome01),
                 Text("Home")
@@ -56,13 +57,15 @@ class _TaskMainPageState extends State<TaskMainPage> {
             CircleAvatar(
               radius: 30,
             ),
-            Column(
+            Column(     mainAxisAlignment: .center,
+              spacing: 4,
               children: [
                 HugeIcon(icon: HugeIcons.strokeRoundedHome01),
                 Text("Home")
               ],
             ),
-            Column(
+            Column(     mainAxisAlignment: .center,
+              spacing: 4,
               children: [
                 HugeIcon(icon: HugeIcons.strokeRoundedHome01),
                 Text("Home")
