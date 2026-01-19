@@ -26,7 +26,7 @@ class _TaskMainPageState extends State<TaskMainPage> {
         ],
       ),
       bottomNavigationBar: Container(
-        height: 80,
+        height: 100,
         decoration: BoxDecoration(
           borderRadius: .only(
             topLeft: Radius.circular(24),
