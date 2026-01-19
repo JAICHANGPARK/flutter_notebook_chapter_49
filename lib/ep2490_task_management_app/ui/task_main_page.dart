@@ -28,7 +28,7 @@ class _TaskMainPageState extends State<TaskMainPage> {
           ),
           color: Colors.white,
         ),
-        padding: EdgeInsets.fromLTRB(24, 12, 24, 24),
+        padding: EdgeInsets.fromLTRB(24, 12, 24, 32),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
