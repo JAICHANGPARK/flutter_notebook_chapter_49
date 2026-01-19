@@ -20,7 +20,7 @@ class _TaskMainPageState extends State<TaskMainPage> {
         children: [TaskHomePage(), Placeholder(), Placeholder(), Placeholder()],
       ),
       bottomNavigationBar: Container(
-        height: 100,
+        height: 110,
         decoration: BoxDecoration(
           borderRadius: .only(
             topLeft: Radius.circular(24),
