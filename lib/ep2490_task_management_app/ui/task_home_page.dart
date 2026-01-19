@@ -16,9 +16,20 @@ class _TaskHomePageState extends State<TaskHomePage> {
           Row(
             children: [
               CircleAvatar(radius: 28),
-              Expanded(child: Column(
+              Expanded(
+                child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [])),
+                  children: [
+                    Text("Dream Walker"),
+                    Container(
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(),
+                        color: Colors.white,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
               CircleAvatar(backgroundColor: Colors.white, radius: 28),
             ],
           ),
