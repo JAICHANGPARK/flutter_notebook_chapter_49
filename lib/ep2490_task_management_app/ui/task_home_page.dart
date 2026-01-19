@@ -60,6 +60,9 @@ class _TaskHomePageState extends State<TaskHomePage> {
                       ),
                     ],
                   ),
+                  
+                  Container(height: 240,child: Placeholder(),),
+                  Container(height: 240,child: Placeholder(),),
                 ],
               ),
             ),
