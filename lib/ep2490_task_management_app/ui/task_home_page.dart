@@ -10,8 +10,20 @@ class TaskHomePage extends StatefulWidget {
 class _TaskHomePageState extends State<TaskHomePage> {
   @override
   Widget build(BuildContext context) {
-    return SafeArea(child: Column(children: [
-
-    ],));
+    return SafeArea(
+      child: Column(
+        children: [
+          Row(
+            children: [
+              CircleAvatar(radius: 28),
+              Expanded(child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [])),
+              CircleAvatar(backgroundColor: Colors.white, radius: 28),
+            ],
+          ),
+        ],
+      ),
+    );
   }
 }
