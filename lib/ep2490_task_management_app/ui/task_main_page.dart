@@ -15,6 +15,7 @@ class _TaskMainPageState extends State<TaskMainPage> {
     return Scaffold(
       backgroundColor: Colors.grey[200],
       body: IndexedStack(
+        index: 0,
         children: [
           Placeholder(),
           Placeholder(),
