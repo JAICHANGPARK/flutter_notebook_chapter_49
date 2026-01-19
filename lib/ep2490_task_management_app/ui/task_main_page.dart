@@ -27,6 +27,9 @@ class _TaskMainPageState extends State<TaskMainPage> {
             topRight: Radius.circular(24),
           ),
           color: Colors.white,
+          boxShadow: [
+
+          ],
         ),
         padding: EdgeInsets.fromLTRB(24, 12, 24, 32),
         child: Row(
