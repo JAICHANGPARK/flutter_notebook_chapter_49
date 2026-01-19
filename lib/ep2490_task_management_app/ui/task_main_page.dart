@@ -51,6 +51,8 @@ class _TaskMainPageState extends State<TaskMainPage> {
             CircleAvatar(
               radius: 30,
               backgroundColor: Color.fromRGBO(104, 76, 236, 1),
+              foregroundColor: Colors.white,
+              child: Icon(Icons.add),
             ),
             Column(
               mainAxisAlignment: .center,
