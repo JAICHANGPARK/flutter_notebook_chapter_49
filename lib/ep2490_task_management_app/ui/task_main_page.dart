@@ -34,7 +34,7 @@ class _TaskMainPageState extends State<TaskMainPage> {
           ),
               color: Colors.white
         ),
-        padding: EdgeInsets.symmetric(horizontal: 24),
+        padding: EdgeInsets.symmetric(horizontal: 24, vertical: 16),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
