@@ -142,16 +142,26 @@ class _TaskHomePageState extends State<TaskHomePage> {
                       crossAxisAlignment: .start,
                       spacing: 16,
                       children: [
-                        Container(height: 240,
-
-                            decoration: ShapeDecoration(shape: RoundedSuperellipseBorder(),
-                            color: Colors.purple[100],
-                            ),
-                            child: Column(
-                              children: [Expanded(child: Placeholder())],
-
-                        )),
-                        Container(height: 240, child: Placeholder()),
+                        Container(
+                          height: 240,
+                          decoration: ShapeDecoration(
+                            shape: RoundedSuperellipseBorder(),
+                            color: .fromRGBO(229, 226, 248, 1),
+                          ),
+                          child: Column(
+                            children: [Expanded(child: Placeholder())],
+                          ),
+                        ),
+                        Container(
+                          height: 240,
+                          decoration: ShapeDecoration(
+                            shape: RoundedSuperellipseBorder(),
+                            color: Colors.white,
+                          ),
+                          child: Column(
+                            children: [Expanded(child: Placeholder())],
+                          ),
+                        ),
                       ],
                     ),
                   ),
