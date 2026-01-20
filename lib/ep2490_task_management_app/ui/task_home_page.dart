@@ -123,6 +123,9 @@ class _TaskHomePageState extends State<TaskHomePage> {
                             shape: StadiumBorder(),
                             color: Colors.red,
                           ),
+                          child: Text("04",style: TextStyle(
+                            color: Colors.white,
+                          ),),
                         ),
                       ],
                     ),
