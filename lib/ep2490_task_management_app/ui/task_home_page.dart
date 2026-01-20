@@ -78,12 +78,15 @@ class _TaskHomePageState extends State<TaskHomePage> {
                           mainAxisAlignment: .spaceBetween,
                           children: [
                             Text(
-                              "Task IN Progress",
+                              "Task In Progress",
                               style: TextStyle(fontSize: 20),
                             ),
                             TextButton(
                               onPressed: () {},
                               child: Text("See all"),
+                              style: TextButton.styleFrom(
+                                foregroundColor: Colors.grey,
+                              ),
                             ),
                           ],
                         ),
