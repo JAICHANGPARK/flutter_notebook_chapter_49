@@ -98,11 +98,13 @@ class _TaskHomePageState extends State<TaskHomePage> {
                           scrollDirection: Axis.horizontal,
                           itemBuilder: (context, index) {
                             return Container(
+                              width: MediaQuery.sizeOf(context).width * .9,
                               padding: EdgeInsets.only(left: 16),
                               decoration: ShapeDecoration(
                                 shape: RoundedSuperellipseBorder(
                                   borderRadius: .circular(32),
                                 ),
+                                color: Colors.white,
                               ),
                             );
                           },
