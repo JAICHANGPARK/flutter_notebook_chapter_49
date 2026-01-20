@@ -116,6 +116,7 @@ class _TaskHomePageState extends State<TaskHomePage> {
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 16),
                     child: Row(
+                      spacing: 6,
                       children: [
                         Text("My Current Task", style: TextStyle(fontSize: 20)),
                         Container(
