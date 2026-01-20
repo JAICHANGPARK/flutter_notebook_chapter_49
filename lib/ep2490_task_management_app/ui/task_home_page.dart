@@ -148,6 +148,7 @@ class _TaskHomePageState extends State<TaskHomePage> {
                             color: Colors.purple[100],
                             ),
                             child: Column(
+                              children: [Expanded(child: Placeholder())],
 
                         )),
                         Container(height: 240, child: Placeholder()),
