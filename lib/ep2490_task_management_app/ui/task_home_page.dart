@@ -68,9 +68,10 @@ class _TaskHomePageState extends State<TaskHomePage> {
           Expanded(
             child: SingleChildScrollView(
               child: Column(
-                spacing: 16,
+                spacing: 20,
                 children: [
                   Column(
+                    spacing: 8,
                     children: [
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 16),
@@ -112,16 +113,19 @@ class _TaskHomePageState extends State<TaskHomePage> {
                       ),
                     ],
                   ),
-                  Row(
-                    children: [
-                      Text("My Current Task"),
-                      Container(
-                        decoration: ShapeDecoration(
-                          shape: StadiumBorder(),
-                          color: Colors.red,
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 16),
+                    child: Row(
+                      children: [
+                        Text("My Current Task", style: TextStyle(fontSize: 20)),
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(),
+                            color: Colors.red,
+                          ),
                         ),
-                      ),
-                    ],
+                      ],
+                    ),
                   ),
 
                   Container(height: 240, child: Placeholder()),
