@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class TaskHomePage extends StatefulWidget {
   const TaskHomePage({super.key});
@@ -55,8 +56,12 @@ class _TaskHomePageState extends State<TaskHomePage> {
                     ],
                   ),
                 ),
-                CircleAvatar(backgroundColor: Colors.white, radius: 32,
-                foregroundColor: Colors.black,),
+                CircleAvatar(
+                  backgroundColor: Colors.white,
+                  radius: 30,
+                  foregroundColor: Colors.black,
+                  child: HugeIcon(icon: HugeIcons.strokeRoundedNotification01),
+                ),
               ],
             ),
           ),
