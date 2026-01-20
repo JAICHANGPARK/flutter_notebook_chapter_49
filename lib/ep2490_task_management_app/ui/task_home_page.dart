@@ -13,25 +13,36 @@ class _TaskHomePageState extends State<TaskHomePage> {
     return SafeArea(
       child: Column(
         children: [
-          Row(
-            children: [
-              CircleAvatar(radius: 28),
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text("Dream Walker"),
-                    Container(
-                      decoration: ShapeDecoration(
-                        shape: StadiumBorder(),
-                        color: Colors.white,
+          Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: Row(
+              spacing: 16,
+              children: [
+                CircleAvatar(radius: 28),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text("Dream Walker"),
+                      Container(
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(),
+                          color: Colors.white,
+                        ),
+                        child: Row(
+                          mainAxisSize: .min,
+                          children: [
+                            Icon(Icons.local_fire_department_outlined),
+                            Text("1,265.00")
+                          ],
+                        ),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
-              ),
-              CircleAvatar(backgroundColor: Colors.white, radius: 28),
-            ],
+                CircleAvatar(backgroundColor: Colors.white, radius: 28),
+              ],
+            ),
           ),
           Expanded(
             child: SingleChildScrollView(
