@@ -132,9 +132,18 @@ class _TaskHomePageState extends State<TaskHomePage> {
                       ],
                     ),
                   ),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 16),
+                    child: Column(
+                      crossAxisAlignment: .start,
+                      spacing: 16,
+                      children: [
+                        Container(height: 240, child: Placeholder()),
+                        Container(height: 240, child: Placeholder()),
+                      ],
+                    ),
+                  ),
 
-                  Container(height: 240, child: Placeholder()),
-                  Container(height: 240, child: Placeholder()),
                 ],
               ),
             ),
