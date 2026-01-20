@@ -93,13 +93,13 @@ class _TaskHomePageState extends State<TaskHomePage> {
                       ),
                       Container(
                         height: 200,
-
+                        padding: EdgeInsets.only(left: 16),
                         child: ListView.builder(
                           scrollDirection: Axis.horizontal,
                           itemBuilder: (context, index) {
                             return Container(
                               width: MediaQuery.sizeOf(context).width * .9,
-                              padding: EdgeInsets.only(left: 16),
+
                               decoration: ShapeDecoration(
                                 shape: RoundedSuperellipseBorder(
                                   borderRadius: .circular(32),
