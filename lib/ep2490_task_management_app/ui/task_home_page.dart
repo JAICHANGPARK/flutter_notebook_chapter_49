@@ -30,9 +30,9 @@ class _TaskHomePageState extends State<TaskHomePage> {
                           shape: StadiumBorder(),
                           color: Colors.white,
                         ),
-                        padding: EdgeInsets.symmetric(horizontal: 12, vertical: 3),
+                        padding: EdgeInsets.symmetric(horizontal: 8, vertical: 3),
                         child: Row(
-
+spacing: 4,
                           mainAxisSize: .min,
                           children: [
                             Icon(
