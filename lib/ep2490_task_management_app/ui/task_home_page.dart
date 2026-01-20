@@ -40,12 +40,21 @@ class _TaskHomePageState extends State<TaskHomePage> {
                 children: [
                   Column(
                     children: [
-                      Row(
-                        mainAxisAlignment: .spaceBetween,
-                        children: [
-                          Text("Task IN Progress"),
-                          TextButton(onPressed: () {}, child: Text("See all")),
-                        ],
+                      Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 16),
+                        child: Row(
+                          mainAxisAlignment: .spaceBetween,
+                          children: [
+                            Text(
+                              "Task IN Progress",
+                              style: TextStyle(fontSize: 20),
+                            ),
+                            TextButton(
+                              onPressed: () {},
+                              child: Text("See all"),
+                            ),
+                          ],
+                        ),
                       ),
                       Container(
                         height: 200,
