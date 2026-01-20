@@ -35,7 +35,8 @@ class _TaskHomePageState extends State<TaskHomePage> {
           ),
           Expanded(
             child: SingleChildScrollView(
-              child: Column(spacing: 16,
+              child: Column(
+                spacing: 16,
                 children: [
                   Column(
                     children: [
@@ -46,11 +47,15 @@ class _TaskHomePageState extends State<TaskHomePage> {
                           TextButton(onPressed: () {}, child: Text("See all")),
                         ],
                       ),
-                      Container(height: 200, child: ListView.builder(
+                      Container(
+                        height: 200,
+                        child: ListView.builder(
                           scrollDirection: Axis.horizontal,
-                          itemBuilder: (context,index){
-                        return Placeholder();
-                      })),
+                          itemBuilder: (context, index) {
+                            return Placeholder();
+                          },
+                        ),
+                      ),
                     ],
                   ),
                   Row(
@@ -65,8 +70,8 @@ class _TaskHomePageState extends State<TaskHomePage> {
                     ],
                   ),
 
-                  Container(height: 240,child: Placeholder(),),
-                  Container(height: 240,child: Placeholder(),),
+                  Container(height: 240, child: Placeholder()),
+                  Container(height: 240, child: Placeholder()),
                 ],
               ),
             ),
