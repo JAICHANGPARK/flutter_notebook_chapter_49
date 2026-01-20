@@ -21,6 +21,7 @@ class _TaskHomePageState extends State<TaskHomePage> {
                 CircleAvatar(radius: 28),
                 Expanded(
                   child: Column(
+                    spacing: 6,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text("Dream Walker"),
@@ -32,8 +33,11 @@ class _TaskHomePageState extends State<TaskHomePage> {
                         child: Row(
                           mainAxisSize: .min,
                           children: [
-                            Icon(Icons.local_fire_department_outlined),
-                            Text("1,265.00")
+                            Icon(
+                              Icons.local_fire_department_outlined,
+                              size: 18,
+                            ),
+                            Text("1,265.00"),
                           ],
                         ),
                       ),
