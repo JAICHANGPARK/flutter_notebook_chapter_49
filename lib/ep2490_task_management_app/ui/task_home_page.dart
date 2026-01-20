@@ -124,10 +124,14 @@ class _TaskHomePageState extends State<TaskHomePage> {
                             shape: StadiumBorder(),
                             color: Colors.red,
                           ),
-                          padding: EdgeInsets.symmetric(horizontal: 8, vertical: 2),
-                          child: Text("04",style: TextStyle(
-                            color: Colors.white,
-                          ),),
+                          padding: EdgeInsets.symmetric(
+                            horizontal: 8,
+                            vertical: 2,
+                          ),
+                          child: Text(
+                            "04",
+                            style: TextStyle(color: Colors.white),
+                          ),
                         ),
                       ],
                     ),
@@ -138,12 +142,18 @@ class _TaskHomePageState extends State<TaskHomePage> {
                       crossAxisAlignment: .start,
                       spacing: 16,
                       children: [
-                        Container(height: 240, child: Placeholder()),
+                        Container(height: 240,
+
+                            decoration: ShapeDecoration(shape: RoundedSuperellipseBorder(),
+                            color: Colors.purple[100],
+                            ),
+                            child: Column(
+
+                        )),
                         Container(height: 240, child: Placeholder()),
                       ],
                     ),
                   ),
-
                 ],
               ),
             ),
