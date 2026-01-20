@@ -18,21 +18,30 @@ class _TaskHomePageState extends State<TaskHomePage> {
             child: Row(
               spacing: 16,
               children: [
-                CircleAvatar(radius: 28),
+                CircleAvatar(radius: 32),
                 Expanded(
                   child: Column(
                     spacing: 6,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text("Dream Walker"),
+                      Text(
+                        "Dream Walker",
+                        style: TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
                       Container(
                         decoration: ShapeDecoration(
                           shape: StadiumBorder(),
                           color: Colors.white,
                         ),
-                        padding: EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+                        padding: EdgeInsets.symmetric(
+                          horizontal: 8,
+                          vertical: 3,
+                        ),
                         child: Row(
-spacing: 4,
+                          spacing: 4,
                           mainAxisSize: .min,
                           children: [
                             Icon(
