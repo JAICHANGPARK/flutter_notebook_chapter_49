@@ -93,10 +93,14 @@ class _TaskHomePageState extends State<TaskHomePage> {
                       ),
                       Container(
                         height: 200,
+                        
                         child: ListView.builder(
                           scrollDirection: Axis.horizontal,
                           itemBuilder: (context, index) {
-                            return Placeholder();
+                            return Container(
+                              padding: EdgeInsets.only(left: 16),
+                              decoration: ShapeDecoration(shape: shape),
+                            );
                           },
                         ),
                       ),
