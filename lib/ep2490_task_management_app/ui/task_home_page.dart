@@ -100,7 +100,9 @@ class _TaskHomePageState extends State<TaskHomePage> {
                             return Container(
                               padding: EdgeInsets.only(left: 16),
                               decoration: ShapeDecoration(
-                                shape: RoundedSuperellipseBorder(),
+                                shape: RoundedSuperellipseBorder(
+                                  borderRadius: .circular(32),
+                                ),
                               ),
                             );
                           },
