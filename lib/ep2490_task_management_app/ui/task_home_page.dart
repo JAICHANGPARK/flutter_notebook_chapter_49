@@ -145,7 +145,9 @@ class _TaskHomePageState extends State<TaskHomePage> {
                         Container(
                           height: 240,
                           decoration: ShapeDecoration(
-                            shape: RoundedSuperellipseBorder(),
+                            shape: RoundedSuperellipseBorder(
+                              borderRadius: .circular(32),
+                            ),
                             color: .fromRGBO(229, 226, 248, 1),
                           ),
                           child: Column(
@@ -155,7 +157,9 @@ class _TaskHomePageState extends State<TaskHomePage> {
                         Container(
                           height: 240,
                           decoration: ShapeDecoration(
-                            shape: RoundedSuperellipseBorder(),
+                            shape: RoundedSuperellipseBorder(
+                              borderRadius: .circular(32)
+                            ),
                             color: Colors.white,
                           ),
                           child: Column(
