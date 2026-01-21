@@ -13,6 +13,7 @@ dependencies:
   gap: ^3.0.1
   dots_indicator: ^4.0.1
   hugeicons:
+  percent_indicator:
 
 dev_dependencies:
   flutter_test:
