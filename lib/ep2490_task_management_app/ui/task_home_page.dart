@@ -160,18 +160,18 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                       Row(
                                         spacing: -12,
                                         children: [
-                                          CircleAvatar(radius: 24),
-                                          CircleAvatar(radius: 24),
-                                          CircleAvatar(radius: 24),
+                                          CircleAvatar(radius: 22),
+                                          CircleAvatar(radius: 22),
+                                          CircleAvatar(radius: 22),
                                         ],
                                       ),
 
                                       Spacer(),
                                       Container(
-                                        padding: EdgeInsets.symmetric(horizontal: 12, vertical: 12),
+                                        padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
                                         decoration: ShapeDecoration(
                                           shape: StadiumBorder(),
-                                          color: Colors.grey[300]!,
+                                          color: Colors.grey[200]!,
                                         ),
                                         child: Row(
                                           spacing: 8,
@@ -181,10 +181,10 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                           ],
                                         ),
                                       ),
-                                      Container(
+                                      Container( padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
                                         decoration: ShapeDecoration(
                                           shape: StadiumBorder(),
-                                          color: Colors.grey[300]!,
+                                          color: Colors.grey[200]!,
                                         ),
                                         child: Row(
                                           spacing: 8,
