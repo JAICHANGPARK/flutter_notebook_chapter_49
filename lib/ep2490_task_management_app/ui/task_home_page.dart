@@ -125,6 +125,7 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                         progressColor: Color.fromRGBO(104, 76, 236, 1),
                                         circularStrokeCap: CircularStrokeCap.round,
                                         startAngle: 270,
+                                        arcBackgroundColor: ,
 
                                       ),
                                     ],
