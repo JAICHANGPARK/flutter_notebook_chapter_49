@@ -84,10 +84,10 @@ class _TaskHomePageState extends State<TaskHomePage> {
                             ),
                             TextButton(
                               onPressed: () {},
-                              child: Text("See all"),
                               style: TextButton.styleFrom(
                                 foregroundColor: Colors.grey,
                               ),
+                              child: Text("See all"),
                             ),
                           ],
                         ),
