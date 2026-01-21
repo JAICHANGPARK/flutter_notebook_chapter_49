@@ -168,7 +168,7 @@ class _TaskHomePageState extends State<TaskHomePage> {
 
                                       Spacer(),
                                       Container(
-                                        padding: EdgeInsets.symmetric(horizontal: 8, vertical: 12),
+                                        padding: EdgeInsets.symmetric(horizontal: 12, vertical: 12),
                                         decoration: ShapeDecoration(
                                           shape: StadiumBorder(),
                                           color: Colors.grey[300]!,
