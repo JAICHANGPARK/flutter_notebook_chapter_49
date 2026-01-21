@@ -39,27 +39,33 @@ class _TaskMainPageState extends State<TaskMainPage> {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Column(
-              mainAxisAlignment: .center,
-              spacing: 4,
-              children: [
-                HugeIcon(icon: HugeIcons.strokeRoundedHome01),
-                Text("Home"),
-              ],
+            Expanded(
+              child: Column(
+                mainAxisAlignment: .center,
+                spacing: 4,
+                children: [
+                  HugeIcon(icon: HugeIcons.strokeRoundedHome01),
+                  Text("Home"),
+                ],
+              ),
             ),
-            Column(
-              mainAxisAlignment: .center,
-              spacing: 4,
-              children: [
-                HugeIcon(icon: HugeIcons.strokeRoundedNotification01),
-                Text("Alert"),
-              ],
+            Expanded(
+              child: Column(
+                mainAxisAlignment: .center,
+                spacing: 4,
+                children: [
+                  HugeIcon(icon: HugeIcons.strokeRoundedNotification01),
+                  Text("Alert"),
+                ],
+              ),
             ),
-            CircleAvatar(
-              radius: 30,
-              backgroundColor: Color.fromRGBO(104, 76, 236, 1),
-              foregroundColor: Colors.white,
-              child: Icon(Icons.add),
+            Expanded(
+              child: CircleAvatar(
+                radius: 30,
+                backgroundColor: Color.fromRGBO(104, 76, 236, 1),
+                foregroundColor: Colors.white,
+                child: Icon(Icons.add),
+              ),
             ),
             Column(
               mainAxisAlignment: .center,
