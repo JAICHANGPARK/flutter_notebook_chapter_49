@@ -29,7 +29,7 @@ class _TaskHomePageState extends State<TaskHomePage> {
                     children: [
                       Text(
                         "Dream Walker",
-                        style: TextStyle(
+                        style: GoogleFonts.poppins(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
                         ),
@@ -51,7 +51,7 @@ class _TaskHomePageState extends State<TaskHomePage> {
                               Icons.local_fire_department_outlined,
                               size: 18,
                             ),
-                            Text("1,265.00"),
+                            Text("1,265.00",style: GoogleFonts.poppins(),),
                           ],
                         ),
                       ),
@@ -82,7 +82,7 @@ class _TaskHomePageState extends State<TaskHomePage> {
                           children: [
                             Text(
                               "Task In Progress",
-                              style: TextStyle(fontSize: 20),
+                              style: GoogleFonts.poppins(fontSize: 20),
                             ),
                             TextButton(
                               onPressed: () {},
