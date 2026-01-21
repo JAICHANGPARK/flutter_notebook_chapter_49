@@ -109,11 +109,15 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                 color: Colors.white,
                               ),
                               child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Row(
                                     children: [
-                                      CircleAvatar(),
-                                      CircularPercentIndicator(radius: 26),
+                                      CircleAvatar(
+                                        radius: 24,
+                                      ),
+                                      CircularPercentIndicator(radius: 26,
+                                      lineWidth: 6,),
                                     ],
                                   ),
                                   Text("Practice English"),
