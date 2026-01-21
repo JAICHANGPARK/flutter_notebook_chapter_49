@@ -122,11 +122,21 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                         lineWidth: 6,
                                         percent: .76,
                                         center: Text("76%"),
-                                        progressColor: Color.fromRGBO(104, 76, 236, 1),
-                                        circularStrokeCap: CircularStrokeCap.round,
+                                        progressColor: Color.fromRGBO(
+                                          104,
+                                          76,
+                                          236,
+                                          1,
+                                        ),
+                                        circularStrokeCap:
+                                            CircularStrokeCap.round,
                                         startAngle: 270,
-                                        backgroundColor: .fromRGBO(228, 224, 247, 1),
-
+                                        backgroundColor: .fromRGBO(
+                                          228,
+                                          224,
+                                          247,
+                                          1,
+                                        ),
                                       ),
                                     ],
                                   ),
@@ -137,7 +147,10 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                       fontWeight: .bold,
                                     ),
                                   ),
-                                  Text("Improve your English every day."),
+                                  Text(
+                                    "Improve your English every day.",
+                                    style: TextStyle(color: Colors.grey),
+                                  ),
                                 ],
                               ),
                             );
