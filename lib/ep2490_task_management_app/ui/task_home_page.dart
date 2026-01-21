@@ -110,7 +110,7 @@ class _TaskHomePageState extends State<TaskHomePage> {
                               ),
                               padding: EdgeInsets.all(16),
                               child: Column(
-                                spacing: 12,
+                                spacing: 8,
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Row(
@@ -120,6 +120,8 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                       CircularPercentIndicator(
                                         radius: 26,
                                         lineWidth: 6,
+                                        percent: .76,
+                                        center: Text("76%"),
                                       ),
                                     ],
                                   ),
