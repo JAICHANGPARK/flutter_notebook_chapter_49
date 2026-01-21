@@ -118,7 +118,7 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                     children: [
                                       CircleAvatar(radius: 24),
                                       CircularPercentIndicator(
-                                        radius: 26,
+                                        radius: 28,
                                         lineWidth: 6,
                                         percent: .76,
                                         center: Text("76%"),
