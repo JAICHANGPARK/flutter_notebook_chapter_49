@@ -152,6 +152,14 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                     "Improve your English every day.",
                                     style: GoogleFonts.poppins(color: Colors.grey),
                                   ),
+                                  Row(
+                                    spacing: -12,
+                                    children: [
+                                      CircleAvatar(),
+                                      CircleAvatar(),
+                                      CircleAvatar(),
+                                    ],
+                                  )
                                 ],
                               ),
                             );
