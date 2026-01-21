@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hugeicons/hugeicons.dart';
+import 'package:percent_indicator/circular_percent_indicator.dart';
 
 class TaskHomePage extends StatefulWidget {
   const TaskHomePage({super.key});
@@ -106,6 +107,18 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                   borderRadius: .circular(32),
                                 ),
                                 color: Colors.white,
+                              ),
+                              child: Column(
+                                children: [
+                                  Row(
+                                    children: [
+                                      CircleAvatar(),
+                                      CircularPercentIndicator(radius: 26),
+                                    ],
+                                  ),
+                                  Text("Practice English"),
+                                  Text("Improve your English every day.")
+                                ],
                               ),
                             );
                           },
