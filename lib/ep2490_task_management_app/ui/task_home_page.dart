@@ -95,7 +95,7 @@ class _TaskHomePageState extends State<TaskHomePage> {
                         ),
                       ),
                       Container(
-                        height: 200,
+                        height: 220,
                         padding: EdgeInsets.only(left: 16),
                         child: ListView.builder(
                           scrollDirection: Axis.horizontal,
@@ -155,9 +155,15 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                   Row(
                                     spacing: -12,
                                     children: [
-                                      CircleAvatar(),
-                                      CircleAvatar(),
-                                      CircleAvatar(),
+                                      CircleAvatar(
+                                        radius: 24,
+                                      ),
+                                      CircleAvatar(
+                                        radius: 24,
+                                      ),
+                                      CircleAvatar(
+                                        radius: 24,
+                                      ),
                                     ],
                                   )
                                 ],
