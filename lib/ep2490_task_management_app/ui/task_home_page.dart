@@ -155,13 +155,14 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                     ),
                                   ),
                                   Row(
-                                    spacing: -12,
+                                    // spacing: -12,
                                     children: [
                                       CircleAvatar(radius: 24),
                                       CircleAvatar(radius: 24),
                                       CircleAvatar(radius: 24),
                                       Spacer(),
                                       Container(
+                                        padding: EdgeInsets.symmetric(horizontal: 8, vertical: 12),
                                         decoration: ShapeDecoration(
                                           shape: StadiumBorder(),
                                           color: Colors.grey[300]!,
