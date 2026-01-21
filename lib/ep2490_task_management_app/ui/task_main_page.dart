@@ -67,21 +67,25 @@ class _TaskMainPageState extends State<TaskMainPage> {
                 child: Icon(Icons.add),
               ),
             ),
-            Column(
-              mainAxisAlignment: .center,
-              spacing: 4,
-              children: [
-                HugeIcon(icon: HugeIcons.strokeRoundedCalendar01),
-                Text("Calendar"),
-              ],
+            Expanded(
+              child: Column(
+                mainAxisAlignment: .center,
+                spacing: 4,
+                children: [
+                  HugeIcon(icon: HugeIcons.strokeRoundedCalendar01),
+                  Text("Calendar"),
+                ],
+              ),
             ),
-            Column(
-              mainAxisAlignment: .center,
-              spacing: 4,
-              children: [
-                HugeIcon(icon: HugeIcons.strokeRoundedUser),
-                Text("Profile"),
-              ],
+            Expanded(
+              child: Column(
+                mainAxisAlignment: .center,
+                spacing: 4,
+                children: [
+                  HugeIcon(icon: HugeIcons.strokeRoundedUser),
+                  Text("Profile"),
+                ],
+              ),
             ),
           ],
         ),
