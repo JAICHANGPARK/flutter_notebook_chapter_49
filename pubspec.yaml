@@ -12,8 +12,8 @@ dependencies:
   google_fonts: ^7.1.0
   gap: ^3.0.1
   dots_indicator: ^4.0.1
-  hugeicons:
-  percent_indicator:
+  hugeicons: ^1.1.5
+  percent_indicator:  ^4.2.5
 
 dev_dependencies:
   flutter_test:
