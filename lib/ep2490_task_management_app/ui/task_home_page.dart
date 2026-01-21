@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:hugeicons/hugeicons.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
 
@@ -142,14 +143,14 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                   ),
                                   Text(
                                     "Practice English",
-                                    style: TextStyle(
+                                    style: GoogleFonts.poppins(
                                       fontSize: 20,
                                       fontWeight: .bold,
                                     ),
                                   ),
                                   Text(
                                     "Improve your English every day.",
-                                    style: TextStyle(color: Colors.grey),
+                                    style: GoogleFonts.poppins(color: Colors.grey),
                                   ),
                                 ],
                               ),
