@@ -51,7 +51,7 @@ class _TaskHomePageState extends State<TaskHomePage> {
                               Icons.local_fire_department_outlined,
                               size: 18,
                             ),
-                            Text("1,265.00",style: GoogleFonts.poppins(),),
+                            Text("1,265.00", style: GoogleFonts.poppins()),
                           ],
                         ),
                       ),
@@ -150,22 +150,45 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                   ),
                                   Text(
                                     "Improve your English every day.",
-                                    style: GoogleFonts.poppins(color: Colors.grey),
+                                    style: GoogleFonts.poppins(
+                                      color: Colors.grey,
+                                    ),
                                   ),
                                   Row(
                                     spacing: -12,
                                     children: [
-                                      CircleAvatar(
-                                        radius: 24,
+                                      CircleAvatar(radius: 24),
+                                      CircleAvatar(radius: 24),
+                                      CircleAvatar(radius: 24),
+                                      Spacer(),
+                                      Container(
+                                        decoration: ShapeDecoration(
+                                          shape: StadiumBorder(),
+                                          color: Colors.grey[300]!,
+                                        ),
+                                        child: Row(
+                                          spacing: 8,
+                                          children: [
+                                            Icon(Icons.chat_bubble_outline),
+                                            Text("12"),
+                                          ],
+                                        ),
                                       ),
-                                      CircleAvatar(
-                                        radius: 24,
-                                      ),
-                                      CircleAvatar(
-                                        radius: 24,
+                                      Container(
+                                        decoration: ShapeDecoration(
+                                          shape: StadiumBorder(),
+                                          color: Colors.grey[300]!,
+                                        ),
+                                        child: Row(
+                                          spacing: 8,
+                                          children: [
+                                            Icon(Icons.link),
+                                            Text("2"),
+                                          ],
+                                        ),
                                       ),
                                     ],
-                                  )
+                                  ),
                                 ],
                               ),
                             );
