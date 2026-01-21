@@ -116,15 +116,21 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                   Row(
                                     mainAxisAlignment: .spaceBetween,
                                     children: [
-                                      CircleAvatar(
-                                        radius: 24,
+                                      CircleAvatar(radius: 24),
+                                      CircularPercentIndicator(
+                                        radius: 26,
+                                        lineWidth: 6,
                                       ),
-                                      CircularPercentIndicator(radius: 26,
-                                      lineWidth: 6,),
                                     ],
                                   ),
-                                  Text("Practice English"),
-                                  Text("Improve your English every day.")
+                                  Text(
+                                    "Practice English",
+                                    style: TextStyle(
+                                      fontSize: 20,
+                                      fontWeight: .bold,
+                                    ),
+                                  ),
+                                  Text("Improve your English every day."),
                                 ],
                               ),
                             );
@@ -178,7 +184,7 @@ class _TaskHomePageState extends State<TaskHomePage> {
                           height: 240,
                           decoration: ShapeDecoration(
                             shape: RoundedSuperellipseBorder(
-                              borderRadius: .circular(32)
+                              borderRadius: .circular(32),
                             ),
                             color: Colors.white,
                           ),
