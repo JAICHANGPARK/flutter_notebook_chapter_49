@@ -122,6 +122,10 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                         lineWidth: 6,
                                         percent: .76,
                                         center: Text("76%"),
+                                        progressColor: Color.fromRGBO(104, 76, 236, 1),
+                                        circularStrokeCap: CircularStrokeCap.round,
+                                        startAngle: 270,
+
                                       ),
                                     ],
                                   ),
