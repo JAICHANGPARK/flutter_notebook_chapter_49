@@ -168,7 +168,10 @@ class _TaskHomePageState extends State<TaskHomePage> {
 
                                       Spacer(),
                                       Container(
-                                        padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+                                        padding: EdgeInsets.symmetric(
+                                          horizontal: 12,
+                                          vertical: 8,
+                                        ),
                                         decoration: ShapeDecoration(
                                           shape: StadiumBorder(),
                                           color: Colors.grey[200]!,
@@ -181,7 +184,11 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                           ],
                                         ),
                                       ),
-                                      Container( padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+                                      Container(
+                                        padding: EdgeInsets.symmetric(
+                                          horizontal: 12,
+                                          vertical: 8,
+                                        ),
                                         decoration: ShapeDecoration(
                                           shape: StadiumBorder(),
                                           color: Colors.grey[200]!,
@@ -242,7 +249,18 @@ class _TaskHomePageState extends State<TaskHomePage> {
                             color: .fromRGBO(229, 226, 248, 1),
                           ),
                           child: Column(
-                            children: [Expanded(child: Placeholder())],
+                            children: [
+                              Row(
+                                children: [
+                                  Container(
+                                    decoration: ShapeDecoration(
+                                      shape: StadiumBorder(),
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ),
                         Container(
