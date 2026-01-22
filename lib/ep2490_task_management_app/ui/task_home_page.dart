@@ -252,9 +252,10 @@ class _TaskHomePageState extends State<TaskHomePage> {
                           child: Column(
                             children: [
                               Row(
+                                spacing: 12,
                                 children: [
                                   Container(
-
+                                          
                                     decoration: ShapeDecoration(
                                       shape: StadiumBorder(),
                                       color: Colors.white,
