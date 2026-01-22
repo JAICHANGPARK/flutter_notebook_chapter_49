@@ -290,9 +290,22 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                 children: [
                                   Row(
                                     children: [
-                                      CircleAvatar(),
+                                      CircleAvatar(
+                                        radius: 24,
+                                      ),
+                                      CircleAvatar(
+                                        radius: 24,
+                                      ),
+                                      CircleAvatar(
+                                        radius: 24,
+                                      ),
+                                      CircleAvatar(
+                                        radius: 24,
+                                      ),
                                     ],
-                                  )
+                                  ),
+                                  Spacer(),
+                                  Container(decoration: ShapeDecoration(shape: shape),)
                                 ],
                               )
                             ],
