@@ -305,7 +305,7 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                     ],
                                   ),
                                   Spacer(),
-                                  Container(decoration: ShapeDecoration(shape: shape),)
+                                  Container(decoration: ShapeDecoration(shape: StadiumBorder()),)
                                 ],
                               )
                             ],
