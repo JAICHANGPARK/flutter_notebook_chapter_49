@@ -289,20 +289,21 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                 ],
                               ),
                               Column(
+                                spacing: 8,
                                 children: [
-                                  
+                                  Text(
+                                    "Daily Morning Goal",
+                                    style: TextStyle(
+                                      fontSize: 20,
+                                      fontWeight: .bold,
+                                    ),
+                                  ),
+                                  Text(
+                                    "Run every day to build stamina, improve health, and stay focused",
+                                  ),
                                 ],
-                              )
-                              Text(
-                                "Daily Morning Goal",
-                                style: TextStyle(
-                                  fontSize: 20,
-                                  fontWeight: .bold,
-                                ),
                               ),
-                              Text(
-                                "Run every day to build stamina, improve health, and stay focused",
-                              ),
+
                               Row(
                                 children: [
                                   Row(
