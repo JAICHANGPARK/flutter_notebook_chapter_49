@@ -336,6 +336,7 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                     ),
                                     padding: EdgeInsets.symmetric(horizontal: 20, vertical: 12),
                                     child: Row(
+                                      spacing: 8,
                                       children: [
                                         Icon(
                                           Icons.chat_bubble_outline,
@@ -343,7 +344,8 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                         ),
                                         Text(
                                           "Copy Link",
-                                          style: TextStyle(color: Colors.white),
+                                          style: TextStyle(color: Colors.white,
+                                          fontSize: 16,),
                                         ),
                                       ],
                                     ),
