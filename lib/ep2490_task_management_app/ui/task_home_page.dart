@@ -255,7 +255,7 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                 spacing: 12,
                                 children: [
                                   Container(
-                                          
+                                          padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
                                     decoration: ShapeDecoration(
                                       shape: StadiumBorder(),
                                       color: Colors.white,
@@ -263,6 +263,7 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                     child: Text("Warm-Up"),
                                   ),
                                   Container(
+                                    padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
                                     decoration: ShapeDecoration(
                                       shape: StadiumBorder(),
                                       color: Color.fromRGBO(243, 241, 253, 1),
