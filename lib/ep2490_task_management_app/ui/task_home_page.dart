@@ -288,6 +288,11 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                   Text("5:30 AM"),
                                 ],
                               ),
+                              Column(
+                                children: [
+                                  
+                                ],
+                              )
                               Text(
                                 "Daily Morning Goal",
                                 style: TextStyle(
