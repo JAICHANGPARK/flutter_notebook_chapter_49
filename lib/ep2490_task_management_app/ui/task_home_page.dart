@@ -285,7 +285,16 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                 ],
                               ),
                               Text("Daily Morning Goal"),
-                              Text("")
+                              Text("Run every day to build stamina, improve health, and stay focused"),
+                              Row(
+                                children: [
+                                  Row(
+                                    children: [
+                                      CircleAvatar(),
+                                    ],
+                                  )
+                                ],
+                              )
                             ],
                           ),
                         ),
