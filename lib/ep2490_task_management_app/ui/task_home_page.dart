@@ -284,6 +284,8 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                   Text("5:30 AM"),
                                 ],
                               ),
+                              Text("Daily Morning Goal"),
+                              Text("")
                             ],
                           ),
                         ),
