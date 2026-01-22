@@ -363,8 +363,111 @@ class _TaskHomePageState extends State<TaskHomePage> {
                             ),
                             color: Colors.white,
                           ),
+                          padding: EdgeInsets.all(16),
                           child: Column(
-                            children: [Expanded(child: Placeholder())],
+                            spacing: 20,
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Row(
+                                spacing: 12,
+                                children: [
+                                  Container(
+                                    padding: EdgeInsets.symmetric(
+                                      horizontal: 12,
+                                      vertical: 8,
+                                    ),
+                                    decoration: ShapeDecoration(
+                                      shape: StadiumBorder(),
+                                      color: Colors.white,
+                                    ),
+                                    child: Text(
+                                      "Warm-Up",
+                                      style: TextStyle(fontSize: 16),
+                                    ),
+                                  ),
+                                  Container(
+                                    padding: EdgeInsets.symmetric(
+                                      horizontal: 12,
+                                      vertical: 8,
+                                    ),
+                                    decoration: ShapeDecoration(
+                                      shape: StadiumBorder(),
+                                      color: Color.fromRGBO(243, 241, 253, 1),
+                                    ),
+                                    child: Text(
+                                      "Running",
+                                      style: TextStyle(fontSize: 16),
+                                    ),
+                                  ),
+                                  Spacer(),
+                                  Text("5:30 AM"),
+                                ],
+                              ),
+                              Column(
+                                crossAxisAlignment: .start,
+                                spacing: 8,
+                                children: [
+                                  Text(
+                                    "Daily Morning Goal",
+                                    style: TextStyle(
+                                      fontSize: 20,
+                                      fontWeight: .bold,
+                                    ),
+                                  ),
+                                  Text(
+                                    "Run every day to build stamina, improve health, and stay focused",
+                                  ),
+                                ],
+                              ),
+
+                              Row(
+                                children: [
+                                  Row(
+                                    spacing: -12,
+                                    children: [
+                                      CircleAvatar(
+                                        radius: 24,
+                                        backgroundColor: Colors.white,
+                                      ),
+                                      CircleAvatar(
+                                        radius: 24,
+                                        backgroundColor: Colors.white,
+                                      ),
+                                      CircleAvatar(
+                                        radius: 24,
+                                        backgroundColor: Colors.white,
+                                      ),
+                                      CircleAvatar(
+                                        radius: 24,
+                                        backgroundColor: Colors.white,
+                                      ),
+                                    ],
+                                  ),
+                                  Spacer(),
+                                  Container(
+                                    decoration: ShapeDecoration(
+                                      shape: StadiumBorder(),
+                                      color: Color.fromRGBO(104, 76, 236, 1),
+                                    ),
+                                    padding: EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+                                    child: Row(
+                                      spacing: 8,
+                                      children: [
+                                        Icon(
+                                          Icons.chat_bubble_outline,
+                                          color: Colors.white,
+                                        ),
+                                        Text(
+                                          "Copy Link",
+                                          style: TextStyle(color: Colors.white,
+                                            fontSize: 16,),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ),
                       ],
