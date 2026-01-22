@@ -332,6 +332,7 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                   Container(
                                     decoration: ShapeDecoration(
                                       shape: StadiumBorder(),
+                                      color: Color.fromRGBO(104, 76, 236, 1),
                                     ),
                                     child: Row(
                                       children: [
