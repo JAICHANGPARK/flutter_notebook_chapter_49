@@ -248,11 +248,13 @@ class _TaskHomePageState extends State<TaskHomePage> {
                             ),
                             color: .fromRGBO(229, 226, 248, 1),
                           ),
+                          padding: EdgeInsets.all(16),
                           child: Column(
                             children: [
                               Row(
                                 children: [
                                   Container(
+
                                     decoration: ShapeDecoration(
                                       shape: StadiumBorder(),
                                       color: Colors.white,
@@ -266,6 +268,8 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                     ),
                                     child: Text("Running"),
                                   ),
+                                  Spacer(),
+                                  Text("5:30 AM")
 
                                 ],
                               ),
