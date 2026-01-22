@@ -289,6 +289,7 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                 ],
                               ),
                               Column(
+                                crossAxisAlignment: .start,
                                 spacing: 8,
                                 children: [
                                   Text(
