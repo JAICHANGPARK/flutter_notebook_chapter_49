@@ -160,6 +160,7 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                       Expanded(
                                         child: Row(
                                           spacing: -12,
+                                          mainAxisSize: .min,
                                           children: [
                                             CircleAvatar(radius: 22),
                                             CircleAvatar(radius: 22),
@@ -167,7 +168,7 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                           ],
                                         ),
                                       ),
-                                      
+
                                       Container(
                                         padding: EdgeInsets.symmetric(
                                           horizontal: 12,
