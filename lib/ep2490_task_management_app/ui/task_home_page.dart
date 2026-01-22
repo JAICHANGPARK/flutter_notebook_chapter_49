@@ -279,37 +279,43 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                       shape: StadiumBorder(),
                                       color: Color.fromRGBO(243, 241, 253, 1),
                                     ),
-                                    child: Text("Running",
-                                      style: TextStyle(fontSize: 16),),
+                                    child: Text(
+                                      "Running",
+                                      style: TextStyle(fontSize: 16),
+                                    ),
                                   ),
                                   Spacer(),
                                   Text("5:30 AM"),
                                 ],
                               ),
-                              Text("Daily Morning Goal"),
-                              Text("Run every day to build stamina, improve health, and stay focused"),
+                              Text(
+                                "Daily Morning Goal",
+                                style: TextStyle(
+                                  fontSize: 20,
+                                  fontWeight: .bold,
+                                ),
+                              ),
+                              Text(
+                                "Run every day to build stamina, improve health, and stay focused",
+                              ),
                               Row(
                                 children: [
                                   Row(
                                     children: [
-                                      CircleAvatar(
-                                        radius: 24,
-                                      ),
-                                      CircleAvatar(
-                                        radius: 24,
-                                      ),
-                                      CircleAvatar(
-                                        radius: 24,
-                                      ),
-                                      CircleAvatar(
-                                        radius: 24,
-                                      ),
+                                      CircleAvatar(radius: 24),
+                                      CircleAvatar(radius: 24),
+                                      CircleAvatar(radius: 24),
+                                      CircleAvatar(radius: 24),
                                     ],
                                   ),
                                   Spacer(),
-                                  Container(decoration: ShapeDecoration(shape: StadiumBorder()),)
+                                  Container(
+                                    decoration: ShapeDecoration(
+                                      shape: StadiumBorder(),
+                                    ),
+                                  ),
                                 ],
-                              )
+                              ),
                             ],
                           ),
                         ),
