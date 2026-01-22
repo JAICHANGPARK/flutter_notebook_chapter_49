@@ -157,16 +157,17 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                   Row(
                                     spacing: 9,
                                     children: [
-                                      Row(
-                                        spacing: -12,
-                                        children: [
-                                          CircleAvatar(radius: 22),
-                                          CircleAvatar(radius: 22),
-                                          CircleAvatar(radius: 22),
-                                        ],
+                                      Expanded(
+                                        child: Row(
+                                          spacing: -12,
+                                          children: [
+                                            CircleAvatar(radius: 22),
+                                            CircleAvatar(radius: 22),
+                                            CircleAvatar(radius: 22),
+                                          ],
+                                        ),
                                       ),
-
-                                      Spacer(),
+                                      
                                       Container(
                                         padding: EdgeInsets.symmetric(
                                           horizontal: 12,
@@ -308,7 +309,7 @@ class _TaskHomePageState extends State<TaskHomePage> {
                               Row(
                                 children: [
                                   Row(
-                                    spacing: -12,
+                                    spacing:2,
                                     children: [
                                       CircleAvatar(
                                         radius: 24,
@@ -423,7 +424,7 @@ class _TaskHomePageState extends State<TaskHomePage> {
                               Row(
                                 children: [
                                   Row(
-                                    spacing: -12,
+                                    spacing: 0,
                                     children: [
                                       CircleAvatar(
                                         radius: 24,
