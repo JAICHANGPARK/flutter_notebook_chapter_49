@@ -255,24 +255,33 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                 spacing: 12,
                                 children: [
                                   Container(
-                                          padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+                                    padding: EdgeInsets.symmetric(
+                                      horizontal: 12,
+                                      vertical: 8,
+                                    ),
                                     decoration: ShapeDecoration(
                                       shape: StadiumBorder(),
                                       color: Colors.white,
                                     ),
-                                    child: Text("Warm-Up"),
+                                    child: Text(
+                                      "Warm-Up",
+                                      style: TextStyle(fontSize: 16),
+                                    ),
                                   ),
                                   Container(
-                                    padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+                                    padding: EdgeInsets.symmetric(
+                                      horizontal: 12,
+                                      vertical: 8,
+                                    ),
                                     decoration: ShapeDecoration(
                                       shape: StadiumBorder(),
                                       color: Color.fromRGBO(243, 241, 253, 1),
                                     ),
-                                    child: Text("Running"),
+                                    child: Text("Running",
+                                      style: TextStyle(fontSize: 16),),
                                   ),
                                   Spacer(),
-                                  Text("5:30 AM")
-
+                                  Text("5:30 AM"),
                                 ],
                               ),
                             ],
