@@ -250,7 +250,7 @@ class _TaskHomePageState extends State<TaskHomePage> {
                           ),
                           padding: EdgeInsets.all(16),
                           child: Column(
-                            spacing: 12,
+                            spacing: 20,
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Row(
