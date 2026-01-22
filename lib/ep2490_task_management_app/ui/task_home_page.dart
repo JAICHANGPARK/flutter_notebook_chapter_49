@@ -310,16 +310,40 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                   Row(
                                     spacing: -12,
                                     children: [
-                                      CircleAvatar(radius: 24, backgroundColor: Colors.white,),
-                                      CircleAvatar(radius: 24, backgroundColor: Colors.white,),
-                                      CircleAvatar(radius: 24, backgroundColor: Colors.white,),
-                                      CircleAvatar(radius: 24, backgroundColor: Colors.white,),
+                                      CircleAvatar(
+                                        radius: 24,
+                                        backgroundColor: Colors.white,
+                                      ),
+                                      CircleAvatar(
+                                        radius: 24,
+                                        backgroundColor: Colors.white,
+                                      ),
+                                      CircleAvatar(
+                                        radius: 24,
+                                        backgroundColor: Colors.white,
+                                      ),
+                                      CircleAvatar(
+                                        radius: 24,
+                                        backgroundColor: Colors.white,
+                                      ),
                                     ],
                                   ),
                                   Spacer(),
                                   Container(
                                     decoration: ShapeDecoration(
                                       shape: StadiumBorder(),
+                                    ),
+                                    child: Row(
+                                      children: [
+                                        Icon(
+                                          Icons.chat_bubble_outline,
+                                          color: Colors.white,
+                                        ),
+                                        Text(
+                                          "Copy Link",
+                                          style: TextStyle(color: Colors.white),
+                                        ),
+                                      ],
                                     ),
                                   ),
                                 ],
