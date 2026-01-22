@@ -308,11 +308,12 @@ class _TaskHomePageState extends State<TaskHomePage> {
                               Row(
                                 children: [
                                   Row(
+                                    spacing: -12,
                                     children: [
-                                      CircleAvatar(radius: 24),
-                                      CircleAvatar(radius: 24),
-                                      CircleAvatar(radius: 24),
-                                      CircleAvatar(radius: 24),
+                                      CircleAvatar(radius: 24, backgroundColor: Colors.white,),
+                                      CircleAvatar(radius: 24, backgroundColor: Colors.white,),
+                                      CircleAvatar(radius: 24, backgroundColor: Colors.white,),
+                                      CircleAvatar(radius: 24, backgroundColor: Colors.white,),
                                     ],
                                   ),
                                   Spacer(),
