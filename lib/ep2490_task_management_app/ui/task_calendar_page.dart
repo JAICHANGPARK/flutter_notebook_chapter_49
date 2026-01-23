@@ -195,15 +195,16 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                       Row(
                         children: [
                           CircleAvatar(
+                            radius: 24,
                             backgroundColor: Colors.white,
                           ),
-                          CircleAvatar(
+                          CircleAvatar( radius: 24,
                             backgroundColor: Colors.white,
                           ),
-                          CircleAvatar(
+                          CircleAvatar( radius: 24,
                             backgroundColor: Colors.white,
                           ),
-                          CircleAvatar(
+                          CircleAvatar( radius: 24,
                             backgroundColor: Colors.white,
                           ),
                         ],
