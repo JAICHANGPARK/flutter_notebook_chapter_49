@@ -19,7 +19,10 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
             height: 320,
             decoration: ShapeDecoration(
               shape: RoundedSuperellipseBorder(
-                borderRadius: BorderRadius.only(),
+                borderRadius: BorderRadius.only(
+                  bottomLeft: Radius.circular(32),
+                  bottomRight: Radius.circular(32),
+                ),
               ),
               color: Colors.white
             ),
