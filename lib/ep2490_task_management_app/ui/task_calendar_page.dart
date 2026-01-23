@@ -168,7 +168,7 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                   ),
                 ),
                 Container(
-                  margin: EdgeInsets.only(left: 72),
+                  margin: EdgeInsets.only(left: 72, right: 16),
                   padding: EdgeInsets.all(16),
                   decoration: ShapeDecoration(
                     shape: RoundedSuperellipseBorder(
