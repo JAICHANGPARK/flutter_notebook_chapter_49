@@ -136,11 +136,11 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16),
+            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
             child: Row(
               spacing: 6,
               children: [
-                Text("My Current Task", style: TextStyle(fontSize: 20)),
+                Text("My Today Task", style: TextStyle(fontSize: 20)),
                 Container(
                   decoration: ShapeDecoration(
                     shape: StadiumBorder(),
