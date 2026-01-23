@@ -167,12 +167,16 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                   child: Row(
                     spacing: 16,
                     children: [
-                      Text("05:30"),
+                      Text("05:30",style: TextStyle(
+                        fontSize: 16
+                      ),),
+
                       Expanded(child: Divider()),
                     ],
                   ),
                 ),
                 Container(
+                  margin: EdgeInsets.only(left: 72),
                   decoration: ShapeDecoration(
                     shape: RoundedSuperellipseBorder(
                       borderRadius: .circular(32),
