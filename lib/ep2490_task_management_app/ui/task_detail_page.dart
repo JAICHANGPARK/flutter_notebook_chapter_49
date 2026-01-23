@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class TaskDetailPage extends StatefulWidget {
   const TaskDetailPage({super.key});
 
@@ -23,47 +22,36 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
               Row(
                 children: [
                   CircleAvatar(
-                    radius: 32,
-                    child: IconButton(onPressed: (){
-                      Navigator.of(context).pop();
-                    }, icon: Icon(Icons.arrow_back_outlined)),
+                    radius: 30,
+                    child: IconButton(
+                      onPressed: () {
+                        Navigator.of(context).pop();
+                      },
+                      icon: Icon(Icons.arrow_back_outlined),
+                    ),
                   ),
-
                 ],
               ),
-              Expanded(child: SingleChildScrollView(child: Column(
-                spacing: 16,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Container(
-                    height: 200,
-                    child: Placeholder(),
-                  ),
-                  Column(
+              Expanded(
+                child: SingleChildScrollView(
+                  child: Column(
+                    spacing: 16,
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
+                      Container(height: 200, child: Placeholder()),
+                      Column(children: [Text("title"), Text("title")]),
+
+                      Container(height: 320, child: Placeholder()),
                       Text("title"),
-                      Text("title"),
+                      Container(height: 320, child: Placeholder()),
                     ],
-                  )
-                  
-                  Container(
-                    height: 320,
-                    child: Placeholder(),
                   ),
-                  Text("title"),
-                  Container(
-                    height: 320,
-                    child: Placeholder(),
-                  )
-
-
-                ],
-              ),))
+                ),
+              ),
             ],
           ),
         ),
       ),
     );
-
   }
 }
