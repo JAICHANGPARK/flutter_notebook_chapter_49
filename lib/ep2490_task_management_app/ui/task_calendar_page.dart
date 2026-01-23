@@ -139,7 +139,8 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
           Expanded(child: ListView(children: [
             Row(
               children: [
-                Text("05:30")
+                Text("05:30"),
+                Expanded(child: Divider()),
               ],
             )
           ],))
