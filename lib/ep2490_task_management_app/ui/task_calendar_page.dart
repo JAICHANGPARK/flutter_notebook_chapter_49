@@ -103,11 +103,18 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                           ),
                           margin: EdgeInsets.only(left: 16),
                           child: Column(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Text("Sun"),
                               CircleAvatar(
                                 radius: 24,
                                 backgroundColor: Colors.grey[100]!,
+                                child: Column(
+                                  children: [
+                                    Text("12"),
+                                    CircleAvatar(radius: 2,backgroundColor: Colors.black,)
+                                  ],
+                                ),
                               ),
                             ],
                           ),
