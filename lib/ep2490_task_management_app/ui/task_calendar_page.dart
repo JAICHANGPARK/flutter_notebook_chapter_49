@@ -88,7 +88,7 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                     ),
                   ),
                   SizedBox(
-                    height: 80,
+                    height: 88,
                     child: ListView.builder(
                       scrollDirection: .horizontal,
                       itemCount: 10,
@@ -100,11 +100,11 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                               side: BorderSide(color: Colors.grey[200]!),
                             ),
                           ),
-                          padding: EdgeInsets.all(2),
+                          padding: EdgeInsets.symmetric(horizontal: 3, vertical: 3),
 
                           margin: EdgeInsets.only(left: 16),
                           child: Column(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                             children: [
                               Text("Sun"),
                               CircleAvatar(
