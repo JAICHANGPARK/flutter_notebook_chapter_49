@@ -84,7 +84,6 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                             ),
                           ),
                         ),
-
                       ],
                     ),
                   ),
@@ -98,11 +97,11 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                           width: 52,
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(
-                              side: BorderSide(color: Colors.black),
+                              side: BorderSide(color: Colors.grey[200]!),
                             ),
                           ),
                           padding: EdgeInsets.all(2),
-                          
+
                           margin: EdgeInsets.only(left: 16),
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -115,7 +114,10 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
                                     Text("12"),
-                                    CircleAvatar(radius: 2,backgroundColor: Colors.black,)
+                                    CircleAvatar(
+                                      radius: 2,
+                                      backgroundColor: Colors.black,
+                                    ),
                                   ],
                                 ),
                               ),
