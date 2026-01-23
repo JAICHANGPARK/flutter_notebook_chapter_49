@@ -100,112 +100,121 @@ class _TaskHomePageState extends State<TaskHomePage> {
                         child: ListView.builder(
                           scrollDirection: Axis.horizontal,
                           itemBuilder: (context, index) {
-                            return Container(
-                              width: MediaQuery.sizeOf(context).width * .8,
-                              margin: EdgeInsets.only(right: 12),
-                              decoration: ShapeDecoration(
-                                shape: RoundedSuperellipseBorder(
-                                  borderRadius: .circular(32),
-                                ),
-                                color: Colors.white,
-                              ),
-                              padding: EdgeInsets.all(16),
-                              child: Column(
-                                spacing: 12,
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  Row(
-                                    mainAxisAlignment: .spaceBetween,
-                                    children: [
-                                      CircleAvatar(radius: 24),
-                                      CircularPercentIndicator(
-                                        radius: 28,
-                                        lineWidth: 6,
-                                        percent: .76,
-                                        center: Text("76%"),
-                                        progressColor: Color.fromRGBO(
-                                          104,
-                                          76,
-                                          236,
-                                          1,
-                                        ),
-                                        circularStrokeCap:
-                                            CircularStrokeCap.round,
-                                        startAngle: 270,
-                                        backgroundColor: .fromRGBO(
-                                          228,
-                                          224,
-                                          247,
-                                          1,
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                  Text(
-                                    "Practice English",
-                                    style: GoogleFonts.poppins(
-                                      fontSize: 20,
-                                      fontWeight: .bold,
-                                    ),
-                                  ),
-                                  Text(
-                                    "Improve your English every day.",
-                                    style: GoogleFonts.poppins(
-                                      color: Colors.grey,
-                                    ),
-                                  ),
-                                  Row(
-                                    spacing: 9,
-                                    children: [
-                                      Expanded(
-                                        child: Row(
-                                          spacing: 0,
-                                          mainAxisSize: .min,
-                                          children: [
-                                            CircleAvatar(radius: 22),
-                                            CircleAvatar(radius: 22),
-                                            CircleAvatar(radius: 22),
-                                          ],
-                                        ),
-                                      ),
+                            return GestureDetector(
+                              onTap: () {
+                                Navigator.of(context).push(
+                                  MaterialPageRoute(builder: (context) {
 
-                                      Container(
-                                        padding: EdgeInsets.symmetric(
-                                          horizontal: 12,
-                                          vertical: 8,
-                                        ),
-                                        decoration: ShapeDecoration(
-                                          shape: StadiumBorder(),
-                                          color: Colors.grey[200]!,
-                                        ),
-                                        child: Row(
-                                          spacing: 8,
-                                          children: [
-                                            Icon(Icons.chat_bubble_outline),
-                                            Text("12"),
-                                          ],
-                                        ),
-                                      ),
-                                      Container(
-                                        padding: EdgeInsets.symmetric(
-                                          horizontal: 12,
-                                          vertical: 8,
-                                        ),
-                                        decoration: ShapeDecoration(
-                                          shape: StadiumBorder(),
-                                          color: Colors.grey[200]!,
-                                        ),
-                                        child: Row(
-                                          spacing: 8,
-                                          children: [
-                                            Icon(Icons.link),
-                                            Text("2"),
-                                          ],
-                                        ),
-                                      ),
-                                    ],
+                                  }),
+                                );
+                              },
+                              child: Container(
+                                width: MediaQuery.sizeOf(context).width * .8,
+                                margin: EdgeInsets.only(right: 12),
+                                decoration: ShapeDecoration(
+                                  shape: RoundedSuperellipseBorder(
+                                    borderRadius: .circular(32),
                                   ),
-                                ],
+                                  color: Colors.white,
+                                ),
+                                padding: EdgeInsets.all(16),
+                                child: Column(
+                                  spacing: 12,
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Row(
+                                      mainAxisAlignment: .spaceBetween,
+                                      children: [
+                                        CircleAvatar(radius: 24),
+                                        CircularPercentIndicator(
+                                          radius: 28,
+                                          lineWidth: 6,
+                                          percent: .76,
+                                          center: Text("76%"),
+                                          progressColor: Color.fromRGBO(
+                                            104,
+                                            76,
+                                            236,
+                                            1,
+                                          ),
+                                          circularStrokeCap:
+                                              CircularStrokeCap.round,
+                                          startAngle: 270,
+                                          backgroundColor: .fromRGBO(
+                                            228,
+                                            224,
+                                            247,
+                                            1,
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                    Text(
+                                      "Practice English",
+                                      style: GoogleFonts.poppins(
+                                        fontSize: 20,
+                                        fontWeight: .bold,
+                                      ),
+                                    ),
+                                    Text(
+                                      "Improve your English every day.",
+                                      style: GoogleFonts.poppins(
+                                        color: Colors.grey,
+                                      ),
+                                    ),
+                                    Row(
+                                      spacing: 9,
+                                      children: [
+                                        Expanded(
+                                          child: Row(
+                                            spacing: 0,
+                                            mainAxisSize: .min,
+                                            children: [
+                                              CircleAvatar(radius: 22),
+                                              CircleAvatar(radius: 22),
+                                              CircleAvatar(radius: 22),
+                                            ],
+                                          ),
+                                        ),
+
+                                        Container(
+                                          padding: EdgeInsets.symmetric(
+                                            horizontal: 12,
+                                            vertical: 8,
+                                          ),
+                                          decoration: ShapeDecoration(
+                                            shape: StadiumBorder(),
+                                            color: Colors.grey[200]!,
+                                          ),
+                                          child: Row(
+                                            spacing: 8,
+                                            children: [
+                                              Icon(Icons.chat_bubble_outline),
+                                              Text("12"),
+                                            ],
+                                          ),
+                                        ),
+                                        Container(
+                                          padding: EdgeInsets.symmetric(
+                                            horizontal: 12,
+                                            vertical: 8,
+                                          ),
+                                          decoration: ShapeDecoration(
+                                            shape: StadiumBorder(),
+                                            color: Colors.grey[200]!,
+                                          ),
+                                          child: Row(
+                                            spacing: 8,
+                                            children: [
+                                              Icon(Icons.link),
+                                              Text("2"),
+                                            ],
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ],
+                                ),
                               ),
                             );
                           },
@@ -310,7 +319,7 @@ class _TaskHomePageState extends State<TaskHomePage> {
                               Row(
                                 children: [
                                   Row(
-                                    spacing:2,
+                                    spacing: 2,
                                     children: [
                                       CircleAvatar(
                                         radius: 24,
@@ -336,7 +345,10 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                       shape: StadiumBorder(),
                                       color: Color.fromRGBO(104, 76, 236, 1),
                                     ),
-                                    padding: EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+                                    padding: EdgeInsets.symmetric(
+                                      horizontal: 20,
+                                      vertical: 12,
+                                    ),
                                     child: Row(
                                       spacing: 8,
                                       children: [
@@ -346,8 +358,10 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                         ),
                                         Text(
                                           "Copy Link",
-                                          style: TextStyle(color: Colors.white,
-                                          fontSize: 16,),
+                                          style: TextStyle(
+                                            color: Colors.white,
+                                            fontSize: 16,
+                                          ),
                                         ),
                                       ],
                                     ),
@@ -451,7 +465,10 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                       shape: StadiumBorder(),
                                       color: Color.fromRGBO(104, 76, 236, 1),
                                     ),
-                                    padding: EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+                                    padding: EdgeInsets.symmetric(
+                                      horizontal: 20,
+                                      vertical: 12,
+                                    ),
                                     child: Row(
                                       spacing: 8,
                                       children: [
@@ -461,8 +478,10 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                         ),
                                         Text(
                                           "Copy Link",
-                                          style: TextStyle(color: Colors.white,
-                                            fontSize: 16,),
+                                          style: TextStyle(
+                                            color: Colors.white,
+                                            fontSize: 16,
+                                          ),
                                         ),
                                       ],
                                     ),
