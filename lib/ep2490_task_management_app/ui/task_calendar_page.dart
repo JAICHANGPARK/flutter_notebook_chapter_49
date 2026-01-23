@@ -43,7 +43,10 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                             CircleAvatar(
                               radius: 30,
                               backgroundColor: Colors.grey[100]!,
-                              child: IconButton(onPressed: ()=> Navigator.of(context).pop(), icon: Icon(Icons.arrow_back_outlined)),
+                              child: IconButton(
+                                onPressed: () => Navigator.of(context).pop(),
+                                icon: Icon(Icons.arrow_back_outlined),
+                              ),
                             ),
                             Container(
                               decoration: ShapeDecoration(
@@ -163,9 +166,7 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                     spacing: 16,
                     children: [
                       Text("05:30", style: TextStyle(fontSize: 16)),
-                      Expanded(child: Divider(
-                        height: 32,
-                      )),
+                      Expanded(child: Divider(height: 32)),
                     ],
                   ),
                 ),
@@ -223,7 +224,7 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                     spacing: 16,
                     children: [
                       Text("12:00", style: TextStyle(fontSize: 16)),
-                      Expanded(child: Divider(height: 32,)),
+                      Expanded(child: Divider(height: 32)),
                     ],
                   ),
                 ),
@@ -281,7 +282,7 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                     spacing: 16,
                     children: [
                       Text("02:30", style: TextStyle(fontSize: 16)),
-                      Expanded(child: Divider(height: 32,)),
+                      Expanded(child: Divider(height: 32)),
                     ],
                   ),
                 ),
