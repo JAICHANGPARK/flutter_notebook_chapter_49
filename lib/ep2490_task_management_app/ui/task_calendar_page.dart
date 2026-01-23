@@ -66,7 +66,10 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                           ],
                         ),
                         Container(
-                          padding: EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+                          padding: EdgeInsets.symmetric(
+                            horizontal: 16,
+                            vertical: 4,
+                          ),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
                             color: Colors.grey[100]!,
@@ -81,28 +84,35 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                             ),
                           ),
                         ),
-                        SizedBox(
-                          height: 80
-                          ,
-                          child: ListView.builder(
-                              scrollDirection: .horizontal,
-                              itemCount: 10,
-                              itemBuilder: (context, index){
-                            return Container(
-                              width: 42,
-                              decoration: ShapeDecoration(shape: StadiumBorder(side: BorderSide(
-                                color: Colors.black
-                              ),)),
-                              child: Column(
-                                children: [
-                                  Text("Sun"),
-                                  CircleAvatar()
-                                ],
-                              ),
-                            );
-                          }),
-                        )
+
                       ],
+                    ),
+                  ),
+                  SizedBox(
+                    height: 80,
+                    child: ListView.builder(
+                      scrollDirection: .horizontal,
+                      itemCount: 10,
+                      itemBuilder: (context, index) {
+                        return Container(
+                          width: 52,
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(
+                              side: BorderSide(color: Colors.black),
+                            ),
+                          ),
+                          margin: EdgeInsets.only(left: 16),
+                          child: Column(
+                            children: [
+                              Text("Sun"),
+                              CircleAvatar(
+                                radius: 24,
+                                backgroundColor: Colors.grey[100]!,
+                              ),
+                            ],
+                          ),
+                        );
+                      },
                     ),
                   ),
                 ],
