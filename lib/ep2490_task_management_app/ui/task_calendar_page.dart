@@ -250,10 +250,10 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                         children: [
                           CircleAvatar(
                             radius: 24,
-                            backgroundColor: Colors.white,
+                            backgroundColor: .fromRGBO(229, 226, 248, 1),
                           ),
                           CircleAvatar( radius: 24,
-                            backgroundColor: Colors.white,
+                            backgroundColor: .fromRGBO(229, 226, 248, 1),
                           ),
                           CircleAvatar( radius: 24,
                             backgroundColor: Colors.white,
