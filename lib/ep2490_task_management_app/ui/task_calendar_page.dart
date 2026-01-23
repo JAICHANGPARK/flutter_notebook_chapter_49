@@ -11,6 +11,7 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.grey[100]!,
       body: Column(
         crossAxisAlignment: .start,
         children: [
