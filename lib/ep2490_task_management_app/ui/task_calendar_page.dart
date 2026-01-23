@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class TaskCalendarPage extends StatefulWidget {
   const TaskCalendarPage({super.key});
@@ -38,6 +39,13 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                         decoration: ShapeDecoration(
                           shape: StadiumBorder(),
                           color: Colors.grey[200]!,
+                        ),
+                        child: Row(
+                          spacing: 4,
+                          children: [
+                            HugeIcon(icon: HugeIcons.strokeRoundedCalendar01),
+                            Text("Dec 2025")
+                          ],
                         ),
                       ),
                     ],
