@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_49/ep2490_task_management_app/ui/task_detail_page.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hugeicons/hugeicons.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
@@ -104,7 +105,7 @@ class _TaskHomePageState extends State<TaskHomePage> {
                               onTap: () {
                                 Navigator.of(context).push(
                                   MaterialPageRoute(builder: (context) {
-
+                                    return TaskDetailPage();
                                   }),
                                 );
                               },
