@@ -31,44 +31,49 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
             child: SafeArea(
               child: Column(
                 children: [
-                  Column(
-                    children: [
-                      Row(
-                        mainAxisAlignment: .spaceBetween,
-                        children: [
-                          CircleAvatar(
-                            radius: 30,
-                            backgroundColor: Colors.grey[100]!,
-                          ),
-                          Container(
-                            decoration: ShapeDecoration(
-                              shape: StadiumBorder(),
-                              color: Colors.grey[100]!,
+                  Padding(
+                    padding: const EdgeInsets.all(16.0),
+
+                    child: Column(
+                      spacing: 16,
+                      children: [
+                        Row(
+                          mainAxisAlignment: .spaceBetween,
+                          children: [
+                            CircleAvatar(
+                              radius: 30,
+                              backgroundColor: Colors.grey[100]!,
                             ),
-                            padding: EdgeInsets.symmetric(
-                              horizontal: 24,
-                              vertical: 16,
+                            Container(
+                              decoration: ShapeDecoration(
+                                shape: StadiumBorder(),
+                                color: Colors.grey[100]!,
+                              ),
+                              padding: EdgeInsets.symmetric(
+                                horizontal: 24,
+                                vertical: 16,
+                              ),
+                              child: Row(
+                                spacing: 4,
+                                children: [
+                                  HugeIcon(
+                                    icon: HugeIcons.strokeRoundedCalendar01,
+                                  ),
+                                  Text("Dec 2025"),
+                                ],
+                              ),
                             ),
-                            child: Row(
-                              spacing: 4,
-                              children: [
-                                HugeIcon(
-                                  icon: HugeIcons.strokeRoundedCalendar01,
-                                ),
-                                Text("Dec 2025"),
-                              ],
-                            ),
-                          ),
-                        ],
-                      ),
-                      Container(
-                        decoration: ShapeDecoration(
-                          shape: StadiumBorder(),
-                          color: Colors.grey[100]!,
+                          ],
                         ),
-                        child: TextField(),
-                      ),
-                    ],
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(),
+                            color: Colors.grey[100]!,
+                          ),
+                          child: TextField(),
+                        ),
+                      ],
+                    ),
                   ),
                 ],
               ),
