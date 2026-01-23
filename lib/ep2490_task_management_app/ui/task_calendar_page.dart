@@ -21,6 +21,7 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
               shape: RoundedSuperellipseBorder(
                 borderRadius: BorderRadius.only(),
               ),
+              color: Colors.white
             ),
           ),
         ],
