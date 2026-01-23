@@ -27,35 +27,41 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
               ),
               color: Colors.white,
             ),
+
             child: SafeArea(
               child: Column(
                 children: [
-                  Row(
-                    mainAxisAlignment: .spaceBetween,
+                  Column(
                     children: [
-                      CircleAvatar(
-                        radius: 30,
-                        backgroundColor: Colors.grey[100]!,
-                      ),
-                      Container(
-                        decoration: ShapeDecoration(
-                          shape: StadiumBorder(),
-                          color: Colors.grey[100]!,
-                        ),
-                        padding: EdgeInsets.symmetric(
-                          horizontal: 24,
-                          vertical: 16,
-                        ),
-                        child: Row(
-                          spacing: 4,
-                          children: [
-                            HugeIcon(icon: HugeIcons.strokeRoundedCalendar01),
-                            Text("Dec 2025"),
-                          ],
-                        ),
+                      Row(
+                        mainAxisAlignment: .spaceBetween,
+                        children: [
+                          CircleAvatar(
+                            radius: 30,
+                            backgroundColor: Colors.grey[100]!,
+                          ),
+                          Container(
+                            decoration: ShapeDecoration(
+                              shape: StadiumBorder(),
+                              color: Colors.grey[100]!,
+                            ),
+                            padding: EdgeInsets.symmetric(
+                              horizontal: 24,
+                              vertical: 16,
+                            ),
+                            child: Row(
+                              spacing: 4,
+                              children: [
+                                HugeIcon(icon: HugeIcons.strokeRoundedCalendar01),
+                                Text("Dec 2025"),
+                              ],
+                            ),
+                          ),
+                        ],
                       ),
                     ],
-                  ),
+                  )
+
                 ],
               ),
             ),
