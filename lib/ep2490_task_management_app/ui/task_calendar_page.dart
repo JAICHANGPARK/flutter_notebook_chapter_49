@@ -136,14 +136,25 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
             ),
           ),
           Row(children: [Text("My Today Task")]),
-          Expanded(child: ListView(children: [
-            Row(
+          Expanded(
+            child: ListView(
               children: [
-                Text("05:30"),
-                Expanded(child: Divider()),
+                Row(
+                  children: [
+                    Text("05:30"),
+                    Expanded(child: Divider()),
+                  ],
+                ),
+                Container(
+                  decoration: ShapeDecoration(
+                    shape: RoundedSuperellipseBorder(
+                      borderRadius: .circular(32),
+                    ),
+                  ),
+                ),
               ],
-            )
-          ],))
+            ),
+          ),
         ],
       ),
     );
