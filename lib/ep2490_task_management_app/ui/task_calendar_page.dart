@@ -228,7 +228,7 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                     shape: RoundedSuperellipseBorder(
                       borderRadius: .circular(32),
                     ),
-                    color: .fromRGBO(229, 226, 248, 1),
+                    color: Colors.white,
                   ),
                   child: Column(
                     spacing: 16,
