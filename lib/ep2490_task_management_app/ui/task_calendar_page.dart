@@ -135,9 +135,32 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
               ),
             ),
           ),
-          Row(children: [Text("My Today Task"), ]),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16),
+            child: Row(
+              spacing: 6,
+              children: [
+                Text("My Current Task", style: TextStyle(fontSize: 20)),
+                Container(
+                  decoration: ShapeDecoration(
+                    shape: StadiumBorder(),
+                    color: Colors.red,
+                  ),
+                  padding: EdgeInsets.symmetric(
+                    horizontal: 8,
+                    vertical: 2,
+                  ),
+                  child: Text(
+                    "04",
+                    style: TextStyle(color: Colors.white),
+                  ),
+                ),
+              ],
+            ),
+          ),
           Expanded(
             child: ListView(
+              padding: .zero,
               children: [
                 Row(
                   children: [
