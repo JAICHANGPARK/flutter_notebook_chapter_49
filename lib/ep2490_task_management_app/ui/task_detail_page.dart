@@ -13,18 +13,23 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey[300]!,
-      body: Column(
-        children: [
-          Row(
-            children: [
-              CircleAvatar(
-                radius: 32,
-                child: IconButton(onPressed: (){}, icon: Icon(Icons.arrow_back_outlined)),
-              ),
+      body: SafeArea(
+        bottom: false,
+        child: Column(
+          children: [
+            Row(
+              children: [
+                CircleAvatar(
+                  radius: 32,
+                  child: IconButton(onPressed: (){
+                    Navigator.of(context).pop();
+                  }, icon: Icon(Icons.arrow_back_outlined)),
+                ),
 
-            ],
-          )
-        ],
+              ],
+            )
+          ],
+        ),
       ),
     );
 
