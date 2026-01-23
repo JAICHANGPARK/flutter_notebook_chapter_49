@@ -146,14 +146,8 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                     shape: StadiumBorder(),
                     color: Colors.red,
                   ),
-                  padding: EdgeInsets.symmetric(
-                    horizontal: 8,
-                    vertical: 2,
-                  ),
-                  child: Text(
-                    "02",
-                    style: TextStyle(color: Colors.white),
-                  ),
+                  padding: EdgeInsets.symmetric(horizontal: 8, vertical: 2),
+                  child: Text("02", style: TextStyle(color: Colors.white)),
                 ),
               ],
             ),
@@ -167,9 +161,7 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                   child: Row(
                     spacing: 16,
                     children: [
-                      Text("05:30",style: TextStyle(
-                        fontSize: 16
-                      ),),
+                      Text("05:30", style: TextStyle(fontSize: 16)),
 
                       Expanded(child: Divider()),
                     ],
@@ -181,7 +173,6 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                   decoration: ShapeDecoration(
                     shape: RoundedSuperellipseBorder(
                       borderRadius: .circular(32),
-
                     ),
                     color: .fromRGBO(229, 226, 248, 1),
                   ),
@@ -189,14 +180,18 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                     children: [
                       Row(
                         children: [
-                          Text("Daily Morning Goal"),
+                          Text(
+                            "Daily Morning Goal",
+                            style: TextStyle(fontSize: 20, fontWeight: .bold),
+                          ),
                           Text("5:30 AM"),
                         ],
                       ),
-                      Text("Run every day to build stamina, improve health, and stay focused")
+                      Text(
+                        "Run every day to build stamina, improve health, and stay focused",
+                      ),
                     ],
                   ),
-
                 ),
               ],
             ),
