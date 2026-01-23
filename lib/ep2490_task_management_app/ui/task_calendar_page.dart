@@ -101,6 +101,7 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                               side: BorderSide(color: Colors.black),
                             ),
                           ),
+                          padding: EdgeInsets.all(2),
                           
                           margin: EdgeInsets.only(left: 16),
                           child: Column(
