@@ -52,16 +52,24 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                             child: Row(
                               spacing: 4,
                               children: [
-                                HugeIcon(icon: HugeIcons.strokeRoundedCalendar01),
+                                HugeIcon(
+                                  icon: HugeIcons.strokeRoundedCalendar01,
+                                ),
                                 Text("Dec 2025"),
                               ],
                             ),
                           ),
                         ],
                       ),
+                      Container(
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(),
+                          color: Colors.grey[100]!,
+                        ),
+                        child: TextField(),
+                      ),
                     ],
-                  )
-
+                  ),
                 ],
               ),
             ),
