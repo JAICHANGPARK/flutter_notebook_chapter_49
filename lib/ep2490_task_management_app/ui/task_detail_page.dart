@@ -23,6 +23,7 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                 children: [
                   CircleAvatar(
                     radius: 30,
+                    backgroundColor: Colors.white,
                     child: IconButton(
                       onPressed: () {
                         Navigator.of(context).pop();
