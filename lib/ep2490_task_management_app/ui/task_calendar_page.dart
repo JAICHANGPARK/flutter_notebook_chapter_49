@@ -177,8 +177,10 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                     color: .fromRGBO(229, 226, 248, 1),
                   ),
                   child: Column(
+                    spacing: 16,
                     children: [
                       Row(
+                        mainAxisAlignment: .spaceBetween,
                         children: [
                           Text(
                             "Daily Morning Goal",
