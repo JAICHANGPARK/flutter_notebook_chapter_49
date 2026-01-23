@@ -138,7 +138,7 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
             child: Row(
-              spacing: 6,
+              spacing: 12,
               children: [
                 Text("My Today Task", style: TextStyle(fontSize: 20)),
                 Container(
@@ -151,7 +151,7 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                     vertical: 2,
                   ),
                   child: Text(
-                    "04",
+                    "02",
                     style: TextStyle(color: Colors.white),
                   ),
                 ),
@@ -162,11 +162,15 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
             child: ListView(
               padding: .zero,
               children: [
-                Row(
-                  children: [
-                    Text("05:30"),
-                    Expanded(child: Divider()),
-                  ],
+                Padding(
+                  padding: const EdgeInsets.only(left: 16),
+                  child: Row(
+                    spacing: 16,
+                    children: [
+                      Text("05:30"),
+                      Expanded(child: Divider()),
+                    ],
+                  ),
                 ),
                 Container(
                   decoration: ShapeDecoration(
