@@ -66,6 +66,7 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                           ],
                         ),
                         Container(
+                          padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
                             color: Colors.grey[100]!,
