@@ -158,7 +158,8 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                           Text("Daily Morning Goal"),
                           Text("5:30 AM"),
                         ],
-                      )
+                      ),
+                      Text("Run every day to build stamina, improve health, and stay focused")
                     ],
                   ),
 
