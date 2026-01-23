@@ -76,6 +76,8 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                               icon: HugeIcon(
                                 icon: HugeIcons.strokeRoundedSearch01,
                               ),
+                              border: .none,
+                              hintText: "Search your daily t...",
                             ),
                           ),
                         ),
