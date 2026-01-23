@@ -190,24 +190,27 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                       ),
                       Text(
                         "Run every day to build stamina, improve health, and stay focused",
-                     ),
+                      ),
                       Row(
                         children: [
                           CircleAvatar(
                             radius: 24,
                             backgroundColor: Colors.white,
                           ),
-                          CircleAvatar( radius: 24,
+                          CircleAvatar(
+                            radius: 24,
                             backgroundColor: Colors.white,
                           ),
-                          CircleAvatar( radius: 24,
+                          CircleAvatar(
+                            radius: 24,
                             backgroundColor: Colors.white,
                           ),
-                          CircleAvatar( radius: 24,
+                          CircleAvatar(
+                            radius: 24,
                             backgroundColor: Colors.white,
                           ),
                         ],
-                      )
+                      ),
                     ],
                   ),
                 ),
@@ -252,17 +255,20 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                             radius: 24,
                             backgroundColor: .fromRGBO(229, 226, 248, 1),
                           ),
-                          CircleAvatar( radius: 24,
+                          CircleAvatar(
+                            radius: 24,
                             backgroundColor: .fromRGBO(229, 226, 248, 1),
                           ),
-                          CircleAvatar( radius: 24,
-                            backgroundColor:.fromRGBO(229, 226, 248, 1),
+                          CircleAvatar(
+                            radius: 24,
+                            backgroundColor: .fromRGBO(229, 226, 248, 1),
                           ),
-                          CircleAvatar( radius: 24,
-                            backgroundColor:.fromRGBO(229, 226, 248, 1),
+                          CircleAvatar(
+                            radius: 24,
+                            backgroundColor: .fromRGBO(229, 226, 248, 1),
                           ),
                         ],
-                      )
+                      ),
                     ],
                   ),
                 ),
