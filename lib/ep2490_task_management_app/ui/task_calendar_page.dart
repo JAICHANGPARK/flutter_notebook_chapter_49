@@ -81,14 +81,27 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                             ),
                           ),
                         ),
-                        Expanded(child: ListView.builder(
-                            scrollDirection: .horizontal,
-                            itemBuilder: (context, index){
-                          return Container(
-                            width: 42,
-                            decoration: ShapeDecoration(shape: StadiumBorder(side: BorderSide())),
-                          );
-                        }),)
+                        SizedBox(
+                          height: 80
+                          ,
+                          child: ListView.builder(
+                              scrollDirection: .horizontal,
+                              itemCount: 10,
+                              itemBuilder: (context, index){
+                            return Container(
+                              width: 42,
+                              decoration: ShapeDecoration(shape: StadiumBorder(side: BorderSide(
+                                color: Colors.black
+                              ),)),
+                              child: Column(
+                                children: [
+                                  Text("Sun"),
+                                  CircleAvatar()
+                                ],
+                              ),
+                            );
+                          }),
+                        )
                       ],
                     ),
                   ),
