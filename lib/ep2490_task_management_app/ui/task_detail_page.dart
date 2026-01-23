@@ -32,14 +32,20 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                 ],
               ),
               Expanded(child: SingleChildScrollView(child: Column(
+                spacing: 16,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Container(
                     height: 200,
                     child: Placeholder(),
                   ),
-                  Text("title"),
-                  Text("title"),
+                  Column(
+                    children: [
+                      Text("title"),
+                      Text("title"),
+                    ],
+                  )
+                  
                   Container(
                     height: 320,
                     child: Placeholder(),
