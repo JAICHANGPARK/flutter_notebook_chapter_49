@@ -84,7 +84,10 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                         Expanded(child: ListView.builder(
                             scrollDirection: .horizontal,
                             itemBuilder: (context, index){
-                          return Container();
+                          return Container(
+                            width: 42,
+                            decoration: ShapeDecoration(shape: StadiumBorder(side: BorderSide())),
+                          );
                         }),)
                       ],
                     ),
