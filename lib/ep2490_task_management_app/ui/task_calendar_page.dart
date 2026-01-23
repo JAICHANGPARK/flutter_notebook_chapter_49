@@ -43,6 +43,7 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                             CircleAvatar(
                               radius: 30,
                               backgroundColor: Colors.grey[100]!,
+                              child: IconButton(onPressed: ()=> Navigator.of(context).pop(), icon: Icon(Icons.arrow_back_outlined)),
                             ),
                             Container(
                               decoration: ShapeDecoration(
