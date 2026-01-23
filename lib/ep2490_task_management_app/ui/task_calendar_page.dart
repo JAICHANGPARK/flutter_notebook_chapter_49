@@ -70,7 +70,13 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                             shape: StadiumBorder(),
                             color: Colors.grey[100]!,
                           ),
-                          child: TextField(),
+                          child: TextField(
+                            decoration: InputDecoration(
+                              icon: HugeIcon(
+                                icon: HugeIcons.strokeRoundedSearch01,
+                              ),
+                            ),
+                          ),
                         ),
                       ],
                     ),
