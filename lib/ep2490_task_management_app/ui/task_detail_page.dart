@@ -37,7 +37,16 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                 ),
                 Text("title"),
                 Text("title"),
-                
+                Container(
+                  height: 320,
+                  child: Placeholder(),
+                ),
+                Text("title"),
+                Container(
+                  height: 320,
+                  child: Placeholder(),
+                )
+
 
               ],
             ),))
