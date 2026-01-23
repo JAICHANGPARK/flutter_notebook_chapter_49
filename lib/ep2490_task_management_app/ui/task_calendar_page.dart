@@ -100,7 +100,10 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                               side: BorderSide(color: Colors.grey[200]!),
                             ),
                           ),
-                          padding: EdgeInsets.symmetric(horizontal: 3, vertical: 3),
+                          padding: EdgeInsets.symmetric(
+                            horizontal: 3,
+                            vertical: 3,
+                          ),
 
                           margin: EdgeInsets.only(left: 16),
                           child: Column(
@@ -132,6 +135,8 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
               ),
             ),
           ),
+          Row(children: [Text("My Today Task")]),
+          Expanded(child: Placeholder())
         ],
       ),
     );
