@@ -222,7 +222,7 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                     spacing: 16,
                     children: [
                       Text("12:00", style: TextStyle(fontSize: 16)),
-                      Expanded(child: Divider()),
+                      Expanded(child: Divider(height: 32,)),
                     ],
                   ),
                 ),
@@ -280,7 +280,7 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                     spacing: 16,
                     children: [
                       Text("02:30", style: TextStyle(fontSize: 16)),
-                      Expanded(child: Divider()),
+                      Expanded(child: Divider(height: 32,)),
                     ],
                   ),
                 ),
