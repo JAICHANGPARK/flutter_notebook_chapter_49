@@ -110,6 +110,7 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                               CircleAvatar(
                                 radius: 24,
                                 backgroundColor: Colors.grey[100]!,
+                                foregroundColor: Colors.black,
                                 child: Column(
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
