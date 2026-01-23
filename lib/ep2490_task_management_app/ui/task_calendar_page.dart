@@ -24,7 +24,22 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                   bottomRight: Radius.circular(32),
                 ),
               ),
-              color: Colors.white
+              color: Colors.white,
+            ),
+            child: Column(
+              children: [
+                Row(
+                  children: [
+                    CircleAvatar(),
+                    Container(
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(),
+                        color: Colors.grey[200]!,
+                      ),
+                    ),
+                  ],
+                ),
+              ],
             ),
           ),
         ],
