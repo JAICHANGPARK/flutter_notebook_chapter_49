@@ -27,7 +27,12 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                 ),
 
               ],
-            )
+            ),
+            Expanded(child: SingleChildScrollView(child: Column(
+              children: [
+                
+              ],
+            ),))
           ],
         ),
       ),
