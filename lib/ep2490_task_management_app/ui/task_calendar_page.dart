@@ -151,6 +151,17 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                       borderRadius: .circular(32),
                     ),
                   ),
+                  child: Column(
+                    children: [
+                      Row(
+                        children: [
+                          Text("Daily Morning Goal"),
+                          Text("5:30 AM"),
+                        ],
+                      )
+                    ],
+                  ),
+
                 ),
               ],
             ),
