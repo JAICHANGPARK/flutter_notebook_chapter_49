@@ -162,7 +162,6 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                     spacing: 16,
                     children: [
                       Text("05:30", style: TextStyle(fontSize: 16)),
-
                       Expanded(child: Divider()),
                     ],
                   ),
@@ -192,6 +191,61 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                       Text(
                         "Run every day to build stamina, improve health, and stay focused",
                      ),
+                      Row(
+                        children: [
+                          CircleAvatar(
+                            radius: 24,
+                            backgroundColor: Colors.white,
+                          ),
+                          CircleAvatar( radius: 24,
+                            backgroundColor: Colors.white,
+                          ),
+                          CircleAvatar( radius: 24,
+                            backgroundColor: Colors.white,
+                          ),
+                          CircleAvatar( radius: 24,
+                            backgroundColor: Colors.white,
+                          ),
+                        ],
+                      )
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(left: 16),
+                  child: Row(
+                    spacing: 16,
+                    children: [
+                      Text("12:00", style: TextStyle(fontSize: 16)),
+                      Expanded(child: Divider()),
+                    ],
+                  ),
+                ),
+                Container(
+                  margin: EdgeInsets.only(left: 72, right: 16),
+                  padding: EdgeInsets.all(16),
+                  decoration: ShapeDecoration(
+                    shape: RoundedSuperellipseBorder(
+                      borderRadius: .circular(32),
+                    ),
+                    color: Colors.white,
+                  ),
+                  child: Column(
+                    spacing: 16,
+                    children: [
+                      Row(
+                        mainAxisAlignment: .spaceBetween,
+                        children: [
+                          Text(
+                            "Daily Morning Goal",
+                            style: TextStyle(fontSize: 20, fontWeight: .bold),
+                          ),
+                          Text("5:30 AM"),
+                        ],
+                      ),
+                      Text(
+                        "Run every day to build stamina, improve health, and stay focused",
+                      ),
                       Row(
                         children: [
                           CircleAvatar(
