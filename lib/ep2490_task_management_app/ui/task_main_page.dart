@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hugeicons/hugeicons.dart';
 
+import 'task_calendar_page.dart';
 import 'task_home_page.dart';
 
 class TaskMainPage extends StatefulWidget {
@@ -68,13 +69,20 @@ class _TaskMainPageState extends State<TaskMainPage> {
               ),
             ),
             Expanded(
-              child: Column(
-                mainAxisAlignment: .center,
-                spacing: 4,
-                children: [
-                  HugeIcon(icon: HugeIcons.strokeRoundedCalendar01),
-                  Text("Calendar"),
-                ],
+              child: GestureDetector(
+                onTap: () {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(builder: (context) => TaskCalendarPage()),
+                  );
+                },
+                child: Column(
+                  mainAxisAlignment: .center,
+                  spacing: 4,
+                  children: [
+                    HugeIcon(icon: HugeIcons.strokeRoundedCalendar01),
+                    Text("Calendar"),
+                  ],
+                ),
               ),
             ),
             Expanded(
