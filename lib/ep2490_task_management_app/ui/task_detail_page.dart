@@ -72,6 +72,7 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                         ),
                         padding: EdgeInsets.all(16),
                         child: Column(
+                          spacing: 6,
                           crossAxisAlignment: .start,
                           children: [
                             Row(
