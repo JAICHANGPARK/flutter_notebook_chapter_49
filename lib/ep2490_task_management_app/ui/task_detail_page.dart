@@ -148,13 +148,16 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
 
                       Container(
                         height: 320,
+                        decoration: BoxDecoration(color: Colors.white),
                         child: Column(
                           crossAxisAlignment: .start,
+
                           children: [
                             Row(
                               children: [
                                 Expanded(
                                   child: Column(
+                                    crossAxisAlignment: .start,
                                     children: [
                                       Text("Task Progress"),
                                       Text("Track and complete task"),
@@ -164,7 +167,6 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                                 CircularPercentIndicator(
                                   radius: 32,
                                   center: Text("36%"),
-
                                 ),
                               ],
                             ),
