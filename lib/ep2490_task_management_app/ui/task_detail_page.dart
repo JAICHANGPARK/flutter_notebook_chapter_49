@@ -98,6 +98,10 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                                 ),
                               ],
                             ),
+                            Text(
+                              "Team Members",
+                              style: TextStyle(fontSize: 16),
+                            ),
                           ],
                         ),
                       ),
