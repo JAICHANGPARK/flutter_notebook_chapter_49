@@ -9,7 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  google_fonts: ^7.1.0
+  google_fonts: ^8.0.0
+
   gap: ^3.0.1
   dots_indicator: ^4.0.1
   hugeicons: ^1.1.5
