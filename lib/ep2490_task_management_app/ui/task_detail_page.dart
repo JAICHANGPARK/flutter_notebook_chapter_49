@@ -20,9 +20,10 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
             spacing: 16,
             children: [
               Row(
+
                 children: [
                   CircleAvatar(
-                    radius: 30,
+                    radius: 28,
                     backgroundColor: Colors.white,
                     child: IconButton(
                       onPressed: () {
@@ -31,6 +32,7 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                       icon: Icon(Icons.arrow_back_outlined),
                     ),
                   ),
+                  Spacer(),
                   Container(
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
