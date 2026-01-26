@@ -79,6 +79,7 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                               children: [
                                 CircleAvatar(
                                   radius: 26,
+                                  backgroundColor: Colors.grey[300]!,
                                 ),
                                 Expanded(
                                   child: Column(
