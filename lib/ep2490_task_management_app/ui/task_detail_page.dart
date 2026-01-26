@@ -160,9 +160,10 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                                   child: Column(
                                     crossAxisAlignment: .start,
                                     children: [
-                                      Text("Task Progress",style: TextStyle(
-                                        fontSize: 20,
-                                      ),),
+                                      Text(
+                                        "Task Progress",
+                                        style: TextStyle(fontSize: 20),
+                                      ),
 
                                       Text("Track and complete task"),
                                     ],
