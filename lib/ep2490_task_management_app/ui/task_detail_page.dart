@@ -87,7 +87,12 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                                     crossAxisAlignment: .start,
                                     children: [
                                       Text("Task Title"),
-                                      Text("Meet With Client"),
+                                      Text(
+                                        "Meet With Client",
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      ),
                                     ],
                                   ),
                                 ),
@@ -98,6 +103,7 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                                 ),
                               ],
                             ),
+                            Spacer(),
                             Text(
                               "Team Members",
                               style: TextStyle(fontSize: 16),
@@ -111,14 +117,18 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                                 CircleAvatar(),
                                 CircleAvatar(),
                                 Container(
-                                  padding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-                                  decoration: ShapeDecoration(shape: StadiumBorder(),
-                                    color: Color.fromRGBO(229, 228, 248,  1)
+                                  padding: EdgeInsets.symmetric(
+                                    horizontal: 16,
+                                    vertical: 12,
+                                  ),
+                                  decoration: ShapeDecoration(
+                                    shape: StadiumBorder(),
+                                    color: Color.fromRGBO(229, 228, 248, 1),
                                   ),
                                   child: Text("+5 More"),
-                                )
+                                ),
                               ],
-                            )
+                            ),
                           ],
                         ),
                       ),
