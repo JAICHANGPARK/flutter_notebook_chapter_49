@@ -103,6 +103,7 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                               style: TextStyle(fontSize: 16),
                             ),
                             Row(
+                              spacing: -9,
                               children: [
                                 CircleAvatar(),
                                 CircleAvatar(),
@@ -110,7 +111,9 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                                 CircleAvatar(),
                                 CircleAvatar(),
                                 Container(
+                                  padding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
                                   decoration: ShapeDecoration(shape: StadiumBorder(),
+                                    color: Color.fromRGBO(229, 228, 248,  1)
                                   ),
                                   child: Text("+5 More"),
                                 )
