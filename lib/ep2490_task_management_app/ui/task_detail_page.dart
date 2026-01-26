@@ -112,11 +112,11 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                             Row(
                               spacing: -9,
                               children: [
-                                CircleAvatar(),
-                                CircleAvatar(),
-                                CircleAvatar(),
-                                CircleAvatar(),
-                                CircleAvatar(),
+                                CircleAvatar(radius: 24),
+                                CircleAvatar(radius: 24),
+                                CircleAvatar(radius: 24),
+                                CircleAvatar(radius: 24),
+                                CircleAvatar(radius: 24),
                                 Container(
                                   padding: EdgeInsets.symmetric(
                                     horizontal: 16,
@@ -133,7 +133,9 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                           ],
                         ),
                       ),
-                      Column(children: [Text("title"), Text("title")]),
+                      Column(
+                          crossAxisAlignment: .start,
+                          children: [Text("Description"), Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.")]),
 
                       Container(height: 320, child: Placeholder()),
                       Text("title"),
