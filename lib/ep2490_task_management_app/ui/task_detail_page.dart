@@ -82,7 +82,7 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                                 ),
                                 Expanded(
                                   child: Column(
-                                    spacing: 12,
+                                    spacing: 6,
                                     crossAxisAlignment: .start,
                                     children: [
                                       Text("Task Title"),
