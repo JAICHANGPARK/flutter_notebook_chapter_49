@@ -153,6 +153,7 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                           shape: RoundedSuperellipseBorder(
                             borderRadius: .circular(32),
                           ),
+                          color: Colors.white,
                         ),
                         child: Column(
                           crossAxisAlignment: .start,
