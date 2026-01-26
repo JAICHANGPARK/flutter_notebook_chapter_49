@@ -110,26 +110,30 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                               "Team Members",
                               style: TextStyle(fontSize: 16),
                             ),
-                            Row(
-                              spacing: -9,
-                              children: [
-                                CircleAvatar(radius: 24),
-                                CircleAvatar(radius: 24),
-                                CircleAvatar(radius: 24),
-                                CircleAvatar(radius: 24),
-                                CircleAvatar(radius: 24),
-                                Container(
-                                  padding: EdgeInsets.symmetric(
-                                    horizontal: 16,
-                                    vertical: 12,
+                            Container(
+                              width: MediaQuery.sizeOf(context).width - 100,
+                              height: 62,
+                              child: Row(
+                                spacing: -12,
+                                children: [
+                                  CircleAvatar(radius: 24),
+                                  CircleAvatar(radius: 24),
+                                  CircleAvatar(radius: 24),
+                                  CircleAvatar(radius: 24),
+                                  CircleAvatar(radius: 24),
+                                  Container(
+                                    padding: EdgeInsets.symmetric(
+                                      horizontal: 16,
+                                      vertical: 12,
+                                    ),
+                                    decoration: ShapeDecoration(
+                                      shape: StadiumBorder(),
+                                      color: Color.fromRGBO(229, 228, 248, 1),
+                                    ),
+                                    child: Text("+5 More"),
                                   ),
-                                  decoration: ShapeDecoration(
-                                    shape: StadiumBorder(),
-                                    color: Color.fromRGBO(229, 228, 248, 1),
-                                  ),
-                                  child: Text("+5 More"),
-                                ),
-                              ],
+                                ],
+                              ),
                             ),
                           ],
                         ),
