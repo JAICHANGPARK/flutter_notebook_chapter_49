@@ -102,6 +102,20 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                               "Team Members",
                               style: TextStyle(fontSize: 16),
                             ),
+                            Row(
+                              children: [
+                                CircleAvatar(),
+                                CircleAvatar(),
+                                CircleAvatar(),
+                                CircleAvatar(),
+                                CircleAvatar(),
+                                Container(
+                                  decoration: ShapeDecoration(shape: StadiumBorder(),
+                                  ),
+                                  child: Text("+5 More"),
+                                )
+                              ],
+                            )
                           ],
                         ),
                       ),
