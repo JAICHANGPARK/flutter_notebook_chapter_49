@@ -94,6 +94,7 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                                 CircleAvatar(
                                   radius: 26,
                                   backgroundColor: Colors.grey[300]!,
+                                  child: Icon(Icons.edit),
                                 ),
                               ],
                             ),
