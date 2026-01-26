@@ -111,33 +111,44 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                               style: TextStyle(fontSize: 16),
                             ),
                             Container(
-                              width: MediaQuery.sizeOf(context).width ,
+                              width: MediaQuery.sizeOf(context).width,
                               height: 62,
                               child: Stack(
                                 // spacing: -12,
                                 children: [
                                   Positioned(
                                     left: 0,
-                                      child: CircleAvatar(radius: 24)),
-                                  Positioned(
-                                    left: 24,
-                                    child: CircleAvatar(
-
-                                        radius: 24),
+                                    child: CircleAvatar(radius: 24),
                                   ),
-                                  CircleAvatar(radius: 24),
-                                  CircleAvatar(radius: 24),
-                                  CircleAvatar(radius: 24),
-                                  Container(
-                                    padding: EdgeInsets.symmetric(
-                                      horizontal: 16,
-                                      vertical: 12,
+                                  Positioned(
+                                    left: 30,
+                                    child: CircleAvatar(radius: 24),
+                                  ),
+                                  Positioned(
+                                    left: 60,
+                                    child: CircleAvatar(radius: 24),
+                                  ),
+                                  Positioned(
+                                    left: 90,
+                                    child: CircleAvatar(radius: 24),
+                                  ),
+                                  Positioned(
+                                    left: 120,
+                                    child: CircleAvatar(radius: 24),
+                                  ),
+                                  Positioned(
+                                    left: 150,
+                                    child: Container(
+                                      padding: EdgeInsets.symmetric(
+                                        horizontal: 20,
+                                        vertical: 14,
+                                      ),
+                                      decoration: ShapeDecoration(
+                                        shape: StadiumBorder(),
+                                        color: Color.fromRGBO(229, 228, 248, 1),
+                                      ),
+                                      child: Text("+5 More"),
                                     ),
-                                    decoration: ShapeDecoration(
-                                      shape: StadiumBorder(),
-                                      color: Color.fromRGBO(229, 228, 248, 1),
-                                    ),
-                                    child: Text("+5 More"),
                                   ),
                                 ],
                               ),
