@@ -20,7 +20,7 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
             spacing: 16,
             children: [
               Row(
-
+spacing: 4,
                 children: [
                   CircleAvatar(
                     radius: 28,
