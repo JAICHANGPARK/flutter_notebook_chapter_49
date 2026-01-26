@@ -78,12 +78,14 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                                 CircleAvatar(),
                                 Expanded(
                                   child: Column(
+                                    crossAxisAlignment: .start,
                                     children: [
                                       Text("Task Title"),
                                       Text("Meet With Client"),
                                     ],
                                   ),
                                 ),
+                                CircleAvatar(),
                               ],
                             ),
                           ],
