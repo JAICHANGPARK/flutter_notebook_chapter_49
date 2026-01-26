@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:percent_indicator/flutter_percent_indicator.dart';
 
 class TaskDetailPage extends StatefulWidget {
   const TaskDetailPage({super.key});
@@ -160,7 +161,11 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                                     ],
                                   ),
                                 ),
-                                CircleAvatar()
+                                CircularPercentIndicator(
+                                  radius: 32,
+                                  center: Text("36%"),
+
+                                ),
                               ],
                             ),
                           ],
