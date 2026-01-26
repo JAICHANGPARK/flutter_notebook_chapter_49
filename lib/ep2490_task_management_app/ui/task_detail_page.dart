@@ -159,6 +159,7 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                                 Expanded(
                                   child: Column(
                                     crossAxisAlignment: .start,
+                                    spacing: 6,
                                     children: [
                                       Text(
                                         "Task Progress",
