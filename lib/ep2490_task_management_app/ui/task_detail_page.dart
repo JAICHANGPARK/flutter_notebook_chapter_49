@@ -147,6 +147,7 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                       ),
 
                       Container(
+                        padding: EdgeInsets.all(16),
                         height: 320,
                         decoration: BoxDecoration(color: Colors.white),
                         child: Column(
