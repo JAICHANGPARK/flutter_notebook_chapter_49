@@ -147,7 +147,19 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                         ],
                       ),
 
-                      Container(height: 320, child: Placeholder()),
+                      Container(height: 320, child: Column(
+                        crossAxisAlignment: .start,
+                        children: [
+                          Row(
+                            children: [
+                              Expanded(child: Column(children: [
+                                
+                              ],))
+                            ],
+                          )
+
+                        ],
+                      )),
                       Text("title"),
                       Container(height: 320, child: Placeholder()),
                     ],
