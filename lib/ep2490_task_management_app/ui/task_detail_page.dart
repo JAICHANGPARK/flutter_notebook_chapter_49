@@ -112,32 +112,40 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                             ),
                             Container(
                               width: MediaQuery.sizeOf(context).width,
-                              height: 62,
+                              height: 52,
                               child: Stack(
                                 // spacing: -12,
                                 children: [
                                   Positioned(
                                     left: 0,
+                                    top: 0,
+                                    bottom: 0,
                                     child: CircleAvatar(radius: 24),
                                   ),
                                   Positioned(
-                                    left: 30,
+                                    left: 30,top: 0,
+                                    bottom: 0,
                                     child: CircleAvatar(radius: 24),
                                   ),
                                   Positioned(
-                                    left: 60,
+                                    left: 60,top: 0,
+                                    bottom: 0,
                                     child: CircleAvatar(radius: 24),
                                   ),
                                   Positioned(
-                                    left: 90,
+                                    left: 90,top: 0,
+                                    bottom: 0,
                                     child: CircleAvatar(radius: 24),
                                   ),
                                   Positioned(
-                                    left: 120,
+                                    left: 120,top: 0,
+                                    bottom: 0,
                                     child: CircleAvatar(radius: 24),
                                   ),
                                   Positioned(
                                     left: 150,
+                                    top: 0,
+                                    bottom: 0,
                                     child: Container(
                                       padding: EdgeInsets.symmetric(
                                         horizontal: 20,
@@ -147,7 +155,7 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                                         shape: StadiumBorder(),
                                         color: Color.fromRGBO(229, 228, 248, 1),
                                       ),
-                                      child: Text("+5 More"),
+                                      child: Center(child: Text("+5 More")),
                                     ),
                                   ),
                                 ],
