@@ -75,12 +75,14 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                           crossAxisAlignment: .start,
                           children: [
                             Row(
+                              spacing: 12,
                               children: [
                                 CircleAvatar(
                                   radius: 26,
                                 ),
                                 Expanded(
                                   child: Column(
+                                    spacing: 12,
                                     crossAxisAlignment: .start,
                                     children: [
                                       Text("Task Title"),
