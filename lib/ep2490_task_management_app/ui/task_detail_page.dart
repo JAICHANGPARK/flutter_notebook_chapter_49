@@ -64,6 +64,12 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                     children: [
                       Container(
                         height: 200,
+                        decoration: ShapeDecoration(
+                          shape: RoundedSuperellipseBorder(
+                            borderRadius: .circular(24),
+                          ),
+                          color: Colors.white,
+                        ),
                         child: Column(
                           children: [
                             Row(
