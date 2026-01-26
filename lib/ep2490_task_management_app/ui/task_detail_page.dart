@@ -20,7 +20,7 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
             spacing: 16,
             children: [
               Row(
-spacing: 4,
+                spacing: 4,
                 children: [
                   CircleAvatar(
                     radius: 28,
@@ -62,7 +62,26 @@ spacing: 4,
                     spacing: 16,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Container(height: 200, child: Placeholder()),
+                      Container(
+                        height: 200,
+                        child: Column(
+                          children: [
+                            Row(
+                              children: [
+                                CircleAvatar(),
+                                Expanded(
+                                  child: Column(
+                                    children: [
+                                      Text("Task Title"),
+                                      Text("Meet With Client"),
+                                    ],
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                      ),
                       Column(children: [Text("title"), Text("title")]),
 
                       Container(height: 320, child: Placeholder()),
