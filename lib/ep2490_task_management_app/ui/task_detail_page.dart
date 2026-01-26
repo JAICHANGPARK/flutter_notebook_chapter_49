@@ -36,10 +36,20 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                       shape: StadiumBorder(),
                       color: .fromRGBO(104, 76, 236, 1),
                     ),
-                    padding: EdgeInsets.symmetric(horizontal: 24, vertical: 16),
+                    padding: EdgeInsets.symmetric(horizontal: 32, vertical: 16),
                     child: Text(
                       "Save",
                       style: TextStyle(fontSize: 16, color: Colors.white),
+                    ),
+                  ),
+                  CircleAvatar(
+                    radius: 28,
+                    backgroundColor: Colors.white,
+                    child: IconButton(
+                      onPressed: () {
+                        Navigator.of(context).pop();
+                      },
+                      icon: Icon(Icons.more_horiz),
                     ),
                   ),
                 ],
