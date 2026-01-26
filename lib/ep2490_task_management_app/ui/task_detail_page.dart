@@ -70,6 +70,7 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                           ),
                           color: Colors.white,
                         ),
+                        padding: EdgeInsets.all(16),
                         child: Column(
                           crossAxisAlignment: .start,
                           children: [
