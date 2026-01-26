@@ -76,7 +76,9 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                           children: [
                             Row(
                               children: [
-                                CircleAvatar(),
+                                CircleAvatar(
+                                  radius: 26,
+                                ),
                                 Expanded(
                                   child: Column(
                                     crossAxisAlignment: .start,
@@ -86,7 +88,9 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                                     ],
                                   ),
                                 ),
-                                CircleAvatar(),
+                                CircleAvatar(
+                                  radius: 26,
+                                ),
                               ],
                             ),
                           ],
