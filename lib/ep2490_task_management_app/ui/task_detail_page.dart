@@ -111,13 +111,20 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                               style: TextStyle(fontSize: 16),
                             ),
                             Container(
-                              width: MediaQuery.sizeOf(context).width - 100,
+                              width: MediaQuery.sizeOf(context).width ,
                               height: 62,
-                              child: Row(
-                                spacing: -12,
+                              child: Stack(
+                                // spacing: -12,
                                 children: [
-                                  CircleAvatar(radius: 24),
-                                  CircleAvatar(radius: 24),
+                                  Positioned(
+                                    left: 0,
+                                      child: CircleAvatar(radius: 24)),
+                                  Positioned(
+                                    left: 24,
+                                    child: CircleAvatar(
+
+                                        radius: 24),
+                                  ),
                                   CircleAvatar(radius: 24),
                                   CircleAvatar(radius: 24),
                                   CircleAvatar(radius: 24),
