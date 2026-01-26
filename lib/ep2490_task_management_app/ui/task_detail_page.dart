@@ -31,6 +31,16 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                       icon: Icon(Icons.arrow_back_outlined),
                     ),
                   ),
+                  Container(
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: .fromRGBO(104, 76, 236, 1),
+                    ),
+                    child: Text(
+                      "Save",
+                      style: TextStyle(fontSize: 16, color: Colors.white),
+                    ),
+                  ),
                 ],
               ),
               Expanded(
