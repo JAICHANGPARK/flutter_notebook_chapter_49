@@ -196,6 +196,7 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                         ),
                         child: Column(
                           crossAxisAlignment: .start,
+                          spacing: 16,
 
                           children: [
                             Row(
@@ -227,6 +228,7 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                                 borderRadius: .circular(16),
                                 color: Colors.grey[100]!,
                               ),
+                              padding: EdgeInsets.all(8),
                               child: Row(
                                 spacing: 12,
                                 children: [
