@@ -251,6 +251,61 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                                 ],
                               ),
                             ),
+                            Container(
+                              decoration: BoxDecoration(
+                                borderRadius: .circular(16),
+                                color: Colors.grey[100]!,
+                              ),
+                              padding: EdgeInsets.all(8),
+                              child: Row(
+                                spacing: 12,
+                                children: [
+                                  CircleAvatar(
+                                    radius: 18,
+                                    foregroundColor: Colors.white,
+                                    backgroundColor: .fromRGBO(104, 76, 236, 1),
+                                    child: Icon(Icons.check),
+                                  ),
+                                  Expanded(
+                                    child: Text(
+                                      "Task 2",
+                                      style: TextStyle(fontSize: 16),
+                                    ),
+                                  ),
+                                  IconButton(
+                                    onPressed: () {},
+                                    icon: Icon(Icons.keyboard_arrow_down),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Container(
+                              decoration: BoxDecoration(
+                                borderRadius: .circular(16),
+                                color: Colors.grey[100]!,
+                              ),
+                              padding: EdgeInsets.all(8),
+                              child: Row(
+                                spacing: 12,
+                                children: [
+                                  Container(
+                                    decoration: BoxDecoration(
+                                      shape: .circle
+                                    ),
+                                  ),
+                                  Expanded(
+                                    child: Text(
+                                      "Task 3",
+                                      style: TextStyle(fontSize: 16),
+                                    ),
+                                  ),
+                                  IconButton(
+                                    onPressed: () {},
+                                    icon: Icon(Icons.keyboard_arrow_down),
+                                  ),
+                                ],
+                              ),
+                            ),
                           ],
                         ),
                       ),
