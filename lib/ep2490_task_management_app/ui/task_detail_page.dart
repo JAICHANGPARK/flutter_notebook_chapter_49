@@ -111,7 +111,7 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                             Spacer(),
                             Text(
                               "Team Members",
-                              style: TextStyle(fontSize: 16),
+                              style: TextStyle(fontSize: 20),
                             ),
                             Container(
                               width: MediaQuery.sizeOf(context).width,
