@@ -235,6 +235,7 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                                   CircleAvatar(
                                     radius: 18,
                                     foregroundColor: Colors.white,
+                                    backgroundColor: .fromRGBO(104, 76, 236, 1),
                                     child: Icon(Icons.check),
                                   ),
                                   Expanded(child: Text("Task 1")),
