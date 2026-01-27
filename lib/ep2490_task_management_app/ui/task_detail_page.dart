@@ -280,6 +280,7 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                               ),
                             ),
                             Container(
+
                               decoration: BoxDecoration(
                                 borderRadius: .circular(16),
                                 color: Colors.grey[100]!,
@@ -289,6 +290,8 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                                 spacing: 12,
                                 children: [
                                   Container(
+                                    height: 36,
+                                    width: 36,
                                     decoration: BoxDecoration(
                                       shape: .circle,
                                       border: .all()
