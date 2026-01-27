@@ -213,7 +213,8 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                                   ),
                                 ),
                                 CircularPercentIndicator(
-                                  radius: 32,
+                                  radius: 28,
+                                  lineWidth: 6,
                                   center: Text("36%"),
                                 ),
                               ],
