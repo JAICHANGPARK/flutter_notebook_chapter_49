@@ -187,7 +187,7 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
 
                       Container(
                         padding: EdgeInsets.all(16),
-                        height: 320,
+                        // height: 320,
                         decoration: ShapeDecoration(
                           shape: RoundedSuperellipseBorder(
                             borderRadius: .circular(32),
@@ -290,7 +290,8 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                                 children: [
                                   Container(
                                     decoration: BoxDecoration(
-                                      shape: .circle
+                                      shape: .circle,
+                                      border: .all()
                                     ),
                                   ),
                                   Expanded(
