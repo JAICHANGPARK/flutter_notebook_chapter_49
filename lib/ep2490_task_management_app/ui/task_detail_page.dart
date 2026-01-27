@@ -88,11 +88,14 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                                     spacing: 6,
                                     crossAxisAlignment: .start,
                                     children: [
-                                      Text("Task Title"),
+                                      Text("Task Title",style: TextStyle(
+                                        fontSize: 16,
+                                      ),),
                                       Text(
                                         "Meet With Client",
                                         style: TextStyle(
                                           fontWeight: FontWeight.bold,
+                                          fontSize: 18,
                                         ),
                                       ),
                                     ],
