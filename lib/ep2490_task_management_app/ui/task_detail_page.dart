@@ -228,8 +228,10 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                                 color: Colors.grey[100]!,
                               ),
                               child: Row(
+                                spacing: 12,
                                 children: [
                                   CircleAvatar(
+                                    radius: 18,
                                     foregroundColor: Colors.white,
                                     child: Icon(Icons.check),
                                   ),
