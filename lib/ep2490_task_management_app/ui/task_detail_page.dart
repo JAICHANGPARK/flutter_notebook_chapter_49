@@ -232,7 +232,12 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                                   CircleAvatar(
                                     foregroundColor: Colors.white,
                                     child: Icon(Icons.check),
-                                  )
+                                  ),
+                                  Expanded(child: Text("Task 1")),
+                                  IconButton(
+                                    onPressed: () {},
+                                    icon: Icon(Icons.keyboard_arrow_down),
+                                  ),
                                 ],
                               ),
                             ),
