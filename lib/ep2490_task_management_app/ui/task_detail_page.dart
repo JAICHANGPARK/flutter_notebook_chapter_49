@@ -238,7 +238,12 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                                     backgroundColor: .fromRGBO(104, 76, 236, 1),
                                     child: Icon(Icons.check),
                                   ),
-                                  Expanded(child: Text("Task 1")),
+                                  Expanded(
+                                    child: Text(
+                                      "Task 1",
+                                      style: TextStyle(fontSize: 16),
+                                    ),
+                                  ),
                                   IconButton(
                                     onPressed: () {},
                                     icon: Icon(Icons.keyboard_arrow_down),
