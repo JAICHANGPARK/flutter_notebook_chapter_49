@@ -219,6 +219,13 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                                   radius: 28,
                                   lineWidth: 6,
                                   percent: 0.36,
+                                  progressColor: .fromRGBO(104, 76, 236, 1),
+                                  backgroundColor: Color.fromRGBO(
+                                    231,
+                                    229,
+                                    241,
+                                    1,
+                                  ),
                                   center: Text("36%"),
                                 ),
                               ],
@@ -280,7 +287,6 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                               ),
                             ),
                             Container(
-
                               decoration: BoxDecoration(
                                 borderRadius: .circular(16),
                                 color: Colors.grey[100]!,
@@ -294,7 +300,7 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                                     width: 36,
                                     decoration: BoxDecoration(
                                       shape: .circle,
-                                      border: .all()
+                                      border: .all(color: Colors.grey),
                                     ),
                                   ),
                                   Expanded(
