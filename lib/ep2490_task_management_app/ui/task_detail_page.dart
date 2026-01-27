@@ -88,9 +88,10 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                                     spacing: 6,
                                     crossAxisAlignment: .start,
                                     children: [
-                                      Text("Task Title",style: TextStyle(
-                                        fontSize: 16,
-                                      ),),
+                                      Text(
+                                        "Task Title",
+                                        style: TextStyle(fontSize: 16),
+                                      ),
                                       Text(
                                         "Meet With Client",
                                         style: TextStyle(
@@ -126,22 +127,26 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                                     child: CircleAvatar(radius: 24),
                                   ),
                                   Positioned(
-                                    left: 30,top: 0,
+                                    left: 30,
+                                    top: 0,
                                     bottom: 0,
                                     child: CircleAvatar(radius: 24),
                                   ),
                                   Positioned(
-                                    left: 60,top: 0,
+                                    left: 60,
+                                    top: 0,
                                     bottom: 0,
                                     child: CircleAvatar(radius: 24),
                                   ),
                                   Positioned(
-                                    left: 90,top: 0,
+                                    left: 90,
+                                    top: 0,
                                     bottom: 0,
                                     child: CircleAvatar(radius: 24),
                                   ),
                                   Positioned(
-                                    left: 120,top: 0,
+                                    left: 120,
+                                    top: 0,
                                     bottom: 0,
                                     child: CircleAvatar(radius: 24),
                                   ),
@@ -175,10 +180,7 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                           Text(
                             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
                             maxLines: 3,
-                            style: TextStyle(
-                              fontSize: 15,
-                              color: Colors.grey,
-                            ),
+                            style: TextStyle(fontSize: 15, color: Colors.grey),
                           ),
                         ],
                       ),
@@ -219,6 +221,12 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                                   center: Text("36%"),
                                 ),
                               ],
+                            ),
+                            Container(
+                              decoration: BoxDecoration(
+                                borderRadius: .circular(16),
+                                color: Colors.grey[100]!,
+                              ),
                             ),
                           ],
                         ),
