@@ -227,6 +227,14 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                                 borderRadius: .circular(16),
                                 color: Colors.grey[100]!,
                               ),
+                              child: Row(
+                                children: [
+                                  CircleAvatar(
+                                    foregroundColor: Colors.white,
+                                    child: Icon(Icons.check),
+                                  )
+                                ],
+                              ),
                             ),
                           ],
                         ),
