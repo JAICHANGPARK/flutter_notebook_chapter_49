@@ -339,13 +339,13 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                 children: [
                                   Expanded(
                                     child: Container(
-                                      height: 48,
+                                      height: 56,
                                       child: Stack(
                                         children: List.generate(4, (index){
                                           return  Positioned(
                                             left: index * 36,
                                             child: CircleAvatar(
-                                              radius: 24,
+                                              radius: 28,
                                               backgroundColor: Colors.white,
                                             ),
                                           );
