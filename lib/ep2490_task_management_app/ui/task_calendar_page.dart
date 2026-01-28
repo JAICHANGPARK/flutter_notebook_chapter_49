@@ -256,7 +256,7 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                                 left: index * 32,
                                 child: CircleAvatar(
                                   radius: 24,
-                                  backgroundColor: Colors.white,
+                                  backgroundColor:  .fromRGBO(229, 226, 248, 1),
                                 ),
                               );
 
@@ -309,7 +309,7 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                                 left: index * 32,
                                 child: CircleAvatar(
                                   radius: 24,
-                                  backgroundColor: Colors.white,
+                                  backgroundColor:  .fromRGBO(229, 226, 248, 1),
                                 ),
                               );
 
