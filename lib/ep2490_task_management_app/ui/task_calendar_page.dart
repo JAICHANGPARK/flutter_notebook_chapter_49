@@ -248,25 +248,20 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                       Text(
                         "Run every day to build stamina, improve health, and stay focused",
                       ),
-                      Row(
-                        children: [
-                          CircleAvatar(
-                            radius: 24,
-                            backgroundColor: .fromRGBO(229, 226, 248, 1),
-                          ),
-                          CircleAvatar(
-                            radius: 24,
-                            backgroundColor: .fromRGBO(229, 226, 248, 1),
-                          ),
-                          CircleAvatar(
-                            radius: 24,
-                            backgroundColor: .fromRGBO(229, 226, 248, 1),
-                          ),
-                          CircleAvatar(
-                            radius: 24,
-                            backgroundColor: .fromRGBO(229, 226, 248, 1),
-                          ),
-                        ],
+                      Container(
+                        height: 52,
+                        child: Stack(
+                            children: List.generate(4, (index){
+                              return Positioned(
+                                left: index * 32,
+                                child: CircleAvatar(
+                                  radius: 24,
+                                  backgroundColor: Colors.white,
+                                ),
+                              );
+
+                            })
+                        ),
                       ),
                     ],
                   ),
@@ -306,25 +301,20 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                       Text(
                         "Run every day to build stamina, improve health, and stay focused",
                       ),
-                      Row(
-                        children: [
-                          CircleAvatar(
-                            radius: 24,
-                            backgroundColor: .fromRGBO(229, 226, 248, 1),
-                          ),
-                          CircleAvatar(
-                            radius: 24,
-                            backgroundColor: .fromRGBO(229, 226, 248, 1),
-                          ),
-                          CircleAvatar(
-                            radius: 24,
-                            backgroundColor: .fromRGBO(229, 226, 248, 1),
-                          ),
-                          CircleAvatar(
-                            radius: 24,
-                            backgroundColor: .fromRGBO(229, 226, 248, 1),
-                          ),
-                        ],
+                      Container(
+                        height: 52,
+                        child: Stack(
+                            children: List.generate(4, (index){
+                              return Positioned(
+                                left: index * 32,
+                                child: CircleAvatar(
+                                  radius: 24,
+                                  backgroundColor: Colors.white,
+                                ),
+                              );
+
+                            })
+                        ),
                       ),
                     ],
                   ),
