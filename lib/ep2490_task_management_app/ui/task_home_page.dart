@@ -337,33 +337,18 @@ class _TaskHomePageState extends State<TaskHomePage> {
 
                               Row(
                                 children: [
-                                  Stack(
-                                    children: [
-
-                                    ],
+                                  Expanded(
+                                    child: Stack(
+                                      children: List.generate(3, (index){
+                                        return  CircleAvatar(
+                                          radius: 24,
+                                          backgroundColor: Colors.white,
+                                        );
+                                      }),
+                                    ),
                                   ),
-                                  Row(
-                                    spacing: 2,
-                                    children: [
-                                      CircleAvatar(
-                                        radius: 24,
-                                        backgroundColor: Colors.white,
-                                      ),
-                                      CircleAvatar(
-                                        radius: 24,
-                                        backgroundColor: Colors.white,
-                                      ),
-                                      CircleAvatar(
-                                        radius: 24,
-                                        backgroundColor: Colors.white,
-                                      ),
-                                      CircleAvatar(
-                                        radius: 24,
-                                        backgroundColor: Colors.white,
-                                      ),
-                                    ],
-                                  ),
-                                  Spacer(),
+                                  
+                                  
                                   Container(
                                     decoration: ShapeDecoration(
                                       shape: StadiumBorder(),
