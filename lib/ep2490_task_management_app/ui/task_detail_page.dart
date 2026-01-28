@@ -320,7 +320,30 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                         ),
                       ),
                       Text("Location", style: TextStyle(fontSize: 20)),
-                      Container(height: 320, child: Placeholder()),
+                      Container(
+                        height: 220,
+                        decoration: ShapeDecoration(
+                          shape: RoundedSuperellipseBorder(
+                            borderRadius: .circular(24),
+                          ),
+                          color: Colors.white,
+                        ),
+                        padding: EdgeInsets.all(16),
+                        child: Column(
+                          spacing: 6,
+                          crossAxisAlignment: .start,
+                          children: [
+                            Row(
+                              spacing: 12,
+                              children: [
+                                Icon(Icons.video_camera_back_outlined)
+                                Text("")
+                              ],
+                            ),
+
+                          ],
+                        ),
+                      ),
                     ],
                   ),
                 ),
