@@ -96,7 +96,7 @@ class _TaskHomePageState extends State<TaskHomePage> {
                         ),
                       ),
                       Container(
-                        // height: 220,
+                        height: 230,
                         padding: EdgeInsets.only(left: 16),
                         child: ListView.builder(
                           scrollDirection: Axis.horizontal,
@@ -124,6 +124,7 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                 child: Column(
                                   spacing: 12,
                                   crossAxisAlignment: CrossAxisAlignment.start,
+                                  mainAxisAlignment: .spaceBetween,
                                   children: [
                                     Row(
                                       mainAxisAlignment: .spaceBetween,
