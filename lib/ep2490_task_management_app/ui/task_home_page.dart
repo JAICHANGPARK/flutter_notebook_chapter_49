@@ -169,16 +169,20 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                       spacing: 9,
                                       children: [
                                         Expanded(
-                                          child: Stack(
-                                            children: [
-                                              ...List.generate(3, (index){
-                                                return Positioned(
-                                                    left: index * 24,
-                                                    child: CircleAvatar(
-                                                      radius: 24,
-                                                    ));
-                                              }),
-                                            ],
+                                          child: Container(
+                                            height: 42,
+                                            child: Stack(
+                                              children: [
+                                                ...List.generate(3, (index){
+                                                  return Positioned(
+                                                      left: index * 26,
+                                                      child: CircleAvatar(
+                                                        radius: 21,
+                                                        backgroundColor: Colors.blue,
+                                                      ));
+                                                }),
+                                              ],
+                                            ),
                                           ),
                                         ),
 
