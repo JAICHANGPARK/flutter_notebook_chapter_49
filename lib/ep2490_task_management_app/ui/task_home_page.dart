@@ -172,7 +172,11 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                           child: Stack(
                                             children: [
                                               ...List.generate(3, (index){
-                                                
+                                                return Positioned(
+                                                    left: index * 30,
+                                                    child: CircleAvatar(
+                                                      radius: 30,
+                                                    ));
                                               }),
                                             ],
                                           ),
