@@ -271,7 +271,7 @@ class _TaskHomePageState extends State<TaskHomePage> {
                       spacing: 16,
                       children: [
                         Container(
-                          height: 240,
+                          height: 250,
                           decoration: ShapeDecoration(
                             shape: RoundedSuperellipseBorder(
                               borderRadius: .circular(32),
