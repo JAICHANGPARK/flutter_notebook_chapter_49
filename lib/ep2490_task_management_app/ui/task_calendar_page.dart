@@ -195,14 +195,20 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                       Text(
                         "Run every day to build stamina, improve health, and stay focused",
                       ),
-                      Stack(
-                        children: List.generate(4, (index){
-                          return CircleAvatar(
-                            radius: 24,
-                            backgroundColor: Colors.white,
-                          );
+                      Container(
+                        height: 52,
+                        child: Stack(
+                          children: List.generate(4, (index){
+                            return Positioned(
+                              left: index * 32,
+                              child: CircleAvatar(
+                                radius: 24,
+                                backgroundColor: Colors.white,
+                              ),
+                            );
 
-                        })
+                          })
+                        ),
                       ),
                     ],
                   ),
