@@ -96,7 +96,7 @@ class _TaskHomePageState extends State<TaskHomePage> {
                         ),
                       ),
                       Container(
-                        height: 220,
+                        // height: 220,
                         padding: EdgeInsets.only(left: 16),
                         child: ListView.builder(
                           scrollDirection: Axis.horizontal,
@@ -170,14 +170,14 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                       children: [
                                         Expanded(
                                           child: Container(
-                                            height: 42,
+                                            height: 48,
                                             child: Stack(
                                               children: [
                                                 ...List.generate(3, (index){
                                                   return Positioned(
                                                       left: index * 26,
                                                       child: CircleAvatar(
-                                                        radius: 21,
+                                                        radius: 24,
                                                         backgroundColor: Colors.blue,
                                                       ));
                                                 }),
