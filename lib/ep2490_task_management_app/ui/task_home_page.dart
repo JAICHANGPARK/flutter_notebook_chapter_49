@@ -104,9 +104,11 @@ class _TaskHomePageState extends State<TaskHomePage> {
                             return GestureDetector(
                               onTap: () {
                                 Navigator.of(context).push(
-                                  MaterialPageRoute(builder: (context) {
-                                    return TaskDetailPage();
-                                  }),
+                                  MaterialPageRoute(
+                                    builder: (context) {
+                                      return TaskDetailPage();
+                                    },
+                                  ),
                                 );
                               },
                               child: Container(
@@ -168,7 +170,11 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                       children: [
                                         Expanded(
                                           child: Stack(
-                                            
+                                            children: [
+                                              ...List.generate(3, (index){
+                                                
+                                              }),
+                                            ],
                                           ),
                                         ),
 
