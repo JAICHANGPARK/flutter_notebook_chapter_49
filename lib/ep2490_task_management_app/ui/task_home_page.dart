@@ -339,10 +339,13 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                 children: [
                                   Expanded(
                                     child: Stack(
-                                      children: List.generate(3, (index){
-                                        return  CircleAvatar(
-                                          radius: 24,
-                                          backgroundColor: Colors.white,
+                                      children: List.generate(4, (index){
+                                        return  Positioned(
+                                          left: index * 40,
+                                          child: CircleAvatar(
+                                            radius: 24,
+                                            backgroundColor: Colors.white,
+                                          ),
                                         );
                                       }),
                                     ),
