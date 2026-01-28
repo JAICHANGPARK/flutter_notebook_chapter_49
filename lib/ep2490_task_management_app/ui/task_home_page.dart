@@ -154,6 +154,8 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                       ],
                                     ),
                                     Column(
+                                      spacing: 6,
+                                      crossAxisAlignment: .start,
                                       children: [
                                         Text(
                                           "Practice English",
@@ -169,7 +171,7 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                           ),
                                         ),
                                       ],
-                                    )
+                                    ),
 
                                     Row(
                                       spacing: 9,
