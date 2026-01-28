@@ -170,11 +170,7 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                           child: Row(
                                             spacing: 0,
                                             mainAxisSize: .min,
-                                            children: [
-                                              CircleAvatar(radius: 22),
-                                              CircleAvatar(radius: 22),
-                                              CircleAvatar(radius: 22),
-                                            ],
+                                            children: List.generate(3, CircleAvatar())
                                           ),
                                         ),
 
