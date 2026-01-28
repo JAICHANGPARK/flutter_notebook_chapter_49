@@ -336,8 +336,8 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                             Row(
                               spacing: 12,
                               children: [
-                                Icon(Icons.video_camera_back_outlined)
-                                Text("")
+                                Icon(Icons.video_camera_back_outlined),
+                                Text("https://github.com/JAICHANGPARK")
                               ],
                             ),
 
