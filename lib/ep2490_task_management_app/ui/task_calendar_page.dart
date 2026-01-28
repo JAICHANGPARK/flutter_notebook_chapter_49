@@ -179,6 +179,7 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                     color: .fromRGBO(229, 226, 248, 1),
                   ),
                   child: Column(
+                    crossAxisAlignment: .start,
                     spacing: 16,
                     children: [
                       Row(
@@ -200,18 +201,7 @@ class _TaskCalendarPageState extends State<TaskCalendarPage> {
                             radius: 24,
                             backgroundColor: Colors.white,
                           );
-                          CircleAvatar(
-                          radius: 24,
-                          backgroundColor: Colors.white,
-                          ),
-                          CircleAvatar(
-                          radius: 24,
-                          backgroundColor: Colors.white,
-                          ),
-                          CircleAvatar(
-                          radius: 24,
-                          backgroundColor: Colors.white,
-                          ),
+
                         })
                       ),
                     ],
