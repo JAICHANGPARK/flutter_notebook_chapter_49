@@ -319,7 +319,7 @@ class _TaskDetailPageState extends State<TaskDetailPage> {
                           ],
                         ),
                       ),
-                      Text("title"),
+                      Text("Location", style: TextStyle(fontSize: 20)),
                       Container(height: 320, child: Placeholder()),
                     ],
                   ),
