@@ -167,10 +167,8 @@ class _TaskHomePageState extends State<TaskHomePage> {
                                       spacing: 9,
                                       children: [
                                         Expanded(
-                                          child: Row(
-                                            spacing: 0,
-                                            mainAxisSize: .min,
-                                            children: List.generate(3, CircleAvatar())
+                                          child: Stack(
+                                            
                                           ),
                                         ),
 
